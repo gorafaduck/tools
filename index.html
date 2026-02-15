@@ -1,14 +1,227 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기능 모음</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+<body id="top">
+    <div class="container">
+        <header class="page-header">
+            <h1>기능 모음</h1>
+            <p class="subtitle">필요한 계산 기능을 선택하고 바로 이동하세요.</p>
+        </header>
+
+        <nav class="menu">
+            <a class="menu-link" href="#fortune-section">인생 랜덤 선택기</a>
+            <a class="menu-link" href="#recommend-section">추천 행동</a>
+            <a class="menu-link" href="#salary-section">월 실수령 계산기</a>
+            <a class="menu-link" href="#gpa-section">학점 계산기</a>
+        </nav>
+
+        <section id="fortune-section" class="feature">
+            <div class="feature-header">
+                <div>
+                    <h2>인생 랜덤 선택기</h2>
+                    <p class="subtitle">버튼 하나로 오늘의 운명을 확인하세요.</p>
+                </div>
+                <a class="top-link" href="#top">맨 위로</a>
+            </div>
+
+            <div class="card fortune-card">
+                <button type="button" id="fortune-button" class="primary fortune-button">내 운명은?</button>
+                <div id="fortune-output" class="fortune-output hidden">
+                    <div class="result-hero fortune-hero">
+                        <span class="label">운명 결과</span>
+                        <strong id="fortune-text">-</strong>
+                    </div>
+                    <div class="fortune-actions">
+                        <button type="button" id="fortune-share" class="ghost" disabled>URL 표시</button>
+                        <input type="text" id="fortune-url" class="fortune-url hidden" readonly>
+                        <button type="button" id="fortune-copy" class="ghost hidden" disabled>복사</button>
+                        <span id="fortune-status" class="fortune-status"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommend-section" class="feature">
+            <div class="feature-header">
+                <div>
+                    <h2>지금 해야 할 일 추천기</h2>
+                    <p class="subtitle">현재 기분과 가용 시간을 입력하면 오늘 할 행동을 추천합니다.</p>
+                </div>
+                <a class="top-link" href="#top">맨 위로</a>
+            </div>
+
+            <form id="recommend-form" class="card">
+                <label class="field">
+                    <span>현재 기분</span>
+                    <select id="mood">
+                        <option value="energized">에너지 넘침</option>
+                        <option value="focused">집중하고 싶음</option>
+                        <option value="neutral" selected>보통</option>
+                        <option value="tired">지침/무기력</option>
+                        <option value="stressed">스트레스</option>
+                        <option value="anxious">불안/우울</option>
+                    </select>
+                </label>
+
+                <label class="field">
+                    <span>가용 시간(분)</span>
+                    <input type="number" id="available-time" placeholder="예: 30" min="1" step="1" required>
+                </label>
+
+                <button type="submit" class="primary">추천 받기</button>
+            </form>
+
+            <section id="recommend-output" class="card hidden">
+                <div class="result-hero">
+                    <span class="label">추천 행동</span>
+                    <strong id="recommend-title">-</strong>
+                </div>
+                <ul id="recommend-list" class="recommend-list"></ul>
+            </section>
+        </section>
+
+        <section id="salary-section" class="feature">
+            <div class="feature-header">
+                <div>
+                    <h2>월 실수령 계산기</h2>
+                    <p class="subtitle">연봉을 입력하면 4대보험과 소득세(간이)를 계산해 월 실수령을 보여줍니다.</p>
+                </div>
+                <a class="top-link" href="#top">맨 위로</a>
+            </div>
+
+            <form id="salary-form" class="card">
+                <label class="field">
+                    <span>연봉(세전)</span>
+                    <input type="number" id="annual-salary" placeholder="예: 42000000" min="0" step="10000" required>
+                </label>
+
+                <div class="row">
+                    <label class="field">
+                        <span>기본공제(연)</span>
+                        <input type="number" id="basic-deduction" value="1500000" min="0" step="10000">
+                    </label>
+                    <label class="field">
+                        <span>추가공제(연)</span>
+                        <input type="number" id="extra-deduction" value="0" min="0" step="10000">
+                    </label>
+                </div>
+
+                <details class="rates">
+                    <summary>보험료율 설정 (기본값: 2026년 기준)</summary>
+                    <div class="row">
+                        <label class="field">
+                            <span>국민연금(근로자, %)</span>
+                            <input type="number" id="pension-rate" value="4.75" min="0" step="0.01">
+                        </label>
+                        <label class="field">
+                            <span>건강보험(근로자, %)</span>
+                            <input type="number" id="health-rate" value="3.595" min="0" step="0.001">
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label class="field">
+                            <span>장기요양(건보료의, %)</span>
+                            <input type="number" id="ltc-rate" value="13.14" min="0" step="0.01">
+                        </label>
+                        <label class="field">
+                            <span>고용보험(근로자, %)</span>
+                            <input type="number" id="employment-rate" value="0.9" min="0" step="0.01">
+                        </label>
+                    </div>
+                </details>
+
+                <button type="submit" class="primary">계산</button>
+            </form>
+
+            <section id="results" class="card hidden">
+                <div class="result-hero">
+                    <span class="label">월 실수령</span>
+                    <strong id="net-monthly">-</strong>
+                </div>
+
+                <div class="breakdown">
+                    <div class="item">
+                        <span>월 세전</span>
+                        <strong id="gross-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>월 4대보험 합계</span>
+                        <strong id="insurance-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>월 소득세</span>
+                        <strong id="income-tax-monthly">-</strong>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="breakdown">
+                    <div class="item">
+                        <span>국민연금</span>
+                        <strong id="pension-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>건강보험</span>
+                        <strong id="health-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>장기요양</span>
+                        <strong id="ltc-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>고용보험</span>
+                        <strong id="employment-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>연 소득세</span>
+                        <strong id="income-tax-annual">-</strong>
+                    </div>
+                </div>
+
+                <p class="note">
+                    * 간이 계산입니다. 근로소득공제, 세액공제, 비과세, 상·하한액 등은 반영하지 않습니다.
+                    실제 원천징수액과 차이가 있을 수 있습니다.
+                </p>
+            </section>
+        </section>
+
+        <section id="gpa-section" class="feature">
+            <div class="feature-header">
+                <div>
+                    <h2>학점 계산기</h2>
+                    <p class="subtitle">과목을 추가하면 GPA를 자동으로 계산합니다.</p>
+                </div>
+                <a class="top-link" href="#top">맨 위로</a>
+            </div>
+
+            <form id="course-form" class="card">
+                <input type="text" id="course-name" placeholder="과목명" required>
+                <input type="number" id="credits" placeholder="학점" min="0" step="0.1" required>
+                <select id="grade">
+                    <option value="4.5">A+</option>
+                    <option value="4.0">A</option>
+                    <option value="3.5">B+</option>
+                    <option value="3.0">B</option>
+                    <option value="2.5">C+</option>
+                    <option value="2.0">C</option>
+                    <option value="1.5">D+</option>
+                    <option value="1.0">D</option>
+                    <option value="0">F</option>
+                </select>
+                <button type="submit" class="primary">과목 추가</button>
+            </form>
+
+            <div id="course-list" class="card list-card"></div>
+            <div id="gpa-display" class="card gpa-card"></div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
