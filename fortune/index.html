@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인생 랜덤 선택기 | 기능 모음</title>
+    <meta name="description" content="버튼 한 번으로 오늘의 운명을 랜덤으로 확인하고 URL 공유까지 할 수 있습니다.">
+    <link rel="canonical" href="https://gorafaduck.github.io/tools/fortune/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="인생 랜덤 선택기">
+    <meta property="og:description" content="오늘의 운명을 랜덤으로 뽑아보세요.">
+    <meta property="og:url" content="https://gorafaduck.github.io/tools/fortune/">
+    <meta property="og:site_name" content="기능 모음">
+    <meta property="og:locale" content="ko_KR">
+    <link rel="stylesheet" href="../style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8262664702213958"
+        crossorigin="anonymous"></script>
+</head>
+<body id="top">
+    <div class="container">
+        <header class="page-header">
+            <h1>인생 랜덤 선택기</h1>
+            <p class="subtitle">버튼 하나로 오늘의 운명을 확인하세요.</p>
+        </header>
+
+        <nav class="menu" aria-label="기능 페이지 목록">
+            <a class="menu-link" href="../">메인</a>
+            <a class="menu-link" href="../recommend/">추천기</a>
+            <a class="menu-link" href="../salary/">월 실수령 계산기</a>
+            <a class="menu-link" href="../gpa/">학점 계산기</a>
+        </nav>
+
+        <section class="feature">
+            <div class="card fortune-card">
+                <button type="button" id="fortune-button" class="primary fortune-button">내 운명은?</button>
+                <div id="fortune-output" class="fortune-output hidden">
+                    <div class="result-hero fortune-hero">
+                        <span class="label">운명 결과</span>
+                        <strong id="fortune-text">-</strong>
+                    </div>
+                    <div class="fortune-actions">
+                        <button type="button" id="fortune-share" class="ghost" disabled>URL 표시</button>
+                        <input type="text" id="fortune-url" class="fortune-url hidden" readonly>
+                        <button type="button" id="fortune-copy" class="ghost hidden" disabled>복사</button>
+                        <span id="fortune-status" class="fortune-status"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

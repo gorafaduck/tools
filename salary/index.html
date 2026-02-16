@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월 실수령 계산기 | 기능 모음</title>
+    <meta name="description" content="연봉과 공제, 보험료율을 기준으로 월 실수령액과 항목별 공제 금액을 계산합니다.">
+    <link rel="canonical" href="https://gorafaduck.github.io/tools/salary/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="월 실수령 계산기">
+    <meta property="og:description" content="연봉 입력으로 월 실수령과 공제 내역을 간편 계산하세요.">
+    <meta property="og:url" content="https://gorafaduck.github.io/tools/salary/">
+    <meta property="og:site_name" content="기능 모음">
+    <meta property="og:locale" content="ko_KR">
+    <link rel="stylesheet" href="../style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8262664702213958"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>월 실수령 계산기</h1>
+            <p class="subtitle">연봉을 입력하면 4대보험과 소득세(간이)를 계산해 월 실수령을 보여줍니다.</p>
+        </header>
+
+        <nav class="menu" aria-label="기능 페이지 목록">
+            <a class="menu-link" href="../">메인</a>
+            <a class="menu-link" href="../fortune/">랜덤 선택기</a>
+            <a class="menu-link" href="../recommend/">추천기</a>
+            <a class="menu-link" href="../gpa/">학점 계산기</a>
+        </nav>
+
+        <section class="feature">
+            <form id="salary-form" class="card">
+                <label class="field">
+                    <span>연봉(세전)</span>
+                    <input type="number" id="annual-salary" placeholder="예: 42000000" min="0" step="10000" required>
+                </label>
+
+                <div class="row">
+                    <label class="field">
+                        <span>기본공제(연)</span>
+                        <input type="number" id="basic-deduction" value="1500000" min="0" step="10000">
+                    </label>
+                    <label class="field">
+                        <span>추가공제(연)</span>
+                        <input type="number" id="extra-deduction" value="0" min="0" step="10000">
+                    </label>
+                </div>
+
+                <details class="rates">
+                    <summary>보험료율 설정 (기본값: 2026년 기준)</summary>
+                    <div class="row">
+                        <label class="field">
+                            <span>국민연금(근로자, %)</span>
+                            <input type="number" id="pension-rate" value="4.75" min="0" step="0.01">
+                        </label>
+                        <label class="field">
+                            <span>건강보험(근로자, %)</span>
+                            <input type="number" id="health-rate" value="3.595" min="0" step="0.001">
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label class="field">
+                            <span>장기요양(건보료의, %)</span>
+                            <input type="number" id="ltc-rate" value="13.14" min="0" step="0.01">
+                        </label>
+                        <label class="field">
+                            <span>고용보험(근로자, %)</span>
+                            <input type="number" id="employment-rate" value="0.9" min="0" step="0.01">
+                        </label>
+                    </div>
+                </details>
+
+                <button type="submit" class="primary">계산</button>
+            </form>
+
+            <section id="results" class="card hidden">
+                <div class="result-hero">
+                    <span class="label">월 실수령</span>
+                    <strong id="net-monthly">-</strong>
+                </div>
+
+                <div class="breakdown">
+                    <div class="item">
+                        <span>월 세전</span>
+                        <strong id="gross-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>월 4대보험 합계</span>
+                        <strong id="insurance-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>월 소득세</span>
+                        <strong id="income-tax-monthly">-</strong>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="breakdown">
+                    <div class="item">
+                        <span>국민연금</span>
+                        <strong id="pension-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>건강보험</span>
+                        <strong id="health-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>장기요양</span>
+                        <strong id="ltc-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>고용보험</span>
+                        <strong id="employment-monthly">-</strong>
+                    </div>
+                    <div class="item">
+                        <span>연 소득세</span>
+                        <strong id="income-tax-annual">-</strong>
+                    </div>
+                </div>
+
+                <p class="note">
+                    * 간이 계산입니다. 근로소득공제, 세액공제, 비과세, 상·하한액 등은 반영하지 않습니다.
+                    실제 원천징수액과 차이가 있을 수 있습니다.
+                </p>
+            </section>
+        </section>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

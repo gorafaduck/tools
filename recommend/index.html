@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지금 해야 할 일 추천기 | 기능 모음</title>
+    <meta name="description" content="현재 기분과 가용 시간을 입력하면 지금 당장 할 행동을 추천합니다.">
+    <link rel="canonical" href="https://gorafaduck.github.io/tools/recommend/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="지금 해야 할 일 추천기">
+    <meta property="og:description" content="기분과 시간을 기반으로 오늘 할 일을 추천받아보세요.">
+    <meta property="og:url" content="https://gorafaduck.github.io/tools/recommend/">
+    <meta property="og:site_name" content="기능 모음">
+    <meta property="og:locale" content="ko_KR">
+    <link rel="stylesheet" href="../style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8262664702213958"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>지금 해야 할 일 추천기</h1>
+            <p class="subtitle">현재 기분과 가용 시간을 입력하면 오늘 할 행동을 추천합니다.</p>
+        </header>
+
+        <nav class="menu" aria-label="기능 페이지 목록">
+            <a class="menu-link" href="../">메인</a>
+            <a class="menu-link" href="../fortune/">랜덤 선택기</a>
+            <a class="menu-link" href="../salary/">월 실수령 계산기</a>
+            <a class="menu-link" href="../gpa/">학점 계산기</a>
+        </nav>
+
+        <section class="feature">
+            <form id="recommend-form" class="card">
+                <label class="field">
+                    <span>현재 기분</span>
+                    <select id="mood">
+                        <option value="energized">에너지 넘침</option>
+                        <option value="focused">집중하고 싶음</option>
+                        <option value="neutral" selected>보통</option>
+                        <option value="tired">지침/무기력</option>
+                        <option value="stressed">스트레스</option>
+                        <option value="anxious">불안/우울</option>
+                    </select>
+                </label>
+
+                <label class="field">
+                    <span>가용 시간(분)</span>
+                    <input type="number" id="available-time" placeholder="예: 30" min="1" step="1" required>
+                </label>
+
+                <button type="submit" class="primary">추천 받기</button>
+            </form>
+
+            <section id="recommend-output" class="card hidden">
+                <div class="result-hero">
+                    <span class="label">추천 행동</span>
+                    <strong id="recommend-title">-</strong>
+                </div>
+                <ul id="recommend-list" class="recommend-list"></ul>
+            </section>
+        </section>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

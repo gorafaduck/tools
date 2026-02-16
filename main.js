@@ -13,6 +13,9 @@ function setupFortune() {
     const urlInput = document.getElementById('fortune-url');
     const copyButton = document.getElementById('fortune-copy');
     const statusEl = document.getElementById('fortune-status');
+    if (!button || !output || !textEl || !shareButton || !urlInput || !copyButton || !statusEl) {
+        return;
+    }
 
     const fortunes = [
         '오늘은 연락하지 마라.',
@@ -93,6 +96,9 @@ function setupRecommendation() {
     const outputSection = document.getElementById('recommend-output');
     const titleEl = document.getElementById('recommend-title');
     const listEl = document.getElementById('recommend-list');
+    if (!form || !moodSelect || !timeInput || !outputSection || !titleEl || !listEl) {
+        return;
+    }
 
     const moodLabels = {
         energized: '에너지 넘침',
@@ -194,6 +200,28 @@ function setupSalaryCalculator() {
     const ltcMonthlyEl = document.getElementById('ltc-monthly');
     const employmentMonthlyEl = document.getElementById('employment-monthly');
     const incomeTaxAnnualEl = document.getElementById('income-tax-annual');
+    if (
+        !form
+        || !annualSalaryInput
+        || !basicDeductionInput
+        || !extraDeductionInput
+        || !pensionRateInput
+        || !healthRateInput
+        || !ltcRateInput
+        || !employmentRateInput
+        || !resultsSection
+        || !netMonthlyEl
+        || !grossMonthlyEl
+        || !insuranceMonthlyEl
+        || !incomeTaxMonthlyEl
+        || !pensionMonthlyEl
+        || !healthMonthlyEl
+        || !ltcMonthlyEl
+        || !employmentMonthlyEl
+        || !incomeTaxAnnualEl
+    ) {
+        return;
+    }
 
     const formatter = new Intl.NumberFormat('ko-KR');
 
@@ -282,6 +310,9 @@ function setupGpaCalculator() {
     const gradeSelect = document.getElementById('grade');
     const courseList = document.getElementById('course-list');
     const gpaDisplay = document.getElementById('gpa-display');
+    if (!courseForm || !courseNameInput || !creditsInput || !gradeSelect || !courseList || !gpaDisplay) {
+        return;
+    }
 
     const courses = [];
 
