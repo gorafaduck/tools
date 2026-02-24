@@ -31,6 +31,18 @@
         </nav>
 
         <section class="feature">
+            <div class="card">
+                <h2>도구 소개</h2>
+                <p>연봉과 공제 항목을 입력해 월 실수령 추정치를 계산합니다.</p>
+                <p>간이 계산이므로 실제 원천징수액과 차이가 있을 수 있습니다.</p>
+                <ul>
+                    <li>입력: 연봉, 기본/추가 공제, 보험료율</li>
+                    <li>출력: 월 실수령, 월 4대보험 합계, 월 소득세</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="feature">
             <form id="salary-form" class="card">
                 <label class="field">
                     <span>연봉(세전)</span>
@@ -126,6 +138,26 @@
                     실제 원천징수액과 차이가 있을 수 있습니다.
                 </p>
             </section>
+        </section>
+
+        <section class="feature">
+            <div class="card">
+                <h2>계산 방식 요약</h2>
+                <p>연봉에서 보험료와 공제를 제외한 과세소득에 구간별 세율을 적용합니다.</p>
+                <p>보험료는 입력 요율을 연봉에 적용해 계산하며, 월 단위는 연 단위를 12로 나눕니다.</p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="card">
+                <h2>자주 묻는 질문</h2>
+                <p><strong>Q. 결과가 실제 급여와 다른 이유는?</strong></p>
+                <p>A. 근로소득공제, 세액공제, 비과세, 상·하한액 등이 반영되지 않은 간이 계산입니다.</p>
+                <p><strong>Q. 보험료율은 어디서 바꾸나요?</strong></p>
+                <p>A. 입력 폼의 “보험료율 설정”에서 직접 수정할 수 있습니다.</p>
+                <p><strong>Q. 입력값이 저장되나요?</strong></p>
+                <p>A. 아니요. 입력값은 브라우저에서만 처리되며 저장되지 않습니다.</p>
+            </div>
         </section>
     </div>
 

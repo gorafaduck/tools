@@ -1,0 +1,11 @@
+# Logs
+*.log
+firebase-debug.log
+
+# Env
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+.vscode/

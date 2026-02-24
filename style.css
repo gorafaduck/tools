@@ -181,6 +181,13 @@ input:focus {
     gap: 12px;
 }
 
+.link-section .menu-link {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    min-height: 44px;
+}
+
 .rates {
     border: 1px dashed var(--border);
     border-radius: 12px;

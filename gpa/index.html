@@ -31,6 +31,18 @@
         </nav>
 
         <section class="feature">
+            <div class="card">
+                <h2>도구 소개</h2>
+                <p>과목, 학점, 성적을 입력해 GPA를 자동 계산합니다.</p>
+                <p>현재 계산은 4.5 만점 체계의 가중 평균입니다.</p>
+                <ul>
+                    <li>입력: 과목명, 학점, 성적 등급</li>
+                    <li>출력: 과목 목록과 전체 GPA</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="feature">
             <form id="course-form" class="card">
                 <input type="text" id="course-name" placeholder="과목명" required>
                 <input type="number" id="credits" placeholder="학점" min="0" step="0.1" required>
@@ -50,6 +62,26 @@
 
             <div id="course-list" class="card list-card"></div>
             <div id="gpa-display" class="card gpa-card"></div>
+        </section>
+
+        <section class="feature">
+            <div class="card">
+                <h2>사용 방법</h2>
+                <p>과목명, 학점, 성적을 입력한 뒤 “과목 추가”를 누르면 목록에 쌓입니다.</p>
+                <p>잘못 입력한 과목은 목록에서 삭제할 수 있습니다.</p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="card">
+                <h2>자주 묻는 질문</h2>
+                <p><strong>Q. 4.3 만점 학교는 어떻게 하나요?</strong></p>
+                <p>A. 현재는 4.5 기준으로 계산합니다. 학교 기준이 다르면 환산이 필요할 수 있습니다.</p>
+                <p><strong>Q. 입력값이 저장되나요?</strong></p>
+                <p>A. 아니요. 입력은 브라우저에서만 처리되며 저장되지 않습니다.</p>
+                <p><strong>Q. GPA 계산 방식은?</strong></p>
+                <p>A. 학점 가중 평균 방식으로 계산됩니다.</p>
+            </div>
         </section>
     </div>
 
