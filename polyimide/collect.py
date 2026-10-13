@@ -261,7 +261,9 @@ def collect_arxiv(query, since):
 def annotate(items, cfg):
     """관련 없는 항목을 버리고 태그·점수를 붙인다."""
     core = TermMatcher(cfg["core_terms"])
-    context = TermMatcher(cfg["context_terms"])
+    strong = TermMatcher(cfg["context_terms"]["strong"])
+    weak = TermMatcher(cfg["context_terms"]["weak"])
+    exclude = TermMatcher(cfg.get("exclude_terms", []))
     taggers = {name: TermMatcher(terms) for name, terms in cfg["tags"].items()}
     kept = []
     for it in items:
@@ -270,13 +272,13 @@ def annotate(items, cfg):
         text = f"{it['title']} {it['abstract']}"
         if not core.any(text):
             continue
-        ctx = context.hits(text)
-        # 논문은 패키징/전자 맥락이 있어야 함 (기체분리막·배터리 바인더 등 제외)
-        if it["type"] != "news" and not ctx:
+        # 패키징 직접 용어 2점, 보조 용어 1점, 제목에 다른 분야 용어(배터리·센서 등)가 있으면 -3점
+        relevance = 2 * len(strong.hits(text)) + len(weak.hits(text)) - 3 * len(exclude.hits(it["title"]))
+        # 논문은 패키징 맥락이 충분해야 함. 뉴스는 다른 분야가 주제인 기사만 제외
+        if relevance < (0 if it["type"] == "news" else 2):
             continue
         it["tags"] = [name for name, m in taggers.items() if m.any(text)]
-        # 제목에 핵심어가 있으면 가중치, 맥락어·태그 수만큼 가산
-        it["score"] = (3 if core.any(it["title"]) else 0) + len(ctx) + len(it["tags"])
+        it["score"] = (3 if core.any(it["title"]) else 0) + relevance + len(it["tags"])
         it["lang"] = "ko" if re.search(r"[가-힣]", it["title"]) else "en"
         it["abstract"] = truncate(it["abstract"])
         it["authors"] = it["authors"][:8]
