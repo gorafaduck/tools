@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-13T16:18:02+00:00",
+ "generated_at": "2026-10-13T16:22:22+00:00",
  "lookback_days": 90,
  "counts": {
-  "news": 7,
-  "paper": 20,
+  "news": 9,
+  "paper": 27,
   "preprint": 1
  },
  "tags": [
@@ -15,8 +15,10 @@
   "하이브리드 본딩",
   "HBM·칩렛",
   "접착·신뢰성",
-  "임시본딩·디본딩",
-  "시장·기업"
+  "WSS·임시본딩",
+  "시장·기업",
+  "투과도·광학",
+  "고내열성"
  ],
  "items": [
   {
@@ -40,13 +42,12 @@
    "doi": "10.1002/adfm.78956",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide redistribution layer",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저CTE·휨",
-    "접착·신뢰성",
     "시장·기업"
    ],
-   "score": 9,
+   "score": 11,
    "first_seen": "2026-10-13"
   },
   {
@@ -60,9 +61,39 @@
    "abstract": "",
    "doi": "",
    "lang": "ko",
-   "query": "폴리이미드 소재",
-   "tags": [],
-   "score": 3,
+   "query": "투명 폴리이미드",
+   "tags": [
+    "투과도·광학"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Colorless shape memory polyimide films for flexible optoelectronics",
+   "url": "https://doi.org/10.1088/1361-665x/aeb2c5",
+   "source": "Smart Materials and Structures",
+   "date": "2026-10-11",
+   "authors": [
+    "Shuting Jiang",
+    "Kong Deyan",
+    "Kang Yu Kang",
+    "Xinli Xiao",
+    "Xiaofei Wang",
+    "Jinsong Leng",
+    "Yanju Liu"
+   ],
+   "abstract": "Abstract Transparent polymer substrates for flexible perovskite solar cells and foldable displays must offer high transparency, thermal stability, and active deformability. With the rapid development of intelligent and adaptive flexible electronics, shape memory functionality has emerged as a key requirement for next-generation devices to enable smart behaviors such as self-deployment or morphing. However, although conventional colorless transparent polyimides (CPIs) exhibit outstanding transparency and thermal resistance, they tend to lack shape memory functionality, making it difficult to meet the demands of next-generation intelligent flexible devices such as self-deployable structures. We designed a molecular system using two dianhydrides, one containing a hexafluoroisopropylidene group and one containing ether linkages, and three fluorinated diamines with different rigidities. The hexafluoroisopropylidene and ether units suppress charge-transfer complex formation to enhance optical transparency, while the ether linkages also improve chain flexibility. The varying diamine rigidity enables tuning of thermal properties. Based on this design, colorless shape memory polyimide (co-…",
+   "doi": "10.1088/1361-665x/aeb2c5",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide temporary bonding debonding",
+   "tags": [
+    "투과도·광학",
+    "고내열성"
+   ],
+   "score": 11,
    "first_seen": "2026-10-13"
   },
   {
@@ -81,6 +112,44 @@
     "시장·기업"
    ],
    "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Global Market Size of Optically Transparent Polyimide Films: Expected to Reach 243 Million USD in 2026",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xLXQxcGd5T0MzZWlneFV4WXBoaGFUWHVvTVZHcEFGYmhCWEo4dWlhd2k4WERHUTdPM1RFcXZFRG1LWGxlTWRvXzU1ZHo1V2xTVTFWY0dwb2VjTEtTX2ZN?oc=5",
+   "source": "note",
+   "date": "2026-10-08",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [
+    "시장·기업",
+    "투과도·광학"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "광학적으로 투명한 폴리이미드 필름의 세계 시장 규모: 2026년 2억 4,300만 달러에 달할 전망｜QYResearch",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tQ3I3ZXRWZngzOHYtUHBWLTdjSWFvVHhWak8zREVQR1NoU1NyUUN6ZU9nNWJ0YThGZUpZSVlPNGU4Z01EdzRmalZzWmNKNHYxYzloay11UVVJX2JxV3BR?oc=5",
+   "source": "note",
+   "date": "2026-10-08",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "고내열 폴리이미드",
+   "tags": [
+    "시장·기업",
+    "투과도·광학"
+   ],
+   "score": 5,
    "first_seen": "2026-10-13"
   },
   {
@@ -106,9 +175,10 @@
    "query": "photosensitive polyimide",
    "tags": [
     "저유전(Dk/Df)",
-    "저온경화"
+    "저온경화",
+    "고내열성"
    ],
-   "score": 13,
+   "score": 15,
    "first_seen": "2026-10-13"
   },
   {
@@ -159,11 +229,13 @@
    "doi": "10.1080/10601325.2026.2739302",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low dielectric constant",
+   "query": "high glass transition temperature polyimide",
    "tags": [
-    "저유전(Dk/Df)"
+    "저유전(Dk/Df)",
+    "투과도·광학",
+    "고내열성"
    ],
-   "score": 13,
+   "score": 18,
    "first_seen": "2026-10-13"
   },
   {
@@ -188,9 +260,10 @@
    "query": "polyimide low temperature cure",
    "tags": [
     "PSPI·리소그래피",
-    "접착·신뢰성"
+    "접착·신뢰성",
+    "고내열성"
    ],
-   "score": 9,
+   "score": 10,
    "first_seen": "2026-10-13"
   },
   {
@@ -209,6 +282,35 @@
     "시장·기업"
    ],
    "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Structurally tunable colorless ionic-type negative-tone photosensitive polyimides with high transparency for i-line photopatterning",
+   "url": "https://doi.org/10.1016/j.eurpolymj.2026.115100",
+   "source": "European Polymer Journal",
+   "date": "2026-10-01",
+   "authors": [
+    "Yuxiang Zhang",
+    "Xiaojing Zhang",
+    "Hongle Chang",
+    "Jin Zhao",
+    "Xiaoliang Yu",
+    "Yuchuan Liu",
+    "Minjie Guo",
+    "Bowen Cheng"
+   ],
+   "abstract": "With the rapid development of related fields in the semiconductor industry, photosensitive polymers have become an important fundamental material that restricts the manufacturing and quality of integrated circuits and chips. Among various materials, photosensitive polyimides (PSPIs), as a potential alternative to traditional photosensitive materials, have attracted much attention due to their excellent comprehensive performance and the ability to directly serve as a component of micro-nano structures of semiconductor devices. However, traditional polyimide-based photosensitive materials usually exhibit intense yellowing phenomenon due to the formation of charge transfer complexes (CTCs), which adversely affects the sensitivity, resolution and contrast of the photosensitive patterns. With the expanding demand for colorless and highly transparent application fields, how to effectively reduce the CTCs effect while maintaining the photosensitive activity has become an urgent issue to be addressed. Herein, by adopting the strategy of adjusting the diamine structures, there prepared three kinds of polyamic acid precursors by incorporating highly electronegative elements, disrupting the…",
+   "doi": "10.1016/j.eurpolymj.2026.115100",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "투과도·광학"
+   ],
+   "score": 16,
    "first_seen": "2026-10-13"
   },
   {
@@ -359,9 +461,10 @@
     "PSPI·리소그래피",
     "저유전(Dk/Df)",
     "RDL·Fan-out",
-    "접착·신뢰성"
+    "접착·신뢰성",
+    "고내열성"
    ],
-   "score": 25,
+   "score": 26,
    "first_seen": "2026-10-13"
   },
   {
@@ -390,30 +493,52 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
-   "title": "Structurally tunable colorless ionic-type negative-tone photosensitive polyimides with high transparency for i-line photopatterning",
-   "url": "https://doi.org/10.1016/j.eurpolymj.2026.115100",
-   "source": "European Polymer Journal",
-   "date": "2026-09-18",
+   "title": "MPAB-based colorless and transparent copoly(amide imide)s enabled by dianhydride composition control",
+   "url": "https://doi.org/10.1038/s41598-026-71388-3",
+   "source": "Scientific Reports",
+   "date": "2026-09-15",
    "authors": [
-    "Yuxiang Zhang",
-    "Xiaojing Zhang",
-    "Hongle Chang",
-    "Jin Zhao",
-    "Xiaoliang Yu",
-    "Yuchuan Liu",
-    "Minjie Guo",
-    "Bowen Cheng"
+    "Ae Ran Lim",
+    "Jin‐Hae Chang"
    ],
-   "abstract": "With the rapid development of related fields in the semiconductor industry, photosensitive polymers have become an important fundamental material that restricts the manufacturing and quality of integrated circuits and chips. Among various materials, photosensitive polyimides (PSPIs), as a potential alternative to traditional photosensitive materials, have attracted much attention due to their excellent comprehensive performance and the ability to directly serve as a component of micro-nano structures of semiconductor devices. However, traditional polyimide-based photosensitive materials usually exhibit intense yellowing phenomenon due to the formation of charge transfer complexes (CTCs), which adversely affects the sensitivity, resolution and contrast of the photosensitive patterns. With the expanding demand for colorless and highly transparent application fields, how to effectively reduce the CTCs effect while maintaining the photosensitive activity has become an urgent issue to be addressed. Herein, by adopting the strategy of adjusting the diamine structures, there prepared three kinds of polyamic acid precursors by incorporating highly electronegative elements, disrupting the…",
-   "doi": "10.1016/j.eurpolymj.2026.115100",
+   "abstract": "Colorless and transparent copoly(amide imide) (Co-CPAI) films were synthesized from N, N′-[2,2′-bis(trifluoromethyl)-4,4′-biphenylene]bis(4-aminobenzamide) (MPAB) and two dianhydride systems composed of 4,4′-oxydiphthalic anhydride (ODPA) with either 1,2,3,4-cyclobutane tetracarboxylic dianhydride (CBDA) or 4,4′-(hexafluoroisopropylidene)diphthalic anhydride (6FDA) to investigate the influence of dianhydride composition on the thermomechanical, optical, and solubility properties. Computer simulated three-dimentional structures suggested that CBDA introduces moderate chain bending and a corresponding increase in free volume relative to ODPA, whereas 6FDA produces a much more twisted and expanded chain conformation with the largest free volume. The intermediate composition (MPAB/ODPA/CBDA or 6FDA = 1.0/0.5/0.5) exhibited the highest thermomechanical performance owing to the synergistic effects of copolymerization, which provide an optimal balance among chain rigidity, conformational irregularity, intermolecular interactions, and free volume. The 6FDA-based copolymers generally exhibited higher glass-transition temperatures, thermal decomposition stability, and mechanical properties,…",
+   "doi": "10.1038/s41598-026-71388-3",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "poly(amic acid) dielectric",
    "tags": [
-    "PSPI·리소그래피",
-    "저온경화"
+    "투과도·광학",
+    "고내열성"
    ],
-   "score": 10,
+   "score": 7,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Tailoring the Orientation of Electron‐Delocalized Conjugated Structures in Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage",
+   "url": "https://doi.org/10.1002/adfm.78452",
+   "source": "Advanced Functional Materials",
+   "date": "2026-09-15",
+   "authors": [
+    "Yuting Wan",
+    "Shuotong Wang",
+    "Hang Luo",
+    "Fan Wang",
+    "Deng Hu",
+    "Guanghu He",
+    "Yiqi Zhu",
+    "Dou Zhang"
+   ],
+   "abstract": "ABSTRACT Dielectric polymers for high‐temperature capacitive energy storage require both high thermal stability and electrical insulation. Although the rigid conjugated structure of polyimide affords a high glass transition temperature, making it a promising candidate, it also introduces compromised electrical insulation through electron delocalization. Here, we propose and demonstrate that regulating the spatial orientation of localized π‐containing/electron‐delocalized conjugated structures in polyimide can effectively break the trade‐off between thermal stability and electrical insulation. The out‐of‐plane orientation of localized conjugated structures reduces the spatial connectivity of short‐range electron‐delocalization sites along the electric‐field direction, thereby suppressing continuous carrier migration. Consequently, under high temperature and elevated electric field, the out‐of‐plane‐oriented semi‐aromatic polyimide exhibits an electrical conductivity reduced by over an order of magnitude compared to its in‐plane‐oriented counterpart. It achieves a high discharge energy density ( U e ) of 7.16 J cm − 3 with a charge–discharge efficiency ( η ) exceeding 90% at 200°C,…",
+   "doi": "10.1002/adfm.78452",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) dielectric",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 7,
    "first_seen": "2026-10-13"
   },
   {
@@ -441,9 +566,10 @@
    "tags": [
     "PSPI·리소그래피",
     "저유전(Dk/Df)",
-    "접착·신뢰성"
+    "접착·신뢰성",
+    "고내열성"
    ],
-   "score": 15,
+   "score": 18,
    "first_seen": "2026-10-13"
   },
   {
@@ -494,10 +620,11 @@
    "query": "polyimide low CTE film",
    "tags": [
     "저CTE·휨",
-    "저온경화",
-    "시장·기업"
+    "시장·기업",
+    "투과도·광학",
+    "고내열성"
    ],
-   "score": 5,
+   "score": 14,
    "first_seen": "2026-10-13"
   },
   {
@@ -517,8 +644,7 @@
    "query": "photosensitive polyimide",
    "tags": [
     "PSPI·리소그래피",
-    "저온경화",
-    "접착·신뢰성"
+    "저온경화"
    ],
    "score": 10,
    "first_seen": "2026-10-13"
@@ -539,9 +665,10 @@
    "lang": "en",
    "query": "photosensitive polyimide",
    "tags": [
-    "PSPI·리소그래피"
+    "PSPI·리소그래피",
+    "고내열성"
    ],
-   "score": 6,
+   "score": 8,
    "first_seen": "2026-10-13"
   },
   {
@@ -570,6 +697,30 @@
     "접착·신뢰성"
    ],
    "score": 3,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Study of Dielectric and Thermal Conductivity Properties of Recyclable Epoxy Resin Reinforced with SiO2-Coated Poly(p-phenylene benzobisoxazole) Fibers",
+   "url": "https://doi.org/10.3390/polym18172118",
+   "source": "Polymers",
+   "date": "2026-08-31",
+   "authors": [
+    "Xiangyu Zhao",
+    "Difei Wang",
+    "Xueting Wang",
+    "Xiaohui He"
+   ],
+   "abstract": "Epoxy resins are widely used in electronic packaging and electrical insulation, but their permanent cross-linked networks and low intrinsic thermal conductivity restrict material recycling and heat dissipation. In this work, a recyclable epoxy composite was developed by combining a dual-dynamic epoxy network with silica-coated poly(p-phenylene benzobisoxazole) fibers. The composite architecture integrates thermally activated network rearrangement, amine-induced matrix degradation, electrically insulating fibrous heat transport, and recovery of the reinforcing phase within a single material system. The silica-containing coating modified the PBO-fiber surface morphology and fiber/matrix interphase, while increasing fiber content produced a progressive increase in thermal conductivity. At a fiber content of 12 wt%, the composite exhibited a thermal conductivity of 0.267 W/(m·K), together with low dielectric loss and a balance among thermal, dielectric, and mechanical properties. After hot-press reprocessing, the composite retained 92.1% of its original thermal conductivity. Immersion in n-hexylamine resulted in macroscopic disintegration of the epoxy matrix, enabling recovery of PBO@…",
+   "doi": "10.3390/polym18172118",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide temporary bonding debonding",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 11,
    "first_seen": "2026-10-13"
   },
   {
@@ -624,9 +775,10 @@
    "tags": [
     "저유전(Dk/Df)",
     "저CTE·휨",
-    "시장·기업"
+    "시장·기업",
+    "고내열성"
    ],
-   "score": 10,
+   "score": 14,
    "first_seen": "2026-10-13"
   },
   {
@@ -653,12 +805,10 @@
    "query": "polyimide low CTE film",
    "tags": [
     "저유전(Dk/Df)",
-    "저CTE·휨",
-    "RDL·Fan-out",
     "접착·신뢰성",
-    "시장·기업"
+    "고내열성"
    ],
-   "score": 27,
+   "score": 30,
    "first_seen": "2026-10-13"
   },
   {
@@ -707,6 +857,90 @@
     "접착·신뢰성"
    ],
    "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Catalyst-Free Thiol–Yne Click Polymerization-Induced Autophotosensitive Polyimide for Negative Lithography",
+   "url": "https://doi.org/10.1021/acs.iecr.6c02475",
+   "source": "Industrial & Engineering Chemistry Research",
+   "date": "2026-07-27",
+   "authors": [
+    "Tianyuan Xu",
+    "Z Liu",
+    "Junjian Xie",
+    "Shuyu Xue",
+    "Xiaoming Ren",
+    "Yunfei Liu",
+    "Qiangqiang Zhu",
+    "Yu Shen"
+   ],
+   "abstract": "Abstract Photosensitive polyimide (PSPI) is widely used as a protective and insulating layer in electronic components, attracting considerable interest in semiconductor manufacturing and optoelectronics. However, conventional PSPIs often face challenges such as complex monomer synthesis, lengthy processing, high imidization temperatures, and inadequate mechanical properties. In this work, a soluble polyimide (FAT) containing main-chain double bonds was rapidly synthesized within 2 h via catalyst-free thiol–yne click reaction at room temperature. This intrinsic negative-tone photosensitive system cross-links through its double bonds under light, eliminating the need for photoinitiators or high-temperature imidization. The FAT polyimide enables high-resolution patterning up to 4 μm. After exposure at 50 J/cm2, the film exhibits a glass transition temperature (Tg) of 217 °C, a decomposition temperature (Td5%) of 361 °C, a tensile strength of 108.1 MPa, and an elongation at break of 15.1%. It also demonstrates good optical transparency, with a UV cutoff at 377 nm and transmittances of 67.8% at 450 nm and 80.2% at 550 nm. Therefore, the synthesized FAT polyimide represents a promising…",
+   "doi": "10.1021/acs.iecr.6c02475",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "high transmittance photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "저온경화",
+    "투과도·광학",
+    "고내열성"
+   ],
+   "score": 17,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Facile synthesis of high-performance colorless polyimide films bearing amide groups with enhanced optical and thermal stability",
+   "url": "https://doi.org/10.1177/09540083261472064",
+   "source": "High Performance Polymers",
+   "date": "2026-07-26",
+   "authors": [
+    "Zhenghui Yang",
+    "Shun Shi",
+    "Haiquan Guo"
+   ],
+   "abstract": "The rapid development of flexible displays has spurred the rational design and performance optimization of colorless polyimide films (CPI) with superior integrated properties. In this work, a series of amide-bridged CPI films were fabricated via polycondensation of the as-synthesized dianhydrides ( p -DAMDA, m -DAMDA, F-DAMDA) with commercial diamines, including 2,2′-bis(trifluoromethyl)benzidine (TFDB) and trans-1,4-diaminocyclohexane (t-CHDA). The results demonstrated p -DAMDA/TFDB exhibited the most favorable comprehensive performance, featuring a high optical transmittance of 86% at 550 nm, a low CTE value of 8.7 ppm K -1 and a relatively high T g of 334°C. Besides, the effects of meta-substituted structure and aromatic fluorination on the optical and thermal properties of as-prepared CPI films were systematically investigated. The results showed the aromatic fluorination (i.e., hydrogen atoms substituted by fluorine), effectively enhanced the optical performance while retaining excellent dimensional stability. For instance, the optical transmittance and CTE value of F-DAMDA/t-CHDA film reached 87% and 16 ppm K -1 , respectively. By contrast, the introduction of meta-substitut…",
+   "doi": "10.1177/09540083261472064",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "저CTE·휨",
+    "투과도·광학",
+    "고내열성"
+   ],
+   "score": 13,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Zn–bipyridine structure design for constructing a robust transparent polyimide as the substrate for flexible photodetectors",
+   "url": "https://doi.org/10.1016/j.apsusc.2026.167844",
+   "source": "Applied Surface Science",
+   "date": "2026-07-23",
+   "authors": [
+    "Jin Zhao",
+    "Yuhui Zeng",
+    "Zhaoshi Yu",
+    "Yulin Li",
+    "Fen Zhao",
+    "J-M Huang",
+    "Xu Hg",
+    "Yi Xing"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.apsusc.2026.167844",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "투과도·광학"
+   ],
+   "score": 6,
    "first_seen": "2026-10-13"
   }
  ]
