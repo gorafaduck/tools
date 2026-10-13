@@ -26,9 +26,9 @@
 ## 필터·태그 규칙
 
 1. 제목·초록에 폴리이미드 계열 핵심어(`core_terms`)가 있어야 합니다.
-2. 패키징 직접 용어(`context_terms.strong`, 예: RDL, PSPI, low-k) 2점, 보조 용어(`weak`, 예: dielectric, substrate) 1점, 제목의 다른 분야 용어(`exclude_terms`, 예: battery, sensor, colorless) -3점으로 계산해 논문은 2점 이상만 남깁니다.
+2. 패키징 직접 용어(`context_terms.strong`, 예: RDL, PSPI, low-k) 2점, 보조 용어(`weak`, 예: dielectric, substrate) 1점, 제목의 다른 분야 용어(`exclude_terms`, 예: battery, sensor, colorless, transparent) -3점으로 계산해 논문은 2점 이상만 남깁니다.
    기체분리막·배터리 등 다른 분야의 폴리이미드 논문을 걸러내기 위한 조건입니다.
-3. `tags`의 규칙에 따라 주제 태그(PSPI, 저유전, 저CTE, 저온경화, 하이브리드 본딩, HBM·칩렛, WSS·임시본딩, 투과도, 고내열성 등)를 붙입니다. 태그 규칙을 바꾸면 다음 실행 때 기존 항목에도 다시 적용됩니다.
+3. `tags`의 규칙에 따라 주제 태그(PSPI, 저유전, 저CTE, 저온경화, 하이브리드 본딩, HBM·칩렛, WSS·임시본딩, 저투과도·차광, 고내열성 등)를 붙입니다. 태그 규칙을 바꾸면 다음 실행 때 기존 항목에도 다시 적용됩니다.
 4. DOI 또는 제목으로 중복을 제거합니다 (Crossref·OpenAlex·arXiv 사이의 같은 논문은 하나로 합칩니다).
 
 검색어나 태그를 바꾸려면 `config.json`만 수정하면 됩니다.

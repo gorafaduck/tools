@@ -12,7 +12,8 @@
       "폴리이미드 소재",
       "WSS 임시본딩",
       "고내열 폴리이미드",
-      "투명 폴리이미드"
+      "블랙 폴리이미드",
+      "차광 폴리이미드"
     ],
     "en": [
       "polyimide semiconductor",
@@ -22,7 +23,8 @@
       "HD MicroSystems polyimide",
       "polyimide advanced packaging",
       "temporary bonding debonding wafer",
-      "high heat resistant polyimide"
+      "high heat resistant polyimide",
+      "black polyimide"
     ]
   },
   "literature_queries": [
@@ -37,9 +39,13 @@
     "poly(amic acid) dielectric",
     "polyimide temporary bonding debonding",
     "wafer support system temporary adhesive",
-    "high transmittance photosensitive polyimide",
     "high heat resistance polyimide film",
-    "high glass transition temperature polyimide"
+    "high glass transition temperature polyimide",
+    "black polyimide",
+    "low transmittance polyimide",
+    "light shielding polyimide",
+    "UV absorbing polyimide laser debonding",
+    "opaque polyimide film"
   ],
   "arxiv_query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
   "core_terms": [
@@ -116,7 +122,19 @@
       "carrier wafer",
       "thin wafer",
       "임시본딩",
-      "임시 본딩"
+      "임시 본딩",
+      "black polyimide",
+      "black pi",
+      "low transmittance",
+      "light shielding",
+      "light-shielding",
+      "light blocking",
+      "light-blocking",
+      "opaque",
+      "차광",
+      "저투과",
+      "블랙 pi",
+      "흑색"
     ],
     "weak": [
       "semiconductor",
@@ -138,15 +156,16 @@
       "기판",
       "본딩",
       "절연",
-      "transmittance",
-      "transparen",
       "heat resistan",
       "heat-resistan",
       "thermal stability",
       "high tg",
       "glass transition",
-      "투과",
-      "내열"
+      "내열",
+      "transmittance",
+      "absorbance",
+      "uv absorption",
+      "투과"
     ]
   },
   "exclude_terms": [
@@ -173,7 +192,11 @@
     "antenna",
     "배터리",
     "이차전지",
-    "분리막"
+    "분리막",
+    "colorless",
+    "transparent",
+    "투명",
+    "무색"
   ],
   "tags": {
     "PSPI·리소그래피": [
@@ -302,21 +325,28 @@
       "시장",
       "공급"
     ],
-    "투과도·광학": [
-      "transmittance",
-      "transparen",
-      "colorless",
-      "colourless",
-      "cut-off wavelength",
-      "cutoff wavelength",
-      "yellowness",
-      "yellow index",
-      "i-line",
-      "투과도",
-      "투과율",
-      "투명",
-      "무색",
-      "optical transparency"
+    "저투과도·차광": [
+      "low transmittance",
+      "low-transmittance",
+      "black polyimide",
+      "black pi",
+      "black",
+      "opaque",
+      "light shielding",
+      "light-shielding",
+      "light blocking",
+      "light-blocking",
+      "uv absorb",
+      "uv-absorb",
+      "high absorbance",
+      "optical density",
+      "carbon black",
+      "laser debond",
+      "저투과",
+      "차광",
+      "블랙",
+      "흑색",
+      "불투명"
     ],
     "고내열성": [
       "heat resistan",
