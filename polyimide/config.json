@@ -9,7 +9,10 @@
       "감광성 폴리이미드",
       "PSPI 반도체",
       "PI첨단소재",
-      "폴리이미드 소재"
+      "폴리이미드 소재",
+      "WSS 임시본딩",
+      "고내열 폴리이미드",
+      "투명 폴리이미드"
     ],
     "en": [
       "polyimide semiconductor",
@@ -17,7 +20,9 @@
       "photosensitive polyimide",
       "polyimide dielectric",
       "HD MicroSystems polyimide",
-      "polyimide advanced packaging"
+      "polyimide advanced packaging",
+      "temporary bonding debonding wafer",
+      "high heat resistant polyimide"
     ]
   },
   "literature_queries": [
@@ -29,7 +34,12 @@
     "polyimide wafer level packaging",
     "polyimide hybrid bonding",
     "polyimide low CTE film",
-    "poly(amic acid) dielectric"
+    "poly(amic acid) dielectric",
+    "polyimide temporary bonding debonding",
+    "wafer support system temporary adhesive",
+    "high transmittance photosensitive polyimide",
+    "high heat resistance polyimide film",
+    "high glass transition temperature polyimide"
   ],
   "arxiv_query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
   "core_terms": [
@@ -98,7 +108,15 @@
       "웨이퍼",
       "감광성",
       "저유전",
-      "하이브리드 본딩"
+      "하이브리드 본딩",
+      "wafer support",
+      "temporary bonding",
+      "temporary bond",
+      "debonding",
+      "carrier wafer",
+      "thin wafer",
+      "임시본딩",
+      "임시 본딩"
     ],
     "weak": [
       "semiconductor",
@@ -119,7 +137,16 @@
       "반도체",
       "기판",
       "본딩",
-      "절연"
+      "절연",
+      "transmittance",
+      "transparen",
+      "heat resistan",
+      "heat-resistan",
+      "thermal stability",
+      "high tg",
+      "glass transition",
+      "투과",
+      "내열"
     ]
   },
   "exclude_terms": [
@@ -138,8 +165,6 @@
     "laser-induced graphene",
     "tribolog",
     "flame retardant",
-    "colorless",
-    "transparent",
     "solar",
     "supercapacitor",
     "catalys",
@@ -148,8 +173,7 @@
     "antenna",
     "배터리",
     "이차전지",
-    "분리막",
-    "투명"
+    "분리막"
   ],
   "tags": {
     "PSPI·리소그래피": [
@@ -234,15 +258,22 @@
       "접착",
       "신뢰성"
     ],
-    "임시본딩·디본딩": [
+    "WSS·임시본딩": [
+      "wafer support system",
+      "wss",
       "temporary bonding",
       "temporary bond",
       "debonding",
       "debond",
+      "laser debond",
       "laser lift-off",
-      "임시 본딩",
+      "carrier wafer",
+      "thin wafer",
+      "wafer handling",
       "임시본딩",
-      "디본딩"
+      "임시 본딩",
+      "디본딩",
+      "웨이퍼 지지"
     ],
     "시장·기업": [
       "market",
@@ -270,6 +301,39 @@
       "증설",
       "시장",
       "공급"
+    ],
+    "투과도·광학": [
+      "transmittance",
+      "transparen",
+      "colorless",
+      "colourless",
+      "cut-off wavelength",
+      "cutoff wavelength",
+      "yellowness",
+      "yellow index",
+      "i-line",
+      "투과도",
+      "투과율",
+      "투명",
+      "무색",
+      "optical transparency"
+    ],
+    "고내열성": [
+      "heat resistan",
+      "heat-resistan",
+      "thermal stability",
+      "thermally stable",
+      "high tg",
+      "high-tg",
+      "glass transition",
+      "thermal decomposition",
+      "td5",
+      "5% weight loss",
+      "high temperature",
+      "high-temperature",
+      "내열",
+      "유리전이",
+      "열안정"
     ]
   }
 }

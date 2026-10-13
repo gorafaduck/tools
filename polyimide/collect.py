@@ -306,7 +306,6 @@ def merge(existing, fresh, today, keep_days):
             it["first_seen"] = old.get("first_seen", today)
             if len(old.get("abstract", "")) > len(it["abstract"]):
                 it["abstract"] = old["abstract"]
-            it["tags"] = it["tags"] + [t for t in old.get("tags", []) if t not in it["tags"]]
             it["score"] = max(it["score"], old.get("score", 0))
         else:
             it["first_seen"] = today
@@ -408,6 +407,11 @@ def main(argv=None):
     if args.out.exists():
         existing = json.loads(args.out.read_text(encoding="utf-8")).get("items", [])
     items = merge(existing, fresh, today, cfg["keep_days"])
+    # config.json의 태그 규칙이 바뀌어도 기존 항목에 바로 반영되도록 전체를 다시 태깅
+    taggers = {name: TermMatcher(terms) for name, terms in cfg["tags"].items()}
+    for it in items:
+        text = f"{it['title']} {it.get('abstract', '')}"
+        it["tags"] = [name for name, m in taggers.items() if m.any(text)]
 
     counts = {t: sum(1 for it in items if it["type"] == t) for t in TYPE_LABEL}
     payload = {
