@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://gorafaduck.github.io/tools/sitemap.xml
+Disallow: /
