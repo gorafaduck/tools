@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI 연구 워크벤치</title>
+    <meta name="description" content="폴리이미드 연구용 개인 워크벤치: PAA 배합 계산, 분자량 예측, 이미드화도, 경화 프로파일, 실험 노트.">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="polyimide.css">
+</head>
+<body>
+    <div class="container wide">
+        <header class="page-header">
+            <h1>PI 연구 워크벤치</h1>
+            <p class="subtitle">폴리이미드 합성·경화·분석을 한 곳에서. 모든 데이터는 이 브라우저에만 저장됩니다.</p>
+        </header>
+
+        <nav class="tabs" role="tablist" aria-label="도구">
+            <button class="tab" role="tab" data-tab="recipe">배합 계산</button>
+            <button class="tab" role="tab" data-tab="mw">분자량·조성</button>
+            <button class="tab" role="tab" data-tab="analysis">이미드화·필름</button>
+            <button class="tab" role="tab" data-tab="cure">경화 프로파일</button>
+            <button class="tab" role="tab" data-tab="notebook">실험 노트</button>
+            <button class="tab" role="tab" data-tab="db">모노머 DB</button>
+        </nav>
+
+        <!-- 1. 배합 계산 -->
+        <section class="panel" data-panel="recipe">
+            <div class="card">
+                <h2>PAA 중합 배합 계산</h2>
+                <p class="note tight">이무수물/디아민 공중합 조성, 몰비(offset), 고형분으로 칭량값과 용매량을 계산합니다.</p>
+
+                <div class="grid-2">
+                    <div>
+                        <div class="side-head">
+                            <h3>이무수물 (Dianhydride)</h3>
+                            <button class="ghost" data-add="DA">+ 추가</button>
+                        </div>
+                        <div id="da-rows" class="comp-rows"></div>
+                    </div>
+                    <div>
+                        <div class="side-head">
+                            <h3>디아민 (Diamine)</h3>
+                            <button class="ghost" data-add="AM">+ 추가</button>
+                        </div>
+                        <div id="am-rows" class="comp-rows"></div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="row">
+                    <label class="field"><span>몰비 이무수물 / 디아민</span>
+                        <input type="number" id="r-ratio" step="0.001" min="0.5" max="1.5" value="1.000"></label>
+                    <label class="field"><span>고형분 (wt%)</span>
+                        <input type="number" id="r-solid" step="0.5" min="1" max="60" value="15"></label>
+                    <label class="field"><span>용매</span>
+                        <select id="r-solvent"></select></label>
+                </div>
+                <div class="row">
+                    <label class="field"><span>계산 기준</span>
+                        <select id="r-basis">
+                            <option value="mass">용액 총량 (g)</option>
+                            <option value="mmol">디아민 총 mmol</option>
+                        </select></label>
+                    <label class="field"><span id="r-basis-label">용액 총량 (g)</span>
+                        <input type="number" id="r-basis-val" step="any" min="0" value="50"></label>
+                    <label class="field"><span>반응 전환율 p (분자량 예측)</span>
+                        <input type="number" id="r-p" step="0.001" min="0" max="1" value="0.995"></label>
+                </div>
+                <div class="row">
+                    <label class="field"><span>말단봉지제 (선택)</span>
+                        <select id="r-cap"></select></label>
+                    <label class="field"><span>말단봉지제 (디아민 100 mol 당 mol)</span>
+                        <input type="number" id="r-cap-amt" step="0.1" min="0" value="0"></label>
+                    <label class="field"><span>실칭량 보정 기준</span>
+                        <select id="r-actual-ref"><option value="">사용 안 함</option></select></label>
+                    <label class="field"><span>실제 칭량값 (g)</span>
+                        <input type="number" id="r-actual-mass" step="0.0001" min="0" placeholder="예: 3.0042"></label>
+                </div>
+            </div>
+
+            <div class="card mt">
+                <div id="recipe-warn"></div>
+                <div class="kpis" id="recipe-kpis"></div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>구분</th><th>모노머</th><th>MW (g/mol)</th><th>몰분율</th><th>mmol</th><th>질량 (g)</th></tr></thead>
+                        <tbody id="recipe-table"></tbody>
+                    </table>
+                </div>
+                <div class="actions">
+                    <button class="primary" id="btn-log-recipe">실험 노트에 기록</button>
+                    <button class="ghost" id="btn-copy-recipe">배합표 복사</button>
+                    <span class="status" id="recipe-status"></span>
+                </div>
+                <p class="note">팁: 디아민을 먼저 완전히 용해시킨 뒤 이무수물을 분할 투입하면 발열·겔화를 줄일 수 있습니다. 무수물은 사용 전 진공 건조(또는 승화 정제)로 가수분해분을 제거하세요.</p>
+            </div>
+        </section>
+
+        <!-- 2. 분자량·조성 -->
+        <section class="panel" data-panel="mw" hidden>
+            <div class="card">
+                <h2>반복단위 · 원소 조성</h2>
+                <p class="note tight">배합 계산 탭의 공중합 조성을 기준으로 평균 반복단위를 계산합니다.</p>
+                <div class="kpis" id="mw-kpis"></div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>원소</th><th>PAA (wt%)</th><th>PI (wt%)</th></tr></thead>
+                        <tbody id="elem-table"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mt">
+                <h2>Carothers 분자량 예측</h2>
+                <p class="note tight">X̄n = (1 + r) / (1 + r − 2rp). r은 소수 관능기 / 다수 관능기 (말단봉지제 포함 보정).</p>
+                <div class="kpis" id="carothers-kpis"></div>
+                <div id="carothers-chart" class="chart"></div>
+                <p class="note">곡선: p = 0.980 ~ 0.9995 범위에서 몰비별 예상 PAA Mn. 실제 분자량은 수분, 모노머 순도, 해중합(아믹산 평형)에 의해 낮아집니다.</p>
+            </div>
+            <div class="card mt">
+                <h2>분자식 → 분자량 계산기</h2>
+                <div class="row">
+                    <label class="field"><span>분자식 (예: C22H10N2O5, (C6H4)2O)</span>
+                        <input type="text" id="formula-in" value="C22H10N2O5"></label>
+                </div>
+                <div id="formula-out" class="kpis mt-s"></div>
+            </div>
+        </section>
+
+        <!-- 3. 이미드화·필름 -->
+        <section class="panel" data-panel="analysis" hidden>
+            <div class="grid-2">
+                <div class="card">
+                    <h2>FTIR 이미드화도 (DOI)</h2>
+                    <p class="note tight">DOI(%) = (A<sub>1376</sub>/A<sub>1500</sub>)<sub>시료</sub> ÷ (A<sub>1376</sub>/A<sub>1500</sub>)<sub>완전경화 기준</sub> × 100</p>
+                    <div class="row">
+                        <label class="field"><span>시료 A₁₃₇₆ (C–N)</span><input type="number" step="any" id="doi-s1" value="0.42"></label>
+                        <label class="field"><span>시료 A₁₅₀₀ (방향족 C=C)</span><input type="number" step="any" id="doi-s2" value="0.60"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>기준 A₁₃₇₆</span><input type="number" step="any" id="doi-r1" value="0.50"></label>
+                        <label class="field"><span>기준 A₁₅₀₀</span><input type="number" step="any" id="doi-r2" value="0.60"></label>
+                    </div>
+                    <div class="kpis mt-s" id="doi-out"></div>
+                    <p class="note">기준 시료는 보통 350~400 °C에서 충분히 경화한 동일 조성 필름을 사용합니다. 내부 표준 피크는 조성에 따라 1500 / 1015 cm⁻¹ 등으로 바꿔도 됩니다.</p>
+                </div>
+                <div class="card">
+                    <h2>대수 점도 (η<sub>inh</sub>)</h2>
+                    <p class="note tight">η<sub>inh</sub> = ln(t / t₀) / c (Ubbelohde, 30 °C 등 일정 온도)</p>
+                    <div class="row">
+                        <label class="field"><span>용액 유하 시간 t (s)</span><input type="number" step="any" id="vis-t" value="182.4"></label>
+                        <label class="field"><span>용매 유하 시간 t₀ (s)</span><input type="number" step="any" id="vis-t0" value="120.0"></label>
+                        <label class="field"><span>농도 c (g/dL)</span><input type="number" step="any" id="vis-c" value="0.5"></label>
+                    </div>
+                    <div class="kpis mt-s" id="vis-out"></div>
+                </div>
+            </div>
+            <div class="card mt">
+                <h2>캐스팅 필름 두께 예측</h2>
+                <p class="note tight">t<sub>PI</sub> ≈ t<sub>wet</sub> × w × ρ<sub>sol</sub> / ρ<sub>PI</sub> × (M<sub>PI</sub> / M<sub>PAA</sub>) — 배합 탭의 조성·고형분을 사용합니다.</p>
+                <div class="row">
+                    <label class="field"><span>닥터블레이드 갭 / 습막 두께 (µm)</span><input type="number" step="any" id="film-wet" value="300"></label>
+                    <label class="field"><span>용액 밀도 ρ<sub>sol</sub> (g/cm³)</span><input type="number" step="any" id="film-rsol" value="1.05"></label>
+                    <label class="field"><span>PI 밀도 ρ<sub>PI</sub> (g/cm³)</span><input type="number" step="any" id="film-rpi" value="1.42"></label>
+                    <label class="field"><span>목표 PI 두께 (µm, 역산)</span><input type="number" step="any" id="film-target" value="25"></label>
+                </div>
+                <div class="kpis mt-s" id="film-out"></div>
+                <p class="note">실제 습막은 갭의 약 50~70% 수준인 경우가 많습니다. 몇 번 실측 후 보정계수로 생각하고 사용하세요.</p>
+            </div>
+        </section>
+
+        <!-- 4. 경화 프로파일 -->
+        <section class="panel" data-panel="cure" hidden>
+            <div class="card">
+                <div class="side-head">
+                    <h2>열 이미드화 경화 프로파일</h2>
+                    <select id="cure-preset">
+                        <option value="">프리셋 불러오기…</option>
+                        <option value="standard">표준 (80→150→250→350 °C)</option>
+                        <option value="fast">빠른 단계 경화 (100→200→300 °C)</option>
+                        <option value="high">고온 (→400 °C, 저 CTE용)</option>
+                        <option value="low">저온 경화 (→250 °C, 촉매/화학 이미드화)</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label class="field"><span>시작 온도 (°C)</span><input type="number" id="cure-start" value="25"></label>
+                    <label class="field"><span>분위기</span>
+                        <select id="cure-atm"><option>N₂</option><option>진공</option><option>Air</option></select></label>
+                </div>
+                <div class="table-wrap mt-s">
+                    <table class="data editable">
+                        <thead><tr><th>#</th><th>목표 온도 (°C)</th><th>승온 속도 (°C/min)</th><th>유지 (min)</th><th></th></tr></thead>
+                        <tbody id="cure-rows"></tbody>
+                    </table>
+                </div>
+                <div class="actions">
+                    <button class="ghost" id="cure-add">+ 단계 추가</button>
+                    <button class="ghost" id="cure-copy">프로파일 텍스트 복사</button>
+                    <span class="status" id="cure-status"></span>
+                </div>
+            </div>
+            <div class="card mt">
+                <div class="kpis" id="cure-kpis"></div>
+                <div id="cure-chart" class="chart"></div>
+            </div>
+        </section>
+
+        <!-- 5. 실험 노트 -->
+        <section class="panel" data-panel="notebook" hidden>
+            <div class="card">
+                <h2>실험 기록 추가</h2>
+                <form id="note-form">
+                    <div class="row">
+                        <label class="field"><span>샘플 ID</span><input type="text" id="n-id" required placeholder="PI-2026-001"></label>
+                        <label class="field"><span>날짜</span><input type="date" id="n-date"></label>
+                        <label class="field"><span>조성</span><input type="text" id="n-comp" placeholder="6FDA/TFMB 1.00"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>고형분 (wt%)</span><input type="number" step="any" id="n-solid"></label>
+                        <label class="field"><span>점도 (cP)</span><input type="number" step="any" id="n-visc"></label>
+                        <label class="field"><span>η<sub>inh</sub> (dL/g)</span><input type="number" step="any" id="n-inh"></label>
+                        <label class="field"><span>Mw (kg/mol)</span><input type="number" step="any" id="n-mw"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>최종 경화 (°C)</span><input type="number" step="any" id="n-cure"></label>
+                        <label class="field"><span>두께 (µm)</span><input type="number" step="any" id="n-thick"></label>
+                        <label class="field"><span>Tg (°C)</span><input type="number" step="any" id="n-tg"></label>
+                        <label class="field"><span>Td5% (°C)</span><input type="number" step="any" id="n-td5"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>CTE (ppm/K)</span><input type="number" step="any" id="n-cte"></label>
+                        <label class="field"><span>인장강도 (MPa)</span><input type="number" step="any" id="n-ts"></label>
+                        <label class="field"><span>연신율 (%)</span><input type="number" step="any" id="n-eb"></label>
+                        <label class="field"><span>Dk / Df</span><input type="text" id="n-dk" placeholder="2.9 / 0.004"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>투과율 T@550nm (%)</span><input type="number" step="any" id="n-t550"></label>
+                        <label class="field"><span>YI</span><input type="number" step="any" id="n-yi"></label>
+                        <label class="field"><span>평가</span>
+                            <select id="n-rating"><option value="">-</option><option>성공</option><option>보통</option><option>실패</option></select></label>
+                    </div>
+                    <label class="field"><span>메모 (배합, 관찰, 이상점)</span><textarea id="n-memo" rows="3"></textarea></label>
+                    <div class="actions">
+                        <button type="submit" class="primary" id="n-submit">저장</button>
+                        <button type="button" class="ghost" id="n-fill">현재 배합 불러오기</button>
+                        <button type="button" class="ghost" id="n-cancel" hidden>수정 취소</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card mt">
+                <div class="side-head">
+                    <h2>기록 <small id="note-count"></small></h2>
+                    <input type="search" id="note-search" placeholder="검색 (ID, 조성, 메모)">
+                </div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>ID</th><th>날짜</th><th>조성</th><th>경화</th><th>Tg</th><th>CTE</th><th>TS/EB</th><th>T550/YI</th><th>평가</th><th></th></tr></thead>
+                        <tbody id="note-table"></tbody>
+                    </table>
+                </div>
+                <div class="actions">
+                    <button class="ghost" id="note-csv">CSV 내보내기</button>
+                    <button class="ghost" id="note-json">JSON 백업</button>
+                    <label class="ghost file-btn">JSON 복원<input type="file" id="note-import" accept="application/json" hidden></label>
+                    <span class="status" id="note-status"></span>
+                </div>
+                <div id="note-plot-wrap" class="mt">
+                    <h3>물성 상관 플롯</h3>
+                    <div class="row">
+                        <label class="field"><span>X축</span><select id="plot-x"></select></label>
+                        <label class="field"><span>Y축</span><select id="plot-y"></select></label>
+                    </div>
+                    <div id="note-chart" class="chart"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. 모노머 DB -->
+        <section class="panel" data-panel="db" hidden>
+            <div class="card">
+                <div class="side-head">
+                    <h2>모노머 데이터베이스</h2>
+                    <div class="inline">
+                        <select id="db-type">
+                            <option value="">전체</option>
+                            <option value="DA">이무수물</option>
+                            <option value="AM">디아민</option>
+                            <option value="CAP">말단봉지제</option>
+                        </select>
+                        <input type="search" id="db-search" placeholder="검색">
+                    </div>
+                </div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>약어</th><th>구분</th><th>이름</th><th>분자식</th><th>MW</th><th>특징</th><th></th></tr></thead>
+                        <tbody id="db-table"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mt">
+                <h2>사용자 모노머 추가</h2>
+                <form id="db-form">
+                    <div class="row">
+                        <label class="field"><span>약어</span><input type="text" id="db-abbr" required placeholder="TAHQ"></label>
+                        <label class="field"><span>구분</span>
+                            <select id="db-kind"><option value="DA">이무수물</option><option value="AM">디아민</option><option value="CAP">말단봉지제(모노무수물)</option><option value="CAPA">말단봉지제(모노아민)</option></select></label>
+                        <label class="field"><span>분자식</span><input type="text" id="db-formula" placeholder="C24H10O10"></label>
+                        <label class="field"><span>MW 직접 입력 (올리고머 등, 선택)</span><input type="number" step="any" id="db-mw" placeholder="예: PDMS 디아민 900"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field"><span>이름</span><input type="text" id="db-name" placeholder="정식 명칭"></label>
+                        <label class="field"><span>특징 태그 (쉼표 구분)</span><input type="text" id="db-tags" placeholder="에스터, 저흡습"></label>
+                    </div>
+                    <div class="actions">
+                        <button class="primary" type="submit">추가</button>
+                        <span class="status" id="db-status"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="note center">PI 연구 워크벤치 · 계산값은 이론값이며 실험 조건에 맞게 검증 후 사용하세요. · <a href="../">메인으로</a></footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
