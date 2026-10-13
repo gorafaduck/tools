@@ -1,10 +1,10 @@
 {
- "generated_at": null,
- "lookback_days": 30,
+ "generated_at": "2026-10-13T16:18:02+00:00",
+ "lookback_days": 90,
  "counts": {
-  "news": 0,
-  "paper": 0,
-  "preprint": 0
+  "news": 7,
+  "paper": 20,
+  "preprint": 1
  },
  "tags": [
   "PSPI·리소그래피",
@@ -18,5 +18,696 @@
   "임시본딩·디본딩",
   "시장·기업"
  ],
- "items": []
+ "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Fatigue‐Resistant Mechanically Interlocked Co‐Crosslinked Polyimide Films for Reliable High‐Temperature Capacitive Energy Storage",
+   "url": "https://doi.org/10.1002/adfm.78956",
+   "source": "Advanced Functional Materials",
+   "date": "2026-10-12",
+   "authors": [
+    "Xiaoyu Yin",
+    "Donghui Li",
+    "Zhuang Nie",
+    "Xinyu Chen",
+    "Yi Wang",
+    "Kun Fan",
+    "Xiangyang Liu",
+    "Xu Wang"
+   ],
+   "abstract": "ABSTRACT During long‐term operation, repeated thermal expansion and contraction inevitably generate cyclic thermal stresses that cause dielectric film buckling, cracking, and eventual device failure. As promising candidates for next‐generation dielectric films, polyimides (PIs) are therefore required to combine high energy‐storage performance with mechanical fatigue resistance under coupled thermal, electrical, and mechanical stresses. Here, we report a mechanically interlocked crosslinked topology designed to meet this requirement. A maleimide‐functionalized crown ether monomer (CM) forms mechanically interlocked junctions with PI chains, while co‐crosslinking with a bismaleimide monomer (SiMI) extends these junctions into a three‐dimensional network and creates nanoscale multiphase interfaces through SiMI self‐crosslinking. This topology improves high‐temperature energy‐storage performance and imparts strong mechanical integrity to the PI films, especially resistance to mechanical fatigue. Dielectric‐optimized PI‐CM0.75‐M7.5 achieves a breakdown strength of 600 MV/m at 200°C and maintains η ≥ 90% up to 450 MV/m. Mechanically optimized PI‐CM0.25‐M2.5 shows a Young's modulus of 2.…",
+   "doi": "10.1002/adfm.78956",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide redistribution layer",
+   "tags": [
+    "저CTE·휨",
+    "접착·신뢰성",
+    "시장·기업"
+   ],
+   "score": 9,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "SK이노, 무색 폴리이미드 사업 매각에도 ‘키플레이어’ 선정된 까닭",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ueXlFdGRCUnY3a0FKcVlJbWNkcy1IWEpmd0pBUXZkSmlseUlsVXE3elU2MU42QzY2SGV2LTVaa3JoTTd2bWxCY3ZZeXVkX3pneW40eG92YkFwTmM0d2Q4cw?oc=5",
+   "source": "마이데일리",
+   "date": "2026-10-12",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 10. 09",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5",
+   "source": "주달",
+   "date": "2026-10-10",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Synergistically Enhanced Properties of Polyimide Films via In-Situ Hollow SiO2 Nanospheres",
+   "url": "https://doi.org/10.3390/molecules31193567",
+   "source": "Molecules",
+   "date": "2026-10-07",
+   "authors": [
+    "Zheng Wu",
+    "Rui Meng",
+    "Chonggui Zhong",
+    "Yanyan Huang",
+    "Juehong Guo",
+    "Yuchi Cheng",
+    "Zhongwei Yu"
+   ],
+   "abstract": "Polyimide (PI) films serving as high-temperature dielectric and structural materials are increasingly required to combine mechanical robustness, thermal stability, and low dielectric properties for advanced electronic packaging. Herein, PI composite films incorporated with 110 nm hollow SiO2 nanospheres were fabricated via in-situ synthesis and subsequent thermal imidization. The optimal comprehensive performance was achieved at a SiO2 filler loading of 10%. Relative to pristine PI, the optimal composite delivered a 33% enhancement in room-temperature tensile strength (reaching 68 MPa), a 28% increase at 200 °C (reaching 64 MPa), and a 64% improvement at 250 °C (reaching 66 MPa). Benefiting from the hollow filler structure, this sample also exhibited enhanced ductility (reflected by a 1.3% rise in elongation at break), the most favorable thermal stability among all specimens, and a 3.5% reduction in relative dielectric constant, collectively achieving the synergistic enhancement of mechanical, thermal, and dielectric properties and rendering the composite a promising candidate for high-temperature electronic insulation applications.",
+   "doi": "10.3390/molecules31193567",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "저유전(Dk/Df)",
+    "저온경화"
+   ],
+   "score": 13,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "A Design Strategy for Next-Generation Low-Dielectric Polyimide Materials: Regulating Aggregated Structures via Flexible Biphenyl Side Chains",
+   "url": "https://doi.org/10.1021/acs.chemmater.6c02357",
+   "source": "Chemistry of Materials",
+   "date": "2026-10-06",
+   "authors": [
+    "Shi Liu",
+    "Mingyang Li",
+    "Hongxiang Li",
+    "Linman Li",
+    "Miao Wang",
+    "Xutao Zhang",
+    "Pengjian Gong",
+    "Rui Shi"
+   ],
+   "abstract": "Abstract The advancement of 5G and 6G communication technologies has introduced stringent requirements for the dielectric properties of the base materials employed in communication devices. Materials exhibiting a low dielectric constant (Dk) and low dielectric loss (Df) are particularly beneficial for signal transmission, as they reduce signal loss and latency. Modulating the molecular structure represents an effective approach to tailoring the dielectric characteristics of polymers. In this study, to concurrently decrease the Dk and Df values of polyimide (PI), we incorporate side chains comprising flexibly linked biphenyl liquid crystal (LC) units. These side chains increase the interchain spacing, thereby enhancing the free volume and reducing PI density, which contribute to lowering Dk. Concurrently, the flexible biphenyl LC moieties spontaneously organize into ordered stacks, promoting the ordered packing of the main polymer chains and effectively diminishing the Df. A series of PI films were synthesized to investigate the influence of side chains on the dielectric behavior. At a frequency of 17.4 GHz, the BPDA/6MPD film demonstrated a Dk value of 2.73 and a Df value of 0.004…",
+   "doi": "10.1021/acs.chemmater.6c02357",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 17,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Synthesis and properties of low-dielectric hydrophobic polyimides containing alkyl groups and ortho ‑phthalic structures",
+   "url": "https://doi.org/10.1080/10601325.2026.2739302",
+   "source": "Journal of Macromolecular Science Part A",
+   "date": "2026-10-04",
+   "authors": [
+    "Jialin Li",
+    "Shanyi Xie",
+    "Jian Li",
+    "Qiang Ren",
+    "Xu Meng",
+    "Xin Zhao",
+    "Chenyi Wang"
+   ],
+   "abstract": "In this study, two novel aromatic diamine monomers (TBA and DTBA) containing methyl, tert‑butyl and ortho-phthalic twisted structures were designed via molecular design. A series of polyimides were subsequently prepared by one‑step high‑temperature solution polycondensation of these diamines with three dianhydride monomers, namely BPDA, BPADA and ODPA, respectively. The synergistic effects of the introduced bulky side groups and twisted non‑coplanar structures on the solubility, thermal properties, mechanical properties, optical transparency, dielectric constant and hydrophobicity of the resulting polyimides were systematically investigated. The results show that all polyimides exhibit amorphous structures and good solubility. Their glass transition temperatures range from 208 to 292 °C, and the thermal decomposition temperatures were above 500 °C, demonstrating excellent thermal stability. Meanwhile, the polyimide films exhibit low dielectric constants (2.77–2.93 at 1 kHz) and good hydrophobicity (water contact angles in the range of 90.7°–99.8°). This study provides an effective molecular design strategy for developing high‑performance polyimides combining low dielectric constan…",
+   "doi": "10.1080/10601325.2026.2739302",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low dielectric constant",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 13,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Enhanced mechanical and electrical performance of Ti/Au microelectrode arrays using a pre-cured polyimide substrate",
+   "url": "https://doi.org/10.1186/s40486-026-00266-4",
+   "source": "Micro and Nano Systems Letters",
+   "date": "2026-10-03",
+   "authors": [
+    "박형달",
+    "Byeungleul Lee",
+    "Wonsuk Choi",
+    "Seonho Seok",
+    "오성환",
+    "Jinseok Kim"
+   ],
+   "abstract": "Abstract This paper presents an innovative approach to fabricate flexible neural electrodes with the key characteristics of low impedance and high adhesion. This achievement is realized through a two-step process: first, a thin film metallization process is applied to a partially cured photosensitive polyimide (PSPI) substrate, followed by a full curing process after metal electrode patterning. The proposed method harnesses metal intermixing with the flexible polymer substrate to enhance adhesion. while also utilizing high-temperature curing to rectify lattice defects within the metal-thin film, leading to a notable reduction in impedance. The increase in metal adhesion is empirically confirmed through a scotch tape adhesion test. Furthermore, the effectiveness of impedance reduction is supported by electrochemical characterization, including impedance and phase measurements after complete polymer substrate curing. The impedance of the newly developed flexible neural electrodes is measured at 9.96 kΩ at a frequency of 1 kHz, a marked improvement compared to conventional PSPI-cured electrodes, which exhibit 36.24 kΩ impedance at the same frequency.",
+   "doi": "10.1186/s40486-026-00266-4",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low temperature cure",
+   "tags": [
+    "PSPI·리소그래피",
+    "접착·신뢰성"
+   ],
+   "score": 9,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Thermoplastic Polyimide Market to Reach USD 0.86 Billion by 2032, at a CAGR of 7.4% — MarketsandMarkets™",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSU1rckMtUGpFeGhPbnlibVIzcGI1OVFxeXljemp2aEdlWFJBWHhITlJhYmdwekZaTWx1QnFCY2hYeDU0dUcyWXo2MlEyWld3VU1DY0hYODVFLVhWeHRNa2xOWUFMZGpzYjEyTW1qMnBPd3djN0k1MXE3N3BQRmZGUUlyYTRyUEdxYl9fdUEwYjhmY01Oa21NNWphSm05dkE?oc=5",
+   "source": "Yahoo Finance",
+   "date": "2026-10-02",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "polyimide advanced packaging",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Design and synthesis of alicyclic and fluorinated synergistic polyimide with low dielectric constant and low dielectric loss",
+   "url": "https://doi.org/10.1016/j.polymer.2026.130689",
+   "source": "Polymer",
+   "date": "2026-10-01",
+   "authors": [
+    "Zhifei Zhang",
+    "Chao Wang",
+    "Jinxu Liu",
+    "Chunhong Zhang",
+    "Yiming Liu",
+    "Qiwen He",
+    "Xinghui Sun",
+    "Yawen Liu"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.polymer.2026.130689",
+   "cited_by": 1,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 11,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Soluble Tröger’s Base-based polyimides as promising additive-free negative-tone photosensitive materials",
+   "url": "https://doi.org/10.1016/j.polymer.2026.130508",
+   "source": "Polymer",
+   "date": "2026-10-01",
+   "authors": [
+    "Rong Guo",
+    "Jinpeng Luo",
+    "Yuxin Song",
+    "Jingyu Hu",
+    "Qingliang You",
+    "Wanyi Tan",
+    "Yonggang Min",
+    "Yongbing Zhuang"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.polymer.2026.130508",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피"
+   ],
+   "score": 8,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[데이터 뉴스룸] 고무·플라스틱 업체 50곳 영업益 8%대 상승…LX하우시스·금호타이어·PI첨단소재, 1년 새 영업익 100억 넘게 증가",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QTzhxNmpMSFR1MVYzeFF2X00wd0h0LVZaWE05LVVJalA4eXpfUFpNWmZUcmlxTWVJUEJPY3BvQy1VRG1nRndhd2xxNFVEeXhleENmdjBDTkEzQWJUbWViQlFXbHJleU11?oc=5",
+   "source": "녹색경제신문",
+   "date": "2026-09-28",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 09. 25",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTF0clRWVlg2UkRXQTRmaTlGRDJ1U3VqZDIzUkJTaVMwYTVLSkVmVHlzLXRsS3FiRkJXSDkxdVR1ZVd5TTJ4R0gzaWFRcmpONU1WM0c2OGdTc05OVVNqSHNpN1VoQ1loSTNmNjNhRnN1TUE?oc=5",
+   "source": "주달",
+   "date": "2026-09-25",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
+   "source": "Fortune Business Insights",
+   "date": "2026-09-21",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "울산 HDOT 터미널에 위치한 아케마의 3000㎥ 규모 고순도 아크릴산(GAA) 신규 저장 시설. 〈사진 PI첨단소재 제공〉",
+   "url": "https://news.google.com/rss/articles/CBMiughBVV95cUxPRXhtZmlfUU5ySGtLcU44dW9iQ2lYdmFIRnFvNE5laUVDRjQ1a2pTeGVUdTRoS1FLRVRtMHZEWE1PcE1mb3paVlNTeTJwWG8zajItcmprZVVVb3FpVmJydWNxRzN0MHBIOE5Xa3BXVW84MGQtRFdRNmJBNFEyUGdCZXRkTk0zN1prY1ZRQnZRcy1rLTBXT2l6dTR6YUdTQ3VOVzBlU2tlTTIxRC1NTzY2ZEQxQW05QkhEVXA2aDFXMUltUlpZX1VCWWdsRHFWV1c5dXhMbXk1MXU1RDI0QkZRNGNpd1RweUQwMUhrcF9mZmtHcFZYLVFVX3pvQ2pFUlp1czhUcW5iUlE0RjlYRlRtMGhGaTk1NEZwbnAyX2ZJMWpVd1NvbGZZOEdmcHNlZzRxRUQ2UGpiWE1IMDJKU2JkNjBIaW4xMm5aOWpWVkxDM0ctaXNGQ1h4N0Z2cVNwZjZwLWNZMHBnWExqWEZwLXBNbmEtUXkxUWtjakhvUGhfXzZDMHlzbDJtXzBib1dXRlYxOEtnYWxxREhudk9tSjRSc2JmUk5NWEJRdkZrZkVMSmh6Z0xPeXRSLVJFZW1SUmFTazh4U25MUzhiNHY3akZTVXlqbVphbnB5S2U2el9ySDVBMXZCdGFhcVNDeENEcnItTm9ibzNYVDdSX20wdjhkWWttbWhBQUs3bE1sV28xSUhtaTNVa1B2Ql9XMXBfUXVvVXBLWmV1MmNXaGZXUkoxZkdrLUxwMGJkZ3N6NXJEdS1nbzBnR2wzR05YeXlMM2FzUFVaX2FkWjhxQXRMcktMLVBTcllqRFFZSmxtZ09NZlR6V29jVkpCWHNQVjNaVzNwWGZoeVd5RE5Pc0VNREtyT3F5NDhpTUxJYUJ3bUpMcXd5V29Zbm1RZ0R0bmE0bnFfSmZSQVY4TUp6YmFYMjQ5WmdrY1llZVVrcGJ6UWFTYTZENkNYYkU5NFJITEdSRWxWTm9hNWs0X0JEVDhpbkxSRXc4cnVJY1FLeFVLYkxvak1EUjdYb2Z3Y2hfWGk4a3lGNm45MTlGbEZPdDQ4RV9ibUJfcE5OOWxpQ1hXRjBwR1FBcDhZdVdxVWJGRDVKVVJMUXVNcFFndEVFWUI1c0xHRXp4OUNJN25VZi1BN1lFLXdtWUlyR3RlNmw5OFBOV0FzYTJXdGNZbzM3SmpkQkdvQ21BUGVucVZRS01Yajk4SUxjSjNIaUlqVGNoUUc0b1dlbUp6NHdYdkhDM3R1bzlvQTNzYW10Q0lBanp0c1FoTGNtX1JrXzZpQmpqTjZuUFdmZDduZDFjMGNFZ2FfSUlURF9GLUszb3JCems1YVEycmpvMkk0LVdFdWlVdUt3VDZXbVhtRlZ6SlJOUUJhbmpCT2hJR2gxSlM0OGtRWHBnMm1RMl9wd1FPeVN1ZHZGc2l1MzZBdHlZZlRidw?oc=5",
+   "source": "전자신문",
+   "date": "2026-09-21",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Research on the Patterning Polyimide Layer Based on Laser Ablation Technology",
+   "url": "https://doi.org/10.1021/acsomega.6c07277",
+   "source": "ACS Omega",
+   "date": "2026-09-19",
+   "authors": [
+    "Liu Jikang",
+    "Yao Wang"
+   ],
+   "abstract": "Polyimide (PI) has emerged as a critical material in advanced semiconductor packaging owing to its high temperature stability, low dielectric constant and loss, mechanical flexibility and stress relief, and chemical and moisture resistance. The passivation (PA) layer is usually formed by polyimide-based lithography technology during the whole process of IC packaging, such as bumping packaging, fan-in wafer-level packaging (FIWLP), and fan-out wafer-level packaging (FOWLP). A study on the patterning of a polyimide layer based on laser ablation technology is introduced in this manuscript. A series of samples with the structure of Si substrate/PI layer were prepared, and four different laser ablation conditions were applied to these samples. An inverted trapezoid shape of the opening structure was observed in the PI layer after the effect of laser ablation, which also indicated that the top width was about 6.4 ± 0.6 μm larger than the bottom width according to the measurement data based on scanning electron microscopy (SEM). Research on patterning PI layers based on laser ablation technology could also play an effective role in promoting the popularization of laser ablation technolog…",
+   "doi": "10.1021/acsomega.6c07277",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide wafer level packaging",
+   "tags": [
+    "PSPI·리소그래피",
+    "저유전(Dk/Df)",
+    "RDL·Fan-out",
+    "접착·신뢰성"
+   ],
+   "score": 25,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "A Review of CMOS-Compatible Flexible Biosensors Based on Polymer Electronics for Wearable Healthcare",
+   "url": "https://doi.org/10.3390/chips5030030",
+   "source": "Chips",
+   "date": "2026-09-19",
+   "authors": [
+    "Ava Hedayatipour",
+    "Sara Moghtadernejad"
+   ],
+   "abstract": "Flexible wearable biosensors have emerged as a promising technology for continuous, noninvasive health monitoring, driven by the growing demand for personalized healthcare and an aging global population. Polymeric substrates such as polyethylene terephthalate (PET), polyimide (PI), and polydimethylsiloxane (PDMS) provide lightweight, flexible, and low-cost platforms that conform to the human body, but their practical deployment requires reliable integration with complementary metal–oxide–semiconductor (CMOS) electronics for signal acquisition, processing, and wireless communication. This review summarizes recent advances in CMOS-compatible flexible biosensors, emphasizing polymer-based sensing platforms, circuit-level integration, and system-on-chip (SoC) architectures for wearable healthcare applications. Flexible sensing mechanisms, including electrochemical, capacitive, resistive, and transistor-based devices, are discussed alongside CMOS analog front-end circuits, low-noise amplifiers, analog-to-digital converters, and ultra-low-power signal conditioning techniques. Finally, key challenges in CMOS–flexible sensor integration, including mechanical reliability, biocompatibility,…",
+   "doi": "10.3390/chips5030030",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [
+    "접착·신뢰성",
+    "시장·기업"
+   ],
+   "score": 5,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Structurally tunable colorless ionic-type negative-tone photosensitive polyimides with high transparency for i-line photopatterning",
+   "url": "https://doi.org/10.1016/j.eurpolymj.2026.115100",
+   "source": "European Polymer Journal",
+   "date": "2026-09-18",
+   "authors": [
+    "Yuxiang Zhang",
+    "Xiaojing Zhang",
+    "Hongle Chang",
+    "Jin Zhao",
+    "Xiaoliang Yu",
+    "Yuchuan Liu",
+    "Minjie Guo",
+    "Bowen Cheng"
+   ],
+   "abstract": "With the rapid development of related fields in the semiconductor industry, photosensitive polymers have become an important fundamental material that restricts the manufacturing and quality of integrated circuits and chips. Among various materials, photosensitive polyimides (PSPIs), as a potential alternative to traditional photosensitive materials, have attracted much attention due to their excellent comprehensive performance and the ability to directly serve as a component of micro-nano structures of semiconductor devices. However, traditional polyimide-based photosensitive materials usually exhibit intense yellowing phenomenon due to the formation of charge transfer complexes (CTCs), which adversely affects the sensitivity, resolution and contrast of the photosensitive patterns. With the expanding demand for colorless and highly transparent application fields, how to effectively reduce the CTCs effect while maintaining the photosensitive activity has become an urgent issue to be addressed. Herein, by adopting the strategy of adjusting the diamine structures, there prepared three kinds of polyamic acid precursors by incorporating highly electronegative elements, disrupting the…",
+   "doi": "10.1016/j.eurpolymj.2026.115100",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "저온경화"
+   ],
+   "score": 10,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Tailoring Backbone Rigidity and Cross-Linking of Photosensitive Polyimides for 3D Printing with Ultralow Dielectric Loss at High Frequencies",
+   "url": "https://doi.org/10.1021/acsapm.6c01938",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-09-12",
+   "authors": [
+    "Yongquan Jiang",
+    "Changhong Xiao",
+    "Beibei Su",
+    "Ruotong Gao",
+    "Yukun Lv",
+    "Xiaoxu Wang",
+    "Guangsheng Zhang",
+    "Jinyan Wang"
+   ],
+   "abstract": "Abstract Additive manufacturing represents a versatile platform for the development of high-frequency communication electronics. However, existing dielectric polymer inks often fail to simultaneously meet the requirements of low dielectric loss, high thermal stability, and high mechanical robustness. In this work, a photosensitive polyimide (PSPI) was synthesized via an acrylate-grafting acyl chlorination route, incorporating trifluoromethyl, bulky fluorene, and asymmetric diphenyl ether moieties. This molecular architecture facilitates the formation of a highly cross-linked network (with a gel content of up to 94%) and enables solvent-free 3D printing while ensuring ultralow dielectric loss and high thermal stability. The cured PSPI ink exhibits a glass transition temperature of 170 °C and a tensile strength of 71.42 MPa. Benefiting from the rigid polymer backbone and optimized crosslinking network, the cured polymer ink achieves a dielectric loss as low as 0.0070 at 20 GHz, outperforming that of state-of-the-art PSPI polymer inks. Furthermore, the successful fabrication of heterogeneous circuit structures via UV-assisted direct ink writing demonstrates the reliability of this sy…",
+   "doi": "10.1021/acsapm.6c01938",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "저유전(Dk/Df)",
+    "접착·신뢰성"
+   ],
+   "score": 15,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "3,5-diaminobenzoic acid: a simple method to improve the solubility and lithography accuracy of photosensitive polyimides",
+   "url": "https://doi.org/10.1007/s00339-026-09736-3",
+   "source": "Applied Physics A",
+   "date": "2026-09-03",
+   "authors": [
+    "Guanlin Liu",
+    "Lei Zhou",
+    "Yongshuang Xiao",
+    "Yan Cao",
+    "Jiaxiang Wang",
+    "Yidong Liu",
+    "Jiyu Lei",
+    "Hainan Shi"
+   ],
+   "abstract": "",
+   "doi": "10.1007/s00339-026-09736-3",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Colorless Copolyimide Films With High‐ T g and Low CTE From a Twisted Benzimidazole Diamine and HPMDA / CBDA Blends for Flexible Display Substrates",
+   "url": "https://doi.org/10.1002/pola.70322",
+   "source": "Journal of Polymer Science",
+   "date": "2026-09-02",
+   "authors": [
+    "Dandan Li",
+    "Peng Yue",
+    "Shuo Wang",
+    "Guangtao Qian"
+   ],
+   "abstract": "ABSTRACT A series of colorless copolyimide (Co‐PI) films was prepared by one‐step polycondensation of a twisted benzimidazole diamine (1‐(4‐amino‐2‐methylphenyl)‐2‐methyl‐1H‐benzo[d]imidazol‐5‐amine) with HPMDA and CBDA at varying molar ratios. The rigid cyclobutane ring of CBDA significantly influenced the thermal property and dimensional stability of the resulting copolymers. All films exhibited excellent thermal stability with 5% weight loss temperatures ( T d5% ) in the range of 464°C–480°C. The glass transition temperature ( T g ) increased from 448°C to 485°C with rising CBDA content due to restricted chain mobility, while the coefficient of thermal expansion (CTE) decreased markedly, reaching as low as 38 ppm/K. The copolymer with 50 mol% CBDA offered a balanced performance (CTE = 39 ppm/K) while maintaining high optical transparency. Mechanical properties were moderate (Young's modulus 2.4–3.3 GPa, tensile strength 79–87 MPa, elongation 4.1%–7.2%). Optically, all films showed high transmittance at 400 nm (79%–84%) and 450 nm (85%–87%) with cutoff wavelengths of 299–302 nm, and colorimetric analysis confirmed near‐colorless appearances ( L * > 95, YI < 4). The copolymers di…",
+   "doi": "10.1002/pola.70322",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "저CTE·휨",
+    "저온경화",
+    "시장·기업"
+   ],
+   "score": 5,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Time dependent exposure effects in thin film semiconductor technology",
+   "url": "https://doi.org/10.34726/hss.2026.139103",
+   "source": "reposiTUm (TU Wien)",
+   "date": "2026-09-01",
+   "authors": [
+    "Philipp Horn"
+   ],
+   "abstract": "Photosensitive polymer films are used in semiconductor manufacturing as dielectric and passivation layers. Their chemical, mechanical, and interfacial properties depend not only on the total exposure dose applied, but also on the temporal characteristics of the exposure, which influence the photochemical reaction kinetics and the formation of the polymer network. Industrial exposure tools deliver the same dose with different intensity–time profiles. It remains an open question whether the commonly held assumption of exposure reciprocity applies to chemically complex systems such as high-performance polyimides. This study examines how exposure intensity and time influence the material behavior of a negative-type, photosensitive polyimide thin film. At the same wavelength and nominal dose, high-intensity Stepper exposure is compared with low-intensity Mask Aligner exposure, so that the two differ primarily in their intensity–time profiles. Three complementary methods are used on four sample conditions (two exposure doses, two curing temperatures), all processed identically and differing only in the exposure: Fourier-transform infrared spectroscopy (FTIR) for imidization, the shear t…",
+   "doi": "10.34726/hss.2026.139103",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "저온경화",
+    "접착·신뢰성"
+   ],
+   "score": 10,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Polyimide and Polyimide-Precursor Photopolymers for Vat Photopolymerisation: Chemical Identity, Organogel Formation, Imidisation, Shrinkage, Void Formation and High-Temperature Qualification",
+   "url": "https://doi.org/10.5281/zenodo.22231813",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "date": "2026-09-01",
+   "authors": [
+    "Juan Segurola"
+   ],
+   "abstract": "All-aromatic polyimides combine thermal stability and mechanical performance with poor melt or solution processability in their final imidised state. Light-based additive manufacturing therefore commonly prints a soluble and photosensitive precursor, fixes geometry by a temporary photocrosslinked scaffold and then uses solvent removal plus thermal imidisation to form the target polyimide. Primary studies demonstrate mask-projection stereolithography of photoacrylated polyamic esters, photocurable polyamic-acid salts, concentrated supramolecular polysalts, two-photon writing of a commercial negative photosensitive precursor and structure–morphology differences between polyimide variants. The process can retain complex geometry, but reported linear shrinkage includes approximately 52% in a dilute organogel strategy and 19 ± 1% for a two-photon precursor under its cure schedule. These route-specific values cannot be pooled or transferred to concentrated polysalt systems without primary confirmation. Solvent transport, crosslink removal, cyclodehydration by-products, thermal gradients and constraint determine warping, cracking and internal voids. A 2026 morphology study observed preva…",
+   "doi": "10.5281/zenodo.22231813",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Decoding fiber-matrix interphase formation through waterborne polyurethane sizing strategies, interfacial engineering, and performance frontiers in carbon fiber composites",
+   "url": "https://doi.org/10.1016/j.enrev.2026.100206",
+   "source": "Energy Reviews",
+   "date": "2026-09-01",
+   "authors": [
+    "Qiancheng Xiong",
+    "Zhengchao Huang",
+    "Qiuting Luo",
+    "Tian Yu",
+    "Yongcheng Li",
+    "Jie Zhang",
+    "Feiyan Xie",
+    "Xuefeng Zhang"
+   ],
+   "abstract": "Carbon fiber (CF) is renowned for its exceptional mechanical properties; however, its inherent surface inertness and susceptibility to processing damage frequently compromise interfacial adhesion with polymer matrices. Sizing treatment serves as an effective and industrially scalable strategy to overcome this limitation. This review systematically examines the protective and thermodynamic roles of sizing agents, the four fundamental interfacial mechanisms of chemical bonding, mechanical interlocking, physical adsorption, and interphase formation, alongside the specific characterization techniques employed to analyze them. Conventional sizing formulations, encompassing epoxy, acrylic, polyester, polyimide, polyether, and vinyl resin systems, are evaluated with a primary focus on matrix compatibility and inherent performance trade-offs. The discussion subsequently highlights waterborne polyurethane (WPU) as a highly sustainable and structurally versatile sizing platform. We critically assess recent advancements in WPU modification achieved through chemical grafting, supramolecular engineering, bio-based feedstocks, and metal oxide hybridization. While these targeted modifications si…",
+   "doi": "10.1016/j.enrev.2026.100206",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 3,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Nereis Jaw‐Inspired Pretreatment‐Free Direct Metallization on Pristine Polyimide Films for Flexible Electronics",
+   "url": "https://doi.org/10.1002/adfm.77868",
+   "source": "Advanced Functional Materials",
+   "date": "2026-08-30",
+   "authors": [
+    "Yulin Li",
+    "Fen Zhao",
+    "Jiangnan Dai",
+    "Heng Xu",
+    "Zhaoshi Yu",
+    "Yao Wang",
+    "Yi Shen",
+    "Jiangnan Dai"
+   ],
+   "abstract": "ABSTRACT Surface metallization of polyimide (PI) films is essential for constructing conductive electrodes and interconnects in flexible electronics, directly determining device integration and reliability. However, the high inertness and low surface energy of PI necessitate complex pretreatment in conventional vacuum deposition, incurring high costs and substrate damage, while wet etching faces environmental burdens and poor compatibility, both failing to meet large‐scale manufacturing demands. Inspired by the stable coordination of histidine in Nereis jaws, a coordination‐directed molecular design strategy is proposed. By introducing nitrogen‐containing heterocyclic units into PI molecular chains, intrinsic metal anchoring sites are constructed, enabling direct film metallization without destructive adhesion‐promoting surface pretreatments. This process integrates with photolithography, printing, and direct writing for cross‐scale controllable metallization, fabricating planar wiring and vertical interconnect access (VIA) structures for 3D high‐density integration. The metallized PI films with azaindole‐bearing diamine moieties achieve the highest 5B‐grade adhesion and exhibit e…",
+   "doi": "10.1002/adfm.77868",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 9,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Synthesis of soluble polyimide with high char yield for flame retardant poly(vinyl alcohol)",
+   "url": "https://doi.org/10.1515/ipp-2026-0018",
+   "source": "International Polymer Processing",
+   "date": "2026-08-14",
+   "authors": [
+    "Bin Li",
+    "Fuyun Pei",
+    "Aiyun Jiang",
+    "Zicheng Fan",
+    "Baolin Xiao",
+    "Yuhao Huang",
+    "Yanbin Wang"
+   ],
+   "abstract": "Abstract Polyimides (PIs) have been attracting increased attention due to their unique advantages, such as excellent thermal stability, good mechanical properties and low dielectric constants. However, poor solubility hinders their further application. To solve this problem, a series of PIs with different side units (–CH 3 , –CF 3 and –COOH) were synthesized, and the relationship between molecular structure and solubility was thoroughly investigated. In general, solubility has been significantly improved, and all the polymers could be dissolved in hot m-cresol and N-methylpyrrolidone (NMP). With increasing polarity of side units (–COOH > –CF 3 > –CH 3 ), the solubility of their corresponding polymers (PI-COOH, PI-CF 3 and PI-CH 3 ) improved, and PI-COOH could be dissolved in alkaline aqueous solutions. In addition, PI-COOH films showed an outstanding comprehensive performance with a high tensile strength greater than 100 MPa, a high initial decomposition temperature of 420.3 °C, a low coefficient of thermal expansion (CTE) of 9.62 ppm °C −1 and a low dielectric constant of less than 3. PI-COOH also possessed a good charring capacity, and a char yield of 40 % was achieved at a high…",
+   "doi": "10.1515/ipp-2026-0018",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "저유전(Dk/Df)",
+    "저CTE·휨",
+    "시장·기업"
+   ],
+   "score": 10,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Advanced Dielectric Polymer Development at Kayaku Advanced Materials",
+   "url": "https://doi.org/10.4071/001c.167019",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-08-12",
+   "authors": [
+    "Aaron A. Rachford",
+    "Jenna Cordero",
+    "Christopher Dimino",
+    "Qing Wang",
+    "Lori Rattray",
+    "Carolyn Baker",
+    "Nicholas Schneider",
+    "Daniel J. Nawrocki"
+   ],
+   "abstract": "High frequency, 5G+ and edge computing opportunities continue to evolve towards wider adoption. Next-generation dielectric polymeric materials remain crucial to enabling future device packaging designs. The challenge lies in creating a material that balances the necessary characteristics to withstand harsh environments and complex designs. Most importantly, the material’s stability is essential to the performance of the packaged device. Future materials must continue to offer low dielectric loss (Df), low dielectric constant (Dk), and low moisture absorption while maintaining strong mechanical and thermal properties to resist the inherent stresses in the final package. High power devices such as MOSFETs and Si-C and Si-N based transistors require performance criteria of further increased thermal stability and higher break-down voltage, simply due to higher operating temperatures and voltages. Additionally, these emerging materials must be competitively priced and/or easy to manufacture to displace current industry players and manage the complexities of assembly. The resin polymer is often the most critical component among these materials. Therefore, it is essential for suppliers t…",
+   "doi": "10.4071/001c.167019",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "저유전(Dk/Df)",
+    "저CTE·휨",
+    "RDL·Fan-out",
+    "접착·신뢰성",
+    "시장·기업"
+   ],
+   "score": 27,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Inkjet Printed Interconnections on Flexible Substrates",
+   "url": "https://doi.org/10.4071/001c.165912",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-07-28",
+   "authors": [
+    "Esa Kunnari",
+    "Kimmo Kaija",
+    "Jani Valkama",
+    "Pauliina Mansikkamäki"
+   ],
+   "abstract": "Utilization of inkjet printing as a manufacturing method in electronics has been studied at Tampere University of Technology. In order to successfully utilize inkjet deposited circuit patterns with traditional electronics components, different aspects must be considered. One of the critical issues is the electrical contact between discrete components and inkjet printed conductive traces. In this study, discrete passive components were joined to conductive traces that were inkjet printed with metalloorganic nano silver ink on flexible substrates such as polyimide foil and polyethylene naphthalate (PEN). Discrete passive components were attached using isotropic conductive adhesive. JEDEC 22-A104C Standard temperature cycling tests as well as shear strength tests were carried out on the manufactured samples. There is a need for information on the reliability of inkjet printed interconnections and this is why accelerated reliability testing was selected as the test method. This also gives information on failure mechanisms of printed interconnections, which is very critical in terms of overall reliability. In addition, the reliability of the interconnections is directly related, in ter…",
+   "doi": "10.4071/001c.165912",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 5,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "preprint",
+   "origin": "arXiv",
+   "title": "Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix",
+   "url": "https://arxiv.org/abs/2607.25477v1",
+   "source": "arXiv",
+   "date": "2026-07-28",
+   "authors": [
+    "Daniel Joch",
+    "Robert Kammel",
+    "Fabian Magerl",
+    "Mathias Rommel",
+    "Michael P. M. Jank"
+   ],
+   "abstract": "This study presents a CMOS-compatible, fully integrated three-dimensional island-bridge concept for flexible electronics on silicon planar technology. By embedding metal bridges within trenches in a polyimide-passivated island matrix, the approach localizes mechanical stress to the bridges whereby active components on the islands are protected from mechanical stress, enabling high-performance thin-film transistors (TFTs) on flexible substrates. A concave, arc-shape forming fill in trenches between the islands and backside etching yield freestanding 3D bridges. Numerical simulations to determine the minimum bending radius reveal a characteristic stress distribution in the bridges during bending, with peak stresses at the bridge-island transitions. Variation of trench depth modulates von Mises stress, identifying design parameters for reliability. Experimental validation demonstrates TFT operation under bending, with stable threshold voltage, subthreshold swing, and saturation mobility across a range of bending radii; broader bridges exhibit enhanced mechanical robustness. A 9x9 island-bridge matrix with addressable integration of TFTs across islands demonstrates the scalability of…",
+   "doi": "",
+   "lang": "en",
+   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  }
+ ]
 }
