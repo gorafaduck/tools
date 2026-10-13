@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폴리이미드 패키징 동향 | 기능 모음</title>
+    <meta name="description" content="반도체 패키징용 폴리이미드(PSPI, 저유전, 저CTE, RDL, 하이브리드 본딩) 최신 뉴스와 논문을 매일 자동으로 모아 정리합니다.">
+    <link rel="canonical" href="https://gorafaduck.github.io/tools/polyimide/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="폴리이미드 패키징 동향">
+    <meta property="og:description" content="반도체 패키징용 폴리이미드 뉴스·논문 자동 수집 대시보드">
+    <meta property="og:url" content="https://gorafaduck.github.io/tools/polyimide/">
+    <meta property="og:site_name" content="기능 모음">
+    <meta property="og:locale" content="ko_KR">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="viewer.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8262664702213958"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container wide">
+        <header class="page-header">
+            <h1>폴리이미드 패키징 동향</h1>
+            <p class="subtitle">반도체 패키징용 폴리이미드 관련 뉴스·논문·프리프린트를 매일 자동 수집합니다.
+                <span id="updated" class="updated"></span></p>
+        </header>
+
+        <nav class="menu" aria-label="기능 페이지 목록">
+            <a class="menu-link" href="../">메인</a>
+            <a class="menu-link" href="https://github.com/gorafaduck/tools/blob/main/polyimide/digest.md" target="_blank" rel="noopener noreferrer">주간 다이제스트</a>
+        </nav>
+
+        <section class="stats" id="stats" aria-live="polite"></section>
+
+        <section class="card controls" aria-label="필터">
+            <div class="control-row">
+                <input type="search" id="q" placeholder="제목·초록·저자·저널 검색 (예: low-k, HD MicroSystems, 저온경화)" aria-label="검색">
+            </div>
+            <div class="control-row">
+                <div class="segmented" id="type-filter" role="group" aria-label="유형">
+                    <button type="button" data-type="all" class="on">전체</button>
+                    <button type="button" data-type="news">뉴스</button>
+                    <button type="button" data-type="paper">논문</button>
+                    <button type="button" data-type="preprint">프리프린트</button>
+                </div>
+                <select id="period" aria-label="기간">
+                    <option value="7">최근 7일</option>
+                    <option value="30" selected>최근 30일</option>
+                    <option value="90">최근 90일</option>
+                    <option value="365">최근 1년</option>
+                </select>
+                <select id="sort" aria-label="정렬">
+                    <option value="date">최신순</option>
+                    <option value="score">관련도순</option>
+                    <option value="cited">피인용순</option>
+                </select>
+                <select id="lang" aria-label="언어">
+                    <option value="all">한·영 전체</option>
+                    <option value="ko">한국어</option>
+                    <option value="en">영어</option>
+                </select>
+                <label class="toggle"><input type="checkbox" id="only-new"> 지난 방문 이후 신규만</label>
+            </div>
+            <div class="chips" id="tags" role="group" aria-label="주제 태그"></div>
+            <div class="control-row actions">
+                <span id="result-count" class="muted"></span>
+                <span class="spacer"></span>
+                <button type="button" class="ghost" id="reset">필터 초기화</button>
+                <button type="button" class="ghost" id="export-csv">CSV 내보내기</button>
+                <button type="button" class="ghost" id="export-bib">BibTeX 내보내기</button>
+            </div>
+        </section>
+
+        <section id="list" class="list" aria-label="수집 항목"></section>
+
+        <section class="feature">
+            <div class="card">
+                <h2>수집 방식</h2>
+                <ul>
+                    <li><strong>뉴스</strong>: Google News(한국어·영어) 키워드 검색</li>
+                    <li><strong>논문</strong>: OpenAlex, Crossref 최근 게재 논문</li>
+                    <li><strong>프리프린트</strong>: arXiv</li>
+                </ul>
+                <p>제목·초록에 폴리이미드 계열 핵심어가 있고, 논문은 패키징/전자 맥락어(RDL, wafer, dielectric 등)가 함께 있어야 남깁니다.
+                    검색어·태그 규칙은 <code>polyimide/config.json</code>에서 수정할 수 있습니다.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
