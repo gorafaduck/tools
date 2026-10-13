@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLPT 학습 도우미 | 기능 모음</title>
-    <meta name="description" content="N5~N1 단어 플래시카드(간격 반복), 단어·문법 퀴즈, 가나 연습, 오답노트, 시험 D-day를 제공하는 JLPT 학습 도우미입니다.">
+    <meta name="description" content="N5 노베이스 로드맵, N5~N1 단어 플래시카드(간격 반복), 단어·문법 퀴즈, 가나 연습, 오답노트, 시험 D-day를 제공하는 JLPT 학습 도우미입니다.">
     <link rel="canonical" href="https://gorafaduck.github.io/tools/jlpt/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="JLPT 학습 도우미">
@@ -49,6 +49,18 @@
                     <button class="level" data-level="N2">N2</button>
                     <button class="level" data-level="N1">N1</button>
                 </div>
+                <div class="settings">
+                    <label class="toggle"><input type="checkbox" id="opt-furigana"> 초보 모드 (한자에 읽는 법 함께 표시)</label>
+                    <label class="toggle">하루 새 단어
+                        <select id="opt-new">
+                            <option value="5">5개</option>
+                            <option value="10">10개</option>
+                            <option value="15">15개</option>
+                            <option value="20">20개</option>
+                            <option value="30">30개</option>
+                        </select>
+                    </label>
+                </div>
                 <div class="progress-wrap">
                     <div class="progress-text"><span id="progress-label">N5 단어 암기율</span><span id="progress-pct">0%</span></div>
                     <div class="progress"><div class="bar" id="progress-bar"></div></div>
@@ -57,6 +69,7 @@
         </section>
 
         <div class="tabs" role="tablist">
+            <button class="tab" data-tab="road" role="tab">로드맵</button>
             <button class="tab active" data-tab="flash" role="tab">플래시카드</button>
             <button class="tab" data-tab="vocab" role="tab">단어 퀴즈</button>
             <button class="tab" data-tab="grammar" role="tab">문법 퀴즈</button>
@@ -64,6 +77,17 @@
             <button class="tab" data-tab="wrong" role="tab">오답노트</button>
             <button class="tab" data-tab="list" role="tab">단어장</button>
         </div>
+
+        <section class="feature panel hidden" id="panel-road">
+            <div class="card">
+                <div class="panel-head">
+                    <h2>N5 노베이스 로드맵</h2>
+                    <span class="note-inline" id="road-progress"></span>
+                </div>
+                <div class="feedback" id="road-pace"></div>
+                <ol class="roadmap" id="road-area"></ol>
+            </div>
+        </section>
 
         <section class="feature panel" id="panel-flash">
             <div class="card">
@@ -100,12 +124,19 @@
             <div class="card">
                 <div class="panel-head">
                     <h2>가나 연습</h2>
-                    <select id="kana-mode" aria-label="가나 종류">
-                        <option value="hira">히라가나</option>
-                        <option value="kata">가타카나</option>
-                        <option value="mix">섞어서</option>
-                    </select>
+                    <div class="row-inline">
+                        <select id="kana-mode" aria-label="가나 종류">
+                            <option value="hira">히라가나</option>
+                            <option value="kata">가타카나</option>
+                            <option value="mix">섞어서</option>
+                        </select>
+                        <select id="kana-range" aria-label="연습 범위"></select>
+                    </div>
                 </div>
+                <details class="kana-chart-wrap" id="kana-chart-wrap">
+                    <summary>50음도 표 보기 (글자를 누르면 발음)</summary>
+                    <div id="kana-chart"></div>
+                </details>
                 <div id="kana-area"></div>
             </div>
         </section>
@@ -125,7 +156,10 @@
             <div class="card">
                 <div class="panel-head">
                     <h2>단어장</h2>
-                    <input type="search" id="list-search" placeholder="검색 (한자·읽기·뜻)">
+                    <div class="row-inline">
+                        <select id="list-cat" aria-label="주제"></select>
+                        <input type="search" id="list-search" placeholder="검색 (한자·읽기·뜻)">
+                    </div>
                 </div>
                 <div id="list-area"></div>
             </div>
@@ -135,7 +169,9 @@
             <div class="card">
                 <h2>사용 방법</h2>
                 <ul>
+                    <li><strong>로드맵</strong>: 처음이라면 여기서 시작하세요. 가나 → 기초 단어·조사 → 동사·형용사 → 문법 → 실전 순서로 안내합니다.</li>
                     <li><strong>플래시카드</strong>: 카드를 눌러 뒤집고 “알아요/몰라요”로 평가하세요. 아는 단어는 1·2·4·7·15일 간격으로 다시 나옵니다(간격 반복).</li>
+                    <li><strong>가나 연습</strong>: 50음도 표로 먼저 익힌 뒤, 행 단위로 나눠 로마자를 입력하며 연습하세요. (shi/si처럼 다른 표기도 정답 처리)</li>
                     <li><strong>퀴즈</strong>: 4지선다로 단어와 문법을 점검합니다. 숫자키 1~4로도 답할 수 있습니다.</li>
                     <li><strong>🔊 버튼</strong>: 브라우저 음성으로 일본어 발음을 들려줍니다.</li>
                     <li>학습 기록은 이 브라우저에만 저장됩니다(서버 전송 없음).</li>

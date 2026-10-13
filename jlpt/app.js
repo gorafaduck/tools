@@ -2,7 +2,6 @@
     const STORE_KEY = "jlpt-study-v1";
     const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
     const SRS_DAYS = [0, 1, 2, 4, 7, 15]; // box 번호별 다음 복습까지 일수
-    const NEW_PER_SESSION = 10;
     const QUIZ_LENGTH = 10;
 
     const $ = (sel) => document.querySelector(sel);
@@ -25,7 +24,7 @@
 
     // ---------- 저장소 ----------
     const state = (() => {
-        const base = { level: "N5", srs: {}, wrong: {}, days: {} };
+        const base = { level: "N5", srs: {}, wrong: {}, days: {}, roadmap: {}, furigana: true, newPerDay: 10 };
         try {
             return { ...base, ...JSON.parse(localStorage.getItem(STORE_KEY) || "{}") };
         } catch {
@@ -45,6 +44,11 @@
     const vocabKey = (level, w) => `v|${level}|${w[0]}`;
     const grammarKey = (level, i) => `g|${level}|${i}`;
     const words = () => JLPT_VOCAB[state.level];
+    const isKanaOnly = (w) => w[0] === w[1];
+    // 초보 모드: 한자 위에 읽는 법을 작게 표시
+    const withFuri = (w, cls = "big") => (state.furigana && !isKanaOnly(w)
+        ? `<div class="furi jp">${esc(w[1])}</div><div class="${cls} jp">${esc(w[0])}</div>`
+        : `<div class="${cls} jp">${esc(w[0])}</div>`);
 
     // ---------- 음성 ----------
     const speak = (text) => {
@@ -139,7 +143,7 @@
             const s = state.srs[vocabKey(level, w)];
             return s && s.due <= today;
         });
-        const fresh = list.filter((w) => !state.srs[vocabKey(level, w)]).slice(0, NEW_PER_SESSION);
+        const fresh = list.filter((w) => !state.srs[vocabKey(level, w)]).slice(0, state.newPerDay);
         return { deck: [...shuffle(due), ...shuffle(fresh)], i: 0, flipped: false, dueN: due.length, newN: fresh.length, ok: 0 };
     };
 
@@ -173,11 +177,11 @@
         const w = flash.deck[flash.i];
         const s = state.srs[vocabKey(state.level, w)];
         area.innerHTML = `
-            <div class="scoreline"><span>${flash.i + 1} / ${flash.deck.length}</span><span>${s ? `단계 ${s.box}` : "새 단어"}</span></div>
+            <div class="scoreline"><span>${flash.i + 1} / ${flash.deck.length}${w[3] ? ` · ${esc(w[3])}` : ""}</span><span>${s ? `단계 ${s.box}` : "새 단어"}</span></div>
             <div class="flashcard" id="card" tabindex="0">
-                <div class="big jp">${esc(w[0])}</div>
+                ${flash.flipped ? `<div class="big jp">${esc(w[0])}</div>` : withFuri(w)}
                 ${flash.flipped
-                    ? `<div class="reading jp">${esc(w[1])} ${speakBtn(w[1])}</div><div class="meaning">${esc(w[2])}</div>`
+                    ? `<div class="reading jp">${isKanaOnly(w) ? "" : esc(w[1])} ${speakBtn(w[1])}</div><div class="meaning">${esc(w[2])}</div>`
                     : `<div class="hint">눌러서 뒤집기 (Space)</div>`}
             </div>
             <div class="actions">
@@ -232,6 +236,7 @@
             key: vocabKey(level, w),
             level,
             prompt: mode === "reverse" ? w[2] : w[0],
+            furi: mode === "meaning" && state.furigana && !isKanaOnly(w) ? w[1] : "",
             jpPrompt: mode !== "reverse",
             jpOptions: mode !== "meaning",
             options,
@@ -279,6 +284,7 @@
             answered = false;
             area.innerHTML = `
                 <div class="scoreline"><span>${q.level} · ${i + 1} / ${questions.length}</span><span>정답 ${score}</span></div>
+                ${q.furi ? `<div class="furi jp" style="text-align:center">${esc(q.furi)}</div>` : ""}
                 <div class="question ${q.sentence ? "sentence" : ""} ${q.jpPrompt ? "jp" : ""}">${esc(q.prompt)}</div>
                 <div class="options">
                     ${q.options.map((o, j) => `<button class="option ${q.jpOptions ? "jp" : ""}" data-i="${j}"><span class="num">${j + 1}</span>${esc(o)}</button>`).join("")}
@@ -329,7 +335,9 @@
     // ---------- 단어 퀴즈 ----------
     const renderVocab = () => {
         const mode = $("#vocab-mode").value;
-        const qs = shuffle(words()).slice(0, QUIZ_LENGTH).map((w) => makeVocabQ(state.level, w, mode));
+        // 읽기 문제에서는 가나로만 된 단어(문제 = 정답)를 제외
+        const pool = mode === "reading" ? words().filter((w) => !isKanaOnly(w)) : words();
+        const qs = shuffle(pool).slice(0, QUIZ_LENGTH).map((w) => makeVocabQ(state.level, w, mode));
         runQuiz($("#vocab-area"), qs, renderVocab);
     };
 
@@ -342,30 +350,67 @@
 
     // ---------- 가나 연습 ----------
     const toKata = (s) => s.replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
+    const romajiOk = (input, romaji) => {
+        const v = input.trim().toLowerCase();
+        return v === romaji || (ROMAJI_ALT[romaji] || []).includes(v);
+    };
+
+    $("#kana-range").innerHTML = KANA_RANGES.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
+
+    const kanaPool = () => {
+        const r = KANA_RANGES.find((x) => x.id === $("#kana-range").value) || KANA_RANGES[0];
+        if (r.yoon) return KANA_YOON;
+        return [...KANA_BASE.slice(r.from, r.to), ...(r.withYoon ? KANA_YOON : [])];
+    };
+
+    const renderKanaChart = () => {
+        const kata = $("#kana-mode").value === "kata";
+        const conv = (c) => (kata ? toKata(c) : c);
+        const cell = (k) => (k
+            ? `<button class="kana-cell" data-speak="${esc(k[0])}"><b class="jp">${esc(conv(k[0]))}</b><small>${k[1]}</small></button>`
+            : `<span class="kana-cell empty-cell"></span>`);
+        const find = (c) => KANA_BASE.find((k) => k[0] === c);
+        // 표 모양을 맞추기 위해 빈 칸(null) 포함
+        const rows = [
+            "あいうえお", "かきくけこ", "さしすせそ", "たちつてと", "なにぬねの", "はひふへほ", "まみむめも",
+            "や ゆ よ", "らりるれろ", "わ   を", "ん    "
+        ];
+        const daku = ["がぎぐげご", "ざじずぜぞ", "だ  でど", "ばびぶべぼ", "ぱぴぷぺぽ"];
+        const grid = (lines) => lines.map((l) => [...l.padEnd(5)].map((c) => cell(c === " " ? null : find(c))).join("")).join("");
+        $("#kana-chart").innerHTML = `
+            <p class="chart-title">기본 (청음)</p><div class="kana-grid">${grid(rows)}</div>
+            <p class="chart-title">탁음·반탁음</p><div class="kana-grid">${grid(daku)}</div>
+            <p class="chart-title">요음</p><div class="kana-grid yoon">${KANA_YOON.map(cell).join("")}</div>`;
+    };
+
     const renderKana = () => {
         const area = $("#kana-area");
         const mode = $("#kana-mode").value;
-        const deck = shuffle(KANA_BASE).slice(0, 20).map(([h, r]) => {
+        renderKanaChart();
+        const pool = kanaPool();
+        const deck = shuffle(pool).slice(0, Math.min(20, pool.length)).map(([h, r]) => {
             const kata = mode === "kata" || (mode === "mix" && Math.random() < 0.5);
-            return [kata ? toKata(h) : h, r];
+            return [kata ? toKata(h) : h, r, h];
         });
         let i = 0;
         let score = 0;
+        const missed = [];
         keyHandler = null;
 
         const show = () => {
             if (i >= deck.length) {
-                area.innerHTML = `<div class="feedback"><strong>${deck.length}개 중 ${score}개 정답</strong></div>
+                area.innerHTML = `<div class="feedback"><strong>${deck.length}개 중 ${score}개 정답</strong>
+                    ${missed.length ? `<br>다시 볼 글자: <span class="jp">${missed.map((m) => `${esc(m[0])}(${m[1]})`).join(" · ")}</span>` : "<br>완벽해요! 다음 범위로 넘어가 보세요."}</div>
                     <div class="actions"><button class="primary" id="kana-again">다시 하기</button></div>`;
                 $("#kana-again").onclick = renderKana;
                 return;
             }
-            const [ch, romaji] = deck[i];
+            const [ch, romaji, hira] = deck[i];
             area.innerHTML = `
                 <div class="scoreline"><span>${i + 1} / ${deck.length}</span><span>정답 ${score}</span></div>
                 <div class="flashcard" style="min-height:160px;cursor:default">
                     <div class="big jp">${esc(ch)}</div>
-                    <div class="hint">로마자로 읽는 법을 입력하고 Enter</div>
+                    <div class="hint">로마자로 읽는 법을 입력하고 Enter (모르면 그냥 Enter)</div>
                 </div>
                 <input class="kana-input" id="kana-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="예: ka">
                 <div id="kana-feedback"></div>`;
@@ -380,14 +425,15 @@
                     return;
                 }
                 done = true;
-                const ok = input.value.trim().toLowerCase() === romaji;
+                const ok = romajiOk(input.value, romaji);
                 if (ok) score++;
+                else missed.push([ch, romaji]);
                 logStudy();
                 save();
                 renderDashboard();
                 input.readOnly = true;
-                $("#kana-feedback").innerHTML = `<div class="feedback">${ok ? "⭕ 정답!" : `❌ 정답은 <strong>${romaji}</strong>`} ${speakBtn(ch)} — Enter로 다음</div>`;
-                speak(ch);
+                $("#kana-feedback").innerHTML = `<div class="feedback">${ok ? "⭕ 정답!" : `❌ 정답은 <strong>${romaji}</strong>`} ${speakBtn(hira)} — Enter로 다음</div>`;
+                speak(hira);
             };
         };
         show();
@@ -435,8 +481,15 @@
     // ---------- 단어장 ----------
     const renderList = () => {
         keyHandler = null;
+        const cats = [...new Set(words().map((w) => w[3]).filter(Boolean))];
+        const catSel = $("#list-cat");
+        const prevCat = catSel.value;
+        catSel.innerHTML = `<option value="">전체 주제</option>${cats.map((c) => `<option>${esc(c)}</option>`).join("")}`;
+        catSel.value = cats.includes(prevCat) ? prevCat : "";
+        catSel.classList.toggle("hidden", !cats.length);
+        const cat = catSel.value;
         const term = $("#list-search").value.trim().toLowerCase();
-        const rows = words().filter((w) => !term || w.some((f) => f.toLowerCase().includes(term)));
+        const rows = words().filter((w) => (!cat || w[3] === cat) && (!term || w.slice(0, 3).some((f) => f.toLowerCase().includes(term))));
         $("#list-area").innerHTML = rows.length
             ? rows.map((w) => {
                 const box = state.srs[vocabKey(state.level, w)]?.box || 0;
@@ -450,9 +503,69 @@
             : `<p class="empty">검색 결과가 없습니다.</p>`;
     };
     $("#list-search").addEventListener("input", renderList);
+    $("#list-cat").addEventListener("change", renderList);
+
+    // ---------- 로드맵 ----------
+    const ROADMAP = [
+        { id: "hira", week: "1주차", title: "히라가나 46자", desc: "50음도 표로 먼저 눈에 익히고, あ~そ → た~ほ → ま~ん 순서로 범위를 나눠 연습하세요. 모든 공부의 기초입니다.", go: ["kana", "hira", "a-so"] },
+        { id: "hira2", week: "1~2주차", title: "탁음·반탁음·요음 (が, ぱ, きゃ…)", desc: "기본 46자를 거의 맞히게 되면 넘어가세요.", go: ["kana", "hira", "dakuon"] },
+        { id: "kata", week: "2주차", title: "가타카나", desc: "외래어(コーヒー, テレビ…)에 쓰입니다. 히라가나와 같은 소리라 더 빨리 외워집니다.", go: ["kana", "kata", "basic"] },
+        { id: "w1", week: "3주차", title: "기초 단어: 인사·지시어·숫자·시간", desc: "플래시카드는 주제 순서대로 새 단어를 꺼냅니다. 매일 새 단어 + 복습 대기 카드를 0으로 만드세요.", go: ["flash"] },
+        { id: "g1", week: "3~4주차", title: "조사: は・が・を・に・で・へ・と・の・から・まで", desc: "N5 문법 문제의 절반이 조사입니다. 문법 퀴즈 해설을 꼭 읽어 보세요.", go: ["grammar"] },
+        { id: "w2", week: "4주차", title: "단어: 사람·장소·음식·물건", desc: "단어장에서 주제별로 훑어본 뒤 플래시카드로 외우세요.", go: ["list"] },
+        { id: "g2", week: "5주차", title: "동사 ます형·て형, 형용사 활용", desc: "～ます/ました/ません, ～てください, ～ています, い형용사 ～くない, な형용사 ～な+명사.", go: ["grammar"] },
+        { id: "w3", week: "5~6주차", title: "단어: 자연·동사·형용사·부사", desc: "동사와 형용사는 활용과 함께 외우면 문법 문제도 같이 풀립니다.", go: ["flash"] },
+        { id: "g3", week: "6~7주차", title: "문법 퀴즈 80% 이상", desc: "여러 번 반복해서 모든 문제를 맞힐 때까지. 틀린 것은 오답노트로 모입니다.", go: ["grammar"] },
+        { id: "real", week: "7주차", title: "청해·독해 실전 연습", desc: "JLPT 공식 사이트(jlpt.jp)의 N5 샘플 문제로 시험 형식에 익숙해지세요. 청해는 매일 조금씩 듣는 것이 좋습니다.", go: null },
+        { id: "final", week: "시험 주", title: "오답노트 비우기 + 복습 대기 0", desc: "새로운 것보다 틀렸던 것을 확실히. 시험 전날은 가볍게 단어만 훑으세요.", go: ["wrong"] }
+    ];
+
+    const renderRoad = () => {
+        keyHandler = null;
+        const done = ROADMAP.filter((r) => state.roadmap[r.id]).length;
+        $("#road-progress").textContent = `${done} / ${ROADMAP.length} 완료`;
+
+        const exam = nextExamDate();
+        const daysLeft = exam ? Math.round((exam - new Date().setHours(0, 0, 0, 0)) / 86400000) : 0;
+        const n5 = JLPT_VOCAB.N5;
+        const unseen = n5.filter((w) => !state.srs[vocabKey("N5", w)]).length;
+        // 가나 2주 + 마지막 1주를 빼고 남은 날에 새 단어를 나눔
+        const studyDays = Math.max(1, daysLeft - (state.roadmap.kata ? 0 : 14) - 7);
+        const perDay = Math.ceil(unseen / studyDays);
+        $("#road-pace").innerHTML = exam
+            ? `시험까지 <strong>${daysLeft}일</strong>. 남은 N5 단어 ${unseen}개를 시험 1주 전까지 한 바퀴 돌리려면 <strong>하루 새 단어 약 ${perDay}개</strong>가 필요해요.
+               ${perDay > state.newPerDay ? `<br>지금 설정(${state.newPerDay}개)보다 많습니다. 위의 “하루 새 단어” 설정을 올려 보세요.` : ""}
+               <br><span class="note-inline">이 앱의 단어는 N5 핵심 ${n5.length}개입니다. 실제 시험 범위(약 700~800개)는 교재로 보충하세요.</span>`
+            : "";
+
+        $("#road-area").innerHTML = ROADMAP.map((r) => `
+            <li class="${state.roadmap[r.id] ? "done" : ""}">
+                <input type="checkbox" data-road="${r.id}" ${state.roadmap[r.id] ? "checked" : ""} aria-label="${esc(r.title)} 완료">
+                <div><div class="road-week">${r.week}</div><div class="road-title">${esc(r.title)}</div><div class="road-desc">${esc(r.desc)}</div></div>
+                ${r.go ? `<button class="ghost" data-go="${r.id}">시작</button>` : `<a class="ghost" href="https://www.jlpt.jp/samples/forlearners.html" target="_blank" rel="noopener noreferrer">샘플</a>`}
+            </li>`).join("");
+
+        $("#road-area").querySelectorAll("[data-road]").forEach((c) => (c.onchange = () => {
+            if (c.checked) state.roadmap[c.dataset.road] = true;
+            else delete state.roadmap[c.dataset.road];
+            save();
+            renderRoad();
+        }));
+        $("#road-area").querySelectorAll("[data-go]").forEach((b) => (b.onclick = () => {
+            const [tab, kanaMode, range] = ROADMAP.find((r) => r.id === b.dataset.go).go;
+            if (state.level !== "N5") setLevel("N5");
+            if (tab === "kana") {
+                $("#kana-mode").value = kanaMode;
+                $("#kana-range").value = range;
+                $("#kana-chart-wrap").open = true;
+            }
+            openTab(tab);
+            document.querySelector(".tabs").scrollIntoView({ behavior: "smooth" });
+        }));
+    };
 
     // ---------- 탭 / 레벨 ----------
-    const renderers = { flash: renderFlash, vocab: renderVocab, grammar: renderGrammar, kana: renderKana, wrong: renderWrong, list: renderList };
+    const renderers = { road: renderRoad, flash: renderFlash, vocab: renderVocab, grammar: renderGrammar, kana: renderKana, wrong: renderWrong, list: renderList };
     let currentTab = "flash";
 
     const openTab = (tab) => {
@@ -466,17 +579,36 @@
     };
 
     document.querySelectorAll(".tab").forEach((b) => (b.onclick = () => openTab(b.dataset.tab)));
-    document.querySelectorAll(".level").forEach((b) => (b.onclick = () => {
-        state.level = b.dataset.level;
+    const setLevel = (level) => {
+        state.level = level;
         save();
         flash = null;
         renderDashboard();
+    };
+    document.querySelectorAll(".level").forEach((b) => (b.onclick = () => {
+        setLevel(b.dataset.level);
         openTab(currentTab);
     }));
     $("#vocab-mode").onchange = renderVocab;
     $("#kana-mode").onchange = renderKana;
+    $("#kana-range").onchange = renderKana;
+
+    $("#opt-furigana").checked = state.furigana;
+    $("#opt-furigana").onchange = (e) => {
+        state.furigana = e.target.checked;
+        save();
+        openTab(currentTab);
+    };
+    $("#opt-new").value = String(state.newPerDay);
+    $("#opt-new").onchange = (e) => {
+        state.newPerDay = Number(e.target.value);
+        save();
+        flash = null;
+        openTab(currentTab);
+    };
 
     if (!LEVELS.includes(state.level)) state.level = "N5";
     renderDashboard();
-    openTab("flash");
+    // 학습 기록이 없으면 로드맵부터
+    openTab(Object.keys(state.days).length ? "flash" : "road");
 })();
