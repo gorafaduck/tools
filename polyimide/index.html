@@ -22,6 +22,7 @@
             <button class="tab" role="tab" data-tab="analysis">이미드화·필름</button>
             <button class="tab" role="tab" data-tab="cure">경화 프로파일</button>
             <button class="tab" role="tab" data-tab="notebook">실험 노트</button>
+            <button class="tab" role="tab" data-tab="decide">의사결정</button>
             <button class="tab" role="tab" data-tab="db">모노머 DB</button>
         </nav>
 
@@ -277,7 +278,190 @@
             </div>
         </section>
 
-        <!-- 6. 모노머 DB -->
+        <!-- 6. 의사결정 -->
+        <section class="panel" data-panel="decide" hidden>
+            <nav class="subtabs" aria-label="의사결정 도구">
+                <button class="subtab" data-sub="rank">후보 평가</button>
+                <button class="subtab" data-sub="doe">실험 계획 (DOE)</button>
+                <button class="subtab" data-sub="log">결정 기록</button>
+            </nav>
+
+            <!-- 6-1. 후보 평가 -->
+            <div class="subpanel" data-subpanel="rank">
+                <div class="card">
+                    <div class="side-head">
+                        <h2>평가 기준</h2>
+                        <select id="dc-preset">
+                            <option value="">용도별 프리셋…</option>
+                            <option value="cpi">CPI 커버윈도우 (투명·무색)</option>
+                            <option value="fccl">FCCL / FPCB 기판 (CTE 정합)</option>
+                            <option value="lowdk">고주파 저유전 (5G·6G)</option>
+                            <option value="pkg">반도체 패키징 절연막 (저온 경화)</option>
+                        </select>
+                    </div>
+                    <p class="note tight">합격선 = 이 값을 못 넘으면 탈락(만족도 0), 목표 = 이 값 이상이면 만족도 1. 목표형은 목표값 ± 허용폭. 프리셋 수치는 예시이니 사내 스펙에 맞게 고치세요.</p>
+                    <div class="table-wrap">
+                        <table class="data editable">
+                            <thead><tr><th>기준</th><th>노트 항목 연결</th><th>방향</th><th>합격선 / 목표값</th><th>목표 / 허용폭</th><th>가중치</th><th></th></tr></thead>
+                            <tbody id="dc-criteria"></tbody>
+                        </table>
+                    </div>
+                    <div class="actions">
+                        <button class="ghost" id="dc-add-crit">+ 기준 추가</button>
+                    </div>
+                </div>
+
+                <div class="card mt">
+                    <div class="side-head">
+                        <h2>후보 <small id="dc-count"></small></h2>
+                        <div class="inline">
+                            <button class="ghost" id="dc-import">실험 노트에서 가져오기</button>
+                            <button class="ghost" id="dc-add-cand">+ 직접 추가</button>
+                            <button class="ghost" id="dc-demo">예시 데이터</button>
+                            <button class="ghost" id="dc-clear">전체 비우기</button>
+                        </div>
+                    </div>
+                    <div class="table-wrap">
+                        <table class="data editable">
+                            <thead id="dc-cand-head"></thead>
+                            <tbody id="dc-cand-body"></tbody>
+                        </table>
+                    </div>
+                    <span class="status" id="dc-status"></span>
+                </div>
+
+                <div class="card mt">
+                    <div class="side-head">
+                        <h2>평가 결과</h2>
+                        <div class="inline">
+                            <label class="inline-label">순위 기준
+                                <select id="dc-method">
+                                    <option value="D">만족도 지수 D (스펙 기반)</option>
+                                    <option value="WSM">가중합 (상대 비교)</option>
+                                    <option value="TOPSIS">TOPSIS (이상점 거리)</option>
+                                </select></label>
+                            <label class="inline-label">가중치 변동 ±
+                                <input type="number" id="dc-spread" min="0" max="100" step="5" value="30">%</label>
+                        </div>
+                    </div>
+                    <div id="dc-summary"></div>
+                    <div class="kpis" id="dc-kpis"></div>
+                    <div class="table-wrap">
+                        <table class="data">
+                            <thead id="dc-res-head"></thead>
+                            <tbody id="dc-res-body"></tbody>
+                        </table>
+                    </div>
+                    <p class="note">셀 색 = 기준별 만족도 (빨강 0 → 초록 1). <strong>1위 확률</strong>은 가중치를 무작위로 흔들어 1,000번 다시 순위를 매겼을 때 1위를 유지한 비율로, 결정이 가중치 설정에 얼마나 민감한지 보여줍니다.</p>
+                    <div class="actions">
+                        <button class="primary" id="dc-to-log">이 결과로 결정 기록</button>
+                        <button class="ghost" id="dc-copy">결과 복사</button>
+                        <span class="status" id="dc-res-status"></span>
+                    </div>
+                </div>
+
+                <div class="card mt">
+                    <h2>트레이드오프 (파레토 프런트)</h2>
+                    <p class="note tight">두 기준에서 다른 후보에게 동시에 지지 않는 후보(진한 점)만 합리적 선택지입니다. 연한 점은 어떤 후보에게 두 기준 모두 뒤집니다.</p>
+                    <div class="row">
+                        <label class="field"><span>X축 기준</span><select id="dc-px"></select></label>
+                        <label class="field"><span>Y축 기준</span><select id="dc-py"></select></label>
+                    </div>
+                    <div id="dc-pareto" class="chart"></div>
+                </div>
+            </div>
+
+            <!-- 6-2. DOE -->
+            <div class="subpanel" data-subpanel="doe" hidden>
+                <div class="card">
+                    <h2>실험 계획 설계</h2>
+                    <p class="note tight">인자와 수준을 정하면 직교배열(다구치) 또는 완전요인 실험표를 만들고, 결과를 입력하면 주효과와 최적 조건을 계산합니다.</p>
+                    <div class="table-wrap">
+                        <table class="data editable">
+                            <thead><tr><th>인자</th><th>수준 (쉼표 구분)</th><th>수준 수</th><th></th></tr></thead>
+                            <tbody id="doe-factors"></tbody>
+                        </table>
+                    </div>
+                    <div class="actions">
+                        <button class="ghost" id="doe-add-factor">+ 인자 추가</button>
+                    </div>
+                    <div class="row mt">
+                        <label class="field"><span>설계</span><select id="doe-design"></select></label>
+                        <label class="field"><span>반응값 (측정 항목)</span><input type="text" id="doe-resp" value="CTE (ppm/K)"></label>
+                        <label class="field"><span>목표 방향</span>
+                            <select id="doe-dir"><option value="max">클수록 좋음</option><option value="min">작을수록 좋음</option><option value="target">목표값</option></select></label>
+                        <label class="field" id="doe-target-wrap"><span>목표값</span><input type="number" step="any" id="doe-target"></label>
+                    </div>
+                    <div class="actions">
+                        <button class="primary" id="doe-generate">실험표 생성</button>
+                        <label class="inline-label"><input type="checkbox" id="doe-random"> 실행 순서 랜덤화</label>
+                        <span class="status" id="doe-status"></span>
+                    </div>
+                </div>
+                <div class="card mt">
+                    <div class="side-head">
+                        <h2>실험표 <small id="doe-count"></small></h2>
+                        <button class="ghost" id="doe-csv">CSV 내보내기</button>
+                    </div>
+                    <div class="table-wrap">
+                        <table class="data editable">
+                            <thead id="doe-run-head"></thead>
+                            <tbody id="doe-run-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card mt">
+                    <h2>주효과 분석</h2>
+                    <div id="doe-summary"></div>
+                    <div class="kpis" id="doe-kpis"></div>
+                    <div id="doe-chart" class="chart"></div>
+                    <div class="table-wrap mt">
+                        <table class="data">
+                            <thead><tr><th>영향 순위</th><th>인자</th><th>수준별 평균</th><th>효과 크기 (범위)</th><th>추천 수준</th></tr></thead>
+                            <tbody id="doe-effects"></tbody>
+                        </table>
+                    </div>
+                    <p class="note">가법(교호작용 없음) 모형 기준입니다. 예측 최적 조건이 실험표에 없던 조합이면 반드시 확인 실험을 하세요.</p>
+                </div>
+            </div>
+
+            <!-- 6-3. 결정 기록 -->
+            <div class="subpanel" data-subpanel="log" hidden>
+                <div class="card">
+                    <h2>결정 기록</h2>
+                    <p class="note tight">왜 그렇게 결정했는지 남겨두면, 몇 달 뒤 결과가 나왔을 때 판단을 되짚을 수 있습니다.</p>
+                    <form id="dl-form">
+                        <div class="row">
+                            <label class="field"><span>결정 주제</span><input type="text" id="dl-title" required placeholder="2차 스케일업 조성 선정"></label>
+                            <label class="field"><span>날짜</span><input type="date" id="dl-date"></label>
+                            <label class="field"><span>상태</span>
+                                <select id="dl-status"><option>검토중</option><option>확정</option><option>보류</option><option>번복</option></select></label>
+                            <label class="field"><span>재검토일</span><input type="date" id="dl-review"></label>
+                        </div>
+                        <label class="field mt-s"><span>고려한 선택지</span><textarea id="dl-options" rows="3"></textarea></label>
+                        <label class="field mt-s"><span>결정</span><input type="text" id="dl-choice" placeholder="6FDA/TFMB-BPDA 7:3 으로 진행"></label>
+                        <label class="field mt-s"><span>근거</span><textarea id="dl-rationale" rows="3"></textarea></label>
+                        <label class="field mt-s"><span>리스크 · 가정 · 번복 조건</span><textarea id="dl-risks" rows="2" placeholder="예: 대량 합성에서 점도 재현 안 되면 재검토"></textarea></label>
+                        <div class="actions">
+                            <button class="primary" type="submit" id="dl-submit">저장</button>
+                            <button class="ghost" type="button" id="dl-cancel" hidden>수정 취소</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card mt">
+                    <div class="side-head">
+                        <h2>기록 <small id="dl-count"></small></h2>
+                        <div class="inline">
+                            <select id="dl-filter"><option value="">전체</option><option>검토중</option><option>확정</option><option>보류</option><option>번복</option><option value="due">재검토 도래</option></select>
+                            <button class="ghost" id="dl-csv">CSV 내보내기</button>
+                        </div>
+                    </div>
+                    <div id="dl-list" class="dl-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. 모노머 DB -->
         <section class="panel" data-panel="db" hidden>
             <div class="card">
                 <div class="side-head">
@@ -325,5 +509,6 @@
     </div>
 
     <script type="module" src="app.js"></script>
+    <script type="module" src="decide.js"></script>
 </body>
 </html>

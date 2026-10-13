@@ -1,57 +1,6 @@
 // PI 연구 워크벤치 — 모든 계산은 브라우저에서 수행되고, 데이터는 localStorage에만 저장된다.
 
-const $ = (sel, root = document) => root.querySelector(sel);
-const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
-
-const store = {
-    get(key, fallback) {
-        try {
-            const raw = localStorage.getItem(key);
-            return raw ? JSON.parse(raw) : fallback;
-        } catch {
-            return fallback;
-        }
-    },
-    set(key, value) {
-        try {
-            localStorage.setItem(key, JSON.stringify(value));
-        } catch {
-            /* 저장 불가 환경에서도 계산은 동작한다 */
-        }
-    },
-};
-
-const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const num = (v) => {
-    const n = parseFloat(v);
-    return Number.isFinite(n) ? n : NaN;
-};
-const fmt = (v, d = 2) => (Number.isFinite(v) ? v.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d }) : '–');
-const kpi = (k, v, s = '') => `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div>${s ? `<div class="s">${s}</div>` : ''}</div>`;
-
-function flash(el, msg) {
-    el.textContent = msg;
-    clearTimeout(el._t);
-    el._t = setTimeout(() => (el.textContent = ''), 2500);
-}
-
-async function copyText(text, statusEl) {
-    try {
-        await navigator.clipboard.writeText(text);
-        flash(statusEl, '클립보드에 복사했습니다.');
-    } catch {
-        flash(statusEl, '복사 실패 — 브라우저 권한을 확인하세요.');
-    }
-}
-
-function download(name, content, type) {
-    const blob = new Blob([content], { type });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = name;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-}
+import { $, $$, store, esc, num, fmt, kpi, flash, copyText, download, niceTicks, today } from './common.js';
 
 /* ---------------- 화학 계산 ---------------- */
 
@@ -531,16 +480,6 @@ function renderFormula() {
 
 /* ---------------- 차트 (SVG) ---------------- */
 
-function niceTicks(min, max, count = 5) {
-    const span = max - min || 1;
-    const step0 = span / count;
-    const mag = 10 ** Math.floor(Math.log10(step0));
-    const step = [1, 2, 2.5, 5, 10].map((s) => s * mag).find((s) => span / s <= count) || mag * 10;
-    const ticks = [];
-    for (let v = Math.ceil(min / step) * step; v <= max + step * 1e-6; v += step) ticks.push(+v.toFixed(10));
-    return ticks;
-}
-
 let chartSeq = 0;
 
 function lineChart(series, opt = {}) {
@@ -771,7 +710,6 @@ const NOTE_FIELDS = [
 let notes = store.get('pi.notes', []);
 let editingKey = null;
 
-const today = () => new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 
 function fillNoteFromRecipe() {
     const res = lastResult;
@@ -883,7 +821,10 @@ $('#note-csv').addEventListener('click', () => {
 });
 
 $('#note-json').addEventListener('click', () => {
-    const backup = { version: 1, exported: new Date().toISOString(), notes, customMonomers, recipe, cure };
+    const backup = {
+        version: 2, exported: new Date().toISOString(), notes, customMonomers, recipe, cure,
+        decide: store.get('pi.decide', null), doe: store.get('pi.doe', null), decisions: store.get('pi.decisions', []),
+    };
     download(`pi-workbench-backup-${today()}.json`, JSON.stringify(backup, null, 2), 'application/json');
 });
 
@@ -904,8 +845,17 @@ $('#note-import').addEventListener('change', async (e) => {
             renderDb();
             renderCompRows();
         }
+        // 의사결정 데이터: 결정 기록은 병합, 평가·DOE는 로컬에 없을 때만 복원
+        if (Array.isArray(data.decisions)) {
+            const local = store.get('pi.decisions', []);
+            const dKeys = new Set(local.map((d) => d._key));
+            store.set('pi.decisions', [...data.decisions.filter((d) => d && !dKeys.has(d._key)), ...local]);
+        }
+        if (data.decide && !store.get('pi.decide', null)) store.set('pi.decide', data.decide);
+        if (data.doe && !store.get('pi.doe', null)) store.set('pi.doe', data.doe);
         store.set('pi.notes', notes);
         renderNotes();
+        document.dispatchEvent(new CustomEvent('pi:restored'));
         flash($('#note-status'), `${incoming.length}건을 복원했습니다.`);
     } catch {
         flash($('#note-status'), '복원 실패: 올바른 백업 파일이 아닙니다.');
