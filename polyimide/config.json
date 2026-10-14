@@ -13,7 +13,10 @@
       "WSS 임시본딩",
       "고내열 폴리이미드",
       "블랙 폴리이미드",
-      "차광 폴리이미드"
+      "차광 폴리이미드",
+      "폴리이미드 코팅",
+      "폴리이미드 바니시",
+      "폴리이미드 박막"
     ],
     "en": [
       "polyimide semiconductor",
@@ -24,7 +27,8 @@
       "polyimide advanced packaging",
       "temporary bonding debonding wafer",
       "high heat resistant polyimide",
-      "black polyimide"
+      "black polyimide",
+      "polyimide coating semiconductor"
     ]
   },
   "literature_queries": [
@@ -45,7 +49,13 @@
     "low transmittance polyimide",
     "light shielding polyimide",
     "UV absorbing polyimide laser debonding",
-    "opaque polyimide film"
+    "opaque polyimide film",
+    "polyimide spin coating",
+    "spin-coated polyimide film thickness",
+    "polyimide thick film",
+    "polyimide thin film processing",
+    "polyimide varnish viscosity coating",
+    "poly(amic acid) solution coating film"
   ],
   "arxiv_query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
   "core_terms": [
@@ -134,7 +144,21 @@
       "차광",
       "저투과",
       "블랙 pi",
-      "흑색"
+      "흑색",
+      "spin coat",
+      "spin-coat",
+      "spincoat",
+      "thick film",
+      "thick-film",
+      "slit coat",
+      "slot-die",
+      "film thickness",
+      "planarization",
+      "스핀코팅",
+      "스핀 코팅",
+      "후막",
+      "박막",
+      "막두께"
     ],
     "weak": [
       "semiconductor",
@@ -165,7 +189,18 @@
       "transmittance",
       "absorbance",
       "uv absorption",
-      "투과"
+      "투과",
+      "thin film",
+      "thin-film",
+      "coating",
+      "varnish",
+      "viscosity",
+      "soft bake",
+      "prebake",
+      "solution casting",
+      "코팅",
+      "바니시",
+      "도포"
     ]
   },
   "exclude_terms": [
@@ -242,6 +277,42 @@
       "cure kinetics",
       "저온 경화",
       "저온경화"
+    ],
+    "코팅·박막/후막": [
+      "spin coat",
+      "spin-coat",
+      "spincoat",
+      "spin speed",
+      "slit coat",
+      "slot-die",
+      "spray coat",
+      "bar coat",
+      "solution casting",
+      "thin film",
+      "thin-film",
+      "thick film",
+      "thick-film",
+      "film thickness",
+      "thickness uniformity",
+      "planarization",
+      "edge bead",
+      "soft bake",
+      "prebake",
+      "pre-bake",
+      "varnish",
+      "viscosity",
+      "solid content",
+      "coating",
+      "스핀코팅",
+      "스핀 코팅",
+      "박막",
+      "후막",
+      "막두께",
+      "도포",
+      "코팅",
+      "바니시",
+      "점도",
+      "평탄화"
     ],
     "RDL·Fan-out": [
       "redistribution",
