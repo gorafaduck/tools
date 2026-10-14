@@ -1,16 +1,17 @@
 {
- "generated_at": "2026-10-14T00:19:56+00:00",
- "lookback_days": 30,
+ "generated_at": "2026-10-14T06:17:06+00:00",
+ "lookback_days": 90,
  "counts": {
   "news": 6,
-  "paper": 26,
-  "preprint": 1
+  "paper": 28,
+  "preprint": 2
  },
  "tags": [
   "PSPI·리소그래피",
   "저유전(Dk/Df)",
   "저CTE·휨",
   "저온경화",
+  "코팅·박막/후막",
   "RDL·Fan-out",
   "하이브리드 본딩",
   "HBM·칩렛",
@@ -42,7 +43,7 @@
    "doi": "10.1002/adfm.78956",
    "cited_by": 0,
    "lang": "en",
-   "query": "opaque polyimide film",
+   "query": "polyimide varnish viscosity coating",
    "tags": [
     "저CTE·휨",
     "시장·기업"
@@ -70,12 +71,38 @@
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
-   "query": "opaque polyimide film",
+   "query": "polyimide varnish viscosity coating",
    "tags": [
     "고내열성"
    ],
    "score": 6,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Preparation and Performance Study of Seamless Polyimide Tube",
+   "url": "https://doi.org/10.1002/pen.70930",
+   "source": "Polymer Engineering & Science",
+   "date": "2026-10-10",
+   "authors": [
+    "Xiang Guo",
+    "Fei Liu",
+    "Huifen Lu",
+    "Daichao Wang",
+    "Hongqing Zhou"
+   ],
+   "abstract": "ABSTRACT Solutions of the corresponding polyamide acid were synthesized using different types of dianhydrides and diamines, respectively. Seamless polyimide tubes of various types were then fabricated through multistage coating, thermal imidization, annealing, and core‐pulling processes. The optical, mechanical, thermal, and electrical properties of the polyimide tubes were investigated. The results show that the PI‐T polyimide tube exhibits the best optical properties, with a light transmittance as high as 79.1% at 550 nm and 82.1% at 650 nm. At the same time, the PI‐T polyimide tube demonstrates excellent electrical properties with a breakdown voltage of 4.8 kV (thickness: 35 μm).",
+   "doi": "10.1002/pen.70930",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저온경화",
+    "코팅·박막/후막"
+   ],
+   "score": 7,
+   "first_seen": "2026-10-14"
   },
   {
    "type": "news",
@@ -94,6 +121,28 @@
    ],
    "score": 4,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Giant surface potential exceeding -2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer",
+   "url": "https://doi.org/10.35848/1347-4065/aeb26f",
+   "source": "Japanese Journal of Applied Physics",
+   "date": "2026-10-09",
+   "authors": [
+    "Itoh Eiji",
+    "Weining Ying"
+   ],
+   "abstract": "Abstract We have demonstrated very high giant surface potential on the order of thousand volts just by triboelectrification between water droplets and the micro-meter thick multilayered dielectric films. The surface potential is efficiently enhanced by the multilayered structure consisting of micrometer thick polyimide, thin adhesion layer, nanometer thick electron-trapping layer (WO3), and the sub-micrometer thick fluoropolymer (CYTOP) on the surface. The surface potential increases proportionally to the polyimide thickness. The surface charge density was estimated as -1.0 mC/m² for 40 nm-thick CYTOP and it increased to -7.3 mC/m² for 800 nm-thick CYTOP layer, respectively. These values are 10 to 70 times higher than the charge densities previously reported for contact electrification, as well as those for polyimide or CYTOP films alone. It is expected that enhancement of the power output of energy harvesting devices utilizing electrostatic induction such as water droplet-based electricity generator and vibration-based energy harvesting devices.",
+   "doi": "10.35848/1347-4065/aeb26f",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 3,
+   "first_seen": "2026-10-14"
   },
   {
    "type": "paper",
@@ -199,13 +248,14 @@
    "doi": "10.1186/s40486-026-00266-4",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low temperature cure",
+   "query": "polyimide thick film",
    "tags": [
     "PSPI·리소그래피",
+    "코팅·박막/후막",
     "접착·신뢰성",
     "고내열성"
    ],
-   "score": 10,
+   "score": 12,
    "first_seen": "2026-10-13"
   },
   {
@@ -355,7 +405,7 @@
    "abstract": "",
    "doi": "",
    "lang": "ko",
-   "query": "폴리이미드 소재",
+   "query": "폴리이미드 박막",
    "tags": [
     "시장·기업"
    ],
@@ -611,9 +661,10 @@
    "query": "photosensitive polyimide",
    "tags": [
     "PSPI·리소그래피",
-    "저온경화"
+    "저온경화",
+    "코팅·박막/후막"
    ],
-   "score": 10,
+   "score": 12,
    "first_seen": "2026-10-13"
   },
   {
@@ -685,9 +736,10 @@
    "lang": "en",
    "query": "polyimide temporary bonding debonding",
    "tags": [
-    "저유전(Dk/Df)"
+    "저유전(Dk/Df)",
+    "코팅·박막/후막"
    ],
-   "score": 11,
+   "score": 13,
    "first_seen": "2026-10-13"
   },
   {
@@ -717,6 +769,32 @@
    ],
    "score": 9,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "preprint",
+   "origin": "arXiv",
+   "title": "Strain control of mid-IR spectroscopic nonlinear photocurrents in PtSe$_2$",
+   "url": "https://arxiv.org/abs/2608.16629v1",
+   "source": "arXiv",
+   "date": "2026-08-17",
+   "authors": [
+    "M. Gerlei",
+    "G. J. de Coster",
+    "J. Papp",
+    "S. Heiserer",
+    "S. Schlosser",
+    "G. S. Duesberg",
+    "P. Seifert"
+   ],
+   "abstract": "Semi-metallic noble-metal dichalcogenides are promising materials for infrared optoelectronics, yet the origin and tunability of their nonlinear optical responses remain poorly understood. Here, we demonstrate in-situ mechanical control of photon-drag photocurrents in polycrystalline PtSe$_2$ thin films grown on flexible polyimide substrates. Using polarization-resolved mid-infrared photocurrent spectroscopy under uniaxial tensile strain, we observe pronounced strain-dependent changes in resistivity, photoconductivity, and helicity-dependent nonlinear photocurrents. The spectral response is consistent with optical excitations across the spin-orbit-coupling-induced (SOC) band gap near the K point. We develop a theoretical framework attributing the photocurrent primarily to photon-drag induced by photon-momentum symmetry breaking. Strain modifies its magnitude and polarization dependence through deformation potentials that tune the SOC-induced band gap. These results establish mechanical strain as a route toward reconfigurable infrared polarization detection.",
+   "doi": "",
+   "lang": "en",
+   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 3,
+   "first_seen": "2026-10-14"
   },
   {
    "type": "paper",
@@ -775,7 +853,32 @@
     "접착·신뢰성",
     "고내열성"
    ],
-   "score": 30,
+   "score": 34,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "preprint",
+   "origin": "arXiv",
+   "title": "Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix",
+   "url": "https://arxiv.org/abs/2607.25477v1",
+   "source": "arXiv",
+   "date": "2026-07-28",
+   "authors": [
+    "Daniel Joch",
+    "Robert Kammel",
+    "Fabian Magerl",
+    "Mathias Rommel",
+    "Michael P. M. Jank"
+   ],
+   "abstract": "This study presents a CMOS-compatible, fully integrated three-dimensional island-bridge concept for flexible electronics on silicon planar technology. By embedding metal bridges within trenches in a polyimide-passivated island matrix, the approach localizes mechanical stress to the bridges whereby active components on the islands are protected from mechanical stress, enabling high-performance thin-film transistors (TFTs) on flexible substrates. A concave, arc-shape forming fill in trenches between the islands and backside etching yield freestanding 3D bridges. Numerical simulations to determine the minimum bending radius reveal a characteristic stress distribution in the bridges during bending, with peak stresses at the bridge-island transitions. Variation of trench depth modulates von Mises stress, identifying design parameters for reliability. Experimental validation demonstrates TFT operation under bending, with stable threshold voltage, subthreshold swing, and saturation mobility across a range of bending radii; broader bridges exhibit enhanced mechanical robustness. A 9x9 island-bridge matrix with addressable integration of TFTs across islands demonstrates the scalability of…",
+   "doi": "",
+   "lang": "en",
+   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "tags": [
+    "코팅·박막/후막",
+    "접착·신뢰성"
+   ],
+   "score": 6,
    "first_seen": "2026-10-13"
   },
   {
@@ -800,30 +903,6 @@
     "접착·신뢰성"
    ],
    "score": 5,
-   "first_seen": "2026-10-13"
-  },
-  {
-   "type": "preprint",
-   "origin": "arXiv",
-   "title": "Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix",
-   "url": "https://arxiv.org/abs/2607.25477v1",
-   "source": "arXiv",
-   "date": "2026-07-28",
-   "authors": [
-    "Daniel Joch",
-    "Robert Kammel",
-    "Fabian Magerl",
-    "Mathias Rommel",
-    "Michael P. M. Jank"
-   ],
-   "abstract": "This study presents a CMOS-compatible, fully integrated three-dimensional island-bridge concept for flexible electronics on silicon planar technology. By embedding metal bridges within trenches in a polyimide-passivated island matrix, the approach localizes mechanical stress to the bridges whereby active components on the islands are protected from mechanical stress, enabling high-performance thin-film transistors (TFTs) on flexible substrates. A concave, arc-shape forming fill in trenches between the islands and backside etching yield freestanding 3D bridges. Numerical simulations to determine the minimum bending radius reveal a characteristic stress distribution in the bridges during bending, with peak stresses at the bridge-island transitions. Variation of trench depth modulates von Mises stress, identifying design parameters for reliability. Experimental validation demonstrates TFT operation under bending, with stable threshold voltage, subthreshold swing, and saturation mobility across a range of bending radii; broader bridges exhibit enhanced mechanical robustness. A 9x9 island-bridge matrix with addressable integration of TFTs across islands demonstrates the scalability of…",
-   "doi": "",
-   "lang": "en",
-   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
-   "tags": [
-    "접착·신뢰성"
-   ],
-   "score": 4,
    "first_seen": "2026-10-13"
   },
   {
