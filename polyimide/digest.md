@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
 - 생성일: 2026-10-14
-- 최근 7일 신규 수집: 36건 / 전체 보관: 36건
+- 최근 7일 신규 수집: 38건 / 전체 보관: 38건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 고내열성 12, 시장·기업 10, 접착·신뢰성 10, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
+**주제 분포:** 고내열성 13, 접착·신뢰성 11, 시장·기업 10, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
 
 ## 📰 뉴스 (6)
 
@@ -15,7 +15,7 @@
 - [폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)](https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5) — 2026-09-21 · Fortune Business Insights `시장·기업`
 - [울산 HDOT 터미널에 위치한 아케마의 3000㎥ 규모 고순도 아크릴산(GAA) 신규 저장 시설. 〈사진 PI첨단소재 제공〉](https://news.google.com/rss/articles/CBMiughBVV95cUxPRXhtZmlfUU5ySGtLcU44dW9iQ2lYdmFIRnFvNE5laUVDRjQ1a2pTeGVUdTRoS1FLRVRtMHZEWE1PcE1mb3paVlNTeTJwWG8zajItcmprZVVVb3FpVmJydWNxRzN0MHBIOE5Xa3BXVW84MGQtRFdRNmJBNFEyUGdCZXRkTk0zN1prY1ZRQnZRcy1rLTBXT2l6dTR6YUdTQ3VOVzBlU2tlTTIxRC1NTzY2ZEQxQW05QkhEVXA2aDFXMUltUlpZX1VCWWdsRHFWV1c5dXhMbXk1MXU1RDI0QkZRNGNpd1RweUQwMUhrcF9mZmtHcFZYLVFVX3pvQ2pFUlp1czhUcW5iUlE0RjlYRlRtMGhGaTk1NEZwbnAyX2ZJMWpVd1NvbGZZOEdmcHNlZzRxRUQ2UGpiWE1IMDJKU2JkNjBIaW4xMm5aOWpWVkxDM0ctaXNGQ1h4N0Z2cVNwZjZwLWNZMHBnWExqWEZwLXBNbmEtUXkxUWtjakhvUGhfXzZDMHlzbDJtXzBib1dXRlYxOEtnYWxxREhudk9tSjRSc2JmUk5NWEJRdkZrZkVMSmh6Z0xPeXRSLVJFZW1SUmFTazh4U25MUzhiNHY3akZTVXlqbVphbnB5S2U2el9ySDVBMXZCdGFhcVNDeENEcnItTm9ibzNYVDdSX20wdjhkWWttbWhBQUs3bE1sV28xSUhtaTNVa1B2Ql9XMXBfUXVvVXBLWmV1MmNXaGZXUkoxZkdrLUxwMGJkZ3N6NXJEdS1nbzBnR2wzR05YeXlMM2FzUFVaX2FkWjhxQXRMcktMLVBTcllqRFFZSmxtZ09NZlR6V29jVkpCWHNQVjNaVzNwWGZoeVd5RE5Pc0VNREtyT3F5NDhpTUxJYUJ3bUpMcXd5V29Zbm1RZ0R0bmE0bnFfSmZSQVY4TUp6YmFYMjQ5WmdrY1llZVVrcGJ6UWFTYTZENkNYYkU5NFJITEdSRWxWTm9hNWs0X0JEVDhpbkxSRXc4cnVJY1FLeFVLYkxvak1EUjdYb2Z3Y2hfWGk4a3lGNm45MTlGbEZPdDQ4RV9ibUJfcE5OOWxpQ1hXRjBwR1FBcDhZdVdxVWJGRDVKVVJMUXVNcFFndEVFWUI1c0xHRXp4OUNJN25VZi1BN1lFLXdtWUlyR3RlNmw5OFBOV0FzYTJXdGNZbzM3SmpkQkdvQ21BUGVucVZRS01Yajk4SUxjSjNIaUlqVGNoUUc0b1dlbUp6NHdYdkhDM3R1bzlvQTNzYW10Q0lBanp0c1FoTGNtX1JrXzZpQmpqTjZuUFdmZDduZDFjMGNFZ2FfSUlURF9GLUszb3JCems1YVEycmpvMkk0LVdFdWlVdUt3VDZXbVhtRlZ6SlJOUUJhbmpCT2hJR2gxSlM0OGtRWHBnMm1RMl9wd1FPeVN1ZHZGc2l1MzZBdHlZZlRidw?oc=5) — 2026-09-21 · 전자신문 `시장·기업`
 
-## 📄 논문 (28)
+## 📄 논문 (30)
 
 - [Advanced Dielectric Polymer Development at Kayaku Advanced Materials](https://doi.org/10.4071/001c.167019) — 2026-08-12 · IMAPSource Proceedings `저유전(Dk/Df)` `접착·신뢰성` `고내열성`
 - [Research on the Patterning Polyimide Layer Based on Laser Ablation Technology](https://doi.org/10.1021/acsomega.6c07277) — 2026-09-19 · ACS Omega `PSPI·리소그래피` `저유전(Dk/Df)` `RDL·Fan-out` `접착·신뢰성` `고내열성`
@@ -32,11 +32,13 @@
 - [Structurally tunable colorless ionic-type negative-tone photosensitive polyimides with high transparency for i-line photopatterning](https://doi.org/10.1016/j.eurpolymj.2026.115100) — 2026-09-18 · European Polymer Journal `PSPI·리소그래피`
 - [Colorless Copolyimide Films With High‐ T g and Low CTE From a Twisted Benzimidazole Diamine and HPMDA / CBDA Blends for Flexible Display Substrates](https://doi.org/10.1002/pola.70322) — 2026-09-02 · Journal of Polymer Science `저CTE·휨` `시장·기업` `고내열성`
 - [Nereis Jaw‐Inspired Pretreatment‐Free Direct Metallization on Pristine Polyimide Films for Flexible Electronics](https://doi.org/10.1002/adfm.77868) — 2026-08-30 · Advanced Functional Materials `접착·신뢰성`
+- [The Effects of High Thermal Stability Sizing Agent Made from Water Soluble Polyamic Acid for PEI-Based Carbon Fiber Reinforced Thermoplastics](https://doi.org/10.2115/fiberst.2026-0028) — 2026-10-10 · Journal of Fiber Science and Technology `접착·신뢰성` `고내열성`
 - [Soluble Tröger’s Base-based polyimides as promising additive-free negative-tone photosensitive materials](https://doi.org/10.1016/j.polymer.2026.130508) — 2026-10-01 · Polymer `PSPI·리소그래피`
 - [Polyimide and Polyimide-Precursor Photopolymers for Vat Photopolymerisation: Chemical Identity, Organogel Formation, Imidisation, Shrinkage, Void Formation and High-Temperature Qualification](https://doi.org/10.5281/zenodo.22231813) — 2026-09-01 · Zenodo (CERN European Organization for Nuclear Research) `PSPI·리소그래피` `고내열성`
 - [Facile synthesis of high-performance colorless polyimide films bearing amide groups with enhanced optical and thermal stability](https://doi.org/10.1177/09540083261472064) — 2026-07-26 · High Performance Polymers `저CTE·휨` `고내열성`
 - [Preparation and Performance Study of Seamless Polyimide Tube](https://doi.org/10.1002/pen.70930) — 2026-10-10 · Polymer Engineering & Science `저온경화` `코팅·박막/후막`
 - [Tailoring the Orientation of Electron‐Delocalized Conjugated Structures in Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage](https://doi.org/10.1002/adfm.78452) — 2026-09-15 · Advanced Functional Materials `고내열성`
+- [Engineering the Optical and Dielectric Performance of PVP / PS Blend Films via SiC / PbO 2 Nanofiller Hybridization for Flexible Electronic Applications](https://doi.org/10.1002/app.71633) — 2026-10-14 · Journal of Applied Polymer Science
 - [Colorless shape memory polyimide films for flexible optoelectronics](https://doi.org/10.1088/1361-665x/aeb2c5) — 2026-10-11 · Smart Materials and Structures `고내열성`
 - [Thermo-optical properties of polyimide films with bulky side groups: Experimental and theoretical investigations](https://doi.org/10.1177/09540083261490453) — 2026-09-22 · High Performance Polymers
 - [3,5-diaminobenzoic acid: a simple method to improve the solubility and lithography accuracy of photosensitive polyimides](https://doi.org/10.1007/s00339-026-09736-3) — 2026-09-03 · Applied Physics A `PSPI·리소그래피`

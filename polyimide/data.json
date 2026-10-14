@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-14T06:17:06+00:00",
- "lookback_days": 90,
+ "generated_at": "2026-10-14T23:57:00+00:00",
+ "lookback_days": 30,
  "counts": {
   "news": 6,
-  "paper": 28,
+  "paper": 30,
   "preprint": 2
  },
  "tags": [
@@ -22,6 +22,32 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Engineering the Optical and Dielectric Performance of PVP / PS Blend Films via SiC / PbO 2 Nanofiller Hybridization for Flexible Electronic Applications",
+   "url": "https://doi.org/10.1002/app.71633",
+   "source": "Journal of Applied Polymer Science",
+   "date": "2026-10-14",
+   "authors": [
+    "Ahmed Hashim",
+    "Hamed Ibrahim",
+    "Aseel Hadi",
+    "Salah Eddine Laouini",
+    "Abderrhmane Bouafia",
+    "Mohammed Laid Tedjani",
+    "Johar Amin Ahmed Abdullah",
+    "Ahmed B. M. Ibrahim"
+   ],
+   "abstract": "ABSTRACT This study investigates the fabrication and characterization of novel hybrid nanocomposite films based on a polyvinylpyrrolidone (PVP)/polystyrene (PS) blend reinforced with silicon carbide (SiC)/lead dioxide (PbO 2 ) nanostructures. X‐ray diffraction (XRD) analysis confirmed successful integration of nanocrystalline SiC and PbO 2 phases into the amorphous polymer matrix with high phase purity. Optical and dielectric properties were tuned by varying nanofiller concentration. At 3.9 wt% SiC‐PbO 2 loading, the films showed significant optical absorbance enhancement: a 56% increase in the UV region ( λ = 340 nm) and a 68.2% increase in the visible region ( λ = 540 nm). This loading narrowed the optical energy gap from 3.0 eV to 2.1 eV for allowed transitions. The refractive index increased to 2.63 (at 800 nm), and optical conductivity rose by 52%. Dielectric properties improved, with real permittivity ( ε' ) rising from 3.09 to 4.93, imaginary permittivity ( ε'' ) from 0.166 to 0.326, and AC conductivity from 9.27 × 10 −12 S/cm to 1.81 × 10 −11 S/cm at 100 Hz. These enhancements arise from the synergistic effect of SiC and PbO 2 nanoparticles, optimizing charge transport and…",
+   "doi": "10.1002/app.71633",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) dielectric",
+   "tags": [],
+   "score": 6,
+   "first_seen": "2026-10-14"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -60,8 +86,8 @@
    "date": "2026-10-11",
    "authors": [
     "Shuting Jiang",
-    "Kong Deyan",
-    "Kang Yu Kang",
+    "Deyan Kong",
+    "Yu Kang",
     "Xinli Xiao",
     "Xiaofei Wang",
     "Jinsong Leng",
@@ -77,6 +103,32 @@
    ],
    "score": 6,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "The Effects of High Thermal Stability Sizing Agent Made from Water Soluble Polyamic Acid for PEI-Based Carbon Fiber Reinforced Thermoplastics",
+   "url": "https://doi.org/10.2115/fiberst.2026-0028",
+   "source": "Journal of Fiber Science and Technology",
+   "date": "2026-10-10",
+   "authors": [
+    "Satoru Hamajima",
+    "Masaya Kinoshita",
+    "Tomoki Takiguchi",
+    "Akiyoshi Takeno",
+    "Toshihira Irisawa"
+   ],
+   "abstract": "Carbon fiber reinforced thermoplastics (CFRTPs) are expected to be used in various fields due to their high productivity and mechanical properties. In particular, polyetherimide with high thermal stability is attractive as a matrix polymer for CFRTPs in aircraft applications. However, conventional sizing agents designed for epoxy matrices are anticipated to suffer from insufficient thermal stability and limited compatibility with PEI when applied directly. In this study, we focus on awater-soluble polyamic acid(PAA) with low environmental impact as a sizing agent for PEI-based CFRTPs. PAA transforms into polyimide on the carbon fiber surface, acting as a heat-resistant sizing layer. Its performance was compared with that of a conventional epoxy sizing agent and a heat-resistant inorganic sizing agent. Size-PAA exhibited the highest interfacial shear strength (68.3 MPa), excellent thermal stability (2.4% weight loss at 380 °C), and maintained strong fiber bundling. CFRTPs with Size-PAA showed superior bending strength (938 MPa) and modulus (43.1 GPa), attributed to improved adhesion, reduced voids, and enhanced cohesiveness for fiber alignment compared with other sizing agents. T…",
+   "doi": "10.2115/fiberst.2026-0028",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "접착·신뢰성",
+    "고내열성"
+   ],
+   "score": 8,
+   "first_seen": "2026-10-14"
   },
   {
    "type": "paper",
@@ -248,7 +300,7 @@
    "doi": "10.1186/s40486-026-00266-4",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "spin-coated polyimide film thickness",
    "tags": [
     "PSPI·리소그래피",
     "코팅·박막/후막",
@@ -445,7 +497,7 @@
    "doi": "10.1021/acsomega.6c07277",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide wafer level packaging",
+   "query": "wafer support system temporary adhesive",
    "tags": [
     "PSPI·리소그래피",
     "저유전(Dk/Df)",
