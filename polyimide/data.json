@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14T23:57:00+00:00",
+ "generated_at": "2026-10-15T23:43:20+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 6,
+  "news": 7,
   "paper": 30,
   "preprint": 2
  },
@@ -97,12 +97,28 @@
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "고내열성"
    ],
    "score": 6,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Fibers and Carbon Nanotubes Supercharge PTFE’s Wear Resistance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDJ2UHI3QW4tMHh0Vld4SUtzUG15bS1oTW01LWVOYnFCdjdrYi03TWU1WURLMUpnendYQ1UzQkdJMkpwTmxCTXI3LU1aS05NOVRraS1JTzlnREllYlktN2lpZ2UybmFkWVlCWWF1NUhRZnRiWFhyWjVNNnA0NlZyblQ0MFBKbVFTUENDZ3REaFRUZFZ3SzBGVkJFSUQ?oc=5",
+   "source": "Bioengineer.org",
+   "date": "2026-10-11",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-10-15"
   },
   {
    "type": "paper",
@@ -148,7 +164,7 @@
    "doi": "10.1002/pen.70930",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저온경화",
     "코팅·박막/후막"
@@ -162,12 +178,12 @@
    "title": "PI첨단소재 투자분석 2026. 10. 09",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5",
    "source": "주달",
-   "date": "2026-10-10",
+   "date": "2026-10-09",
    "authors": [],
    "abstract": "",
    "doi": "",
    "lang": "ko",
-   "query": "PI첨단소재",
+   "query": "폴리이미드 소재",
    "tags": [
     "시장·기업"
    ],
@@ -273,7 +289,7 @@
    "doi": "10.1080/10601325.2026.2739302",
    "cited_by": 0,
    "lang": "en",
-   "query": "high glass transition temperature polyimide",
+   "query": "polyimide low dielectric constant",
    "tags": [
     "저유전(Dk/Df)",
     "고내열성"

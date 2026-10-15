@@ -1,19 +1,20 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-14
-- 최근 7일 신규 수집: 38건 / 전체 보관: 38건
+- 생성일: 2026-10-15
+- 최근 7일 신규 수집: 39건 / 전체 보관: 39건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
 **주제 분포:** 고내열성 13, 접착·신뢰성 11, 시장·기업 10, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
 
-## 📰 뉴스 (6)
+## 📰 뉴스 (7)
 
-- [PI첨단소재 투자분석 2026. 10. 09](https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5) — 2026-10-10 · 주달 `시장·기업`
+- [PI첨단소재 투자분석 2026. 10. 09](https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5) — 2026-10-09 · 주달 `시장·기업`
 - [Thermoplastic Polyimide Market to Reach USD 0.86 Billion by 2032, at a CAGR of 7.4% — MarketsandMarkets™](https://news.google.com/rss/articles/CBMinwFBVV95cUxOSU1rckMtUGpFeGhPbnlibVIzcGI1OVFxeXljemp2aEdlWFJBWHhITlJhYmdwekZaTWx1QnFCY2hYeDU0dUcyWXo2MlEyWld3VU1DY0hYODVFLVhWeHRNa2xOWUFMZGpzYjEyTW1qMnBPd3djN0k1MXE3N3BQRmZGUUlyYTRyUEdxYl9fdUEwYjhmY01Oa21NNWphSm05dkE?oc=5) — 2026-10-02 · Yahoo Finance `시장·기업`
 - [[데이터 뉴스룸] 고무·플라스틱 업체 50곳 영업益 8%대 상승…LX하우시스·금호타이어·PI첨단소재, 1년 새 영업익 100억 넘게 증가](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QTzhxNmpMSFR1MVYzeFF2X00wd0h0LVZaWE05LVVJalA4eXpfUFpNWmZUcmlxTWVJUEJPY3BvQy1VRG1nRndhd2xxNFVEeXhleENmdjBDTkEzQWJUbWViQlFXbHJleU11?oc=5) — 2026-09-28 · 녹색경제신문 `시장·기업`
 - [PI첨단소재 투자분석 2026. 09. 25](https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTF0clRWVlg2UkRXQTRmaTlGRDJ1U3VqZDIzUkJTaVMwYTVLSkVmVHlzLXRsS3FiRkJXSDkxdVR1ZVd5TTJ4R0gzaWFRcmpONU1WM0c2OGdTc05OVVNqSHNpN1VoQ1loSTNmNjNhRnN1TUE?oc=5) — 2026-09-25 · 주달 `시장·기업`
 - [폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)](https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5) — 2026-09-21 · Fortune Business Insights `시장·기업`
 - [울산 HDOT 터미널에 위치한 아케마의 3000㎥ 규모 고순도 아크릴산(GAA) 신규 저장 시설. 〈사진 PI첨단소재 제공〉](https://news.google.com/rss/articles/CBMiughBVV95cUxPRXhtZmlfUU5ySGtLcU44dW9iQ2lYdmFIRnFvNE5laUVDRjQ1a2pTeGVUdTRoS1FLRVRtMHZEWE1PcE1mb3paVlNTeTJwWG8zajItcmprZVVVb3FpVmJydWNxRzN0MHBIOE5Xa3BXVW84MGQtRFdRNmJBNFEyUGdCZXRkTk0zN1prY1ZRQnZRcy1rLTBXT2l6dTR6YUdTQ3VOVzBlU2tlTTIxRC1NTzY2ZEQxQW05QkhEVXA2aDFXMUltUlpZX1VCWWdsRHFWV1c5dXhMbXk1MXU1RDI0QkZRNGNpd1RweUQwMUhrcF9mZmtHcFZYLVFVX3pvQ2pFUlp1czhUcW5iUlE0RjlYRlRtMGhGaTk1NEZwbnAyX2ZJMWpVd1NvbGZZOEdmcHNlZzRxRUQ2UGpiWE1IMDJKU2JkNjBIaW4xMm5aOWpWVkxDM0ctaXNGQ1h4N0Z2cVNwZjZwLWNZMHBnWExqWEZwLXBNbmEtUXkxUWtjakhvUGhfXzZDMHlzbDJtXzBib1dXRlYxOEtnYWxxREhudk9tSjRSc2JmUk5NWEJRdkZrZkVMSmh6Z0xPeXRSLVJFZW1SUmFTazh4U25MUzhiNHY3akZTVXlqbVphbnB5S2U2el9ySDVBMXZCdGFhcVNDeENEcnItTm9ibzNYVDdSX20wdjhkWWttbWhBQUs3bE1sV28xSUhtaTNVa1B2Ql9XMXBfUXVvVXBLWmV1MmNXaGZXUkoxZkdrLUxwMGJkZ3N6NXJEdS1nbzBnR2wzR05YeXlMM2FzUFVaX2FkWjhxQXRMcktMLVBTcllqRFFZSmxtZ09NZlR6V29jVkpCWHNQVjNaVzNwWGZoeVd5RE5Pc0VNREtyT3F5NDhpTUxJYUJ3bUpMcXd5V29Zbm1RZ0R0bmE0bnFfSmZSQVY4TUp6YmFYMjQ5WmdrY1llZVVrcGJ6UWFTYTZENkNYYkU5NFJITEdSRWxWTm9hNWs0X0JEVDhpbkxSRXc4cnVJY1FLeFVLYkxvak1EUjdYb2Z3Y2hfWGk4a3lGNm45MTlGbEZPdDQ4RV9ibUJfcE5OOWxpQ1hXRjBwR1FBcDhZdVdxVWJGRDVKVVJMUXVNcFFndEVFWUI1c0xHRXp4OUNJN25VZi1BN1lFLXdtWUlyR3RlNmw5OFBOV0FzYTJXdGNZbzM3SmpkQkdvQ21BUGVucVZRS01Yajk4SUxjSjNIaUlqVGNoUUc0b1dlbUp6NHdYdkhDM3R1bzlvQTNzYW10Q0lBanp0c1FoTGNtX1JrXzZpQmpqTjZuUFdmZDduZDFjMGNFZ2FfSUlURF9GLUszb3JCems1YVEycmpvMkk0LVdFdWlVdUt3VDZXbVhtRlZ6SlJOUUJhbmpCT2hJR2gxSlM0OGtRWHBnMm1RMl9wd1FPeVN1ZHZGc2l1MzZBdHlZZlRidw?oc=5) — 2026-09-21 · 전자신문 `시장·기업`
+- [Polyimide Fibers and Carbon Nanotubes Supercharge PTFE’s Wear Resistance](https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDJ2UHI3QW4tMHh0Vld4SUtzUG15bS1oTW01LWVOYnFCdjdrYi03TWU1WURLMUpnendYQ1UzQkdJMkpwTmxCTXI3LU1aS05NOVRraS1JTzlnREllYlktN2lpZ2UybmFkWVlCWWF1NUhRZnRiWFhyWjVNNnA0NlZyblQ0MFBKbVFTUENDZ3REaFRUZFZ3SzBGVkJFSUQ?oc=5) — 2026-10-11 · Bioengineer.org
 
 ## 📄 논문 (30)
 
