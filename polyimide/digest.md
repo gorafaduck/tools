@@ -1,7 +1,7 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-15
-- 최근 7일 신규 수집: 39건 / 전체 보관: 39건
+- 생성일: 2026-10-16
+- 최근 7일 신규 수집: 41건 / 전체 보관: 41건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
 **주제 분포:** 고내열성 13, 접착·신뢰성 11, 시장·기업 10, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
@@ -16,7 +16,7 @@
 - [울산 HDOT 터미널에 위치한 아케마의 3000㎥ 규모 고순도 아크릴산(GAA) 신규 저장 시설. 〈사진 PI첨단소재 제공〉](https://news.google.com/rss/articles/CBMiughBVV95cUxPRXhtZmlfUU5ySGtLcU44dW9iQ2lYdmFIRnFvNE5laUVDRjQ1a2pTeGVUdTRoS1FLRVRtMHZEWE1PcE1mb3paVlNTeTJwWG8zajItcmprZVVVb3FpVmJydWNxRzN0MHBIOE5Xa3BXVW84MGQtRFdRNmJBNFEyUGdCZXRkTk0zN1prY1ZRQnZRcy1rLTBXT2l6dTR6YUdTQ3VOVzBlU2tlTTIxRC1NTzY2ZEQxQW05QkhEVXA2aDFXMUltUlpZX1VCWWdsRHFWV1c5dXhMbXk1MXU1RDI0QkZRNGNpd1RweUQwMUhrcF9mZmtHcFZYLVFVX3pvQ2pFUlp1czhUcW5iUlE0RjlYRlRtMGhGaTk1NEZwbnAyX2ZJMWpVd1NvbGZZOEdmcHNlZzRxRUQ2UGpiWE1IMDJKU2JkNjBIaW4xMm5aOWpWVkxDM0ctaXNGQ1h4N0Z2cVNwZjZwLWNZMHBnWExqWEZwLXBNbmEtUXkxUWtjakhvUGhfXzZDMHlzbDJtXzBib1dXRlYxOEtnYWxxREhudk9tSjRSc2JmUk5NWEJRdkZrZkVMSmh6Z0xPeXRSLVJFZW1SUmFTazh4U25MUzhiNHY3akZTVXlqbVphbnB5S2U2el9ySDVBMXZCdGFhcVNDeENEcnItTm9ibzNYVDdSX20wdjhkWWttbWhBQUs3bE1sV28xSUhtaTNVa1B2Ql9XMXBfUXVvVXBLWmV1MmNXaGZXUkoxZkdrLUxwMGJkZ3N6NXJEdS1nbzBnR2wzR05YeXlMM2FzUFVaX2FkWjhxQXRMcktMLVBTcllqRFFZSmxtZ09NZlR6V29jVkpCWHNQVjNaVzNwWGZoeVd5RE5Pc0VNREtyT3F5NDhpTUxJYUJ3bUpMcXd5V29Zbm1RZ0R0bmE0bnFfSmZSQVY4TUp6YmFYMjQ5WmdrY1llZVVrcGJ6UWFTYTZENkNYYkU5NFJITEdSRWxWTm9hNWs0X0JEVDhpbkxSRXc4cnVJY1FLeFVLYkxvak1EUjdYb2Z3Y2hfWGk4a3lGNm45MTlGbEZPdDQ4RV9ibUJfcE5OOWxpQ1hXRjBwR1FBcDhZdVdxVWJGRDVKVVJMUXVNcFFndEVFWUI1c0xHRXp4OUNJN25VZi1BN1lFLXdtWUlyR3RlNmw5OFBOV0FzYTJXdGNZbzM3SmpkQkdvQ21BUGVucVZRS01Yajk4SUxjSjNIaUlqVGNoUUc0b1dlbUp6NHdYdkhDM3R1bzlvQTNzYW10Q0lBanp0c1FoTGNtX1JrXzZpQmpqTjZuUFdmZDduZDFjMGNFZ2FfSUlURF9GLUszb3JCems1YVEycmpvMkk0LVdFdWlVdUt3VDZXbVhtRlZ6SlJOUUJhbmpCT2hJR2gxSlM0OGtRWHBnMm1RMl9wd1FPeVN1ZHZGc2l1MzZBdHlZZlRidw?oc=5) — 2026-09-21 · 전자신문 `시장·기업`
 - [Polyimide Fibers and Carbon Nanotubes Supercharge PTFE’s Wear Resistance](https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDJ2UHI3QW4tMHh0Vld4SUtzUG15bS1oTW01LWVOYnFCdjdrYi03TWU1WURLMUpnendYQ1UzQkdJMkpwTmxCTXI3LU1aS05NOVRraS1JTzlnREllYlktN2lpZ2UybmFkWVlCWWF1NUhRZnRiWFhyWjVNNnA0NlZyblQ0MFBKbVFTUENDZ3REaFRUZFZ3SzBGVkJFSUQ?oc=5) — 2026-10-11 · Bioengineer.org
 
-## 📄 논문 (30)
+## 📄 논문 (31)
 
 - [Advanced Dielectric Polymer Development at Kayaku Advanced Materials](https://doi.org/10.4071/001c.167019) — 2026-08-12 · IMAPSource Proceedings `저유전(Dk/Df)` `접착·신뢰성` `고내열성`
 - [Research on the Patterning Polyimide Layer Based on Laser Ablation Technology](https://doi.org/10.1021/acsomega.6c07277) — 2026-09-19 · ACS Omega `PSPI·리소그래피` `저유전(Dk/Df)` `RDL·Fan-out` `접착·신뢰성` `고내열성`
@@ -43,13 +43,14 @@
 - [Colorless shape memory polyimide films for flexible optoelectronics](https://doi.org/10.1088/1361-665x/aeb2c5) — 2026-10-11 · Smart Materials and Structures `고내열성`
 - [Thermo-optical properties of polyimide films with bulky side groups: Experimental and theoretical investigations](https://doi.org/10.1177/09540083261490453) — 2026-09-22 · High Performance Polymers
 - [3,5-diaminobenzoic acid: a simple method to improve the solubility and lithography accuracy of photosensitive polyimides](https://doi.org/10.1007/s00339-026-09736-3) — 2026-09-03 · Applied Physics A `PSPI·리소그래피`
+- [Enhanced Thermal Conductivity and EMI Shielding of Polyimide Composites Based on a Three-Dimensional Interconnected Graphene@Graphite Network](https://doi.org/10.1021/acsapm.6c03605) — 2026-10-16 · ACS Applied Polymer Materials
 - [A Review of CMOS-Compatible Flexible Biosensors Based on Polymer Electronics for Wearable Healthcare](https://doi.org/10.3390/chips5030030) — 2026-09-19 · Chips `접착·신뢰성` `시장·기업`
 - [Photodegradation of different nanocellulose substrates](https://doi.org/10.1007/s10570-026-07192-z) — 2026-09-02 · Cellulose
 - [Inkjet Printed Interconnections on Flexible Substrates](https://doi.org/10.4071/001c.165912) — 2026-07-28 · IMAPSource Proceedings `접착·신뢰성`
 - [Giant surface potential exceeding -2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer](https://doi.org/10.35848/1347-4065/aeb26f) — 2026-10-09 · Japanese Journal of Applied Physics `접착·신뢰성`
-- [Decoding fiber-matrix interphase formation through waterborne polyurethane sizing strategies, interfacial engineering, and performance frontiers in carbon fiber composites](https://doi.org/10.1016/j.enrev.2026.100206) — 2026-09-01 · Energy Reviews `접착·신뢰성`
 
-## 🧪 프리프린트 (2)
+## 🧪 프리프린트 (3)
 
 - [Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix](https://arxiv.org/abs/2607.25477v1) — 2026-07-28 · arXiv `코팅·박막/후막` `접착·신뢰성`
 - [Strain control of mid-IR spectroscopic nonlinear photocurrents in PtSe$_2$](https://arxiv.org/abs/2608.16629v1) — 2026-08-17 · arXiv `코팅·박막/후막`
+- [Ablation-Driven Selective Laser Direct Mass Transfer for Micro-LEDs with High Speed, Enhanced Gap Tolerance, and High Precision](https://arxiv.org/abs/2610.21839v1) — 2026-10-15 · arXiv

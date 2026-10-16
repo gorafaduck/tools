@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-15T23:43:20+00:00",
+ "generated_at": "2026-10-16T23:37:24+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 7,
-  "paper": 30,
-  "preprint": 2
+  "paper": 31,
+  "preprint": 3
  },
  "tags": [
   "PSPI·리소그래피",
@@ -25,14 +25,60 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "Enhanced Thermal Conductivity and EMI Shielding of Polyimide Composites Based on a Three-Dimensional Interconnected Graphene@Graphite Network",
+   "url": "https://doi.org/10.1021/acsapm.6c03605",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-10-16",
+   "authors": [
+    "Lan Yang",
+    "Junyu Zhao",
+    "Ruotong Pang",
+    "Ran Xu",
+    "Daming Wang",
+    "Xiaogang Zhao",
+    "Chunhai Chen"
+   ],
+   "abstract": "Abstract Nowadays, lightweight dual-functional polymer composites with great heat conductance and high electromagnetic interference (EMI) shielding performance are urgently needed in modern developing technology. Furthermore, efficient multipaths within network designed with multifunctional fillers in composites prefer to be a better way to balance the heat flow or electromagnetic signal transmission generated in dense integrated electronic devices. In this study, a strategy of graphite-graphene combined network-loaded polyimide (PI) composites was enabled by a scalable and tractable polymer-infiltrated technique. In this network, the microscale reduced graphene oxide (rGO) serves as an adhesive interfacial bridge and thermal network architect, effectively maintaining the macroscale worm-like structure of expanded graphite (EG). The framework was built using a template-free method from hydrogel to aerogel at low temperatures by immersing polyamic acid salt in the ensemble, followed by freeze-drying and final hot-pressing to obtain polyimide composites (rGO@EG/PI). In composites, the microregion network built by macro-micro structured hybrid fillers provides the polymer with multis…",
+   "doi": "10.1021/acsapm.6c03605",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [],
+   "score": 5,
+   "first_seen": "2026-10-16"
+  },
+  {
+   "type": "preprint",
+   "origin": "arXiv",
+   "title": "Ablation-Driven Selective Laser Direct Mass Transfer for Micro-LEDs with High Speed, Enhanced Gap Tolerance, and High Precision",
+   "url": "https://arxiv.org/abs/2610.21839v1",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "authors": [
+    "Yuxuan Cao",
+    "Yulong Wang",
+    "Jürgen Brugger",
+    "Zhen Zhang"
+   ],
+   "abstract": "Micro light-emitting diodes (micro-LEDs) offer superior performance for next-generation displays, yet their scalable manufacturing is severely bottlenecked by the mass transfer process from donor to receiver substrates. The existing laser-induced forward transfer (LIFT) methods are restricted by low throughput, limited selectivity, and long reaction times. In this study, we introduce a novel defocused direct laser ablation transfer (D-DLAT) method utilizing polyimide as a dynamic release layer. Whereas most indirect laser transfer methods trigger chip release followed by passive descent toward the receiver, D-DLAT directly ablates the release layer to actively propel the small-sized chips towards the receiver via ablation shock. By optimizing the ablation profiles and scanning paths, this method achieves high-speed transfer with significantly enhanced precision and robustness. We demonstrate the successful transfer of micro-LEDs ranging from 600 $\\unicode{x03BC}$m down to 35 $\\unicode{x03BC}$m in size, with a minimum reported placement error of less than 1 $\\unicode{x03BC}$m, and a critical transfer gap of up to 50 $\\unicode{x03BC}$m. Furthermore, the D-DLAT approach enables full…",
+   "doi": "",
+   "lang": "en",
+   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "tags": [],
+   "score": 2,
+   "first_seen": "2026-10-16"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Engineering the Optical and Dielectric Performance of PVP / PS Blend Films via SiC / PbO 2 Nanofiller Hybridization for Flexible Electronic Applications",
    "url": "https://doi.org/10.1002/app.71633",
    "source": "Journal of Applied Polymer Science",
    "date": "2026-10-14",
    "authors": [
     "Ahmed Hashim",
-    "Hamed Ibrahim",
-    "Aseel Hadi",
+    "Hamed Anwer Ibrahim",
+    "Aseel Abdulkreem Hadi",
     "Salah Eddine Laouini",
     "Abderrhmane Bouafia",
     "Mohammed Laid Tedjani",
@@ -43,7 +89,7 @@
    "doi": "10.1002/app.71633",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) dielectric",
+   "query": "poly(amic acid) solution coating film",
    "tags": [],
    "score": 6,
    "first_seen": "2026-10-14"
@@ -69,7 +115,7 @@
    "doi": "10.1002/adfm.78956",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저CTE·휨",
     "시장·기업"
@@ -97,7 +143,7 @@
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "고내열성"
    ],
