@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T23:37:24+00:00",
+ "generated_at": "2026-10-17T23:11:33+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 7,
+  "news": 8,
   "paper": 31,
   "preprint": 3
  },
@@ -78,7 +78,7 @@
    "authors": [
     "Ahmed Hashim",
     "Hamed Anwer Ibrahim",
-    "Aseel Abdulkreem Hadi",
+    "Aseel Hadi",
     "Salah Eddine Laouini",
     "Abderrhmane Bouafia",
     "Mohammed Laid Tedjani",
@@ -445,6 +445,24 @@
    ],
    "score": 8,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[ESG 포커스] PI첨단소재 \"채용부터 퇴직까지···생애주기형 인재경영 강화\"",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjX19FdVNDR2loNUJBTWNTUXZMQkxzaDctdHctLUx5ODNOTm85M1lJT0hQTER6V3pWTFUtR0ZwZGNaV0R4TnhlX3VHYnpLMlhQVG9MZVgwNDdnOW5nQzBHMlphcmFyUGdyRTZsem5rVQ?oc=5",
+   "source": "데일리e뉴스",
+   "date": "2026-09-29",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-17"
   },
   {
    "type": "news",

@@ -1,15 +1,16 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-16
-- 최근 7일 신규 수집: 41건 / 전체 보관: 41건
+- 생성일: 2026-10-17
+- 최근 7일 신규 수집: 42건 / 전체 보관: 42건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 고내열성 13, 접착·신뢰성 11, 시장·기업 10, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
+**주제 분포:** 고내열성 13, 시장·기업 11, 접착·신뢰성 11, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 6, 저CTE·휨 4, 저온경화 3, RDL·Fan-out 1
 
-## 📰 뉴스 (7)
+## 📰 뉴스 (8)
 
 - [PI첨단소재 투자분석 2026. 10. 09](https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5) — 2026-10-09 · 주달 `시장·기업`
 - [Thermoplastic Polyimide Market to Reach USD 0.86 Billion by 2032, at a CAGR of 7.4% — MarketsandMarkets™](https://news.google.com/rss/articles/CBMinwFBVV95cUxOSU1rckMtUGpFeGhPbnlibVIzcGI1OVFxeXljemp2aEdlWFJBWHhITlJhYmdwekZaTWx1QnFCY2hYeDU0dUcyWXo2MlEyWld3VU1DY0hYODVFLVhWeHRNa2xOWUFMZGpzYjEyTW1qMnBPd3djN0k1MXE3N3BQRmZGUUlyYTRyUEdxYl9fdUEwYjhmY01Oa21NNWphSm05dkE?oc=5) — 2026-10-02 · Yahoo Finance `시장·기업`
+- [[ESG 포커스] PI첨단소재 "채용부터 퇴직까지···생애주기형 인재경영 강화"](https://news.google.com/rss/articles/CBMib0FVX3lxTFBjX19FdVNDR2loNUJBTWNTUXZMQkxzaDctdHctLUx5ODNOTm85M1lJT0hQTER6V3pWTFUtR0ZwZGNaV0R4TnhlX3VHYnpLMlhQVG9MZVgwNDdnOW5nQzBHMlphcmFyUGdyRTZsem5rVQ?oc=5) — 2026-09-29 · 데일리e뉴스 `시장·기업`
 - [[데이터 뉴스룸] 고무·플라스틱 업체 50곳 영업益 8%대 상승…LX하우시스·금호타이어·PI첨단소재, 1년 새 영업익 100억 넘게 증가](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QTzhxNmpMSFR1MVYzeFF2X00wd0h0LVZaWE05LVVJalA4eXpfUFpNWmZUcmlxTWVJUEJPY3BvQy1VRG1nRndhd2xxNFVEeXhleENmdjBDTkEzQWJUbWViQlFXbHJleU11?oc=5) — 2026-09-28 · 녹색경제신문 `시장·기업`
 - [PI첨단소재 투자분석 2026. 09. 25](https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTF0clRWVlg2UkRXQTRmaTlGRDJ1U3VqZDIzUkJTaVMwYTVLSkVmVHlzLXRsS3FiRkJXSDkxdVR1ZVd5TTJ4R0gzaWFRcmpONU1WM0c2OGdTc05OVVNqSHNpN1VoQ1loSTNmNjNhRnN1TUE?oc=5) — 2026-09-25 · 주달 `시장·기업`
 - [폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)](https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5) — 2026-09-21 · Fortune Business Insights `시장·기업`
