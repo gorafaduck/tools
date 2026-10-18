@@ -397,46 +397,84 @@
         const missed = [];
         keyHandler = null;
 
+        // 입력창은 세션 동안 하나만 두고 재사용: 모바일에서 다시 그리면 키보드가 닫히기 때문
+        area.innerHTML = `
+            <div class="scoreline"><span id="kana-count"></span><span id="kana-score"></span></div>
+            <div class="flashcard" style="min-height:160px;cursor:default">
+                <div class="big jp" id="kana-char"></div>
+                <div class="hint">로마자로 읽는 법을 입력하고 확인 (모르면 비워 두고 확인)</div>
+            </div>
+            <form class="kana-form" id="kana-form" autocomplete="off">
+                <input class="kana-input" id="kana-input" type="text" inputmode="latin" lang="en" enterkeyhint="go"
+                    autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="예: ka" aria-label="로마자 입력">
+                <button type="submit" class="primary" id="kana-submit">확인</button>
+            </form>
+            <div id="kana-feedback"></div>`;
+        const form = $("#kana-form");
+        const input = $("#kana-input");
+        const submitBtn = $("#kana-submit");
+        let done = false;
+
+        // 버튼을 눌러도 입력창 포커스(=모바일 키보드)가 유지되도록
+        submitBtn.addEventListener("pointerdown", (e) => e.preventDefault());
+
+        const finish = () => {
+            input.blur();
+            area.innerHTML = `<div class="feedback"><strong>${deck.length}개 중 ${score}개 정답</strong>
+                ${missed.length ? `<br>다시 볼 글자: <span class="jp">${missed.map((m) => `${esc(m[0])}(${m[1]})`).join(" · ")}</span>` : "<br>완벽해요! 다음 범위로 넘어가 보세요."}</div>
+                <div class="actions"><button class="primary" id="kana-again">다시 하기</button></div>`;
+            $("#kana-again").onclick = renderKana;
+        };
+
         const show = () => {
             if (i >= deck.length) {
-                area.innerHTML = `<div class="feedback"><strong>${deck.length}개 중 ${score}개 정답</strong>
-                    ${missed.length ? `<br>다시 볼 글자: <span class="jp">${missed.map((m) => `${esc(m[0])}(${m[1]})`).join(" · ")}</span>` : "<br>완벽해요! 다음 범위로 넘어가 보세요."}</div>
-                    <div class="actions"><button class="primary" id="kana-again">다시 하기</button></div>`;
-                $("#kana-again").onclick = renderKana;
+                finish();
                 return;
             }
-            const [ch, romaji, hira] = deck[i];
-            area.innerHTML = `
-                <div class="scoreline"><span>${i + 1} / ${deck.length}</span><span>정답 ${score}</span></div>
-                <div class="flashcard" style="min-height:160px;cursor:default">
-                    <div class="big jp">${esc(ch)}</div>
-                    <div class="hint">로마자로 읽는 법을 입력하고 Enter (모르면 그냥 Enter)</div>
-                </div>
-                <input class="kana-input" id="kana-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="예: ka">
-                <div id="kana-feedback"></div>`;
-            const input = $("#kana-input");
-            input.focus();
-            let done = false;
-            input.onkeydown = (e) => {
-                if (e.key !== "Enter" || e.isComposing) return;
-                if (done) {
-                    i++;
-                    show();
-                    return;
-                }
-                done = true;
-                const ok = romajiOk(input.value, romaji);
-                if (ok) score++;
-                else missed.push([ch, romaji]);
-                logStudy();
-                save();
-                renderDashboard();
-                input.readOnly = true;
-                $("#kana-feedback").innerHTML = `<div class="feedback">${ok ? "⭕ 정답!" : `❌ 정답은 <strong>${romaji}</strong>`} ${speakBtn(hira)} — Enter로 다음</div>`;
-                speak(hira);
-            };
+            done = false;
+            $("#kana-count").textContent = `${i + 1} / ${deck.length}`;
+            $("#kana-score").textContent = `정답 ${score}`;
+            $("#kana-char").textContent = deck[i][0];
+            $("#kana-feedback").innerHTML = "";
+            input.value = "";
+            input.setAttribute("enterkeyhint", "go");
+            submitBtn.textContent = "확인";
         };
+
+        const check = () => {
+            const [ch, romaji, hira] = deck[i];
+            done = true;
+            const ok = romajiOk(input.value, romaji);
+            if (ok) score++;
+            else missed.push([ch, romaji]);
+            logStudy();
+            save();
+            renderDashboard();
+            $("#kana-score").textContent = `정답 ${score}`;
+            input.setAttribute("enterkeyhint", "next");
+            submitBtn.textContent = i + 1 < deck.length ? "다음" : "결과 보기";
+            $("#kana-feedback").innerHTML = `<div class="feedback">${ok ? "⭕ 정답!" : `❌ 정답은 <strong>${romaji}</strong>`} ${speakBtn(hira)}</div>`;
+            speak(hira);
+        };
+
+        // 모바일 키보드의 Enter(이동/완료)와 버튼 탭 모두 submit으로 들어옴
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            if (!done) {
+                check();
+            } else {
+                i++;
+                show();
+            }
+        });
+        // 정답 확인 후 입력이 바뀌지 않도록 (readOnly는 iOS에서 키보드를 닫아서 사용하지 않음)
+        // Enter(insertLineBreak)까지 막으면 submit이 안 되므로 글자 입력만 막음
+        input.addEventListener("beforeinput", (e) => {
+            if (done && e.inputType !== "insertLineBreak") e.preventDefault();
+        });
+
         show();
+        input.focus();
     };
 
     // ---------- 오답노트 ----------
