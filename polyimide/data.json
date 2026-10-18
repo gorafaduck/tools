@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-17T23:11:33+00:00",
+ "generated_at": "2026-10-18T23:25:14+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 8,
-  "paper": 31,
+  "paper": 33,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,33 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Epoxy‐Functional Hyperbranched Polysiloxane Hybridized Water‐Synthesized Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage",
+   "url": "https://doi.org/10.1002/smll.76350",
+   "source": "Small",
+   "date": "2026-10-18",
+   "authors": [
+    "Xingchao Ma",
+    "Yang Xu",
+    "Jingyu Wang",
+    "Xunzhang Li",
+    "Chaochen Shao",
+    "Yuhang Li",
+    "Kai Xi"
+   ],
+   "abstract": "ABSTRACT Water‐synthesized polymer dielectrics with reliable high‐temperature energy storage capability are highly desirable for sustainable power electronic applications. Herein, a topology‐engineered organic‐inorganic hybrid dielectric is constructed by integrating epoxy‐functionalized hyperbranched polysiloxane (EPHPSi) into water‐synthesized fluorinated polyimide (W‐PI). During thermal imidization, the epoxy groups of EPHPSi undergo ring‐opening reactions with the polymer matrix, forming a robust cross‐linked hybrid network. The hyperbranched siloxane nanoarchitecture regulates molecular packing, suppresses segmental relaxation, and introduces additional charge‐trapping sites, thereby helping to reduce charge transport and improve the dielectric performance under elevated temperatures. As a result, the optimized W‐PI EPHPSi ‐10% film exhibits a high breakdown strength of 669 MV m −1 at room temperature and retains 630 MV m −1 at 200°C, with a relatively narrow Weibull distribution. Meanwhile, the composite film achieves a high discharge energy density of 8.75 J cm −3 with a charge‐discharge efficiency of 94.7% at room temperature. More importantly, an ultrahigh discharge energ…",
+   "doi": "10.1002/smll.76350",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저온경화"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-18"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -499,6 +526,32 @@
    ],
    "score": 4,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Growth-Temperature-Dependent Synaptic Plasticity in ALD-ZnO Optoelectronic Synaptic Devices on Polyimide Substrates",
+   "url": "https://doi.org/10.3390/s26196022",
+   "source": "Sensors",
+   "date": "2026-09-23",
+   "authors": [
+    "JunHyeong Park",
+    "J. H. Cho",
+    "SeungMin Song",
+    "Seyeon Tak",
+    "Yoon Seok Kim",
+    "Sung‐Nam Lee"
+   ],
+   "abstract": "Flexible Al/ZnO/Al optoelectronic synaptic devices were fabricated on flexible polyimide (PI) substrates using ZnO thin films deposited by atomic layer deposition (ALD) at growth temperatures ranging from 90 to 145 °C. The effects of growth temperature on the surface morphology, optical properties, electrical transport, and synaptic behavior were systematically investigated. All ZnO films were grown at temperatures compatible with polymer substrates, while their surface roughness, photoluminescence, optical transmittance, dark current, and photocurrent varied considerably with growth temperature. Increasing the growth temperature enhanced carrier transport, photocurrent, and persistent photoconductivity, resulting in larger excitatory postsynaptic currents (EPSCs) and slower post-illumination decay. The EPSC was further modulated by the ultraviolet (UV) stimulation duration, light intensity, and pulse number. Paired-pulse facilitation decreased with increasing pulse interval, whereas higher-temperature-grown devices maintained stronger facilitation over longer intervals. Repeated optical stimulation enabled faster relearning and slower forgetting, thereby mimicking learning-experi…",
+   "doi": "10.3390/s26196022",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 7,
+   "first_seen": "2026-10-18"
   },
   {
    "type": "paper",
