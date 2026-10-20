@@ -1,23 +1,24 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-18
-- 최근 7일 신규 수집: 44건 / 전체 보관: 44건
+- 생성일: 2026-10-20
+- 최근 7일 신규 수집: 49건 / 전체 보관: 49건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 고내열성 13, 시장·기업 11, 접착·신뢰성 11, 저유전(Dk/Df) 9, PSPI·리소그래피 8, 코팅·박막/후막 7, 저온경화 4, 저CTE·휨 4, RDL·Fan-out 1
+**주제 분포:** 고내열성 14, 접착·신뢰성 13, 시장·기업 12, 저유전(Dk/Df) 10, PSPI·리소그래피 9, 코팅·박막/후막 7, 저온경화 4, 저CTE·휨 4, RDL·Fan-out 1
 
-## 📰 뉴스 (8)
+## 📰 뉴스 (9)
 
 - [PI첨단소재 투자분석 2026. 10. 09](https://news.google.com/rss/articles/CBMic0FVX3lxTE9YdDFFS0d2T2tqS2kyb192NXE3MUlVRW1YTXM1TWtfdmpSejcyWDFkMnd4dHk3OWJmMERtVWc3S0tPVkxvU2VyWkJTV25QcG5zczZWTm9HWjloMUJQTG5QWExDUWZsOXZYaUE1NU1VNEUxcVE?oc=5) — 2026-10-09 · 주달 `시장·기업`
 - [Thermoplastic Polyimide Market to Reach USD 0.86 Billion by 2032, at a CAGR of 7.4% — MarketsandMarkets™](https://news.google.com/rss/articles/CBMinwFBVV95cUxOSU1rckMtUGpFeGhPbnlibVIzcGI1OVFxeXljemp2aEdlWFJBWHhITlJhYmdwekZaTWx1QnFCY2hYeDU0dUcyWXo2MlEyWld3VU1DY0hYODVFLVhWeHRNa2xOWUFMZGpzYjEyTW1qMnBPd3djN0k1MXE3N3BQRmZGUUlyYTRyUEdxYl9fdUEwYjhmY01Oa21NNWphSm05dkE?oc=5) — 2026-10-02 · Yahoo Finance `시장·기업`
 - [[ESG 포커스] PI첨단소재 "채용부터 퇴직까지···생애주기형 인재경영 강화"](https://news.google.com/rss/articles/CBMib0FVX3lxTFBjX19FdVNDR2loNUJBTWNTUXZMQkxzaDctdHctLUx5ODNOTm85M1lJT0hQTER6V3pWTFUtR0ZwZGNaV0R4TnhlX3VHYnpLMlhQVG9MZVgwNDdnOW5nQzBHMlphcmFyUGdyRTZsem5rVQ?oc=5) — 2026-09-29 · 데일리e뉴스 `시장·기업`
 - [[데이터 뉴스룸] 고무·플라스틱 업체 50곳 영업益 8%대 상승…LX하우시스·금호타이어·PI첨단소재, 1년 새 영업익 100억 넘게 증가](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QTzhxNmpMSFR1MVYzeFF2X00wd0h0LVZaWE05LVVJalA4eXpfUFpNWmZUcmlxTWVJUEJPY3BvQy1VRG1nRndhd2xxNFVEeXhleENmdjBDTkEzQWJUbWViQlFXbHJleU11?oc=5) — 2026-09-28 · 녹색경제신문 `시장·기업`
+- [폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)](https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5) — 2026-09-28 · Fortune Business Insights `시장·기업`
 - [PI첨단소재 투자분석 2026. 09. 25](https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTF0clRWVlg2UkRXQTRmaTlGRDJ1U3VqZDIzUkJTaVMwYTVLSkVmVHlzLXRsS3FiRkJXSDkxdVR1ZVd5TTJ4R0gzaWFRcmpONU1WM0c2OGdTc05OVVNqSHNpN1VoQ1loSTNmNjNhRnN1TUE?oc=5) — 2026-09-25 · 주달 `시장·기업`
-- [폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)](https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5) — 2026-09-21 · Fortune Business Insights `시장·기업`
 - [울산 HDOT 터미널에 위치한 아케마의 3000㎥ 규모 고순도 아크릴산(GAA) 신규 저장 시설. 〈사진 PI첨단소재 제공〉](https://news.google.com/rss/articles/CBMiughBVV95cUxPRXhtZmlfUU5ySGtLcU44dW9iQ2lYdmFIRnFvNE5laUVDRjQ1a2pTeGVUdTRoS1FLRVRtMHZEWE1PcE1mb3paVlNTeTJwWG8zajItcmprZVVVb3FpVmJydWNxRzN0MHBIOE5Xa3BXVW84MGQtRFdRNmJBNFEyUGdCZXRkTk0zN1prY1ZRQnZRcy1rLTBXT2l6dTR6YUdTQ3VOVzBlU2tlTTIxRC1NTzY2ZEQxQW05QkhEVXA2aDFXMUltUlpZX1VCWWdsRHFWV1c5dXhMbXk1MXU1RDI0QkZRNGNpd1RweUQwMUhrcF9mZmtHcFZYLVFVX3pvQ2pFUlp1czhUcW5iUlE0RjlYRlRtMGhGaTk1NEZwbnAyX2ZJMWpVd1NvbGZZOEdmcHNlZzRxRUQ2UGpiWE1IMDJKU2JkNjBIaW4xMm5aOWpWVkxDM0ctaXNGQ1h4N0Z2cVNwZjZwLWNZMHBnWExqWEZwLXBNbmEtUXkxUWtjakhvUGhfXzZDMHlzbDJtXzBib1dXRlYxOEtnYWxxREhudk9tSjRSc2JmUk5NWEJRdkZrZkVMSmh6Z0xPeXRSLVJFZW1SUmFTazh4U25MUzhiNHY3akZTVXlqbVphbnB5S2U2el9ySDVBMXZCdGFhcVNDeENEcnItTm9ibzNYVDdSX20wdjhkWWttbWhBQUs3bE1sV28xSUhtaTNVa1B2Ql9XMXBfUXVvVXBLWmV1MmNXaGZXUkoxZkdrLUxwMGJkZ3N6NXJEdS1nbzBnR2wzR05YeXlMM2FzUFVaX2FkWjhxQXRMcktMLVBTcllqRFFZSmxtZ09NZlR6V29jVkpCWHNQVjNaVzNwWGZoeVd5RE5Pc0VNREtyT3F5NDhpTUxJYUJ3bUpMcXd5V29Zbm1RZ0R0bmE0bnFfSmZSQVY4TUp6YmFYMjQ5WmdrY1llZVVrcGJ6UWFTYTZENkNYYkU5NFJITEdSRWxWTm9hNWs0X0JEVDhpbkxSRXc4cnVJY1FLeFVLYkxvak1EUjdYb2Z3Y2hfWGk4a3lGNm45MTlGbEZPdDQ4RV9ibUJfcE5OOWxpQ1hXRjBwR1FBcDhZdVdxVWJGRDVKVVJMUXVNcFFndEVFWUI1c0xHRXp4OUNJN25VZi1BN1lFLXdtWUlyR3RlNmw5OFBOV0FzYTJXdGNZbzM3SmpkQkdvQ21BUGVucVZRS01Yajk4SUxjSjNIaUlqVGNoUUc0b1dlbUp6NHdYdkhDM3R1bzlvQTNzYW10Q0lBanp0c1FoTGNtX1JrXzZpQmpqTjZuUFdmZDduZDFjMGNFZ2FfSUlURF9GLUszb3JCems1YVEycmpvMkk0LVdFdWlVdUt3VDZXbVhtRlZ6SlJOUUJhbmpCT2hJR2gxSlM0OGtRWHBnMm1RMl9wd1FPeVN1ZHZGc2l1MzZBdHlZZlRidw?oc=5) — 2026-09-21 · 전자신문 `시장·기업`
 - [Polyimide Fibers and Carbon Nanotubes Supercharge PTFE’s Wear Resistance](https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDJ2UHI3QW4tMHh0Vld4SUtzUG15bS1oTW01LWVOYnFCdjdrYi03TWU1WURLMUpnendYQ1UzQkdJMkpwTmxCTXI3LU1aS05NOVRraS1JTzlnREllYlktN2lpZ2UybmFkWVlCWWF1NUhRZnRiWFhyWjVNNnA0NlZyblQ0MFBKbVFTUENDZ3REaFRUZFZ3SzBGVkJFSUQ?oc=5) — 2026-10-11 · Bioengineer.org
+- [Minco All-Polyimide Heaters Built for Space Environments](https://news.google.com/rss/articles/CBMinwFBVV95cUxPTl90clVEa3NYMWpVNkNGV3Q2ckdxZUh1ekhnSGx2RE1NZ1M0UXN5cW1GbS1VNXVYRVgzc0ZaYkxrNV9NYlA0c1FhY2hyUGdHbE5zcTFSdHBXVUVRaDY3cUFodlR5akhoWWs5UFVWeWktTHNtN2pPLXlsNUFTa2hrV082dllZQm94UHhrTnhHRWwzM1VmQ01HWVlhd3FCWms?oc=5) — 2026-09-29 · Astute Group
 
-## 📄 논문 (33)
+## 📄 논문 (37)
 
 - [Advanced Dielectric Polymer Development at Kayaku Advanced Materials](https://doi.org/10.4071/001c.167019) — 2026-08-12 · IMAPSource Proceedings `저유전(Dk/Df)` `접착·신뢰성` `고내열성`
 - [Research on the Patterning Polyimide Layer Based on Laser Ablation Technology](https://doi.org/10.1021/acsomega.6c07277) — 2026-09-19 · ACS Omega `PSPI·리소그래피` `저유전(Dk/Df)` `RDL·Fan-out` `접착·신뢰성` `고내열성`
@@ -32,23 +33,23 @@
 - [Fatigue‐Resistant Mechanically Interlocked Co‐Crosslinked Polyimide Films for Reliable High‐Temperature Capacitive Energy Storage](https://doi.org/10.1002/adfm.78956) — 2026-10-12 · Advanced Functional Materials `저CTE·휨` `시장·기업`
 - [Design and synthesis of alicyclic and fluorinated synergistic polyimide with low dielectric constant and low dielectric loss](https://doi.org/10.1016/j.polymer.2026.130689) — 2026-10-01 · Polymer `저유전(Dk/Df)`
 - [Structurally tunable colorless ionic-type negative-tone photosensitive polyimides with high transparency for i-line photopatterning](https://doi.org/10.1016/j.eurpolymj.2026.115100) — 2026-09-18 · European Polymer Journal `PSPI·리소그래피`
+- [Interface Modification of Polyimide with Calcium-Based Hybrid Nanorods for Advanced Dielectrics](https://doi.org/10.1021/acsaelm.6c01744) — 2026-10-19 · ACS Applied Electronic Materials `저유전(Dk/Df)` `시장·기업`
 - [Colorless Copolyimide Films With High‐ T g and Low CTE From a Twisted Benzimidazole Diamine and HPMDA / CBDA Blends for Flexible Display Substrates](https://doi.org/10.1002/pola.70322) — 2026-09-02 · Journal of Polymer Science `저CTE·휨` `시장·기업` `고내열성`
 - [Nereis Jaw‐Inspired Pretreatment‐Free Direct Metallization on Pristine Polyimide Films for Flexible Electronics](https://doi.org/10.1002/adfm.77868) — 2026-08-30 · Advanced Functional Materials `접착·신뢰성`
 - [The Effects of High Thermal Stability Sizing Agent Made from Water Soluble Polyamic Acid for PEI-Based Carbon Fiber Reinforced Thermoplastics](https://doi.org/10.2115/fiberst.2026-0028) — 2026-10-10 · Journal of Fiber Science and Technology `접착·신뢰성` `고내열성`
 - [Soluble Tröger’s Base-based polyimides as promising additive-free negative-tone photosensitive materials](https://doi.org/10.1016/j.polymer.2026.130508) — 2026-10-01 · Polymer `PSPI·리소그래피`
 - [Polyimide and Polyimide-Precursor Photopolymers for Vat Photopolymerisation: Chemical Identity, Organogel Formation, Imidisation, Shrinkage, Void Formation and High-Temperature Qualification](https://doi.org/10.5281/zenodo.22231813) — 2026-09-01 · Zenodo (CERN European Organization for Nuclear Research) `PSPI·리소그래피` `고내열성`
 - [Facile synthesis of high-performance colorless polyimide films bearing amide groups with enhanced optical and thermal stability](https://doi.org/10.1177/09540083261472064) — 2026-07-26 · High Performance Polymers `저CTE·휨` `고내열성`
+- [Investigation on the Degradation Mechanisms and Mechanical Property Evolution of 3D-SiO2-Fiber-Reinforced Polyimide Composites After Thermal Aging](https://doi.org/10.3390/polym18202556) — 2026-10-17 · Polymers `접착·신뢰성` `고내열성`
 - [Preparation and Performance Study of Seamless Polyimide Tube](https://doi.org/10.1002/pen.70930) — 2026-10-10 · Polymer Engineering & Science `저온경화` `코팅·박막/후막`
 - [Growth-Temperature-Dependent Synaptic Plasticity in ALD-ZnO Optoelectronic Synaptic Devices on Polyimide Substrates](https://doi.org/10.3390/s26196022) — 2026-09-23 · Sensors `코팅·박막/후막`
 - [Tailoring the Orientation of Electron‐Delocalized Conjugated Structures in Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage](https://doi.org/10.1002/adfm.78452) — 2026-09-15 · Advanced Functional Materials `고내열성`
+- [Evaluation of Cytotoxic Potential of Water-Soluble Photosensitive Pincer-Copper Complexes](https://doi.org/10.1021/acs.jmedchem.6c02129) — 2026-10-19 · Journal of Medicinal Chemistry `PSPI·리소그래피`
 - [Epoxy‐Functional Hyperbranched Polysiloxane Hybridized Water‐Synthesized Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage](https://doi.org/10.1002/smll.76350) — 2026-10-18 · Small `저온경화`
 - [Engineering the Optical and Dielectric Performance of PVP / PS Blend Films via SiC / PbO 2 Nanofiller Hybridization for Flexible Electronic Applications](https://doi.org/10.1002/app.71633) — 2026-10-14 · Journal of Applied Polymer Science
 - [Colorless shape memory polyimide films for flexible optoelectronics](https://doi.org/10.1088/1361-665x/aeb2c5) — 2026-10-11 · Smart Materials and Structures `고내열성`
 - [Thermo-optical properties of polyimide films with bulky side groups: Experimental and theoretical investigations](https://doi.org/10.1177/09540083261490453) — 2026-09-22 · High Performance Polymers
 - [3,5-diaminobenzoic acid: a simple method to improve the solubility and lithography accuracy of photosensitive polyimides](https://doi.org/10.1007/s00339-026-09736-3) — 2026-09-03 · Applied Physics A `PSPI·리소그래피`
-- [Enhanced Thermal Conductivity and EMI Shielding of Polyimide Composites Based on a Three-Dimensional Interconnected Graphene@Graphite Network](https://doi.org/10.1021/acsapm.6c03605) — 2026-10-16 · ACS Applied Polymer Materials
-- [A Review of CMOS-Compatible Flexible Biosensors Based on Polymer Electronics for Wearable Healthcare](https://doi.org/10.3390/chips5030030) — 2026-09-19 · Chips `접착·신뢰성` `시장·기업`
-- [Photodegradation of different nanocellulose substrates](https://doi.org/10.1007/s10570-026-07192-z) — 2026-09-02 · Cellulose
 
 ## 🧪 프리프린트 (3)
 

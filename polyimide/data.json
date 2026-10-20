@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-18T23:25:14+00:00",
+ "generated_at": "2026-10-20T00:21:51+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 8,
-  "paper": 33,
+  "news": 9,
+  "paper": 37,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,58 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Interface Modification of Polyimide with Calcium-Based Hybrid Nanorods for Advanced Dielectrics",
+   "url": "https://doi.org/10.1021/acsaelm.6c01744",
+   "source": "ACS Applied Electronic Materials",
+   "date": "2026-10-19",
+   "authors": [
+    "Zongyuan Bai",
+    "Zhixin Gao",
+    "Zhen Sun",
+    "Jin Sun",
+    "Weiyi Deng",
+    "Yong Yang"
+   ],
+   "abstract": "Abstract Polymers constitute vital dielectric media for energy-storage capacitors within contemporary electronic and electrical architectures. A persistent bottleneck in engineering high-energy-density polymer dielectrics lies in the concurrent optimization of dielectric constant and breakdown strength, two parameters traditionally bound by a trade-off relationship. In this study, one-dimensional calcium-based hybrid nanorods (denoted Ca-CP nanorods) are fabricated through a simple solution-phase strategy and introduced into polyimide (PI) matrix to synchronously boost the dielectric constant and breakdown strength of PI composites. Benefiting from bulk and interfacial effects, the composites exhibit markedly improved dielectric response, while the rigid nanorods enhance the mechanical strength of the composites and inhibit electrical breakdown channel expansion. Moreover, the positively charged surfaces of Ca-CP nanorods can efficiently capture injected and excited charge carriers, which further elevates the dielectric breakdown strength of the composite. At a Ca-CP loading of 1.5 wt %, the dielectric constant reached 5.08 at 1 kHz, and the characteristic breakdown strength reach…",
+   "doi": "10.1021/acsaelm.6c01744",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저유전(Dk/Df)",
+    "시장·기업"
+   ],
+   "score": 9,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Evaluation of Cytotoxic Potential of Water-Soluble Photosensitive Pincer-Copper Complexes",
+   "url": "https://doi.org/10.1021/acs.jmedchem.6c02129",
+   "source": "Journal of Medicinal Chemistry",
+   "date": "2026-10-19",
+   "authors": [
+    "Hachina Begum",
+    "Babu Venkateshappa",
+    "Hirakjyoti Roy",
+    "Siddhartha Sankar Ghosh",
+    "Akshai Kumar"
+   ],
+   "abstract": "Abstract Herein, the synthesis and characterization of four new water-soluble pincer-copper complexes of the type (R2NNN)CuCl2 (R = C6H5, p-OMe-C6H4, p-Me-C6H4, and p-F-C6H4) based on bis(imino)pyridine ligands have been reported. The complexes exhibited significant cytotoxicity against a monolayer of MCF-7 breast cancer cells following light irradiation. Notably, the complex (Ph2NNN)CuCl2 demonstrated the highest efficacy among the pincer-Cu complexes, with an IC50 of 11 μM in the presence of light and an IC50 of 25 μM in dark conditions, making it ideal for photodynamic therapy (PDT). The complex (Ph2NNN)CuCl2 demonstrated selectivity for MCF-7 cells, as indicated by its reduced cytotoxicity against HEK cells. The generation of singlet oxygen (1O2) led to photo-oxidation-mediated apoptosis, as evidenced by the Annexin V/PI assay and concomitant G2/M cell cycle arrest. Furthermore, cleaved PARP (cPARP) expression upon photoactivation also confirmed the induction of apoptosis. This work provides an avenue for future applications of strategically engineered water-soluble pincer-metal complexes in cancer phototherapy.",
+   "doi": "10.1021/acs.jmedchem.6c02129",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-20"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -48,6 +100,32 @@
    ],
    "score": 6,
    "first_seen": "2026-10-18"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Investigation on the Degradation Mechanisms and Mechanical Property Evolution of 3D-SiO2-Fiber-Reinforced Polyimide Composites After Thermal Aging",
+   "url": "https://doi.org/10.3390/polym18202556",
+   "source": "Polymers",
+   "date": "2026-10-17",
+   "authors": [
+    "Minglong Yang",
+    "Yadan Wu",
+    "Jiahao He",
+    "Qiujin Gu",
+    "Haitao Liu"
+   ],
+   "abstract": "Understanding the thermal aging behavior of SiO2f/PI composites is crucial for ensuring their reliability and longevity in high-temperature aerospace applications. In this study, the thermal aging behavior of three-dimensional quartz-fiber-reinforced polyimide (3D-SiO2f/PI) composites was investigated. The composites were fabricated through a modified prepreg compression molding (PCM) method, including a vacuum-assisted impregnation process followed by thermal compression molding. Long-term thermal aging was carried out to evaluate the high-temperature aging resistance. The flexural properties were tested with a three-point bending test method. The micromechanical characterization was performed though nanoindentation. Interfacial properties were evaluated through single-fiber push-in tests, and the interfacial shear strength (IFSS) was calculated. The thermal aging experiment results revealed that the composites maintained excellent long-term thermal stability. The PI matrix showed no detectable oxidation or thermal degradation of after 100 h aging at 350 °C, yet no significant porosity or cracks were observed for the composite. However, further prolonged thermal exposure led to s…",
+   "doi": "10.3390/polym18202556",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "접착·신뢰성",
+    "고내열성"
+   ],
+   "score": 7,
+   "first_seen": "2026-10-20"
   },
   {
    "type": "paper",
@@ -494,6 +572,22 @@
   {
    "type": "news",
    "origin": "Google News",
+   "title": "Minco All-Polyimide Heaters Built for Space Environments",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTl90clVEa3NYMWpVNkNGV3Q2ckdxZUh1ekhnSGx2RE1NZ1M0UXN5cW1GbS1VNXVYRVgzc0ZaYkxrNV9NYlA0c1FhY2hyUGdHbE5zcTFSdHBXVUVRaDY3cUFodlR5akhoWWs5UFVWeWktTHNtN2pPLXlsNUFTa2hrV082dllZQm94UHhrTnhHRWwzM1VmQ01HWVlhd3FCWms?oc=5",
+   "source": "Astute Group",
+   "date": "2026-09-29",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
    "title": "[데이터 뉴스룸] 고무·플라스틱 업체 50곳 영업益 8%대 상승…LX하우시스·금호타이어·PI첨단소재, 1년 새 영업익 100억 넘게 증가",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QTzhxNmpMSFR1MVYzeFF2X00wd0h0LVZaWE05LVVJalA4eXpfUFpNWmZUcmlxTWVJUEJPY3BvQy1VRG1nRndhd2xxNFVEeXhleENmdjBDTkEzQWJUbWViQlFXbHJleU11?oc=5",
    "source": "녹색경제신문",
@@ -503,6 +597,24 @@
    "doi": "",
    "lang": "ko",
    "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
+   "source": "Fortune Business Insights",
+   "date": "2026-09-28",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 박막",
    "tags": [
     "시장·기업"
    ],
@@ -556,6 +668,30 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
+   "title": "A bionic strong and tough amphibious adhesive inspired by barnacles and articular cartilage",
+   "url": "https://doi.org/10.26599/nr.2026.94909211",
+   "source": "Nano Research",
+   "date": "2026-09-23",
+   "authors": [
+    "Wei Tian",
+    "Jiajia Deng",
+    "Jing Zheng",
+    "Zhongrong Zhou"
+   ],
+   "abstract": "Abstract Developing strong and tough amphibious adhesives that can achieve high adhesion strength in both dry and wet environments remains a major challenge. Herein, inspired by the hydrophobic–hydrophilic adhesion strategy of barnacle cement proteins and the fibre-reinforced load-bearing structure of articular cartilage, a bioinspired polyurethane adhesive (TA@WS2/PU) with strong, tough, and durable underwater adhesion was developed. In this system, catechol-containing chain extenders were introduced to provide robust substrate anchoring, while fluorinated polyimide segments induced pronounced microphase separation and generated low-surface-energy hydrophobic nanodomains for interfacial dewetting. Furthermore, tannic-acid-modified tungsten disulfide nanosheets (TA@WS2) were incorporated into the optimized polyurethane matrix to construct a cartilage-mimetic reinforcing network, in which high-aspect-ratio nanosheets acted as load-bearing skeletons and tannic-acid-rich surfaces formed dense hydrogen-bonding interactions with polyurethane chains. The resulting 10%-TA@WS2/PU adhesive (the addition of TA@WS2 is 10 wt%) exhibited a tensile strength of 108 MPa, elongation at break of 11…",
+   "doi": "10.26599/nr.2026.94909211",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide temporary bonding debonding",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 3,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Thermo-optical properties of polyimide films with bulky side groups: Experimental and theoretical investigations",
    "url": "https://doi.org/10.1177/09540083261490453",
    "source": "High Performance Polymers",
@@ -577,24 +713,6 @@
    "query": "low transmittance polyimide",
    "tags": [],
    "score": 6,
-   "first_seen": "2026-10-13"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
-   "source": "Fortune Business Insights",
-   "date": "2026-09-21",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "폴리이미드 박막",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
    "first_seen": "2026-10-13"
   },
   {
