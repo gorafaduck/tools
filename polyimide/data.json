@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T23:54:46+00:00",
+ "generated_at": "2026-10-22T00:03:07+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 9,
@@ -147,28 +147,29 @@
    "doi": "10.1021/acsapm.6c03605",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [],
    "score": 5,
    "first_seen": "2026-10-16"
   },
   {
    "type": "preprint",
-   "origin": "arXiv",
+   "origin": "OpenAlex",
    "title": "Ablation-Driven Selective Laser Direct Mass Transfer for Micro-LEDs with High Speed, Enhanced Gap Tolerance, and High Precision",
-   "url": "https://arxiv.org/abs/2610.21839v1",
-   "source": "arXiv",
+   "url": "https://doi.org/10.48550/arxiv.2610.21839",
+   "source": "arXiv (Cornell University)",
    "date": "2026-10-15",
    "authors": [
-    "Yuxuan Cao",
+    "曹宇轩 Cao Yuxuan",
     "Yulong Wang",
     "Jürgen Brugger",
     "Zhen Zhang"
    ],
    "abstract": "Micro light-emitting diodes (micro-LEDs) offer superior performance for next-generation displays, yet their scalable manufacturing is severely bottlenecked by the mass transfer process from donor to receiver substrates. The existing laser-induced forward transfer (LIFT) methods are restricted by low throughput, limited selectivity, and long reaction times. In this study, we introduce a novel defocused direct laser ablation transfer (D-DLAT) method utilizing polyimide as a dynamic release layer. Whereas most indirect laser transfer methods trigger chip release followed by passive descent toward the receiver, D-DLAT directly ablates the release layer to actively propel the small-sized chips towards the receiver via ablation shock. By optimizing the ablation profiles and scanning paths, this method achieves high-speed transfer with significantly enhanced precision and robustness. We demonstrate the successful transfer of micro-LEDs ranging from 600 $\\unicode{x03BC}$m down to 35 $\\unicode{x03BC}$m in size, with a minimum reported placement error of less than 1 $\\unicode{x03BC}$m, and a critical transfer gap of up to 50 $\\unicode{x03BC}$m. Furthermore, the D-DLAT approach enables full…",
-   "doi": "",
+   "doi": "10.48550/arxiv.2610.21839",
+   "cited_by": 0,
    "lang": "en",
-   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "query": "polyimide thin film processing",
    "tags": [],
    "score": 2,
    "first_seen": "2026-10-16"
