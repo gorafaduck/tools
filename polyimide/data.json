@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-22T00:03:07+00:00",
+ "generated_at": "2026-10-23T00:02:14+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 9,
-  "paper": 37,
+  "news": 11,
+  "paper": 38,
   "preprint": 3
  },
  "tags": [
@@ -25,6 +25,71 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission",
+   "url": "https://doi.org/10.1002/adma.75481",
+   "source": "Advanced Materials",
+   "date": "2026-10-22",
+   "authors": [
+    "Jingxin Liu",
+    "Yu Xin",
+    "Yinghui Sun",
+    "Tian Xia",
+    "Yichen Li",
+    "Yanfeng Lyu",
+    "Lingzhi Nie",
+    "Diwen Zhou"
+   ],
+   "abstract": "ABSTRACT The ultralow k porous polymer dielectrics have been widely explored for Integrated circuit (IC) interconnects, 5G/6G communications, and wearable devices. However, disordered pore structures and poor interfacial adhesion remain a major challenge, thus making it difficult to decouple the k ‐tanδ trade‐off. Here, we employ hollow covalent organic frameworks (H‐TD‐COF) as multifunctional molecular anchoring nodes to construct robust pore‐chain interlocked networks in polyimide nanofibrous films. The amino‐functionalized COF shells participate in the in situ growth of polyimide (PI) chains, thus enabling interlocked interfaces that fundamentally restrict segmental mobility and suppress dipolar relaxation. Subsequent electrospinning technique allows anchored chains to be stretched along the fiber axis and immobilizes them within an oriented fibrous architecture. This simultaneously disrupts long‐range charge migration pathways while preserving stress‐transfer and heat‐dissipation continuity. The resulting PI‐g‐COF (4) nanocomposites with 4 wt% H‐TD‐COF loading achieve an ultralow dielectric constant of 1.50 and dielectric loss of 0.001 at 1 kHz, with highly stable dielectric p…",
+   "doi": "10.1002/adma.75481",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저유전(Dk/Df)",
+    "접착·신뢰성"
+   ],
+   "score": 14,
+   "first_seen": "2026-10-22"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 웨이퍼 트레이 인서트 시장 2035년 전망: 첨단 노드 웨이퍼 투입 확대가 성장 견인 - 뉴스 및 통계",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMFlBYm1YMVh3Y1c4TlhqbnZtd3RacDZ4T19YaWVCUC13ZXRER0h4eHdOSG0teWZBWXB3ZURud1BhQ0huRlhsR0F3cmxEeE1PN2E5UHdUdjdfX2Q5c054Q2E5aVB1eEFiYm9yMkQ4TVlYaENEcl9kb2loMHlCUWxoWUN1b3QzUkNoSFpUTEZzTlVMNVdHVDh0Z2pIVTdMdHpDbGJ5M1JQS2I0VWZ0OTlXWDhJdWtGQThkUVpJeG4tU3hnQkVheEg5VXlIa2dHd0xMYnBtam5PSWpLSUxncFFKWTRKUXk5Zw?oc=5",
+   "source": "IndexBox",
+   "date": "2026-10-22",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 코팅",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-22"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Wafer Tray Inserts Market To 2035: Growth Driven by Advanced Node Wafer Starts - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPakt2NDZ6WWRVYnZOU25aODgwS0xGRUZoNUVhM3QzY3o5NXNzeFkzYUVpOVdaeHBIS1hNZlh2eG9HN3B0WnEzZEY4TUZaVFhEVU5kclJnbUNzdzA4M0lETGltWGhZTWlSNHM5X0RlRzBOX0hrS1ZmQmpnSGYwYVBmUXhIU0Y3RUlqck5mYVo1Sm0tTHdxbUNtR0F3QU1TaUV5aVp3OFRDa3l4SURJTWxmbkZVLUt4TVpva1haUkw2NkNkcW4zWVFTSVpjZGVYWTE2ZXFFM3gyZFpMZWZVUERvVVFB?oc=5",
+   "source": "IndexBox",
+   "date": "2026-10-22",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 5,
+   "first_seen": "2026-10-22"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
    "title": "Interface Modification of Polyimide with Calcium-Based Hybrid Nanorods for Advanced Dielectrics",
    "url": "https://doi.org/10.1021/acsaelm.6c01744",
    "source": "ACS Applied Electronic Materials",
@@ -41,7 +106,7 @@
    "doi": "10.1021/acsaelm.6c01744",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저유전(Dk/Df)",
     "시장·기업"
@@ -94,7 +159,7 @@
    "doi": "10.1002/smll.76350",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저온경화"
    ],
@@ -119,7 +184,7 @@
    "doi": "10.3390/polym18202556",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "접착·신뢰성",
     "고내열성"
@@ -290,7 +355,7 @@
    "doi": "10.2115/fiberst.2026-0028",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "polyimide low temperature cure",
    "tags": [
     "접착·신뢰성",
     "고내열성"
