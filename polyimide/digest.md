@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-25
-- 최근 7일 신규 수집: 11건 / 전체 보관: 53건
+- 생성일: 2026-10-27
+- 최근 7일 신규 수집: 10건 / 전체 보관: 54건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 4, 접착·신뢰성 3, 저유전(Dk/Df) 2, PSPI·리소그래피 1, 저온경화 1, 고내열성 1, 코팅·박막/후막 1
+**주제 분포:** 접착·신뢰성 4, 시장·기업 4, PSPI·리소그래피 2, 저유전(Dk/Df) 2, HBM·칩렛 1, 고내열성 1
 
 ## 📰 뉴스 (4)
 
@@ -13,14 +13,13 @@
 - [PI첨단소재, 28일 3분기 실적 공시](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUdXN1dWRvaFF2VFN4WXBSOGhxdFZRUzZxZHNZTDhnMThPMjZmTFpRbDRqU0FQaFhfOEE2TVJUVVVha21jb0FpUEExeHpMdjR6QmFLVUxVMnl0TTRKcF9rdGVBSU5kQQ?oc=5) — 2026-10-23 · 비건뉴스 `시장·기업`
 - [Minco All-Polyimide Heaters Built for Space Environments](https://news.google.com/rss/articles/CBMinwFBVV95cUxPTl90clVEa3NYMWpVNkNGV3Q2ckdxZUh1ekhnSGx2RE1NZ1M0UXN5cW1GbS1VNXVYRVgzc0ZaYkxrNV9NYlA0c1FhY2hyUGdHbE5zcTFSdHBXVUVRaDY3cUFodlR5akhoWWs5UFVWeWktTHNtN2pPLXlsNUFTa2hrV082dllZQm94UHhrTnhHRWwzM1VmQ01HWVlhd3FCWms?oc=5) — 2026-09-29 · Astute Group
 
-## 📄 논문 (7)
+## 📄 논문 (6)
 
 - [In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission](https://doi.org/10.1002/adma.75481) — 2026-10-22 · Advanced Materials `저유전(Dk/Df)` `접착·신뢰성`
+- [A Comparative Study of Parylene, PSPI and ALD TiO2/TiN/Ru/Cu Multilayer as Adhesion Layers on Glass Surface for Glass-Cu Adhesion Enhancement](https://doi.org/10.3390/mi17111221) — 2026-10-23 · Micromachines `PSPI·리소그래피` `HBM·칩렛` `접착·신뢰성`
 - [Interface Modification of Polyimide with Calcium-Based Hybrid Nanorods for Advanced Dielectrics](https://doi.org/10.1021/acsaelm.6c01744) — 2026-10-19 · ACS Applied Electronic Materials `저유전(Dk/Df)` `시장·기업`
 - [Investigation on the Degradation Mechanisms and Mechanical Property Evolution of 3D-SiO2-Fiber-Reinforced Polyimide Composites After Thermal Aging](https://doi.org/10.3390/polym18202556) — 2026-10-17 · Polymers `접착·신뢰성` `고내열성`
-- [Growth-Temperature-Dependent Synaptic Plasticity in ALD-ZnO Optoelectronic Synaptic Devices on Polyimide Substrates](https://doi.org/10.3390/s26196022) — 2026-09-23 · Sensors `코팅·박막/후막`
 - [Evaluation of Cytotoxic Potential of Water-Soluble Photosensitive Pincer-Copper Complexes](https://doi.org/10.1021/acs.jmedchem.6c02129) — 2026-10-19 · Journal of Medicinal Chemistry `PSPI·리소그래피`
-- [Epoxy‐Functional Hyperbranched Polysiloxane Hybridized Water‐Synthesized Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage](https://doi.org/10.1002/smll.76350) — 2026-10-18 · Small `저온경화`
 - [A bionic strong and tough amphibious adhesive inspired by barnacles and articular cartilage](https://doi.org/10.26599/nr.2026.94909211) — 2026-09-23 · Nano Research `접착·신뢰성`
 
 ## 🧪 프리프린트 (0)

@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-25T23:18:00+00:00",
+ "generated_at": "2026-10-27T00:27:52+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 12,
-  "paper": 38,
+  "paper": 39,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,36 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "A Comparative Study of Parylene, PSPI and ALD TiO2/TiN/Ru/Cu Multilayer as Adhesion Layers on Glass Surface for Glass-Cu Adhesion Enhancement",
+   "url": "https://doi.org/10.3390/mi17111221",
+   "source": "Micromachines",
+   "date": "2026-10-23",
+   "authors": [
+    "Tailong Shi",
+    "Qi Li",
+    "Hongfei Chen",
+    "Shunyu Yao",
+    "Liyi Li",
+    "Hua Hong",
+    "Li Zheng",
+    "夏世伟"
+   ],
+   "abstract": "Glass substrates exhibit great potential in 2.5D/3D advanced packaging, but poor interfacial adhesion with metal layers remains a critical challenge. This work studies three different adhesion layer strategies, namely Parylene-C, photosensitive polyimide (PSPI), and atomic layer deposition (ALD) TiO2/TiN/Ru/Cu multilayer, to improve glass-Cu adhesion. A 30 µm Cu layer was electroplated over glass-Parylene-Ti/Cu, glass-PSPI-Ti/Cu, and glass-TiO2/TiN/Ru/Cu multilayer stacks. The 90° peel test results show that, at the layer thicknesses investigated here, all three strategies increase the glass-Cu peel resistance (approximately 6.5 to 10 times) compared with the conventional glass-PVD Ti/Cu control group (0.62 ± 0.06 N/cm). Parylene-C achieves the highest adhesion strength of 6.25 ± 0.03 N/cm, which is 31.9% higher than the ALD multilayer (4.74 ± 0.28 N/cm) and 55.5% higher than the PSPI (4.02 ± 0.10 N/cm). The adhesion enhancement mechanisms are analyzed, and the comprehensive performance of the three strategies is compared over multiple aspects. Overall, this work provides three practical solutions to improve the glass-Cu adhesion.",
+   "doi": "10.3390/mi17111221",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "HBM·칩렛",
+    "접착·신뢰성"
+   ],
+   "score": 12,
+   "first_seen": "2026-10-27"
+  },
   {
    "type": "news",
    "origin": "Google News",
