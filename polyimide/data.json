@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-27T00:27:52+00:00",
+ "generated_at": "2026-10-28T00:33:35+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 12,
-  "paper": 39,
+  "news": 15,
+  "paper": 40,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,88 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Molecular Structure Modification and Performance Regulation of Highly Flexible Poly(ester-imide)s with Low Dielectric Constant and Low Dissipation Factor",
+   "url": "https://doi.org/10.1021/acs.iecr.6c04327",
+   "source": "Industrial & Engineering Chemistry Research",
+   "date": "2026-10-27",
+   "authors": [
+    "Peng Xiao",
+    "Yonghao Liu",
+    "Chenggang Zhang",
+    "Xiaojie He",
+    "Xixi Wu",
+    "Lan Jiang",
+    "Weiyou Yang"
+   ],
+   "abstract": "Abstract Inspired by the excellent dielectric properties and low moisture uptake of liquid-crystalline polymers (LCPs), ester units are introduced into polyimide (PI) backbones to develop poly(ester-imide)s (PEIs) for high-frequency communication dielectrics. Though PEIs show reduced dissipation factor (Df) and hygroscopicity relative to traditional PIs, the intrinsic rigidity and polarity of ester groups lead to relatively high dielectric constant (Dk) and low ductility, restricting their practical use in 5G/6G complex service environments. Herein, three dual-ester-functionalized diamine monomers are rationally designed and synthesized, which are polymerized with terephthaloyl bis(trimellitate) dianhydride (TAHQ) to yield four structurally modified MPEI films: ABHQ-TAHQ, Me-ABHQ-TAHQ, 6H-ABHQ-TAHQ, and 6F-ABHQ-TAHQ. XRD, POM, and AFM demonstrate that molecular-structure regulation can tailor the condensed-state and aggregation structures of polymer chains and improve overall performances synergistically. At 10 GHz, 6F-ABHQ-TAHQ exhibits ultralow Dk (2.93), ultralow Df (0.001 56), and excellent humidity resistance. Me-ABHQ-TAHQ and 6H-ABHQ-TAHQ achieve moderate Dk reduction with s…",
+   "doi": "10.1021/acs.iecr.6c04327",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) solution coating film",
+   "tags": [
+    "저유전(Dk/Df)",
+    "접착·신뢰성"
+   ],
+   "score": 16,
+   "first_seen": "2026-10-28"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 2026년 3분기 매출액 555억3500만원으로 전년동기 대비 18.8% 감소",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zai1vYVc4OWtaSkNuUUtOVVZ2NmFBeEhzR0U4QVh0NHdzUjdhejc5UEp5UDJlOEFVS1VoLURtTXJhWFhwdEhUaERma2E3eWtoN3pmNmQ2Wk5PUVZpRlRvUlAyc0xoTHd6MHg2QXJOV2VJdmtLUVVNMDZhYw?oc=5",
+   "source": "디지털투데이",
+   "date": "2026-10-27",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-28"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 3Q 영업이익 125억...전년비 7%↑",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EcVJ3dlFtYmctWHlSbzJPa0tzSWdEUXVaRHI3TkpYcGxrLTJ3Tm9fb2hscWRIVWI0ZHFCTEZLYklvZG1qcUJMWGdNQmZ4VlhDZDEzR2hUVnpwVXVlUG9pTGdGY1hEbUN1TWVrXzJNXzBBblk?oc=5",
+   "source": "데이터투자",
+   "date": "2026-10-27",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-28"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Sulfonated Polyimide Ionomer Market in the European Union: Size, Trends and Forecast to 2035",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGpLbFNCMjJsYXlrbnJkQlcySDZWYTVEb3F4eGtHemlqNXV6dEtSTTFXZ3A4NnpEN3hvbmx1UndQYzJvWFppcnZzM19UbVZFY2U1amNYWFFIU0VhZjR3SGs1cU5EVUxWWVU2d1NkWHFlZmlseXhlWXIzSm1UN252SUZMUW1vck5lSjByOFYtWHl3YTRSNUFFUGZqTkxKWWtxRXNrNUNybmhtb3BZYUNfb1AwSzY1VEdSaDRvTDM3SlZJUQ?oc=5",
+   "source": "IndexBox",
+   "date": "2026-10-24",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "polyimide packaging",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-28"
+  },
   {
    "type": "paper",
    "origin": "OpenAlex",
@@ -91,7 +173,7 @@
    "doi": "10.1002/adma.75481",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
