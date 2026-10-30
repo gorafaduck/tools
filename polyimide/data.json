@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T00:58:29+00:00",
+ "generated_at": "2026-10-30T01:01:15+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 19,
-  "paper": 40,
+  "paper": 44,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,87 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management",
+   "url": "https://doi.org/10.1021/acsami.6c16557",
+   "source": "ACS Applied Materials & Interfaces",
+   "date": "2026-10-30",
+   "authors": [
+    "Ruixue Wang",
+    "Baoyue Zhang",
+    "Baijie Cheng",
+    "Fan Wan",
+    "Shanyi Guang",
+    "Hongyao Xu"
+   ],
+   "abstract": "Abstract The rapid advancement of high-frequency and highly integrated semiconductor devices urgently calls for dielectric materials that combine high thermal conductivity, low dielectric constant, and excellent thermal stability. Herein, multiamino polydiacetylene-functionalized boron nitride nanosheets (BNNS@MAPDA) have been incorporated into a MAPDA-containing polyimide matrix to improve filler–matrix interfacial coupling. The functionalized nanosheets exhibit high aspect ratios, few lattice defects, high yields, and excellent dispersion in the PI-MAPDA matrix. At a filler loading of only 7.5 wt %, the PI‑MAPDA/BNNS@MAPDA‑7.5 composite film achieves an in‑plane thermal conductivity of 1.67 W m–1 K–1, representing a 422% enhancement over pristine PI‑MAPDA. Benefiting from the ultralow polarizability of fluorinated groups and the strengthened interfacial coupling, the nanocomposite simultaneously maintains a low dielectric constant of 2.20 and a low dielectric loss tangent (tanδ) of 0.0066 at 1 MHz, alongside a volume resistivity of 9.7 × 1011 Ω cm. The density functional theory (DFT) calculations reveal that MAPDA functionalization enhances interfacial affinity and energy transf…",
+   "doi": "10.1021/acsami.6c16557",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저유전(Dk/Df)",
+    "고내열성"
+   ],
+   "score": 21,
+   "first_seen": "2026-10-30"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Ion-implantation-induced polyimide reconstruction and Cu interfacial adhesion",
+   "url": "https://doi.org/10.3389/fmats.2026.1972906",
+   "source": "Frontiers in Materials",
+   "date": "2026-10-29",
+   "authors": [
+    "Meiyan Chen",
+    "Yue Zhang",
+    "Xuan Liu",
+    "Ke Yao",
+    "Xueping Geng",
+    "Jinru Ou",
+    "Deli Tang",
+    "Fanya Jin"
+   ],
+   "abstract": "Reliable metallization of polymer substrates is essential for flexible electronics, advanced packaging, and high-frequency systems, yet achieving strong metal/polymer adhesion while maintaining good electrical performance remains challenging. Here, carbon-ion, nitrogen-ion, and carbon/nitrogen dual-ion implantation were used to modify polyimide, with the implantation conditions independently adjusted to obtain nearly identical surface free energies of 46.43–47.22 mJ m -2 . Despite the similar wettability, the resulting copper/polyimide peel strengths differed substantially, reaching 0.14, 0.20, and 1.63 N mm -1 for the carbon-, nitrogen-, and carbon/nitrogen-treated samples, respectively, while the corresponding copper-film sheet resistances were 20, 14, and 17 mΩ/□. Scanning electron microscopy showed little microscale morphological variation, whereas atomic force microscopy revealed distinct nanoscale roughening among the implantation conditions. X-ray photoelectron spectroscopy, attenuated-total-reflection Fourier-transform infrared spectroscopy, and Raman spectroscopy further identified distinct implantation-induced chemical and aromatic-framework reconstruction states. In par…",
+   "doi": "10.3389/fmats.2026.1972906",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 7,
+   "first_seen": "2026-10-30"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Twisted Fluorene Cardo Structures for Synergistic Dielectric, Thermal, and Mechanical Optimization in Ternary Polyimides",
+   "url": "https://doi.org/10.1021/acsapm.6c03580",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-10-28",
+   "authors": [
+    "Jun Jun Wu",
+    "Hao Yang",
+    "Qian Lai",
+    "Xin Kang Li",
+    "Jun Bian",
+    "Ai Ping Zhang",
+    "Hai Lan Lin",
+    "Tong Li"
+   ],
+   "abstract": "Abstract This study aims to develop high-performance polyimide (PI) dielectrics with enhanced intrinsic dielectric properties while retaining excellent thermal and mechanical stability. To achieve this, a series of ternary copolyimide films were designed by incorporating 9,9-bis(3,4-dicarboxyphenyl)fluorene dianhydride (BPAF), which contains a twisted fluorene cardo structure, into the rigid polyimide backbone derived from pyromellitic dianhydride (PMDA) and 4,4′-oxidianiline (ODA). The BPAF/PMDA molar ratio was systematically varied to regulate chain packing, free volume, and segmental mobility. Molecular simulations combined with experimental characterizations, including Fourier transform infrared spectroscopy (FTIR), X-ray diffraction (XRD), atomic force microscopy (AFM), thermogravimetric analysis (TGA), dynamic mechanical analysis (DMA), tensile testing, and dielectric measurements, were employed to elucidate structure–property relationships. Results showed that the twisted fluorene unit effectively disrupted regular chain packing, increased free volume fraction, and enhanced dipolar accessibility. Among all samples, PI-2 (BPAF:PMDA = 70:30) exhibited a well-balanced performa…",
+   "doi": "10.1021/acsapm.6c03580",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low dielectric constant",
+   "tags": [],
+   "score": 9,
+   "first_seen": "2026-10-30"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -421,21 +502,22 @@
   },
   {
    "type": "preprint",
-   "origin": "arXiv",
+   "origin": "OpenAlex",
    "title": "Ablation-Driven Selective Laser Direct Mass Transfer for Micro-LEDs with High Speed, Enhanced Gap Tolerance, and High Precision",
-   "url": "https://arxiv.org/abs/2610.21839v1",
-   "source": "arXiv",
+   "url": "https://doi.org/10.48550/arxiv.2610.21839",
+   "source": "arXiv (Cornell University)",
    "date": "2026-10-15",
    "authors": [
-    "Yuxuan Cao",
+    "曹宇轩 Cao Yuxuan",
     "Yulong Wang",
     "Jürgen Brugger",
     "Zhen Zhang"
    ],
    "abstract": "Micro light-emitting diodes (micro-LEDs) offer superior performance for next-generation displays, yet their scalable manufacturing is severely bottlenecked by the mass transfer process from donor to receiver substrates. The existing laser-induced forward transfer (LIFT) methods are restricted by low throughput, limited selectivity, and long reaction times. In this study, we introduce a novel defocused direct laser ablation transfer (D-DLAT) method utilizing polyimide as a dynamic release layer. Whereas most indirect laser transfer methods trigger chip release followed by passive descent toward the receiver, D-DLAT directly ablates the release layer to actively propel the small-sized chips towards the receiver via ablation shock. By optimizing the ablation profiles and scanning paths, this method achieves high-speed transfer with significantly enhanced precision and robustness. We demonstrate the successful transfer of micro-LEDs ranging from 600 $\\unicode{x03BC}$m down to 35 $\\unicode{x03BC}$m in size, with a minimum reported placement error of less than 1 $\\unicode{x03BC}$m, and a critical transfer gap of up to 50 $\\unicode{x03BC}$m. Furthermore, the D-DLAT approach enables full…",
-   "doi": "",
+   "doi": "10.48550/arxiv.2610.21839",
+   "cited_by": 0,
    "lang": "en",
-   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
+   "query": "polyimide wafer level packaging",
    "tags": [],
    "score": 2,
    "first_seen": "2026-10-16"
@@ -708,6 +790,34 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
+   "title": "Solid‐Liquid Interdiffusion Bonding Enabling Heterogeneous Integration on Flexible and Shapeable Polymer Platforms",
+   "url": "https://doi.org/10.1002/smtd.71031",
+   "source": "Small Methods",
+   "date": "2026-10-06",
+   "authors": [
+    "Yeji Lee",
+    "Vineeth Kumar Bandari",
+    "Daniil Karnaushenko",
+    "Dmitriy D. Karnaushenko",
+    "Thomas Blaudeck",
+    "Chongxian Wang",
+    "Uwe Zschenderlein",
+    "Nathanael Jöhrmann"
+   ],
+   "abstract": "The integration of rigid microscale electronics onto soft and flexible polymer substrates remains a key challenge for flexible electronics, biointegrated systems, and body-first microrobotics, where the mechanical body, material architecture, morphology, and primary functions are designed first, while the electronic processing unit (e.g., a Si CMOS chiplet), acting as the brain to control the robot´s functionalities, is integrated later. Existing approaches, including anisotropically conductive adhesives and transfer printing, rely on non-patternable or particle-based interconnects, thick bonding layers, or complex processing, constraining interconnect density, scalability, and compatibility with mechanical transformations such as bending, rolling, or folding. Here, we present a patterned solid-liquid interdiffusion (SLID) bonding approach enabling deterministic, fine-pitch heterogeneous integration on ultrathin polymer substrates compatible with standard microfabrication. Electroplated Cu/Sn pillar bumps fabricated on 5 µm polyimide are systematically characterized to define geometric, electrical, and mechanical process window for reliable SLID bonding. The resulting interconnect…",
+   "doi": "10.1002/smtd.71031",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "spin-coated polyimide film thickness",
+   "tags": [
+    "HBM·칩렛"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-30"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Synthesis and properties of low-dielectric hydrophobic polyimides containing alkyl groups and ortho ‑phthalic structures",
    "url": "https://doi.org/10.1080/10601325.2026.2739302",
    "source": "Journal of Macromolecular Science Part A",
@@ -752,7 +862,7 @@
    "doi": "10.1186/s40486-026-00266-4",
    "cited_by": 0,
    "lang": "en",
-   "query": "spin-coated polyimide film thickness",
+   "query": "photosensitive polyimide",
    "tags": [
     "PSPI·리소그래피",
     "코팅·박막/후막",
