@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-30T01:01:15+00:00",
+ "generated_at": "2026-10-31T00:49:41+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 19,
-  "paper": 44,
+  "paper": 45,
   "preprint": 3
  },
  "tags": [
@@ -174,6 +174,28 @@
    ],
    "score": 4,
    "first_seen": "2026-10-29"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects",
+   "url": "https://doi.org/10.1088/2058-8585/aeba99",
+   "source": "Flexible and Printed Electronics",
+   "date": "2026-10-28",
+   "authors": [
+    "Dhiya Belkadi",
+    "Nicholas J. Glassmaker",
+    "Yu-Xuan Robert Yang",
+    "Muhammad M. Hussain"
+   ],
+   "abstract": "Abstract The manufacturability of printed electronics is often limited by process variability that affects electrical performance, manufacturing yield, and process consistency. Although electrical characteristics such as resistivity and sheet resistance are commonly reported, a standardized electrical framework for quantifying variability and manufacturing robustness remains lacking. This work presents a test-pattern-based framework for evaluating the electrical performance, variability, and yield of printed electronic interconnects. The framework combines geometry-dependent resistance and capacitance characterization with normalized scaling analysis, coefficient-of-variation measurements, open-circuit failure assessment, and functional yield evaluation. Using screen-printed silver conductors on polyimide substrates, the influence of conductor length, width, effective overlap length, print orientation, and impression number on electrical behavior is investigated. Resistance measurements demonstrate that conductor length follows expected geometric scaling more closely than conductor width. Variability and yield analyses identify conductor width as the dominant geometry-dependent li…",
+   "doi": "10.1088/2058-8585/aeba99",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-10-31"
   },
   {
    "type": "paper",
@@ -502,22 +524,21 @@
   },
   {
    "type": "preprint",
-   "origin": "OpenAlex",
+   "origin": "arXiv",
    "title": "Ablation-Driven Selective Laser Direct Mass Transfer for Micro-LEDs with High Speed, Enhanced Gap Tolerance, and High Precision",
-   "url": "https://doi.org/10.48550/arxiv.2610.21839",
-   "source": "arXiv (Cornell University)",
+   "url": "https://arxiv.org/abs/2610.21839v1",
+   "source": "arXiv",
    "date": "2026-10-15",
    "authors": [
-    "曹宇轩 Cao Yuxuan",
+    "Yuxuan Cao",
     "Yulong Wang",
     "Jürgen Brugger",
     "Zhen Zhang"
    ],
    "abstract": "Micro light-emitting diodes (micro-LEDs) offer superior performance for next-generation displays, yet their scalable manufacturing is severely bottlenecked by the mass transfer process from donor to receiver substrates. The existing laser-induced forward transfer (LIFT) methods are restricted by low throughput, limited selectivity, and long reaction times. In this study, we introduce a novel defocused direct laser ablation transfer (D-DLAT) method utilizing polyimide as a dynamic release layer. Whereas most indirect laser transfer methods trigger chip release followed by passive descent toward the receiver, D-DLAT directly ablates the release layer to actively propel the small-sized chips towards the receiver via ablation shock. By optimizing the ablation profiles and scanning paths, this method achieves high-speed transfer with significantly enhanced precision and robustness. We demonstrate the successful transfer of micro-LEDs ranging from 600 $\\unicode{x03BC}$m down to 35 $\\unicode{x03BC}$m in size, with a minimum reported placement error of less than 1 $\\unicode{x03BC}$m, and a critical transfer gap of up to 50 $\\unicode{x03BC}$m. Furthermore, the D-DLAT approach enables full…",
-   "doi": "10.48550/arxiv.2610.21839",
-   "cited_by": 0,
+   "doi": "",
    "lang": "en",
-   "query": "polyimide wafer level packaging",
+   "query": "all:polyimide OR all:\"polyamic acid\" OR all:\"poly(amic acid)\"",
    "tags": [],
    "score": 2,
    "first_seen": "2026-10-16"
