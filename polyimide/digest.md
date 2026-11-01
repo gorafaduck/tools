@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-10-31
-- 최근 7일 신규 수집: 14건 / 전체 보관: 67건
+- 생성일: 2026-11-01
+- 최근 7일 신규 수집: 16건 / 전체 보관: 69건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 7, 접착·신뢰성 3, 저유전(Dk/Df) 2, HBM·칩렛 2, 고내열성 1, PSPI·리소그래피 1
+**주제 분포:** 시장·기업 7, 접착·신뢰성 4, PSPI·리소그래피 2, 고내열성 2, 저유전(Dk/Df) 2, HBM·칩렛 2, 코팅·박막/후막 1
 
 ## 📰 뉴스 (7)
 
@@ -16,12 +16,14 @@
 - [PI첨단소재, 3Q 영업이익 125억...전년비 7%↑](https://news.google.com/rss/articles/CBMic0FVX3lxTE1EcVJ3dlFtYmctWHlSbzJPa0tzSWdEUXVaRHI3TkpYcGxrLTJ3Tm9fb2hscWRIVWI0ZHFCTEZLYklvZG1qcUJMWGdNQmZ4VlhDZDEzR2hUVnpwVXVlUG9pTGdGY1hEbUN1TWVrXzJNXzBBblk?oc=5) — 2026-10-27 · 데이터투자 `시장·기업`
 - [Sulfonated Polyimide Ionomer Market in the European Union: Size, Trends and Forecast to 2035](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGpLbFNCMjJsYXlrbnJkQlcySDZWYTVEb3F4eGtHemlqNXV6dEtSTTFXZ3A4NnpEN3hvbmx1UndQYzJvWFppcnZzM19UbVZFY2U1amNYWFFIU0VhZjR3SGs1cU5EVUxWWVU2d1NkWHFlZmlseXhlWXIzSm1UN252SUZMUW1vck5lSjByOFYtWHl3YTRSNUFFUGZqTkxKWWtxRXNrNUNybmhtb3BZYUNfb1AwSzY1VEdSaDRvTDM3SlZJUQ?oc=5) — 2026-10-24 · IndexBox `시장·기업`
 
-## 📄 논문 (7)
+## 📄 논문 (9)
 
 - [Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management](https://doi.org/10.1021/acsami.6c16557) — 2026-10-30 · ACS Applied Materials & Interfaces `저유전(Dk/Df)` `고내열성`
 - [Molecular Structure Modification and Performance Regulation of Highly Flexible Poly(ester-imide)s with Low Dielectric Constant and Low Dissipation Factor](https://doi.org/10.1021/acs.iecr.6c04327) — 2026-10-27 · Industrial & Engineering Chemistry Research `저유전(Dk/Df)` `접착·신뢰성`
+- [Positive-type photosensitive polyimides for advanced microelectronic packaging: from molecular design to patterning and device reliability](https://doi.org/10.1016/j.cej.2026.180690) — 2026-11-01 · Chemical Engineering Journal `PSPI·리소그래피` `접착·신뢰성`
 - [A Comparative Study of Parylene, PSPI and ALD TiO2/TiN/Ru/Cu Multilayer as Adhesion Layers on Glass Surface for Glass-Cu Adhesion Enhancement](https://doi.org/10.3390/mi17111221) — 2026-10-23 · Micromachines `PSPI·리소그래피` `HBM·칩렛` `접착·신뢰성`
 - [Twisted Fluorene Cardo Structures for Synergistic Dielectric, Thermal, and Mechanical Optimization in Ternary Polyimides](https://doi.org/10.1021/acsapm.6c03580) — 2026-10-28 · ACS Applied Polymer Materials
+- [Multifunctional Multilayered Fe 3 O 4 ‐ CCNTs /Polyimide Composite Film Exhibits Excellent Electromagnetic Interference Shielding Performance](https://doi.org/10.1002/app.71718) — 2026-10-31 · Journal of Applied Polymer Science `코팅·박막/후막` `고내열성`
 - [Ion-implantation-induced polyimide reconstruction and Cu interfacial adhesion](https://doi.org/10.3389/fmats.2026.1972906) — 2026-10-29 · Frontiers in Materials `접착·신뢰성`
 - [Solid‐Liquid Interdiffusion Bonding Enabling Heterogeneous Integration on Flexible and Shapeable Polymer Platforms](https://doi.org/10.1002/smtd.71031) — 2026-10-06 · Small Methods `HBM·칩렛`
 - [An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects](https://doi.org/10.1088/2058-8585/aeba99) — 2026-10-28 · Flexible and Printed Electronics

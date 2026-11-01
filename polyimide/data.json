@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-31T00:49:41+00:00",
+ "generated_at": "2026-11-01T00:10:46+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 19,
-  "paper": 45,
+  "paper": 47,
   "preprint": 3
  },
  "tags": [
@@ -25,6 +25,60 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "Positive-type photosensitive polyimides for advanced microelectronic packaging: from molecular design to patterning and device reliability",
+   "url": "https://doi.org/10.1016/j.cej.2026.180690",
+   "source": "Chemical Engineering Journal",
+   "date": "2026-11-01",
+   "authors": [
+    "Yao Wang",
+    "Zelin Han",
+    "Yushan Xu",
+    "Xiaodong Wang",
+    "Juan Yu",
+    "Pei Huang"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.cej.2026.180690",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "접착·신뢰성"
+   ],
+   "score": 12,
+   "first_seen": "2026-11-01"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Multifunctional Multilayered Fe 3 O 4 ‐ CCNTs /Polyimide Composite Film Exhibits Excellent Electromagnetic Interference Shielding Performance",
+   "url": "https://doi.org/10.1002/app.71718",
+   "source": "Journal of Applied Polymer Science",
+   "date": "2026-10-31",
+   "authors": [
+    "Shi Liu",
+    "Min Chao",
+    "Cheng Huang",
+    "Xi Chen",
+    "Chunjia Luo",
+    "Luke Yan"
+   ],
+   "abstract": "ABSTRACT With rapid development of communication technologies and flexible electronics, multifunctional electromagnetic interference shielding materials for specific scenarios are highly demanded. Herein, we prepared multilayer Fe 3 O 4 ‐carboxylated carbon nanotubes (CCNTs)/polyimide composite films by dispersing Fe 3 O 4 nanoparticles and CCNTs in polyimide matrix through layer‐by‐layer blade coating and thermal treatment. This bilayer filler gradient structure was designed to optimize impedance matching, mitigate secondary electromagnetic reflection pollution, and boost interfacial polarization as well as multiple reflection loss for enhanced electromagnetic wave absorption. With bilayer filler loadings of 25% and 30% and a constant 1:3 mass ratio of Fe 3 O 4 to CCNTs in each layer, the film achieves an EMI SE of 36.8 dB and specific shielding effectiveness of 525.7 dB/mm, maintaining stable performance under harsh environments. Under 6 V voltage, it rapidly reaches 145.7°C with excellent long‐term Joule heating stability. The composite also has favorable mechanical performance, high thermal stability (weight loss > 500°C) and flame retardancy (limiting oxygen index: 39.1 vol%)…",
+   "doi": "10.1002/app.71718",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "코팅·박막/후막",
+    "고내열성"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-01"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
    "title": "Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management",
    "url": "https://doi.org/10.1021/acsami.6c16557",
    "source": "ACS Applied Materials & Interfaces",
@@ -41,7 +95,7 @@
    "doi": "10.1021/acsami.6c16557",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "고내열성"
@@ -70,7 +124,7 @@
    "doi": "10.3389/fmats.2026.1972906",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "접착·신뢰성"
    ],
@@ -446,7 +500,7 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Epoxy‐Functional Hyperbranched Polysiloxane Hybridized Water‐Synthesized Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage",
    "url": "https://doi.org/10.1002/smll.76350",
    "source": "Small",
@@ -464,7 +518,7 @@
    "doi": "10.1002/smll.76350",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "poly(amic acid) dielectric",
    "tags": [
     "저온경화"
    ],
@@ -618,14 +672,14 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Colorless shape memory polyimide films for flexible optoelectronics",
    "url": "https://doi.org/10.1088/1361-665x/aeb2c5",
    "source": "Smart Materials and Structures",
    "date": "2026-10-11",
    "authors": [
     "Shuting Jiang",
-    "Deyan Kong",
+    "孔德艳",
     "Yu Kang",
     "Xinli Xiao",
     "Xiaofei Wang",
@@ -636,7 +690,7 @@
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "low transmittance polyimide",
    "tags": [
     "고내열성"
    ],
@@ -687,10 +741,10 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Preparation and Performance Study of Seamless Polyimide Tube",
    "url": "https://doi.org/10.1002/pen.70930",
-   "source": "Polymer Engineering & Science",
+   "source": "Polymer Engineering and Science",
    "date": "2026-10-10",
    "authors": [
     "Xiang Guo",
@@ -703,7 +757,7 @@
    "doi": "10.1002/pen.70930",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "low transmittance polyimide",
    "tags": [
     "저온경화",
     "코팅·박막/후막"
@@ -829,7 +883,7 @@
    "doi": "10.1002/smtd.71031",
    "cited_by": 0,
    "lang": "en",
-   "query": "spin-coated polyimide film thickness",
+   "query": "polyimide wafer level packaging",
    "tags": [
     "HBM·칩렛"
    ],
