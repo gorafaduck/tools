@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-01T00:10:46+00:00",
+ "generated_at": "2026-11-02T00:46:26+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 19,
-  "paper": 47,
+  "news": 20,
+  "paper": 49,
   "preprint": 3
  },
  "tags": [
@@ -75,6 +75,60 @@
    ],
    "score": 8,
    "first_seen": "2026-11-01"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Enhancing NCM811 Cathode Performance via Curing Temperature Optimization of Fluorine-free Polyimide Binders with Carbon Nanotubes",
+   "url": "https://doi.org/10.1021/acsaem.6c02605",
+   "source": "ACS Applied Energy Materials",
+   "date": "2026-10-31",
+   "authors": [
+    "Yeonwoo Kang",
+    "Hyeonji Jeong",
+    "Hyunjin Yoon",
+    "Byung Seob Lee",
+    "Ayeong Byeon"
+   ],
+   "abstract": "Abstract In lithium-ion batteries, high-nickel LiNi0.8Co0.1Mn0.1O2 (NCM811) cathodes have attracted considerable attention owing to their high energy density. Although conventional poly(vinylidene fluoride) (PVDF) has generally been used as the standard binder, the fluorine (F) in its chemical structure poses severe environmental concerns, driving a global shift toward sustainable, F-free alternatives. This study introduces poly(amic acid) (PAA), which is thermally converted into a rigid polyimide (PI) binder, in NCM811 and multi-walled carbon nanotubes (MWCNTs) conductive network. The degree of imidization was controlled by varying the curing temperature and optimized using FTIR spectroscopy. The optimized PAA 250 electrode exhibited a comparable capacity retention to that of the conventional PVDF electrode after 100 cycles. Furthermore, cross-sectional SEM and XPS after cycling revealed that the PAA binder suppresses particle microcracking and transition metal dissolution. This robust passivation is further supported by ex-situ FTIR and XRD analyses. Consequently, these findings demonstrate that the structural and chemical stability of the imidized PAA binder makes it a promisin…",
+   "doi": "10.1021/acsaem.6c02605",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "저온경화",
+    "시장·기업"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-02"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Tuning Diamine Architecture in 6FDA-Based Polyimides for Enhanced High-Temperature Capacitive Energy Storage",
+   "url": "https://doi.org/10.1021/acsaem.6c02261",
+   "source": "ACS Applied Energy Materials",
+   "date": "2026-10-31",
+   "authors": [
+    "Xinyu Zhao",
+    "Wentao Zhong",
+    "Junxiang Jia",
+    "Nguyen-Minh-An Tran",
+    "Mohsin Ali Marwat",
+    "Le Zhang",
+    "Hua Tan",
+    "Haibo Zhang"
+   ],
+   "abstract": "Abstract Fluorinated polyimides (6FDA-based polyimides) were investigated as high-temperature dielectric materials for capacitive energy storage. This study synthesizes a series of 6FDA-based polyimide films via solution polymerization by modulating diamine monomers with distinct spatial configurations and segmental stiffness. Systematic investigations reveal that incorporating high-rigidity diamine monomers increases the glass-transition temperature (Tg) to 340.41 °C and enhances chain packing density, as evidenced by a reduction in d-spacing to 3.87 Å. Density functional theory calculations further revealed that PI-BP possesses the largest LUMO-HOMO energy gap of 3.423 eV among the three PIs, suggesting a relatively high energetic barrier for electronic excitation. Benefiting from these structural and electronic characteristics, PI-BP exhibited a breakdown strength of 800 MV/m and a discharged energy density of 7.04 J/cm3 at room temperature. At 150 °C, PI-BP maintained a breakdown strength of 600 MV/m and an energy-storage efficiency of 85.7%, whereas commercial Kapton PI exhibited only 300 MV/m and 20.3% under the same conditions. Moreover, after 106 charge-discharge cycles at…",
+   "doi": "10.1021/acsaem.6c02261",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "high glass transition temperature polyimide",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-02"
   },
   {
    "type": "paper",
@@ -215,8 +269,8 @@
    "type": "news",
    "origin": "Google News",
    "title": "Polyimide Films And Tapes Market Set For Rapid Expansion With 11.4% CAGR Through 2030",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU0hPbDAyZ1c4V0tjR29vTmRyX3Y0cXVOT0JMQXZSbmdVY3lyR3F2bFZkOWhSVmFNbjVKM2VvcWgxZUN6S1hZeFFBWFJZTzRPc2FiZklCcG9FZFNZQkRLZG16UE9PcmRuSEtNWUxzWGh1LW9NcHVBZVJoWHpBVHBQUHhITkUzUnBJa3lKWFN1ck5XTzRFVnZrajg3bEpwSEZjVExQaXFjbGVDc3liN09tTnJadXdnTERFVjVlMUdONHNEdk9q?oc=5",
-   "source": "EIN News",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOFVSbU9ZdkN3TnpBb2pBczFqSGNWR3piLWk1djR6NGxNU2NhZ3dscXlxVUlSQ0gwZWZMTWVrbmlyUnRGS2FKdDQ4STJhcUVUWmU0TUFXS1I1bV93dUFtaG9XWkx3UlY4ZGxiZllWRDZORkZROUVEYmhTNllXdGFEZkJKOC1fb3pQMHdJNEVZYzJJV2hFcWdqc0NORjVFRnVOTmN0YjJwTGhrTTNqY2JxRjNBMEw?oc=5",
+   "source": "The National Law Review",
    "date": "2026-10-28",
    "authors": [],
    "abstract": "",
@@ -314,6 +368,24 @@
    ],
    "score": 4,
    "first_seen": "2026-10-28"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide And Imide Polymers Market in China: Size, Trends and Forecast to 2035",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXRBTk9hZWhoMjZ3SzA4RkxyOUlzV05vc3VlcldIbEZEX2ZVaXZjRkZNQUhIemNDVGplUlNpTFdxTE85SWhzakhZWlR0YU1zV2RYM0ZvTFlwV0U2Q3B5djRjTWFGbHdJcUxqYlp2U0ZiUy1UZlFiR0EtR2FJZXZIeTl1MFdqelJ6YjY1eTJWS3R3U0xxSjNVU3RLelljYWZMXzZBQTRsNlBycFN3SzVHVWNpLTEwQQ?oc=5",
+   "source": "IndexBox",
+   "date": "2026-10-25",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-02"
   },
   {
    "type": "news",
