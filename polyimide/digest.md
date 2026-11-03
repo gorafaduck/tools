@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-02
-- 최근 7일 신규 수집: 19건 / 전체 보관: 72건
+- 생성일: 2026-11-03
+- 최근 7일 신규 수집: 20건 / 전체 보관: 73건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 9, 접착·신뢰성 4, 고내열성 3, PSPI·리소그래피 2, 저유전(Dk/Df) 2, HBM·칩렛 2, 코팅·박막/후막 1, 저온경화 1
+**주제 분포:** 시장·기업 9, 접착·신뢰성 4, 저유전(Dk/Df) 3, 고내열성 3, PSPI·리소그래피 2, HBM·칩렛 2, 코팅·박막/후막 1, 저온경화 1
 
 ## 📰 뉴스 (8)
 
@@ -17,7 +17,7 @@
 - [Polyimide And Imide Polymers Market in China: Size, Trends and Forecast to 2035](https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXRBTk9hZWhoMjZ3SzA4RkxyOUlzV05vc3VlcldIbEZEX2ZVaXZjRkZNQUhIemNDVGplUlNpTFdxTE85SWhzakhZWlR0YU1zV2RYM0ZvTFlwV0U2Q3B5djRjTWFGbHdJcUxqYlp2U0ZiUy1UZlFiR0EtR2FJZXZIeTl1MFdqelJ6YjY1eTJWS3R3U0xxSjNVU3RLelljYWZMXzZBQTRsNlBycFN3SzVHVWNpLTEwQQ?oc=5) — 2026-10-25 · IndexBox `시장·기업`
 - [Sulfonated Polyimide Ionomer Market in the European Union: Size, Trends and Forecast to 2035](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGpLbFNCMjJsYXlrbnJkQlcySDZWYTVEb3F4eGtHemlqNXV6dEtSTTFXZ3A4NnpEN3hvbmx1UndQYzJvWFppcnZzM19UbVZFY2U1amNYWFFIU0VhZjR3SGs1cU5EVUxWWVU2d1NkWHFlZmlseXhlWXIzSm1UN252SUZMUW1vck5lSjByOFYtWHl3YTRSNUFFUGZqTkxKWWtxRXNrNUNybmhtb3BZYUNfb1AwSzY1VEdSaDRvTDM3SlZJUQ?oc=5) — 2026-10-24 · IndexBox `시장·기업`
 
-## 📄 논문 (11)
+## 📄 논문 (12)
 
 - [Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management](https://doi.org/10.1021/acsami.6c16557) — 2026-10-30 · ACS Applied Materials & Interfaces `저유전(Dk/Df)` `고내열성`
 - [Molecular Structure Modification and Performance Regulation of Highly Flexible Poly(ester-imide)s with Low Dielectric Constant and Low Dissipation Factor](https://doi.org/10.1021/acs.iecr.6c04327) — 2026-10-27 · Industrial & Engineering Chemistry Research `저유전(Dk/Df)` `접착·신뢰성`
@@ -27,6 +27,7 @@
 - [Multifunctional Multilayered Fe 3 O 4 ‐ CCNTs /Polyimide Composite Film Exhibits Excellent Electromagnetic Interference Shielding Performance](https://doi.org/10.1002/app.71718) — 2026-10-31 · Journal of Applied Polymer Science `코팅·박막/후막` `고내열성`
 - [Enhancing NCM811 Cathode Performance via Curing Temperature Optimization of Fluorine-free Polyimide Binders with Carbon Nanotubes](https://doi.org/10.1021/acsaem.6c02605) — 2026-10-31 · ACS Applied Energy Materials `저온경화` `시장·기업`
 - [Ion-implantation-induced polyimide reconstruction and Cu interfacial adhesion](https://doi.org/10.3389/fmats.2026.1972906) — 2026-10-29 · Frontiers in Materials `접착·신뢰성`
+- [Directly Patternable Bio-Based Polyimide/POSS Hybrids with Simultaneously Ultralow Dk and Df via UV-Triggered Thiol-Ene Click Chemistry](https://doi.org/10.1016/j.polymer.2026.131065) — 2026-11-01 · Polymer `저유전(Dk/Df)`
 - [Tuning Diamine Architecture in 6FDA-Based Polyimides for Enhanced High-Temperature Capacitive Energy Storage](https://doi.org/10.1021/acsaem.6c02261) — 2026-10-31 · ACS Applied Energy Materials `고내열성`
 - [Solid‐Liquid Interdiffusion Bonding Enabling Heterogeneous Integration on Flexible and Shapeable Polymer Platforms](https://doi.org/10.1002/smtd.71031) — 2026-10-06 · Small Methods `HBM·칩렛`
 - [An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects](https://doi.org/10.1088/2058-8585/aeba99) — 2026-10-28 · Flexible and Printed Electronics

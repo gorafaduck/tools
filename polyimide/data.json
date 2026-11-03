@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-02T00:46:26+00:00",
+ "generated_at": "2026-11-03T02:56:55+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 20,
+  "news": 21,
   "paper": 49,
   "preprint": 3
  },
@@ -48,6 +48,34 @@
    ],
    "score": 12,
    "first_seen": "2026-11-01"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Directly Patternable Bio-Based Polyimide/POSS Hybrids with Simultaneously Ultralow Dk and Df via UV-Triggered Thiol-Ene Click Chemistry",
+   "url": "https://doi.org/10.1016/j.polymer.2026.131065",
+   "source": "Polymer",
+   "date": "2026-11-01",
+   "authors": [
+    "Xinhao Nie",
+    "Daliao Tao",
+    "Zhuo Wang",
+    "Yunzhi Fang",
+    "Jialong Zhang",
+    "Yuan Ji",
+    "Haoyuan Li",
+    "Xiaojun Peng"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.polymer.2026.131065",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-03"
   },
   {
    "type": "paper",
@@ -454,27 +482,17 @@
    "first_seen": "2026-10-23"
   },
   {
-   "type": "paper",
-   "origin": "Crossref",
+   "type": "news",
+   "origin": "Google News",
    "title": "In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission",
-   "url": "https://doi.org/10.1002/adma.75481",
-   "source": "Advanced Materials",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hakU1eUhxV1JUdXBGNmZMVlJ1R1lQc200ZEdCMlVBRmVxU3piMDdFREVENzk0SkM2V050UkNNUUg3TDlUVVB2X1lkVFpNR2tqcXB3UjZWS1h5bkl2N05US2R5Tm4wVG1WTnN0aTQ3b0EtM2t1bGc?oc=5",
+   "source": "Wiley & Sons",
    "date": "2026-10-22",
-   "authors": [
-    "Jingxin Liu",
-    "Yu Xin",
-    "Yinghui Sun",
-    "Tian Xia",
-    "Yichen Li",
-    "Yanfeng Lyu",
-    "Lingzhi Nie",
-    "Diwen Zhou"
-   ],
+   "authors": [],
    "abstract": "ABSTRACT The ultralow k porous polymer dielectrics have been widely explored for Integrated circuit (IC) interconnects, 5G/6G communications, and wearable devices. However, disordered pore structures and poor interfacial adhesion remain a major challenge, thus making it difficult to decouple the k ‐tanδ trade‐off. Here, we employ hollow covalent organic frameworks (H‐TD‐COF) as multifunctional molecular anchoring nodes to construct robust pore‐chain interlocked networks in polyimide nanofibrous films. The amino‐functionalized COF shells participate in the in situ growth of polyimide (PI) chains, thus enabling interlocked interfaces that fundamentally restrict segmental mobility and suppress dipolar relaxation. Subsequent electrospinning technique allows anchored chains to be stretched along the fiber axis and immobilizes them within an oriented fibrous architecture. This simultaneously disrupts long‐range charge migration pathways while preserving stress‐transfer and heat‐dissipation continuity. The resulting PI‐g‐COF (4) nanocomposites with 4 wt% H‐TD‐COF loading achieve an ultralow dielectric constant of 1.50 and dielectric loss of 0.001 at 1 kHz, with highly stable dielectric p…",
-   "doi": "10.1002/adma.75481",
-   "cited_by": 0,
+   "doi": "",
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "polyimide dielectric",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
