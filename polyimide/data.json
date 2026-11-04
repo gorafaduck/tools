@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-03T02:56:55+00:00",
+ "generated_at": "2026-11-04T01:24:42+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 21,
-  "paper": 49,
+  "news": 22,
+  "paper": 50,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,52 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Film and Tape Market to Reach USD 5.6 Billion by 2035 as",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1psRzliZXpocDhHOHVwMmNESHBUMndoTDBtY3pEUjJScURxQTg1RHVRQm96TmdqZ1o3QUI1RV92YWtRb2E4dm40WnlCd1h1Q1ZYS1BJMWswT2tLR1pQaWJROVVXcmRhVktfb0k2V2c1eGpGWjRpNllRY0xmNmtURkJxc2QxYWU0WUtkcXlTYVVQM1FaaWRJeXBXc3hzb3l3RDZlZw?oc=5",
+   "source": "openPR.com",
+   "date": "2026-11-03",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-04"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Semi-Embedded Liquid Metal Nanoparticles on Co-Electrospun Nanofibers for Scalable and High-Sensitivity Flexible Surface-Enhanced Raman Scattering Platform",
+   "url": "https://doi.org/10.1021/acsami.6c15889",
+   "source": "ACS Applied Materials & Interfaces",
+   "date": "2026-11-03",
+   "authors": [
+    "Xiaojun Chen",
+    "Chenglong Tu",
+    "Xitong Lin",
+    "Jiajie Xu",
+    "Yuxi Pang",
+    "Ziting Zhou",
+    "Xinrui Chen",
+    "Xiyu Tang"
+   ],
+   "abstract": "Abstract Flexible surface-enhanced Raman scattering (SERS) substrates are essential for conformal on-site molecular detection, yet typically face a trade-off between sensitivity, uniformity, and mechanical robustness. In this work, we report a high-performance flexible SERS featuring liquid metal nanoparticles spatially confined within electrospun polyimide nanofibers. Via co-electrospinning, we engineered a unique “semi-embedded” structure where liquid metal nanoparticles are partially exposed on fiber surfaces. The optimized substrate achieves an ultralow detection limit (LOD) of 10–8 M for Rhodamine 6G with outstanding signal uniformity and excellent mechanical durability (72.5% signal retention after 500 bending cycles), compared to existing flexible platforms. Furthermore, the platform enables sensitive and differentiated SERS detection of thiol-containing molecules, with preferential trace detection of 4-aminothiophenol (LOD 10–9 M). Its practical utility is further demonstrated by the simultaneous monitoring of mixed acetamiprid and thiram residues in apple juice. Finite-element simulations suggest that the superior SERS enhancement under near‑infrared excitation is largely…",
+   "doi": "10.1021/acsami.6c15889",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "high glass transition temperature polyimide",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-04"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -485,14 +531,14 @@
    "type": "news",
    "origin": "Google News",
    "title": "In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hakU1eUhxV1JUdXBGNmZMVlJ1R1lQc200ZEdCMlVBRmVxU3piMDdFREVENzk0SkM2V050UkNNUUg3TDlUVVB2X1lkVFpNR2tqcXB3UjZWS1h5bkl2N05US2R5Tm4wVG1WTnN0aTQ3b0EtM2t1bGc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5heFZ5cnVSZXRrS0ZRRmF4QUFzRjF4eEhVenhCYVZNMUpRODlBbGNnR3lLYk80TFc2NVFPWi00NUVfNGRISDQ4cXhCR2FUQVliWXRQZ0VMUWh4LVN6QVdJRzEzdHI5NDl2QTRzMU1VRWY?oc=5",
    "source": "Wiley & Sons",
    "date": "2026-10-22",
    "authors": [],
    "abstract": "ABSTRACT The ultralow k porous polymer dielectrics have been widely explored for Integrated circuit (IC) interconnects, 5G/6G communications, and wearable devices. However, disordered pore structures and poor interfacial adhesion remain a major challenge, thus making it difficult to decouple the k ‐tanδ trade‐off. Here, we employ hollow covalent organic frameworks (H‐TD‐COF) as multifunctional molecular anchoring nodes to construct robust pore‐chain interlocked networks in polyimide nanofibrous films. The amino‐functionalized COF shells participate in the in situ growth of polyimide (PI) chains, thus enabling interlocked interfaces that fundamentally restrict segmental mobility and suppress dipolar relaxation. Subsequent electrospinning technique allows anchored chains to be stretched along the fiber axis and immobilizes them within an oriented fibrous architecture. This simultaneously disrupts long‐range charge migration pathways while preserving stress‐transfer and heat‐dissipation continuity. The resulting PI‐g‐COF (4) nanocomposites with 4 wt% H‐TD‐COF loading achieve an ultralow dielectric constant of 1.50 and dielectric loss of 0.001 at 1 kHz, with highly stable dielectric p…",
    "doi": "",
    "lang": "en",
-   "query": "polyimide dielectric",
+   "query": "high heat resistant polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
