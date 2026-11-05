@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-04T01:24:42+00:00",
+ "generated_at": "2026-11-05T01:30:53+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 22,
-  "paper": 50,
+  "news": 24,
+  "paper": 52,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,33 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "High-Temperature Dielectric Energy Storage in All-Organic Composite Films Enabled by Molecular Semiconductor Fillers",
+   "url": "https://doi.org/10.1021/acsapm.6c03349",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-11-04",
+   "authors": [
+    "Hangyao Wu",
+    "Yuanqi Wang",
+    "Sinan Lin",
+    "Meilian Zhou",
+    "Chenyi Li",
+    "Li Wang",
+    "Yang Liu"
+   ],
+   "abstract": "Abstract Polymer dielectrics suffer from severe conduction losses under coupled thermal-electrical stresses, limiting their practical applications in film capacitors under harsh conditions. Incorporation of organic molecular semiconductor fillers with concurrently high electron affinity (Ea) and large bandgap (Eg) into the polymer matrix represents a promising modification strategy, although only limited semiconductor fillers have been reported. Here, we report an all-organic high-temperature dielectric composite where an alternative molecular semiconductor tetracyanobenzene characterized by an Ea of 3.92 eV and Eg of 4.65 eV is used. Experimental results demonstrate that the trap density is significantly increased, which effectively suppresses leakage current and leads to a marked enhancement in breakdown strength. Consequently, the polyimide-based composite film exhibits a high discharged energy density (6.92 J cm–3) with a high charge–discharge efficiency (90.32%) at 150 °C. This outperforms most currently existing all-organic and nanocomposite dielectric polymers, thereby offering a facile yet effective strategy for the design of high-temperature dielectric polymers.",
+   "doi": "10.1021/acsapm.6c03349",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) dielectric",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-05"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -122,6 +149,28 @@
    ],
    "score": 6,
    "first_seen": "2026-11-03"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Organic substance detection based on dynamic liquid crystal linear polarization converter helped by artificial rabbit optimization algorithm",
+   "url": "https://doi.org/10.1063/5.0356411",
+   "source": "Physics of Fluids",
+   "date": "2026-11-01",
+   "authors": [
+    "Yipeng Li",
+    "Yu Ye",
+    "Shan-Shan Liu",
+    "Haifeng Zhang"
+   ],
+   "abstract": "A transmission-type linear polarization converter based on dynamically tunable nematic liquid crystals (NLCs) is proposed for high-quality factor (Q) detection of seven organic compounds. The device consists of X-shaped and inverted centrosymmetric X-shaped gold resonators sandwiching dielectric spacers (cyclo-olefin polymer/titanium dioxide composite, polyetherimide, air, sapphire, and polyimide) and an NLC layer. Through electromagnetic coupling and dielectric modulation, it converts y-polarized wavesto x-polarized waves with a peak polarization conversion ratio above 97% and transmittance near 50%. An external electric field realigns the NLC molecules for dynamic sensing modulation, while the artificial rabbit optimization algorithm optimizes structural parameters to balance sensitivity and Q across modes. Unlike conventional single-range sensors, it achieves dual-range detection in both bias states. In the low refractive-index (RI) regime, sensitivity is 21 GHz/refractive index unit (RIU) (average Q = 137.11) without bias and 24 GHz/RIU (Q = 148.50, ∼8% improvement) at saturation voltage; in the high RI regime, the values are 71 GHz/RIU (Q = 228.69) and 76 GHz/RIU (Q = 204.22)…",
+   "doi": "10.1063/5.0356411",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "low transmittance polyimide",
+   "tags": [],
+   "score": 2,
+   "first_seen": "2026-11-05"
   },
   {
    "type": "paper",
@@ -230,6 +279,24 @@
    ],
    "score": 21,
    "first_seen": "2026-10-30"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 10. 30",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wUkduTUlZNmtmVWFrRmgtREdDNFFSbEd3a3hzelFvSl90YTM3NFZmTkczY085TTl5WldkVjU0VzlGMm1QNWJGUkNsakVTeGxxRERBSGVTVy15eFVYNDA3bmFJYTNHQTd4amlWN2cyLW1teFU?oc=5",
+   "source": "주달",
+   "date": "2026-10-30",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-05"
   },
   {
    "type": "paper",
@@ -531,14 +598,14 @@
    "type": "news",
    "origin": "Google News",
    "title": "In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5heFZ5cnVSZXRrS0ZRRmF4QUFzRjF4eEhVenhCYVZNMUpRODlBbGNnR3lLYk80TFc2NVFPWi00NUVfNGRISDQ4cXhCR2FUQVliWXRQZ0VMUWh4LVN6QVdJRzEzdHI5NDl2QTRzMU1VRWY?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hakU1eUhxV1JUdXBGNmZMVlJ1R1lQc200ZEdCMlVBRmVxU3piMDdFREVENzk0SkM2V050UkNNUUg3TDlUVVB2X1lkVFpNR2tqcXB3UjZWS1h5bkl2N05US2R5Tm4wVG1WTnN0aTQ3b0EtM2t1bGc?oc=5",
    "source": "Wiley & Sons",
    "date": "2026-10-22",
    "authors": [],
    "abstract": "ABSTRACT The ultralow k porous polymer dielectrics have been widely explored for Integrated circuit (IC) interconnects, 5G/6G communications, and wearable devices. However, disordered pore structures and poor interfacial adhesion remain a major challenge, thus making it difficult to decouple the k ‐tanδ trade‐off. Here, we employ hollow covalent organic frameworks (H‐TD‐COF) as multifunctional molecular anchoring nodes to construct robust pore‐chain interlocked networks in polyimide nanofibrous films. The amino‐functionalized COF shells participate in the in situ growth of polyimide (PI) chains, thus enabling interlocked interfaces that fundamentally restrict segmental mobility and suppress dipolar relaxation. Subsequent electrospinning technique allows anchored chains to be stretched along the fiber axis and immobilizes them within an oriented fibrous architecture. This simultaneously disrupts long‐range charge migration pathways while preserving stress‐transfer and heat‐dissipation continuity. The resulting PI‐g‐COF (4) nanocomposites with 4 wt% H‐TD‐COF loading achieve an ultralow dielectric constant of 1.50 and dielectric loss of 0.001 at 1 kHz, with highly stable dielectric p…",
    "doi": "",
    "lang": "en",
-   "query": "high heat resistant polyimide",
+   "query": "polyimide dielectric",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
@@ -711,6 +778,24 @@
    "tags": [],
    "score": 5,
    "first_seen": "2026-10-16"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 10. 16",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OaUpPYjduTUcyTG1LWjVfelVzR2pZN2ZSQWVvSTVValZ3eHVBMlBHLVVBYVBMUkRkQUl6Z3VxQnlFdno2QmIyLXFXdFoxV1loZ1lZaW5FbjNfNnAtb0lyNk1YX0VFbEUzTHE3QWdHSVJjSk0?oc=5",
+   "source": "주달",
+   "date": "2026-10-16",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-05"
   },
   {
    "type": "preprint",
@@ -912,7 +997,7 @@
    "abstract": "",
    "doi": "",
    "lang": "ko",
-   "query": "폴리이미드 소재",
+   "query": "PI첨단소재",
    "tags": [
     "시장·기업"
    ],
