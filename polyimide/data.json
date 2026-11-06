@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-05T01:30:53+00:00",
+ "generated_at": "2026-11-06T01:34:44+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 24,
-  "paper": 52,
+  "paper": 55,
   "preprint": 3
  },
  "tags": [
@@ -25,6 +25,59 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "Developing the Polyimide Glycolysis and Upcycling of the Recovered Valorized Monomers for Low-Dielectric-Loss Poly(ester imides)",
+   "url": "https://doi.org/10.1021/acssuschemeng.6c09184",
+   "source": "ACS Sustainable Chemistry & Engineering",
+   "date": "2026-11-05",
+   "authors": [
+    "Po-Yi Lu",
+    "Wei-Cheng Li",
+    "Yu Liu",
+    "Hsiang-Mien Wang",
+    "Cheng-Liang Liu",
+    "Yan-Cheng Lin",
+    "Wen-Chang Chen"
+   ],
+   "abstract": "Abstract As next-generation high-frequency communication technologies advance rapidly, microelectronic components require higher processing temperatures and reduced signal loss. Consequently, poly(ester imides) (PEIs) are widely utilized in these fields. However, efficient recycling methodologies for PEIs remain to be established. In this work, we developed a PEI chemical recycling protocol via glycolysis. The proposed system was verified as generally applicable to depolymerizing various types of PEIs. Moreover, the depolymerization process enabled the isolation of aromatic diols: bis(2-hydroxyethyl) terephthalate (BHET) and 5-hydroxy-2-(4-hydroxyphenyl)isoindoline-1,3-dione (HPID). While the recovered BHET established a closed-loop polyester recycling pathway within the glycolysis system, the isolated HPID was converted into aromatic diamine to serve as a precursor for regenerating high-performance PEIs. Among the regenerated samples, a new PEI exhibits a combination of properties, including a 5% thermal decomposition temperature of 414 °C, a high glass transition temperature exceeding 300 °C, a low coefficient of thermal expansion of 18 ppm/°C, and an ultralow dielectric dissipa…",
+   "doi": "10.1021/acssuschemeng.6c09184",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) solution coating film",
+   "tags": [
+    "저CTE·휨",
+    "시장·기업",
+    "고내열성"
+   ],
+   "score": 14,
+   "first_seen": "2026-11-06"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Phthalonitrile-Terminated Polyimide Adhesives with Benzimidazole-Promoted Curing for High-Temperature Bonding",
+   "url": "https://doi.org/10.1021/acsapm.6c03636",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-11-05",
+   "authors": [
+    "Ziteng Guo",
+    "Bo Zhao",
+    "Zhihua Li"
+   ],
+   "abstract": "Abstract A heat-resistant phthalonitrile-terminated polyimide (PN–PI) adhesive was developed by blending long and short poly(amic acid) chains. The short chains contain benzimidazole units that promote phthalonitrile (PN) end-group curing, while amide units in the long chains provide polar sites for intermolecular and interfacial interactions. Isoquinoline lowers the imidization temperature, allowing ring closure to finish before extensive PN curing. Within the examined composition range, PI3 exhibits a glass transition temperature (Tg) of 347.2 °C, with lap-shear strengths of 18.35 MPa at room temperature and 10.02 MPa during short-term testing at 300 °C. Molecular dynamics (MD) simulations show stronger bulk cohesion in short-chain-rich systems, whereas PI3 gives the most negative interaction energy with Al(111). Density functional theory (DFT) calculations reveal an electron-rich benzimidazole nitrogen, supporting its possible role in PN curing. The combined regulation of chain composition and benzimidazole-promoted PN curing provides a PN–PI adhesive with strong bonding performance at 300 °C.",
+   "doi": "10.1021/acsapm.6c03636",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저온경화",
+    "고내열성"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-06"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
    "title": "High-Temperature Dielectric Energy Storage in All-Organic Composite Films Enabled by Molecular Semiconductor Fillers",
    "url": "https://doi.org/10.1021/acsapm.6c03349",
    "source": "ACS Applied Polymer Materials",
@@ -42,7 +95,7 @@
    "doi": "10.1021/acsapm.6c03349",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) dielectric",
+   "query": "polyimide semiconductor packaging",
    "tags": [
     "고내열성"
    ],
@@ -98,6 +151,31 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "Mechanical Ruggedization of Ceramic Column Grid Array with Polyimide Reinforced Solder Columns",
+   "url": "https://doi.org/10.4071/001c.173496",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-11-02",
+   "authors": [
+    "Alex Brown",
+    "Tom Marinis",
+    "Christie Bielmeier",
+    "Emily Lamport",
+    "Caroline Bjune"
+   ],
+   "abstract": "Recent advancements in Area Array Packaging (AAP) utilize Ceramic Column Grid Arrays (CCGAs) to provide high-density interconnects for printed circuit boards that can improve reliability in harsh environments compared to traditional Ball Grid Array (BGA) architectures. However, CCGA assemblies can still experience premature failure, often manifesting as crack propagation induced by shear loading to the column when packages are exposed to severe thermal cycling and prolonged vibration. This work demonstrates the feasibility of a novel method using polyimide tubing to mechanically reinforce individual solder columns to improve shock and vibration robustness and reduce the risk of Foreign Object Damage (FOD). Alternative approaches, including corner staking and 3-D printed reinforcement, are limited by increased board space consumption and manufacturing difficulty. A process for manufacturing polyimide-reinforced solder columns has been defined, as well as methodology for attaching them to a ceramic package.",
+   "doi": "10.4071/001c.173496",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide temporary bonding debonding",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-06"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
    "title": "Positive-type photosensitive polyimides for advanced microelectronic packaging: from molecular design to patterning and device reliability",
    "url": "https://doi.org/10.1016/j.cej.2026.180690",
    "source": "Chemical Engineering Journal",
@@ -124,13 +202,13 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Directly Patternable Bio-Based Polyimide/POSS Hybrids with Simultaneously Ultralow Dk and Df via UV-Triggered Thiol-Ene Click Chemistry",
    "url": "https://doi.org/10.1016/j.polymer.2026.131065",
    "source": "Polymer",
    "date": "2026-11-01",
    "authors": [
-    "Xinhao Nie",
+    "Xiumei Nie",
     "Daliao Tao",
     "Zhuo Wang",
     "Yunzhi Fang",
@@ -143,7 +221,7 @@
    "doi": "10.1016/j.polymer.2026.131065",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "polyimide low dielectric constant",
    "tags": [
     "저유전(Dk/Df)"
    ],
@@ -254,33 +332,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "type": "paper",
-   "origin": "Crossref",
-   "title": "Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management",
-   "url": "https://doi.org/10.1021/acsami.6c16557",
-   "source": "ACS Applied Materials & Interfaces",
-   "date": "2026-10-30",
-   "authors": [
-    "Ruixue Wang",
-    "Baoyue Zhang",
-    "Baijie Cheng",
-    "Fan Wan",
-    "Shanyi Guang",
-    "Hongyao Xu"
-   ],
-   "abstract": "Abstract The rapid advancement of high-frequency and highly integrated semiconductor devices urgently calls for dielectric materials that combine high thermal conductivity, low dielectric constant, and excellent thermal stability. Herein, multiamino polydiacetylene-functionalized boron nitride nanosheets (BNNS@MAPDA) have been incorporated into a MAPDA-containing polyimide matrix to improve filler–matrix interfacial coupling. The functionalized nanosheets exhibit high aspect ratios, few lattice defects, high yields, and excellent dispersion in the PI-MAPDA matrix. At a filler loading of only 7.5 wt %, the PI‑MAPDA/BNNS@MAPDA‑7.5 composite film achieves an in‑plane thermal conductivity of 1.67 W m–1 K–1, representing a 422% enhancement over pristine PI‑MAPDA. Benefiting from the ultralow polarizability of fluorinated groups and the strengthened interfacial coupling, the nanocomposite simultaneously maintains a low dielectric constant of 2.20 and a low dielectric loss tangent (tanδ) of 0.0066 at 1 MHz, alongside a volume resistivity of 9.7 × 1011 Ω cm. The density functional theory (DFT) calculations reveal that MAPDA functionalization enhances interfacial affinity and energy transf…",
-   "doi": "10.1021/acsami.6c16557",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "photosensitive polyimide",
-   "tags": [
-    "저유전(Dk/Df)",
-    "고내열성"
-   ],
-   "score": 21,
-   "first_seen": "2026-10-30"
-  },
-  {
    "type": "news",
    "origin": "Google News",
    "title": "PI첨단소재 투자분석 2026. 10. 30",
@@ -300,7 +351,34 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
+   "title": "Multiamino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management",
+   "url": "https://doi.org/10.1021/acsami.6c16557",
+   "source": "ACS Applied Materials & Interfaces",
+   "date": "2026-10-29",
+   "authors": [
+    "Ruixue Wang",
+    "Baoyue Zhang",
+    "Baijie Cheng",
+    "Fan Wan",
+    "Shanyi Guang",
+    "Hongyao Xu"
+   ],
+   "abstract": "The rapid advancement of high-frequency and highly integrated semiconductor devices urgently calls for dielectric materials that combine high thermal conductivity, low dielectric constant, and excellent thermal stability. Herein, multiamino polydiacetylene-functionalized boron nitride nanosheets (BNNS@MAPDA) have been incorporated into a MAPDA-containing polyimide matrix to improve filler-matrix interfacial coupling. The functionalized nanosheets exhibit high aspect ratios, few lattice defects, high yields, and excellent dispersion in the PI-MAPDA matrix. At a filler loading of only 7.5 wt %, the PI‑MAPDA/BNNS@MAPDA‑7.5 composite film achieves an in‑plane thermal conductivity of 1.67 W m-1 K-1, representing a 422% enhancement over pristine PI‑MAPDA. Benefiting from the ultralow polarizability of fluorinated groups and the strengthened interfacial coupling, the nanocomposite simultaneously maintains a low dielectric constant of 2.20 and a low dielectric loss tangent (tanδ) of 0.0066 at 1 MHz, alongside a volume resistivity of 9.7 × 1011 Ω cm. The density functional theory (DFT) calculations reveal that MAPDA functionalization enhances interfacial affinity and energy transfer, while…",
+   "doi": "10.1021/acsami.6c16557",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low dielectric constant",
+   "tags": [
+    "저유전(Dk/Df)",
+    "고내열성"
+   ],
+   "score": 21,
+   "first_seen": "2026-10-30"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Ion-implantation-induced polyimide reconstruction and Cu interfacial adhesion",
    "url": "https://doi.org/10.3389/fmats.2026.1972906",
    "source": "Frontiers in Materials",
@@ -311,7 +389,7 @@
     "Xuan Liu",
     "Ke Yao",
     "Xueping Geng",
-    "Jinru Ou",
+    "欧锦如",
     "Deli Tang",
     "Fanya Jin"
    ],
@@ -319,7 +397,7 @@
    "doi": "10.3389/fmats.2026.1972906",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "poly(amic acid) dielectric",
    "tags": [
     "접착·신뢰성"
    ],
@@ -702,6 +780,24 @@
    "first_seen": "2026-10-20"
   },
   {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
+   "source": "Fortune Business Insights",
+   "date": "2026-10-19",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 박막",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
    "type": "paper",
    "origin": "OpenAlex",
    "title": "Epoxy‐Functional Hyperbranched Polysiloxane Hybridized Water‐Synthesized Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage",
@@ -839,7 +935,7 @@
    "doi": "10.1002/app.71633",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) solution coating film",
+   "query": "poly(amic acid) dielectric",
    "tags": [],
    "score": 6,
    "first_seen": "2026-10-14"
@@ -871,24 +967,6 @@
     "시장·기업"
    ],
    "score": 11,
-   "first_seen": "2026-10-13"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
-   "source": "Fortune Business Insights",
-   "date": "2026-10-12",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "폴리이미드 박막",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
    "first_seen": "2026-10-13"
   },
   {
@@ -978,7 +1056,7 @@
    "doi": "10.1002/pen.70930",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "polyimide low CTE film",
    "tags": [
     "저온경화",
     "코팅·박막/후막"
