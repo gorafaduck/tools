@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-06T01:34:44+00:00",
+ "generated_at": "2026-11-07T00:58:09+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 24,
-  "paper": 55,
+  "paper": 60,
   "preprint": 3
  },
  "tags": [
@@ -42,7 +42,7 @@
    "doi": "10.1021/acssuschemeng.6c09184",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) solution coating film",
+   "query": "polyimide varnish viscosity coating",
    "tags": [
     "저CTE·휨",
     "시장·기업",
@@ -74,6 +74,32 @@
    ],
    "score": 7,
    "first_seen": "2026-11-06"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Breaking the Trade‐Off Between Thermal Insulation and Electromagnetic Wave Transparency Via a Bilayer Fluorinated Aerogel With Phase‐Change Microcapsules",
+   "url": "https://doi.org/10.1002/smll.76639",
+   "source": "Small",
+   "date": "2026-11-05",
+   "authors": [
+    "Qiuyue Gao",
+    "Jiayi Song",
+    "Huan Liu",
+    "Xiaodong Wang"
+   ],
+   "abstract": "ABSTRACT To overcome the conflict between sustained thermal insulation and electromagnetic wave transparency under extreme conditions, this work designs a bilayer fluorinated aerogel composite. The outer layer consists of a unidirectional fluorinated polyimide (FPI) aerogel with a rigid molecular skeleton, whose porous architecture delivers low thermal conductivity (39.6 mW m −1 K −1 )), high porosity (91.9%), an ultra‐low dielectric constant (1.039), and hydrophobicity (water contact angle: 124.6°). The inner layer is a fluorination‐modified poly(vinyl alcohol) aerogel embedded with silica‐encapsulated phase‐change microcapsules as thermal buffers, offering a high latent heat capacity (153.8 J g −1 ), maintained porosity (76.7%), and a low dielectric constant (1.26) while ensuring leakage‐free thermal cycling. The combination of the two layers provides a gradient thermal protection: the outer layer suppresses steady‐state heat conduction, while the inner layer buffers transient thermal shocks through latent heat absorption. When placed on a 300°C hot plate, the bilayer composite maintains a low surface temperature of 58°C. Moreover, both layers preserve wave‐transparent performan…",
+   "doi": "10.1002/smll.76639",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low dielectric constant",
+   "tags": [
+    "저유전(Dk/Df)",
+    "접착·신뢰성",
+    "시장·기업"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-07"
   },
   {
    "type": "paper",
@@ -166,12 +192,40 @@
    "doi": "10.4071/001c.173496",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "접착·신뢰성"
    ],
    "score": 8,
    "first_seen": "2026-11-06"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Directly patternable bio-based Polyimide/POSS hybrids with simultaneously ultralow Dk and Df via UV-triggered thiol-ene click chemistry",
+   "url": "https://doi.org/10.1016/j.polymer.2026.131065",
+   "source": "Polymer",
+   "date": "2026-11-02",
+   "authors": [
+    "Xiumei Nie",
+    "Daliao Tao",
+    "Zhuo Wang",
+    "Yunzhi Fang",
+    "Jialong Zhang",
+    "Yuan Ji",
+    "Haoyuan Li",
+    "Xiaojun Peng"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.polymer.2026.131065",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low dielectric constant",
+   "tags": [
+    "저유전(Dk/Df)"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-03"
   },
   {
    "type": "paper",
@@ -203,30 +257,59 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
-   "title": "Directly Patternable Bio-Based Polyimide/POSS Hybrids with Simultaneously Ultralow Dk and Df via UV-Triggered Thiol-Ene Click Chemistry",
-   "url": "https://doi.org/10.1016/j.polymer.2026.131065",
-   "source": "Polymer",
+   "title": "Decoupled Thermal and Electrical Insulation in Crosslinked Semi-Aromatic Polyimide for High-Temperature Capacitors",
+   "url": "https://doi.org/10.1016/j.aiepr.2026.100291",
+   "source": "Advanced Industrial and Engineering Polymer Research",
    "date": "2026-11-01",
    "authors": [
-    "Xiumei Nie",
-    "Daliao Tao",
-    "Zhuo Wang",
-    "Yunzhi Fang",
-    "Jialong Zhang",
-    "Yuan Ji",
-    "Haoyuan Li",
-    "Xiaojun Peng"
+    "Houyu Wang",
+    "Ling Weng",
+    "Xiaoming Wang",
+    "Xue Li",
+    "Lizhu Guan",
+    "Ruiqun Pan",
+    "Lin Zhang",
+    "张营堂"
    ],
-   "abstract": "",
-   "doi": "10.1016/j.polymer.2026.131065",
+   "abstract": "To overcome the energy storage degradation caused by the charge transfer complex (CTC) effect in conventional polyimides under high temperature and high electric field conditions, a semi-aromatic polyimide with a three-dimensional network crosslinked by both covalent bonds and hydrogen bonds was designed. The tetrahedral configuration of the covalent crosslinker tris(p-isocyanatophenyl) thiophosphate (TPTI) effectively suppresses the tight packing of molecular chains and, together with hydrogen-bonding networks, constructs charge traps. The system achieves excellent high-temperature insulation performance through a synergistic mechanism of trap trapping, physical barrier, and energy dissipation. At 200 °C and 200 MV/m, the H/TPTI 0.75 -PI film exhibits an ultralow leakage current density of 5.44×10 -7 A/cm 2 , a shortened carrier hopping distance, a 29.3 °C increase in the TSDC peak temperature, and a significantly enhanced trap depth. Consequently, the film achieves discharge energy densities of 5.80 J/cm 3 at 150 °C and 4.81 J/cm 3 at 200 °C with an efficiency≥85%, and a maximum energy density of 5.29 J/cm 3 (with 83.2% efficiency) at 250 °C. COMSOL simulations reveal a 91 °C re…",
+   "doi": "10.1016/j.aiepr.2026.100291",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low dielectric constant",
+   "query": "polyimide thin film processing",
    "tags": [
-    "저유전(Dk/Df)"
+    "저온경화",
+    "고내열성"
    ],
-   "score": 6,
-   "first_seen": "2026-11-03"
+   "score": 7,
+   "first_seen": "2026-11-07"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "A polyimide-based thermal bridge",
+   "url": "https://doi.org/10.1063/5.0349825",
+   "source": "Review of Scientific Instruments",
+   "date": "2026-11-01",
+   "authors": [
+    "Haichang Guo",
+    "Zhiyao Jiang",
+    "Guanghua Zeng",
+    "Weiheng Li",
+    "Dongliang Ding",
+    "Ke Xu",
+    "Xiaoliang Zeng",
+    "Yimin Yao"
+   ],
+   "abstract": "Thermal management across micro- to macro-scale critically depends on accurate characterization of intermediate-scale materials, such as individual fibers and thin films. Yet, measuring the thermal conductivity of a single fiber remains rather challenging. Here, we present a polyimide (PI)-based thermal bridge for accurate thermal transport measurement of single fibers and related microscale samples. By addressing key challenges in hybrid material integration and flexible substrate interconnection, our approach retains the mechanical flexibility of PI while achieving compatibility with conventional microfabrication processes. The PI suspension beams exhibit thermal conductance of ∼12 μW K−1, within one order of magnitude of similar devices made of SiNx, while their vertical stiffness is more than two orders of magnitude higher, providing exceptional stability for sample manipulation. Calibration using a standard 20 μm diameter platinum wire yields a measured thermal conductivity of 70.6 ± 3.6 W m−1 K−1, within 5% of the literature value (71.7 W m−1 K−1). With its robust mechanical design and reliable thermal performance, this PI-based thermal bridge offers a versatile platform for…",
+   "doi": "10.1063/5.0349825",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-07"
   },
   {
    "type": "paper",
@@ -252,7 +335,7 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Multifunctional Multilayered Fe 3 O 4 ‐ CCNTs /Polyimide Composite Film Exhibits Excellent Electromagnetic Interference Shielding Performance",
    "url": "https://doi.org/10.1002/app.71718",
    "source": "Journal of Applied Polymer Science",
@@ -269,7 +352,7 @@
    "doi": "10.1002/app.71718",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "polyimide thin film processing",
    "tags": [
     "코팅·박막/후막",
     "고내열성"
@@ -519,10 +602,38 @@
    "doi": "10.1088/2058-8585/aeba99",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "polyimide low temperature cure",
    "tags": [],
    "score": 3,
    "first_seen": "2026-10-31"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Low‑Shrinkage Photosensitive Polyimide for CMP-free Multilayer RDL Fabrication Process",
+   "url": "https://doi.org/10.4071/001c.173326",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-10-27",
+   "authors": [
+    "T. Kambara",
+    "D. Matsukawa",
+    "T. Okuda",
+    "S. Fukuzumi",
+    "S. Kawashita",
+    "Y. Imazu",
+    "T. Minegishi"
+   ],
+   "abstract": "As semiconductor systems advance toward heterogeneous integration, fan-out wafer-level packaging (FOWLP), and three-dimensional stacking, undulation in multilayer redistribution layer (RDL) structures has become a critical process challenge. In this study, the effects of dielectric cure shrinkage and dielectric layer thickness on conductor undulation were investigated using a four-polymer/three-metal (4P3M) multilayer RDL test vehicle. Four photosensitive dielectric formulations with cure shrinkage values ranging from 8% to 30% were evaluated, and the undulation of each dielectric layer (Ud) was quantified from cross-sectional images. In a configuration where the wiring layers were stacked directly above one another, Ud increased with the number of stacked layers, and this layer-by-layer accumulation was governed by the cure shrinkage: the higher-shrinkage formulations exhibited progressive accumulation, whereas formulations with a cure shrinkage of approximately 15% or below largely suppressed it. In a configuration where the upper wiring layers were laterally offset, higher cure shrinkage instead produced larger vertical displacement and deformation of the wiring. The dielectric…",
+   "doi": "10.4071/001c.173326",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide wafer level packaging",
+   "tags": [
+    "PSPI·리소그래피",
+    "RDL·Fan-out"
+   ],
+   "score": 22,
+   "first_seen": "2026-11-07"
   },
   {
    "type": "paper",
@@ -673,17 +784,43 @@
    "first_seen": "2026-10-23"
   },
   {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Advances in Polymeric Insulating Materials: Global Progress in These 10 Years",
+   "url": "https://doi.org/10.1049/hve2.70257",
+   "source": "High Voltage",
+   "date": "2026-10-23",
+   "authors": [
+    "Yoshimichi Ohki",
+    "George Y. Chen",
+    "Davide Fabiani",
+    "Reimund Gerhard",
+    "Mona Ghassemi",
+    "Stanislaw M. Gubanski",
+    "Shengtao Li",
+    "Ronald Plath"
+   ],
+   "abstract": "ABSTRACT This journal, High Voltage , celebrates its 10th anniversary in 2026. To commemorate this significant milestone, this comprehensive special review article showcases the latest global research progress and cutting‐edge advancements in polymeric insulating materials, a critical component that underpins high‐voltage systems and is vital to modern infrastructure. The analysis of the literature on polymer insulating materials produced over the period from around the world was conducted by 11 researchers and presented on a regional basis. Distinctive research can be highlighted in different places, such as materials for power generation and transmission in the Nordic region, charge transport and space charge in France, molecular design in China, and revitalised current integration methods in Japan. The survey reveals that research on winding insulation in rotating machines has been highly active over the past decade due to advancements in power electronics. Particularly notable is the attention given to partial discharges under low pressure related to the development of electric aircraft. Additionally, solid insulation in cables and other components of high‐voltage direct curre…",
+   "doi": "10.1049/hve2.70257",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-11-07"
+  },
+  {
    "type": "news",
    "origin": "Google News",
    "title": "In Situ Constructed Pore‐Chain Interlocked Networks in Polyimide‐Covalent Organic Framework Nanocomposites Enable Ultralow k Dielectrics for High‐Fidelity Signal Transmission",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hakU1eUhxV1JUdXBGNmZMVlJ1R1lQc200ZEdCMlVBRmVxU3piMDdFREVENzk0SkM2V050UkNNUUg3TDlUVVB2X1lkVFpNR2tqcXB3UjZWS1h5bkl2N05US2R5Tm4wVG1WTnN0aTQ3b0EtM2t1bGc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5heFZ5cnVSZXRrS0ZRRmF4QUFzRjF4eEhVenhCYVZNMUpRODlBbGNnR3lLYk80TFc2NVFPWi00NUVfNGRISDQ4cXhCR2FUQVliWXRQZ0VMUWh4LVN6QVdJRzEzdHI5NDl2QTRzMU1VRWY?oc=5",
    "source": "Wiley & Sons",
    "date": "2026-10-22",
    "authors": [],
    "abstract": "ABSTRACT The ultralow k porous polymer dielectrics have been widely explored for Integrated circuit (IC) interconnects, 5G/6G communications, and wearable devices. However, disordered pore structures and poor interfacial adhesion remain a major challenge, thus making it difficult to decouple the k ‐tanδ trade‐off. Here, we employ hollow covalent organic frameworks (H‐TD‐COF) as multifunctional molecular anchoring nodes to construct robust pore‐chain interlocked networks in polyimide nanofibrous films. The amino‐functionalized COF shells participate in the in situ growth of polyimide (PI) chains, thus enabling interlocked interfaces that fundamentally restrict segmental mobility and suppress dipolar relaxation. Subsequent electrospinning technique allows anchored chains to be stretched along the fiber axis and immobilizes them within an oriented fibrous architecture. This simultaneously disrupts long‐range charge migration pathways while preserving stress‐transfer and heat‐dissipation continuity. The resulting PI‐g‐COF (4) nanocomposites with 4 wt% H‐TD‐COF loading achieve an ultralow dielectric constant of 1.50 and dielectric loss of 0.001 at 1 kHz, with highly stable dielectric p…",
    "doi": "",
    "lang": "en",
-   "query": "polyimide dielectric",
+   "query": "high heat resistant polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
@@ -989,7 +1126,7 @@
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "poly(amic acid) dielectric",
    "tags": [
     "고내열성"
    ],
