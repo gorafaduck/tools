@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-07T00:58:09+00:00",
+ "generated_at": "2026-11-08T00:39:07+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 24,
-  "paper": 60,
+  "paper": 63,
   "preprint": 3
  },
  "tags": [
@@ -275,7 +275,7 @@
    "doi": "10.1016/j.aiepr.2026.100291",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "high glass transition temperature polyimide",
    "tags": [
     "저온경화",
     "고내열성"
@@ -310,6 +310,30 @@
    ],
    "score": 7,
    "first_seen": "2026-11-07"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Contrasting Moisture Effects on the Tensile Behavior of Polyimide Films: In-Situ vs. Ex-Situ Investigations",
+   "url": "https://doi.org/10.1016/j.polymertesting.2026.109413",
+   "source": "Polymer Testing",
+   "date": "2026-11-01",
+   "authors": [
+    "Seungbin Kim",
+    "Doohyeong Kim",
+    "Hyeongeun Kim",
+    "Yong-Seok Lee"
+   ],
+   "abstract": "Polyimide (PI) films are widely used in semiconductor packaging, but their measured mechanical response can vary depending on the moisture conditions maintained during testing. In this study, the tensile behavior of moisture-conditioned PI films was compared using conventional ex-situ and a proposed in-situ tensile testing method. Water absorption tests, tensile tests, cross-sectional observations, and finite element analysis were conducted to evaluate the influence of the testing environment. The PI film exhibited near-Fickian moisture absorption behavior, reaching an equilibrium water uptake of approximately 2.7 wt% after 24 hours of immersion. The ex-situ specimens maintained ultimate tensile strengths of approximately 250–265 MPa, comparable to the room-condition value of 251 MPa, while their fracture strains decreased to 0.22–0.30. In contrast, the in-situ specimens exhibited lower ultimate tensile strengths of 222–235 MPa and generally higher fracture strains of 0.31–0.42. Secant modulus was also lower under the in-situ condition than under the ex-situ condition. Cross-sectional observations revealed more pronounced internal openings and layered separation in the ex-situ spe…",
+   "doi": "10.1016/j.polymertesting.2026.109413",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-08"
   },
   {
    "type": "paper",
@@ -352,7 +376,7 @@
    "doi": "10.1002/app.71718",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "light shielding polyimide",
    "tags": [
     "코팅·박막/후막",
     "고내열성"
@@ -451,7 +475,7 @@
    "doi": "10.1021/acsami.6c16557",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low dielectric constant",
+   "query": "polyimide semiconductor packaging",
    "tags": [
     "저유전(Dk/Df)",
     "고내열성"
@@ -602,7 +626,7 @@
    "doi": "10.1088/2058-8585/aeba99",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low temperature cure",
+   "query": "polyimide semiconductor packaging",
    "tags": [],
    "score": 3,
    "first_seen": "2026-10-31"
@@ -627,7 +651,7 @@
    "doi": "10.4071/001c.173326",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide wafer level packaging",
+   "query": "spin-coated polyimide film thickness",
    "tags": [
     "PSPI·리소그래피",
     "RDL·Fan-out"
@@ -698,6 +722,65 @@
    ],
    "score": 4,
    "first_seen": "2026-10-28"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Interfacial Characterization of Fine-Pitch Cu/Polyimide L/S Structures for RDL Improvement Using AFM-IR and TEM-EELS",
+   "url": "https://doi.org/10.4071/001c.173041",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-10-26",
+   "authors": [
+    "Masahiro Saito",
+    "Hirofumi Seki",
+    "Tatsuhiro Nagasaka",
+    "Naohiko Kawasaki",
+    "Ai Hashimoto",
+    "Hideki Hashimoto",
+    "Chin-Hung Wang",
+    "Wei‐Chung Lo"
+   ],
+   "abstract": "We examined the chemical states at the Cu/polyimide (PI) interface, which play a critical role in determining the adhesion and insulation performance of advanced redistribution layers (RDLs). For samples with a 5‑μm pitch Cu/PI line-and-space (L/S) structure, the interfacial region was analyzed using scanning transmission electron microscopy–electron energy-loss spectroscopy (STEM-EELS) and atomic force microscopy–infrared spectroscopy (AFM-IR), both of which provide high spatial resolution and are well suited for interface characterization. STEM-EELS revealed the presence of an interfacial layer up to approximately 50 nm thick at the Cu/PI boundary, consisting of Cu₂O and modified polyimide components. Such an interfacial layer is likely to influence adhesion properties. In addition, AFM-IR measurements indicated that the polyimide chemical structure is altered to a depth of about 1 μm from the interface. This modified region may impact not only adhesion but also overall device performance. As Cu line spacing continues to shrink, these high-resolution analytical techniques will become increasingly important for elucidating interfacial reactions in metal/organic systems.",
+   "doi": "10.4071/001c.173041",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [
+    "RDL·Fan-out",
+    "하이브리드 본딩",
+    "접착·신뢰성"
+   ],
+   "score": 11,
+   "first_seen": "2026-11-08"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Chip-to-Wafer Hybrid Bonding using Polyimide Dielectric for Low-Temperature Process with High Yield and Reliability",
+   "url": "https://doi.org/10.4071/001c.173034",
+   "source": "IMAPSource Proceedings",
+   "date": "2026-10-26",
+   "authors": [
+    "Yugo Tanigaki",
+    "Kota Nomura",
+    "Xie Ling",
+    "Dileep Mishra",
+    "Masaya Jukei",
+    "Kai ISHIGAMI",
+    "Takenori Fujiwara",
+    "Vasarla Nagendra Sekhar"
+   ],
+   "abstract": "Low-temperature processable dielectric polyimides (PIs) materials have been developed for chip-to-wafer (C2W) hybrid bonding. By using dielectric PIs materials during low-temperature PI-to-PI bonding test, higher bond strength was confirmed by shear test. Furthermore, C2W PI-PI/Cu-Cu hybrid bonding has been demonstrated with low-temperature process. In this paper, PI-SiO2/Cu-Cu hybrid bonding has been also investigated. For this investigation, a test vehicle was designed to have chips with PI dielectric and Cu pads, which were designed to be bonded on a 12-inch silicon wafer with SiO2 dielectric and Cu pads for daisy chain test. As a result of measuring resistance of the daisy chain after hybrid bonding, electrical continuity was confirmed for all chips. Furthermore, both pressure cooker test (PCT) and thermal cycling test (TCT) were conducted, and in each case, electrical continuity was maintained to confirm excellent reliability.",
+   "doi": "10.4071/001c.173034",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "하이브리드 본딩",
+    "접착·신뢰성"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-08"
   },
   {
    "type": "news",
