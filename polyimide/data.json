@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-08T00:39:07+00:00",
+ "generated_at": "2026-11-09T00:56:47+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 24,
-  "paper": 63,
+  "paper": 64,
   "preprint": 3
  },
  "tags": [
@@ -275,7 +275,7 @@
    "doi": "10.1016/j.aiepr.2026.100291",
    "cited_by": 0,
    "lang": "en",
-   "query": "high glass transition temperature polyimide",
+   "query": "polyimide low CTE film",
    "tags": [
     "저온경화",
     "고내열성"
@@ -334,6 +334,31 @@
    ],
    "score": 7,
    "first_seen": "2026-11-08"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Flexible Dual–Channel MOF–MXene Platform for Wireless Thermohygrometric Monitoring",
+   "url": "https://doi.org/10.1016/j.apmate.2026.100484",
+   "source": "Advanced Powder Materials",
+   "date": "2026-11-01",
+   "authors": [
+    "Hamid Nawaz",
+    "Nadeem Tariq Beigh",
+    "Ravi Prakash Pandey",
+    "Shadi Wajih Hasan",
+    "Nouha Alcheikh"
+   ],
+   "abstract": "Variations in exhaled-breath temperature and humidity provide complementary physiological information for noninvasive monitoring. Here, we present a flexible, bifunctional thermohygrometric platform that integrates separate humidity- and temperature-sensing elements on a single polyimide substrate. The humidity sensor employs polydopamine-functionalized MIL-100(Fe), whereas the temperature sensor uses a dimethyl sulfoxide-processed Ti 3 C 2 T x MXene network for thermoresistive transduction. Printing and drop-casting enables the integration of both sensors into a face mask equipped with Wi-Fi-enabled electronics for continuous wireless data acquisition. Over 5%–95% RH, the humidity sensor exhibites a sensitivity of 47%/%RH, excellent linearity ( ), a full-scale hysteresis error of ±2.83%, and an apparent response and recovery times of 9.9 and 12.3 s, respectively, under the applied humidity-transition conditions. It also exhibites limited interference from 10,000 ppm CO 2 and a maximum temperature-induced response deviation below 3.3% under the investigated conditions. The temperature sensor demonstrates a temperature coefficient of resistance of −0.73% °C -1 over 25–100 °C, high…",
+   "doi": "10.1016/j.apmate.2026.100484",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-09"
   },
   {
    "type": "paper",
@@ -610,6 +635,24 @@
    "first_seen": "2026-10-29"
   },
   {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 2026년 3분기 매출액 555억3500만원으로 전년동기 대비 18.8% 감소",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zai1vYVc4OWtaSkNuUUtOVVZ2NmFBeEhzR0U4QVh0NHdzUjdhejc5UEp5UDJlOEFVS1VoLURtTXJhWFhwdEhUaERma2E3eWtoN3pmNmQ2Wk5PUVZpRlRvUlAyc0xoTHd6MHg2QXJOV2VJdmtLUVVNMDZhYw?oc=5",
+   "source": "디지털투데이",
+   "date": "2026-10-28",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-28"
+  },
+  {
    "type": "paper",
    "origin": "OpenAlex",
    "title": "An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects",
@@ -685,24 +728,6 @@
     "접착·신뢰성"
    ],
    "score": 16,
-   "first_seen": "2026-10-28"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "PI첨단소재, 2026년 3분기 매출액 555억3500만원으로 전년동기 대비 18.8% 감소",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zai1vYVc4OWtaSkNuUUtOVVZ2NmFBeEhzR0U4QVh0NHdzUjdhejc5UEp5UDJlOEFVS1VoLURtTXJhWFhwdEhUaERma2E3eWtoN3pmNmQ2Wk5PUVZpRlRvUlAyc0xoTHd6MHg2QXJOV2VJdmtLUVVNMDZhYw?oc=5",
-   "source": "디지털투데이",
-   "date": "2026-10-27",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "PI첨단소재",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
    "first_seen": "2026-10-28"
   },
   {
