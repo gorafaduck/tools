@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-09T00:56:47+00:00",
+ "generated_at": "2026-11-10T03:37:34+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 24,
-  "paper": 64,
+  "news": 27,
+  "paper": 66,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,118 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "High-Temperature Energy Storage in Semi-Aromatic Polyimide with Dual Crosslinking Networks",
+   "url": "https://doi.org/10.1088/2752-5724/aebfb1",
+   "source": "Materials Futures",
+   "date": "2026-11-09",
+   "authors": [
+    "Houyu Wang",
+    "Ling Weng",
+    "Xiaoming Wang",
+    "Xue Li",
+    "Lizhu Guan",
+    "Ruiqun Pan",
+    "Lin Zhang",
+    "yingtang Zhang"
+   ],
+   "abstract": "Abstract To address the degradation issues of conventional polyimides under high-temperature and high-field energy storage conditions, this study synthesized a semi-aromatic polyimide featuring both hydrogen-bonding and chemically cross-linked networks. The chemically cross-linked structure anchors the high-temperature-resistant segments, while the dynamic hydrogen bonds further restrict chain mobility and provide additional charge trapping sites, which may contribute to shortening the mean free path of electrons and suppressing long-range carrier transport. Molecular dynamics simulations and X-ray diffraction indicate that the interchain distance shortens from 4.66 Å to 4.18 Å, with a corresponding decrease in free volume and thermal expansion coefficient. TSDC testing shows that the trap depth increases from 1.08 eV to 1.14 eV, and the leakage current density is as low as 1.98×10-7 A cm-2 at 200 MV m-1. Finally, the discharge energy density of the bis-crosslinked semi-aromatic PI reached 6.63 J cm-3 and 4.80 J cm-3 at 150 °C and 200 °C, respectively, with an efficiency >90%, and a maximum energy density of 5.08 J cm-3 at 250 °C (87.3% efficiency). This work provides new insights…",
+   "doi": "10.1088/2752-5724/aebfb1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저CTE·휨",
+    "저온경화",
+    "시장·기업",
+    "고내열성"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-10"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Films Market to Reach USD 2.32 Billion by 2031 as Demand for Flexible Electronics, EV Insulation, and Advanced Semiconductor Packaging Increases",
+   "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOZ3FLMXRNU0dvUmxUR3VXRThYYk82UWx0c1hIQk9ZekE0cWFWcGNxOG1OZEI5ZkJlalZpOXlRVDU3a0FqUVphQW1CUEpZNVU3WlJHYkZCUFRlMlFKOVRHZlhwLWpsZUdWNGdaN1lKSGVJZndiUDZHMFNDT1dVaWhVdGkyS1loN18xQWNiR2tWbElWSzBYSU5UM09PNEZUMjBpa2lBclpiaFhZdVlqN3FjTzU5c3NQVDdBdGw0aXdLNG9EY2Q0b2dBSjhaUnRDTU5IZnpocFB4T0xGMEMxSTFTdS0wR0ptajY4ak04ZTl3clBZMGxXeHFoeUFfcUtxMTdDRDZCc3Zzazk1M1JyNUNheUJ0MzloSTFvTWFfQUluMzUtUkpyUFhlZmtPTGp3aGdseEVjTg?oc=5",
+   "source": "StreetInsider",
+   "date": "2026-11-09",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-10"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFbEh3SWRuRUhmVnEzdF9VaDZqaXdjWW5vVWZmbldxdm0wRHdoT0ZkaTFTZ1k3MkpJZ0VsMXpHS2IzLXFBc2pRTjdHRGlXbGJOMFpPQzJQNTRPN3JX?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-11-09",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-10"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "iM증권, PI첨단소재 목표주가 42% 하향",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5",
+   "source": "비건뉴스",
+   "date": "2026-11-09",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-10"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor",
+   "url": "https://doi.org/10.3390/pr14213603",
+   "source": "Processes",
+   "date": "2026-11-06",
+   "authors": [
+    "Chi-Yuan Lee",
+    "Guo-Bin Jung",
+    "Jyun-Wei Yu",
+    "Ming-Chun Wu",
+    "Kuan-Ting Lai",
+    "Chien-Hsiang Hsu",
+    "Cheng-I Lin"
+   ],
+   "abstract": "A flexible three-in-one microsensor integrating voltage, current, and temperature sensing functions was developed on a polyimide substrate using micro-electro-mechanical systems technology. Sea Energe cleaning agent B, an aqueous formulation containing mineral-derived ionic components and additives, was evaluated as an alternative to conventional organic-solvent cleaning for polyimide substrate pretreatment. The effects of substrate cleaning, Au electrode thickness, and protective-layer thickness were examined using a Taguchi L4 orthogonal array. Four microsensors, with one device per configuration, were calibrated before and after thermal aging at 150 °C for 200 h. Separate immersion tests were conducted in deionized water and undiluted commercial sulfuric acid with a supplier-specified concentration of 96%. Baseline resistance shifts ranged from 0.254% to 0.797%, and mean absolute temperature deviations ranged from 1.12 to 3.20 °C. Sensor 1, combining conventional organic-solvent cleaning, a 0.3 μm Au electrode, and a 25 μm protective layer, exhibited the smallest changes. Descriptive factor-level comparisons associated electrode thickness with the largest differences in both ag…",
+   "doi": "10.3390/pr14213603",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-10"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -334,6 +446,33 @@
    ],
    "score": 7,
    "first_seen": "2026-11-08"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Colorless shape memory polyimide films for flexible optoelectronics",
+   "url": "https://doi.org/10.1088/1361-665x/aeb2c5",
+   "source": "Smart Materials and Structures",
+   "date": "2026-11-01",
+   "authors": [
+    "Shuting Jiang",
+    "Deyan Kong",
+    "Yu Kang",
+    "Xinli Xiao",
+    "Xiaofei Wang",
+    "Jinsong Leng",
+    "Yanju Liu"
+   ],
+   "abstract": "Abstract Transparent polymer substrates for flexible perovskite solar cells and foldable displays must offer high transparency, thermal stability, and active deformability. With the rapid development of intelligent and adaptive flexible electronics, shape memory functionality has emerged as a key requirement for next-generation devices to enable smart behaviors such as self-deployment or morphing. However, although conventional colorless transparent polyimides (CPIs) exhibit outstanding transparency and thermal resistance, they tend to lack shape memory functionality, making it difficult to meet the demands of next-generation intelligent flexible devices such as self-deployable structures. We designed a molecular system using two dianhydrides, one containing a hexafluoroisopropylidene group and one containing ether linkages, and three fluorinated diamines with different rigidities. The hexafluoroisopropylidene and ether units suppress charge-transfer complex formation to enhance optical transparency, while the ether linkages also improve chain flexibility. The varying diamine rigidity enables tuning of thermal properties. Based on this design, colorless shape memory polyimide (co-…",
+   "doi": "10.1088/1361-665x/aeb2c5",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 6,
+   "first_seen": "2026-10-13"
   },
   {
    "type": "paper",
@@ -1212,33 +1351,6 @@
     "시장·기업"
    ],
    "score": 11,
-   "first_seen": "2026-10-13"
-  },
-  {
-   "type": "paper",
-   "origin": "OpenAlex",
-   "title": "Colorless shape memory polyimide films for flexible optoelectronics",
-   "url": "https://doi.org/10.1088/1361-665x/aeb2c5",
-   "source": "Smart Materials and Structures",
-   "date": "2026-10-11",
-   "authors": [
-    "Shuting Jiang",
-    "孔德艳",
-    "Yu Kang",
-    "Xinli Xiao",
-    "Xiaofei Wang",
-    "Jinsong Leng",
-    "Yanju Liu"
-   ],
-   "abstract": "Abstract Transparent polymer substrates for flexible perovskite solar cells and foldable displays must offer high transparency, thermal stability, and active deformability. With the rapid development of intelligent and adaptive flexible electronics, shape memory functionality has emerged as a key requirement for next-generation devices to enable smart behaviors such as self-deployment or morphing. However, although conventional colorless transparent polyimides (CPIs) exhibit outstanding transparency and thermal resistance, they tend to lack shape memory functionality, making it difficult to meet the demands of next-generation intelligent flexible devices such as self-deployable structures. We designed a molecular system using two dianhydrides, one containing a hexafluoroisopropylidene group and one containing ether linkages, and three fluorinated diamines with different rigidities. The hexafluoroisopropylidene and ether units suppress charge-transfer complex formation to enhance optical transparency, while the ether linkages also improve chain flexibility. The varying diamine rigidity enables tuning of thermal properties. Based on this design, colorless shape memory polyimide (co-…",
-   "doi": "10.1088/1361-665x/aeb2c5",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "poly(amic acid) dielectric",
-   "tags": [
-    "고내열성"
-   ],
-   "score": 6,
    "first_seen": "2026-10-13"
   },
   {
