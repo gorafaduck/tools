@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-10T03:37:34+00:00",
+ "generated_at": "2026-11-11T01:16:53+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 27,
-  "paper": 66,
+  "paper": 71,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,34 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites",
+   "url": "https://doi.org/10.1021/acs.langmuir.6c03037",
+   "source": "Langmuir",
+   "date": "2026-11-10",
+   "authors": [
+    "Tong Zhang",
+    "Jia-wei Yang",
+    "Sheng-ru Long",
+    "Sui-lin Liu",
+    "Jia-cao Yang",
+    "Zhi-mei Wei",
+    "Jie Yang",
+    "Xiao-jun Wang"
+   ],
+   "abstract": "Abstract The interfacial adhesion between carbon fibers and polymer matrices critically determines the mechanical performance of fiber-reinforced composites, yet achieving strong bonding remains a persistent challenge. A molecular engineering strategy is developed to tailor the fiber-matrix interphase in carbon fiber-reinforced poly(arylene sulfide sulfone) (PASS) composites by designing three sizing agents: poly(amic acid) (PAA) and its thermally imidized polyimide derivatives bearing either ether or sulfone groups. Through a combined experimental and computational approach, the influence of the chemical structure of the sizing agents─specifically, the nature of the groups (ether vs sulfone), and the postimidization state-on interfacial adhesion and failure behavior is systematically investigated. The results demonstrate that the sulfone-containing polyimide sizing agent exhibits superior interfacial reinforcement, which is attributed to its strong intermolecular interactions with the PASS matrix, including hydrogen bonding as well as π-π stacking enabled by its rigid, conjugated chain architecture. This leads to a marked enhancement in mechanical performance: tensile strength, i…",
+   "doi": "10.1021/acs.langmuir.6c03037",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-11"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -72,6 +100,31 @@
    "first_seen": "2026-11-10"
   },
   {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide",
+   "url": "https://doi.org/10.1002/advs.78699",
+   "source": "Advanced Science",
+   "date": "2026-11-09",
+   "authors": [
+    "Jialun Yin",
+    "Yongjun Kang",
+    "Fangzhou Liu",
+    "Yifei Tong",
+    "Guofeng Tian",
+    "Shengli Qi",
+    "Dezhen Wu"
+   ],
+   "abstract": "ABSTRACT The rapid development of soft robotics and embodied intelligence demands electronic skins (E‐skins) that are both mechanically self‐adaptive and skin‐conformal. However, the rigid aromatic backbones of conventional polyimides limit stretchability and hinder conformal integration with deformable surfaces. Here, elastically stretchable polyimide (es‐PI) films are developed by incorporating aminopropyl‐terminated siloxane spacers, while a confined‐patterned in situ self‐metallization strategy enables direct fabrication of patterned silver circuits. By spatially confining Ag + coordination and reduction within predefined regions, this strategy produces continuous silver nanolayers with well‐defined boundaries and robust metal–polymer interfaces, preserving electrical integrity during repeated deformation. The selected es‐PI‐0.5 substrate exhibits an estimated nominal elongation at break of approximately 96% and a tensile strength of approximately 25 MPa, while the corresponding metallized film retains electrical continuity during tensile deformation up to 50% strain. Device‐level feasibility is demonstrated through a strain‐dependent inductor–capacitor (LC) resonance response…",
+   "doi": "10.1002/advs.78699",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [],
+   "score": 5,
+   "first_seen": "2026-11-11"
+  },
+  {
    "type": "news",
    "origin": "Google News",
    "title": "[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권",
@@ -109,14 +162,61 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
+   "title": "Double-sided printed terahertz collimating metalens mounted on a resonant tunneling diode",
+   "url": "https://doi.org/10.1007/s00339-026-09930-3",
+   "source": "Applied Physics A",
+   "date": "2026-11-09",
+   "authors": [
+    "Kaito EBISAWA",
+    "Kento Sato",
+    "Kazuisao Tsuruda",
+    "Takehito Suzuki"
+   ],
+   "abstract": "Abstract Integrating optically thin metasurfaces with continuous-wave (CW) terahertz sources offers an alternative to conventional bulky optical elements for manipulating terahertz waves. However, planar optical elements composed of metasurfaces have yet to be actively adopted in CW terahertz sources due to limited fabrication methods suitable for micrometer-scale meta-atoms. Here, we fabricate two types of printed terahertz collimating metalenses on cyclo-olefin polymer and polyimide films using super inkjet printing. The fabricated metalenses are composed of double-sided printed metal patches on dielectric films, enabling simultaneous control of the electric and magnetic fields while maintaining an optically thin structure. The printed terahertz collimating metalenses fabricated on cyclo-olefin polymer and polyimide films enhance the directivity of a resonant tunneling diode oscillating at 0.312 THz to 2.29 and 1.46 times, respectively. Our results demonstrate advanced wavefront control of CW terahertz sources using inkjet-printed planar optical elements. The fabrication method for terahertz planar optical elements proposed in this paper will be a welcome contribution to teraher…",
+   "doi": "10.1007/s00339-026-09930-3",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-11-11"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Synthesis and Properties of Semi-Alicyclic Polyimides Based on an Asymmetric Diamine from Renewable Menthofuran",
+   "url": "https://doi.org/10.3390/polym18212771",
+   "source": "Polymers",
+   "date": "2026-11-06",
+   "authors": [
+    "Lei Xiong",
+    "Xuwen Sun",
+    "Tao Yuan",
+    "Bing Xiong",
+    "Yanxiang Mao",
+    "Haixia Qi",
+    "Feng Liu"
+   ],
+   "abstract": "Conventional aromatic polyimides suffer from poor solubility, high water absorption and low visible-light transmittance due to strong interchain charge transfer complex (CTC) interactions, limiting their microelectronic and optoelectronic applications. Here, a novel asymmetric bio-based diamine ENDAP bearing a 3,4,5,6,7,8-hexahydro-2H-2,4a-epoxynaphthalene-3,4-diyl (HEN) alicyclic skeleton was synthesized from menthofuran via a four-step route. ENDAP was polymerized with five commercial dianhydrides to give polyimide films. GPC gave Mn of 3.17–4.68 × 104 and Mw of 4.51–7.94 × 104 Da. These amorphous polyimides, with d-spacings of 4.70–5.49 Å, were mostly soluble in polar aprotic solvents. Water contact angles were 83.3–98.6°, with a minimum water absorption of 0.36% after 48 h. Tg ranged from 164 to 211 °C, the maximum T10 was 451 °C under N2, cutoff wavelengths were 353–388 nm, and maximum T450 of 83.6% and maximum T500 of 86.1%. The HEN skeleton contributes to improved solubility, reduced water absorption and enhanced transparency, likely by weakening CTC interactions and loosening chain packing, as reflected by the enlarged interchain d-spacing, although the extent depends on t…",
+   "doi": "10.3390/polym18212771",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "low transmittance polyimide",
+   "tags": [],
+   "score": 6,
+   "first_seen": "2026-11-11"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor",
    "url": "https://doi.org/10.3390/pr14213603",
    "source": "Processes",
    "date": "2026-11-06",
    "authors": [
-    "Chi-Yuan Lee",
-    "Guo-Bin Jung",
+    "Chi‐Yuan Lee",
+    "Guo‐Bin Jung",
     "Jyun-Wei Yu",
     "Ming-Chun Wu",
     "Kuan-Ting Lai",
@@ -127,7 +227,7 @@
    "doi": "10.3390/pr14213603",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "polyimide thin film processing",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -154,7 +254,7 @@
    "doi": "10.1021/acssuschemeng.6c09184",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저CTE·휨",
     "시장·기업",
@@ -179,7 +279,7 @@
    "doi": "10.1021/acsapm.6c03636",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "저온경화",
     "고내열성"
@@ -369,6 +469,33 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
+   "title": "Development of functional polyimides: Synthesis and properties toward green fabrications, heat resistance, transparency, and dielectric insulation in high-frequency communications and semiconductor packaging",
+   "url": "https://doi.org/10.1016/j.reactfunctpolym.2026.107006",
+   "source": "Reactive and Functional Polymers",
+   "date": "2026-11-01",
+   "authors": [
+    "Jian-Ding Lee",
+    "Yi-An Tsai",
+    "Chieh‐Yuan Chang",
+    "Meng-Hsuan Wu",
+    "Chang-Liang Liu",
+    "Yi‐Je Juang",
+    "Yan-Cheng Lin"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.reactfunctpolym.2026.107006",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-11"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Decoupled Thermal and Electrical Insulation in Crosslinked Semi-Aromatic Polyimide for High-Temperature Capacitors",
    "url": "https://doi.org/10.1016/j.aiepr.2026.100291",
    "source": "Advanced Industrial and Engineering Polymer Research",
@@ -492,7 +619,7 @@
    "doi": "10.1016/j.apmate.2026.100484",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "polyimide low temperature cure",
    "tags": [
     "시장·기업"
    ],

@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-10
-- 최근 7일 신규 수집: 24건 / 전체 보관: 96건
+- 생성일: 2026-11-11
+- 최근 7일 신규 수집: 28건 / 전체 보관: 101건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 10, 고내열성 5, 접착·신뢰성 5, 저온경화 3, 저유전(Dk/Df) 3, 저CTE·휨 2, 코팅·박막/후막 2, RDL·Fan-out 2, 하이브리드 본딩 2, PSPI·리소그래피 1
+**주제 분포:** 시장·기업 10, 접착·신뢰성 6, 고내열성 6, 저온경화 3, 저CTE·휨 2, 코팅·박막/후막 2, 저유전(Dk/Df) 2, RDL·Fan-out 2, 하이브리드 본딩 2, PSPI·리소그래피 1
 
 ## 📰 뉴스 (6)
 
@@ -15,21 +15,25 @@
 - [PI첨단소재 투자분석 2026. 10. 30](https://news.google.com/rss/articles/CBMic0FVX3lxTE1wUkduTUlZNmtmVWFrRmgtREdDNFFSbEd3a3hzelFvSl90YTM3NFZmTkczY085TTl5WldkVjU0VzlGMm1QNWJGUkNsakVTeGxxRERBSGVTVy15eFVYNDA3bmFJYTNHQTd4amlWN2cyLW1teFU?oc=5) — 2026-10-30 · 주달 `시장·기업`
 - [PI첨단소재 투자분석 2026. 10. 16](https://news.google.com/rss/articles/CBMic0FVX3lxTE5OaUpPYjduTUcyTG1LWjVfelVzR2pZN2ZSQWVvSTVValZ3eHVBMlBHLVVBYVBMUkRkQUl6Z3VxQnlFdno2QmIyLXFXdFoxV1loZ1lZaW5FbjNfNnAtb0lyNk1YX0VFbEUzTHE3QWdHSVJjSk0?oc=5) — 2026-10-16 · 주달 `시장·기업`
 
-## 📄 논문 (18)
+## 📄 논문 (22)
 
 - [Low‑Shrinkage Photosensitive Polyimide for CMP-free Multilayer RDL Fabrication Process](https://doi.org/10.4071/001c.173326) — 2026-10-27 · IMAPSource Proceedings `PSPI·리소그래피` `RDL·Fan-out`
 - [Developing the Polyimide Glycolysis and Upcycling of the Recovered Valorized Monomers for Low-Dielectric-Loss Poly(ester imides)](https://doi.org/10.1021/acssuschemeng.6c09184) — 2026-11-05 · ACS Sustainable Chemistry & Engineering `저CTE·휨` `시장·기업` `고내열성`
 - [Interfacial Characterization of Fine-Pitch Cu/Polyimide L/S Structures for RDL Improvement Using AFM-IR and TEM-EELS](https://doi.org/10.4071/001c.173041) — 2026-10-26 · IMAPSource Proceedings `RDL·Fan-out` `하이브리드 본딩` `접착·신뢰성`
 - [Chip-to-Wafer Hybrid Bonding using Polyimide Dielectric for Low-Temperature Process with High Yield and Reliability](https://doi.org/10.4071/001c.173034) — 2026-10-26 · IMAPSource Proceedings `하이브리드 본딩` `접착·신뢰성`
+- [Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites](https://doi.org/10.1021/acs.langmuir.6c03037) — 2026-11-10 · Langmuir `접착·신뢰성`
 - [High-Temperature Energy Storage in Semi-Aromatic Polyimide with Dual Crosslinking Networks](https://doi.org/10.1088/2752-5724/aebfb1) — 2026-11-09 · Materials Futures `저CTE·휨` `저온경화` `시장·기업` `고내열성`
+- [Development of functional polyimides: Synthesis and properties toward green fabrications, heat resistance, transparency, and dielectric insulation in high-frequency communications and semiconductor packaging](https://doi.org/10.1016/j.reactfunctpolym.2026.107006) — 2026-11-01 · Reactive and Functional Polymers `고내열성`
 - [Mechanical Ruggedization of Ceramic Column Grid Array with Polyimide Reinforced Solder Columns](https://doi.org/10.4071/001c.173496) — 2026-11-02 · IMAPSource Proceedings `접착·신뢰성`
 - [Phthalonitrile-Terminated Polyimide Adhesives with Benzimidazole-Promoted Curing for High-Temperature Bonding](https://doi.org/10.1021/acsapm.6c03636) — 2026-11-05 · ACS Applied Polymer Materials `저온경화` `고내열성`
 - [Decoupled Thermal and Electrical Insulation in Crosslinked Semi-Aromatic Polyimide for High-Temperature Capacitors](https://doi.org/10.1016/j.aiepr.2026.100291) — 2026-11-01 · Advanced Industrial and Engineering Polymer Research `저온경화` `고내열성`
 - [A polyimide-based thermal bridge](https://doi.org/10.1063/5.0349825) — 2026-11-01 · Review of Scientific Instruments `코팅·박막/후막`
 - [Contrasting Moisture Effects on the Tensile Behavior of Polyimide Films: In-Situ vs. Ex-Situ Investigations](https://doi.org/10.1016/j.polymertesting.2026.109413) — 2026-11-01 · Polymer Testing `접착·신뢰성`
-- [Directly patternable bio-based Polyimide/POSS hybrids with simultaneously ultralow Dk and Df via UV-triggered thiol-ene click chemistry](https://doi.org/10.1016/j.polymer.2026.131065) — 2026-11-02 · Polymer `저유전(Dk/Df)`
+- [Synthesis and Properties of Semi-Alicyclic Polyimides Based on an Asymmetric Diamine from Renewable Menthofuran](https://doi.org/10.3390/polym18212771) — 2026-11-06 · Polymers
+- [Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide](https://doi.org/10.1002/advs.78699) — 2026-11-09 · Advanced Science
 - [Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor](https://doi.org/10.3390/pr14213603) — 2026-11-06 · Processes `코팅·박막/후막`
 - [Breaking the Trade‐Off Between Thermal Insulation and Electromagnetic Wave Transparency Via a Bilayer Fluorinated Aerogel With Phase‐Change Microcapsules](https://doi.org/10.1002/smll.76639) — 2026-11-05 · Small `저유전(Dk/Df)` `접착·신뢰성` `시장·기업`
+- [Double-sided printed terahertz collimating metalens mounted on a resonant tunneling diode](https://doi.org/10.1007/s00339-026-09930-3) — 2026-11-09 · Applied Physics A
 - [High-Temperature Dielectric Energy Storage in All-Organic Composite Films Enabled by Molecular Semiconductor Fillers](https://doi.org/10.1021/acsapm.6c03349) — 2026-11-04 · ACS Applied Polymer Materials `고내열성`
 - [Semi-Embedded Liquid Metal Nanoparticles on Co-Electrospun Nanofibers for Scalable and High-Sensitivity Flexible Surface-Enhanced Raman Scattering Platform](https://doi.org/10.1021/acsami.6c15889) — 2026-11-03 · ACS Applied Materials & Interfaces `저유전(Dk/Df)`
 - [Flexible Dual–Channel MOF–MXene Platform for Wireless Thermohygrometric Monitoring](https://doi.org/10.1016/j.apmate.2026.100484) — 2026-11-01 · Advanced Powder Materials `시장·기업`
