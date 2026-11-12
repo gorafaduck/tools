@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-11T01:16:53+00:00",
+ "generated_at": "2026-11-12T02:17:47+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 27,
-  "paper": 71,
+  "news": 28,
+  "paper": 72,
   "preprint": 3
  },
  "tags": [
@@ -22,6 +22,24 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[미리보는 소부장 테크페어]〈5〉PI첨단소재, 'PI 필름' 기술 진화와 응용처 다각화",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qNXN2V01zOGotSVJuR2VMUl82VElRNzdDVWlpUlpoSlI2UWtENnN5a292dFAyZDh5dm9temtzNnphb25DWkR2SWhGbUNHUQ?oc=5",
+   "source": "전자신문",
+   "date": "2026-11-12",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "고내열 폴리이미드",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-12"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -254,7 +272,7 @@
    "doi": "10.1021/acssuschemeng.6c09184",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "저CTE·휨",
     "시장·기업",
@@ -432,7 +450,7 @@
    "doi": "10.1016/j.polymer.2026.131065",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low dielectric constant",
+   "query": "photosensitive polyimide",
    "tags": [
     "저유전(Dk/Df)"
    ],
@@ -1307,6 +1325,29 @@
    ],
    "score": 4,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "The Development and Evolution of Substrate Materials for Brain–Computer Interfaces",
+   "url": "https://doi.org/10.3390/polym18202569",
+   "source": "Polymers",
+   "date": "2026-10-19",
+   "authors": [
+    "Jiujiang Ji",
+    "Yidan Gao",
+    "Juan Liu",
+    "Mei Tian",
+    "Yen Wei"
+   ],
+   "abstract": "Brain-Computer Interfaces (BCIs) hold tremendous potential for neurological therapeutics and neuroprosthetics; however, their long-term clinical viability is fundamentally limited by chronic interfacial failure. This failure originates from the profound biomechanical mismatch between synthetic microelectrodes and ultra-soft brain tissue, which inevitably triggers persistent mechanical trauma, severe foreign body response (FBR), and insulating glial scarring. In this review, we systematically trace the material and structural evolution of implantable neural interfaces designed to bridge this critical gap. We detail the chronological paradigm shift from rigid inorganic substrates (e.g., silicon) to flexible yet inextensible polymers (e.g., Polyimide, SU-8) for conformal mapping, and subsequently to intrinsically stretchable elastomers (e.g., polydimethylsiloxane polyurethane) that effectively absorb dynamic physiological micro-shear forces. Most importantly, we highlight the emerging frontier of electrospun nanofibrous microelectrodes. By uniquely combining macroscopic tissue-level stretchability with an interconnected, highly permeable 3D topography that mimics the native extracell…",
+   "doi": "10.3390/polym18202569",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide wafer level packaging",
+   "tags": [],
+   "score": 2,
+   "first_seen": "2026-11-12"
   },
   {
    "type": "paper",
