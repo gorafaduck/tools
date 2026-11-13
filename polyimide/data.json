@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-12T02:17:47+00:00",
+ "generated_at": "2026-11-13T01:51:08+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 28,
+  "news": 29,
   "paper": 72,
-  "preprint": 3
+  "preprint": 4
  },
  "tags": [
   "PSPI·리소그래피",
@@ -39,6 +39,52 @@
    ],
    "score": 4,
    "first_seen": "2026-11-12"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5",
+   "source": "이데일리",
+   "date": "2026-11-12",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-13"
+  },
+  {
+   "type": "preprint",
+   "origin": "OpenAlex",
+   "title": "A Resilient Large-Piston Electrothermal Micromirror and Its Application in Handheld Fourier-Transform Near-Infrared Microspectrometers",
+   "url": "https://doi.org/10.21203/rs.3.rs-11420924/v1",
+   "source": "Research Square",
+   "date": "2026-11-11",
+   "authors": [
+    "Huikai Xie",
+    "Hengzhang Yang",
+    "qiangqiang Liu",
+    "Anrun Ren",
+    "Teng Pan",
+    "Yang Yang",
+    "Zhe Peng",
+    "Xiaoyi Wang"
+   ],
+   "abstract": "Abstract Handheld Fourier-transform near-infrared (FTNIR) microspectrometers demand MEMS micromirrors capable of generating large piston displacement (LPD) for high spectral resolution, alongside the strict mechanical robustness required for field deployment. However, conventional electrothermal actuators rely on rigid and brittle inorganic dielectrics (e.g., Al-SiO2), which severely suffer from impact-induced fracture and inherently restrict the maximum actuation stroke. Here, we demonstrate a highly robust LPD electrothermal micromirror driven by an aluminum-photosensitive polyimide (Al-PSPI) bimorph actuator. The device features a 1 mm × 1 mm square mirror within a compact 1.85 mm × 1.85 mm footprint. Leveraging the superior mechanical compliance and resilience of PSPI, the actuators can survive drop heights up to 1.9 m, a 25-fold improvement over conventional Al-SiO2 bimorph counterparts. The micromirror achieves a maximum piston displacement exceeding 450 μm at an ultra-low driving voltage of 7.5 V, exhibiting a fundamental resonance frequency of ~588 Hz and a rapid response time of ~30 ms. To validate its practical utility, the micromirror was integrated into a compact, 350-…",
+   "doi": "10.21203/rs.3.rs-11420924/v1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "PSPI·리소그래피"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-13"
   },
   {
    "type": "paper",
@@ -89,7 +135,7 @@
    "doi": "10.1088/2752-5724/aebfb1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저CTE·휨",
     "저온경화",

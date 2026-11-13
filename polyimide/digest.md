@@ -1,21 +1,20 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-12
-- 최근 7일 신규 수집: 28건 / 전체 보관: 103건
+- 생성일: 2026-11-13
+- 최근 7일 신규 수집: 26건 / 전체 보관: 105건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 10, 접착·신뢰성 6, 고내열성 6, 저온경화 3, 저CTE·휨 2, 코팅·박막/후막 2, RDL·Fan-out 2, 하이브리드 본딩 2, 저유전(Dk/Df) 1, PSPI·리소그래피 1
+**주제 분포:** 시장·기업 9, 접착·신뢰성 6, 고내열성 5, 저온경화 3, PSPI·리소그래피 2, 저CTE·휨 2, 코팅·박막/후막 2, RDL·Fan-out 2, 하이브리드 본딩 2, 저유전(Dk/Df) 1
 
-## 📰 뉴스 (6)
+## 📰 뉴스 (5)
 
 - [Polyimide Films Market to Reach USD 2.32 Billion by 2031 as Demand for Flexible Electronics, EV Insulation, and Advanced Semiconductor Packaging Increases](https://news.google.com/rss/articles/CBMitAJBVV95cUxOZ3FLMXRNU0dvUmxUR3VXRThYYk82UWx0c1hIQk9ZekE0cWFWcGNxOG1OZEI5ZkJlalZpOXlRVDU3a0FqUVphQW1CUEpZNVU3WlJHYkZCUFRlMlFKOVRHZlhwLWpsZUdWNGdaN1lKSGVJZndiUDZHMFNDT1dVaWhVdGkyS1loN18xQWNiR2tWbElWSzBYSU5UM09PNEZUMjBpa2lBclpiaFhZdVlqN3FjTzU5c3NQVDdBdGw0aXdLNG9EY2Q0b2dBSjhaUnRDTU5IZnpocFB4T0xGMEMxSTFTdS0wR0ptajY4ak04ZTl3clBZMGxXeHFoeUFfcUtxMTdDRDZCc3Zzazk1M1JyNUNheUJ0MzloSTFvTWFfQUluMzUtUkpyUFhlZmtPTGp3aGdseEVjTg?oc=5) — 2026-11-09 · StreetInsider `시장·기업`
 - [[미리보는 소부장 테크페어]〈5〉PI첨단소재, 'PI 필름' 기술 진화와 응용처 다각화](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qNXN2V01zOGotSVJuR2VMUl82VElRNzdDVWlpUlpoSlI2UWtENnN5a292dFAyZDh5dm9temtzNnphb25DWkR2SWhGbUNHUQ?oc=5) — 2026-11-12 · 전자신문 `시장·기업`
+- [PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠](https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5) — 2026-11-12 · 이데일리 `시장·기업`
 - [[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFbEh3SWRuRUhmVnEzdF9VaDZqaXdjWW5vVWZmbldxdm0wRHdoT0ZkaTFTZ1k3MkpJZ0VsMXpHS2IzLXFBc2pRTjdHRGlXbGJOMFpPQzJQNTRPN3JX?oc=5) — 2026-11-09 · 뉴스핌 `시장·기업`
 - [iM증권, PI첨단소재 목표주가 42% 하향](https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5) — 2026-11-09 · 비건뉴스 `시장·기업`
-- [PI첨단소재 투자분석 2026. 10. 30](https://news.google.com/rss/articles/CBMic0FVX3lxTE1wUkduTUlZNmtmVWFrRmgtREdDNFFSbEd3a3hzelFvSl90YTM3NFZmTkczY085TTl5WldkVjU0VzlGMm1QNWJGUkNsakVTeGxxRERBSGVTVy15eFVYNDA3bmFJYTNHQTd4amlWN2cyLW1teFU?oc=5) — 2026-10-30 · 주달 `시장·기업`
-- [PI첨단소재 투자분석 2026. 10. 16](https://news.google.com/rss/articles/CBMic0FVX3lxTE5OaUpPYjduTUcyTG1LWjVfelVzR2pZN2ZSQWVvSTVValZ3eHVBMlBHLVVBYVBMUkRkQUl6Z3VxQnlFdno2QmIyLXFXdFoxV1loZ1lZaW5FbjNfNnAtb0lyNk1YX0VFbEUzTHE3QWdHSVJjSk0?oc=5) — 2026-10-16 · 주달 `시장·기업`
 
-## 📄 논문 (22)
+## 📄 논문 (20)
 
 - [Low‑Shrinkage Photosensitive Polyimide for CMP-free Multilayer RDL Fabrication Process](https://doi.org/10.4071/001c.173326) — 2026-10-27 · IMAPSource Proceedings `PSPI·리소그래피` `RDL·Fan-out`
 - [Developing the Polyimide Glycolysis and Upcycling of the Recovered Valorized Monomers for Low-Dielectric-Loss Poly(ester imides)](https://doi.org/10.1021/acssuschemeng.6c09184) — 2026-11-05 · ACS Sustainable Chemistry & Engineering `저CTE·휨` `시장·기업` `고내열성`
@@ -34,12 +33,10 @@
 - [Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor](https://doi.org/10.3390/pr14213603) — 2026-11-06 · Processes `코팅·박막/후막`
 - [Breaking the Trade‐Off Between Thermal Insulation and Electromagnetic Wave Transparency Via a Bilayer Fluorinated Aerogel With Phase‐Change Microcapsules](https://doi.org/10.1002/smll.76639) — 2026-11-05 · Small `저유전(Dk/Df)` `접착·신뢰성` `시장·기업`
 - [Double-sided printed terahertz collimating metalens mounted on a resonant tunneling diode](https://doi.org/10.1007/s00339-026-09930-3) — 2026-11-09 · Applied Physics A
-- [High-Temperature Dielectric Energy Storage in All-Organic Composite Films Enabled by Molecular Semiconductor Fillers](https://doi.org/10.1021/acsapm.6c03349) — 2026-11-04 · ACS Applied Polymer Materials `고내열성`
 - [Flexible Dual–Channel MOF–MXene Platform for Wireless Thermohygrometric Monitoring](https://doi.org/10.1016/j.apmate.2026.100484) — 2026-11-01 · Advanced Powder Materials `시장·기업`
 - [Advances in Polymeric Insulating Materials: Global Progress in These 10 Years](https://doi.org/10.1049/hve2.70257) — 2026-10-23 · High Voltage
-- [Organic substance detection based on dynamic liquid crystal linear polarization converter helped by artificial rabbit optimization algorithm](https://doi.org/10.1063/5.0356411) — 2026-11-01 · Physics of Fluids
 - [The Development and Evolution of Substrate Materials for Brain–Computer Interfaces](https://doi.org/10.3390/polym18202569) — 2026-10-19 · Polymers
 
-## 🧪 프리프린트 (0)
+## 🧪 프리프린트 (1)
 
-_신규 항목 없음_
+- [A Resilient Large-Piston Electrothermal Micromirror and Its Application in Handheld Fourier-Transform Near-Infrared Microspectrometers](https://doi.org/10.21203/rs.3.rs-11420924/v1) — 2026-11-11 · Research Square `PSPI·리소그래피`
