@@ -1,10 +1,10 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-13
-- 최근 7일 신규 수집: 26건 / 전체 보관: 105건
+- 생성일: 2026-11-14
+- 최근 7일 신규 수집: 28건 / 전체 보관: 110건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 시장·기업 9, 접착·신뢰성 6, 고내열성 5, 저온경화 3, PSPI·리소그래피 2, 저CTE·휨 2, 코팅·박막/후막 2, RDL·Fan-out 2, 하이브리드 본딩 2, 저유전(Dk/Df) 1
+**주제 분포:** 시장·기업 9, 코팅·박막/후막 6, 접착·신뢰성 6, 고내열성 3, 저CTE·휨 2, PSPI·리소그래피 2, 저온경화 2, RDL·Fan-out 2, 하이브리드 본딩 2, 저투과도·차광 1, 저유전(Dk/Df) 1
 
 ## 📰 뉴스 (5)
 
@@ -14,20 +14,22 @@
 - [[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFbEh3SWRuRUhmVnEzdF9VaDZqaXdjWW5vVWZmbldxdm0wRHdoT0ZkaTFTZ1k3MkpJZ0VsMXpHS2IzLXFBc2pRTjdHRGlXbGJOMFpPQzJQNTRPN3JX?oc=5) — 2026-11-09 · 뉴스핌 `시장·기업`
 - [iM증권, PI첨단소재 목표주가 42% 하향](https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5) — 2026-11-09 · 비건뉴스 `시장·기업`
 
-## 📄 논문 (20)
+## 📄 논문 (22)
 
 - [Low‑Shrinkage Photosensitive Polyimide for CMP-free Multilayer RDL Fabrication Process](https://doi.org/10.4071/001c.173326) — 2026-10-27 · IMAPSource Proceedings `PSPI·리소그래피` `RDL·Fan-out`
-- [Developing the Polyimide Glycolysis and Upcycling of the Recovered Valorized Monomers for Low-Dielectric-Loss Poly(ester imides)](https://doi.org/10.1021/acssuschemeng.6c09184) — 2026-11-05 · ACS Sustainable Chemistry & Engineering `저CTE·휨` `시장·기업` `고내열성`
 - [Interfacial Characterization of Fine-Pitch Cu/Polyimide L/S Structures for RDL Improvement Using AFM-IR and TEM-EELS](https://doi.org/10.4071/001c.173041) — 2026-10-26 · IMAPSource Proceedings `RDL·Fan-out` `하이브리드 본딩` `접착·신뢰성`
+- [Unveiling the Thermomechanical Behavior of Free-Standing Polymer Thin Films on an Ionic Liquid Surface at Sub-Ambient Temperatures Down to –10 °C](https://doi.org/10.1021/acs.macromol.6c02282) — 2026-11-13 · Macromolecules `저CTE·휨` `코팅·박막/후막` `접착·신뢰성` `시장·기업`
 - [Chip-to-Wafer Hybrid Bonding using Polyimide Dielectric for Low-Temperature Process with High Yield and Reliability](https://doi.org/10.4071/001c.173034) — 2026-10-26 · IMAPSource Proceedings `하이브리드 본딩` `접착·신뢰성`
 - [Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites](https://doi.org/10.1021/acs.langmuir.6c03037) — 2026-11-10 · Langmuir `접착·신뢰성`
 - [High-Temperature Energy Storage in Semi-Aromatic Polyimide with Dual Crosslinking Networks](https://doi.org/10.1088/2752-5724/aebfb1) — 2026-11-09 · Materials Futures `저CTE·휨` `저온경화` `시장·기업` `고내열성`
 - [Development of functional polyimides: Synthesis and properties toward green fabrications, heat resistance, transparency, and dielectric insulation in high-frequency communications and semiconductor packaging](https://doi.org/10.1016/j.reactfunctpolym.2026.107006) — 2026-11-01 · Reactive and Functional Polymers `고내열성`
-- [Mechanical Ruggedization of Ceramic Column Grid Array with Polyimide Reinforced Solder Columns](https://doi.org/10.4071/001c.173496) — 2026-11-02 · IMAPSource Proceedings `접착·신뢰성`
-- [Phthalonitrile-Terminated Polyimide Adhesives with Benzimidazole-Promoted Curing for High-Temperature Bonding](https://doi.org/10.1021/acsapm.6c03636) — 2026-11-05 · ACS Applied Polymer Materials `저온경화` `고내열성`
 - [Decoupled Thermal and Electrical Insulation in Crosslinked Semi-Aromatic Polyimide for High-Temperature Capacitors](https://doi.org/10.1016/j.aiepr.2026.100291) — 2026-11-01 · Advanced Industrial and Engineering Polymer Research `저온경화` `고내열성`
 - [A polyimide-based thermal bridge](https://doi.org/10.1063/5.0349825) — 2026-11-01 · Review of Scientific Instruments `코팅·박막/후막`
 - [Contrasting Moisture Effects on the Tensile Behavior of Polyimide Films: In-Situ vs. Ex-Situ Investigations](https://doi.org/10.1016/j.polymertesting.2026.109413) — 2026-11-01 · Polymer Testing `접착·신뢰성`
+- [Effects of Fiber Composition and Spinning and Plying on the Spectral Reflectance and Color of Polyimide/Poly(m-phenylene Isophthalamide) Yarns](https://doi.org/10.3390/polym18222845) — 2026-11-13 · Polymers `저투과도·차광`
+- [Decision letter for "Powder Aerosol Deposition Beyond Ceramics: Room-Temperature Fabrication of Pristine Polyimide Thick Films"](https://doi.org/10.1039/d6ma01590e/v1/decision1) — 2026-11-10 · Publons reviews and discussion `코팅·박막/후막`
+- [Thin film materials for advanced photonic and detection applications](https://doi.org/10.48676/unibo/amsdottorato/13323) — 2026-11-10 · AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna) `코팅·박막/후막`
+- [Review for "Powder Aerosol Deposition Beyond Ceramics: Room-Temperature Fabrication of Pristine Polyimide Thick Films"](https://doi.org/10.1039/d6ma01590e/v1/review1) — 2026-11-09 · Publons reviews and discussion `코팅·박막/후막`
 - [Synthesis and Properties of Semi-Alicyclic Polyimides Based on an Asymmetric Diamine from Renewable Menthofuran](https://doi.org/10.3390/polym18212771) — 2026-11-06 · Polymers
 - [Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide](https://doi.org/10.1002/advs.78699) — 2026-11-09 · Advanced Science
 - [Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor](https://doi.org/10.3390/pr14213603) — 2026-11-06 · Processes `코팅·박막/후막`

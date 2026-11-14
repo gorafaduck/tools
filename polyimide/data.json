@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-13T01:51:08+00:00",
+ "generated_at": "2026-11-14T01:28:39+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 29,
-  "paper": 72,
+  "paper": 77,
   "preprint": 4
  },
  "tags": [
@@ -22,6 +22,59 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Unveiling the Thermomechanical Behavior of Free-Standing Polymer Thin Films on an Ionic Liquid Surface at Sub-Ambient Temperatures Down to –10 °C",
+   "url": "https://doi.org/10.1021/acs.macromol.6c02282",
+   "source": "Macromolecules",
+   "date": "2026-11-13",
+   "authors": [
+    "Eun Sung Oh",
+    "Dong Jun Kim",
+    "Taek-Soo Kim"
+   ],
+   "abstract": "Abstract The thermomechanical behavior of free-standing polymer thin films at sub-ambient temperatures is critical to the thermomechanical reliability of wearable electronics operating in outdoor environments, as the films become more brittle with decreasing temperature. However, the behavior has not been reported due to the fragility of free-standing thin films and the absence of an adequate cooling system for them. In this study, we investigate the thermomechanical behavior of free-standing polymer thin films on an ionic liquid surface at sub-ambient temperatures down to –10 °C, using a novel direct testing method developed based on a Peltier cooling system. Specifically, this study focuses on thermoplastic polymers [polystyrene (PS) and regiorandom poly(3-hexylthiophene) (RRa P3HT)] and thermoset polymers [polydimethylsiloxane (PDMS) and polyimide (PI)], based on their internal structures. Interestingly, it is demonstrated that the crack-onset strain (COS) of PS thin films increases sharply from 13.1 ± 0.5% at –10 °C to 60.0 ± 5.3% at 25 °C due to crazing. Furthermore, the tensile and thermal expansion properties of RRa P3HT thin films change significantly across the glass tran…",
+   "doi": "10.1021/acs.macromol.6c02282",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "저CTE·휨",
+    "코팅·박막/후막",
+    "접착·신뢰성",
+    "시장·기업"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Effects of Fiber Composition and Spinning and Plying on the Spectral Reflectance and Color of Polyimide/Poly(m-phenylene Isophthalamide) Yarns",
+   "url": "https://doi.org/10.3390/polym18222845",
+   "source": "Polymers",
+   "date": "2026-11-13",
+   "authors": [
+    "Zhilin Teng",
+    "Xiangyun Lv",
+    "Lu Yang",
+    "Hongyang Wei",
+    "Rongwu Wang",
+    "Xing Jin",
+    "Xinxin Li"
+   ],
+   "abstract": "High-performance polyimide (PI) and poly(m-phenylene isophthalamide) (PMIA) fibers are promising for thermally protective textiles, but their rigid aromatic structures make conventional coloration difficult. This study examines how fiber content and hierarchical assembly regulate the optical color response of dope-colored PI/PMIA yarns. Spectral reflectance and CIELAB colorimetry were used to characterize fiber-web, drawn-sliver, roving, and spun-yarn states, together with yarns prepared at different blend ratios, single-yarn twist factors, and ply-twist ratios. At a fixed 50 wt% black PI content, increasing blue PMIA from 10 to 30 wt% while decreasing navy PMIA from 40 to 20 wt% increased L* from 20.62 to 22.65 and C* from 3.97 to 8.76; the 400–480 nm response changed more strongly than the 570–630 nm region. Hierarchical assembly produced stage-dependent reductions in L* and C* while hue remained nearly unchanged. Increasing single-yarn twist preferentially attenuated the blue–violet spectral response, whereas reverse plying produced a non-monotonic lightness response with a maximum near a ply-twist ratio of 0.7. These results show that fiber content primarily controls wavelengt…",
+   "doi": "10.3390/polym18222845",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) solution coating film",
+   "tags": [
+    "저투과도·차광"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-14"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -79,7 +132,7 @@
    "doi": "10.21203/rs.3.rs-11420924/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "photosensitive polyimide",
+   "query": "polyimide thin film processing",
    "tags": [
     "PSPI·리소그래피"
    ],
@@ -116,6 +169,46 @@
   },
   {
    "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Decision letter for \"Powder Aerosol Deposition Beyond Ceramics: Room-Temperature Fabrication of Pristine Polyimide Thick Films\"",
+   "url": "https://doi.org/10.1039/d6ma01590e/v1/decision1",
+   "source": "Publons reviews and discussion",
+   "date": "2026-11-10",
+   "authors": [],
+   "abstract": "",
+   "doi": "10.1039/d6ma01590e/v1/decision1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Thin film materials for advanced photonic and detection applications",
+   "url": "https://doi.org/10.48676/unibo/amsdottorato/13323",
+   "source": "AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna)",
+   "date": "2026-11-10",
+   "authors": [
+    "Sara Cepic"
+   ],
+   "abstract": "This thesis investigates two complementary research directions centred on the interaction of light and matter: thin film semiconductors for photodetection and dielectric coatings for mirrors of the Einstein Telescope Project. The first part focuses on two-dimensional PEA2PbBr4 perovskite thin films for advanced photonic and ionizing radiation detection. Unlike conventional rigid bulk crystals, these materials can be processed on flexible polyimide substrates, enabling conformal, high-performance detectors suitable for real-time monitoring. The relationship between microscopic carrier dynamics and macroscopic device sensitivity is systematically analysed, linking material photophysics to charge collection efficiency and detector performance. The second part addresses the development of high-reflectivity dielectric coatings for the Einstein Telescope. A magnetron-sputtered mixed oxide, (Ti0.62Si0.38)O2, is investigated as a high-refractive-index material paired with SiO2 in nanolayered Bragg stacks. This study evaluates the structural and optical properties of mixed oxides for application in the ET high-frequency interferometer. By bridging fundamental material physics, atomic struc…",
+   "doi": "10.48676/unibo/amsdottorato/13323",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "type": "paper",
    "origin": "Crossref",
    "title": "High-Temperature Energy Storage in Semi-Aromatic Polyimide with Dual Crosslinking Networks",
    "url": "https://doi.org/10.1088/2752-5724/aebfb1",
@@ -135,7 +228,7 @@
    "doi": "10.1088/2752-5724/aebfb1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "저CTE·휨",
     "저온경화",
@@ -165,6 +258,25 @@
   },
   {
    "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Review for \"Powder Aerosol Deposition Beyond Ceramics: Room-Temperature Fabrication of Pristine Polyimide Thick Films\"",
+   "url": "https://doi.org/10.1039/d6ma01590e/v1/review1",
+   "source": "Publons reviews and discussion",
+   "date": "2026-11-09",
+   "authors": [],
+   "abstract": "",
+   "doi": "10.1039/d6ma01590e/v1/review1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-14"
+  },
+  {
+   "type": "paper",
    "origin": "Crossref",
    "title": "Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide",
    "url": "https://doi.org/10.1002/advs.78699",
@@ -183,7 +295,7 @@
    "doi": "10.1002/advs.78699",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [],
    "score": 5,
    "first_seen": "2026-11-11"
@@ -1024,7 +1136,7 @@
    "doi": "10.4071/001c.173326",
    "cited_by": 0,
    "lang": "en",
-   "query": "spin-coated polyimide film thickness",
+   "query": "polyimide wafer level packaging",
    "tags": [
     "PSPI·리소그래피",
     "RDL·Fan-out"
