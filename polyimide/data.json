@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-14T01:28:39+00:00",
+ "generated_at": "2026-11-15T01:15:46+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 29,
-  "paper": 77,
-  "preprint": 4
+  "paper": 79,
+  "preprint": 5
  },
  "tags": [
   "PSPI·리소그래피",
@@ -22,6 +22,34 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Rigid‐Flexible Synergized Semi‐Crystalline Polyimide Dielectrics for High‐Temperature Capacitive Energy Storage",
+   "url": "https://doi.org/10.1002/smll.76631",
+   "source": "Small",
+   "date": "2026-11-14",
+   "authors": [
+    "Shiqi Yu",
+    "Jinghua Tan",
+    "Linfeng Fei",
+    "Pan He",
+    "Xueyuan Liu",
+    "Jie Huang",
+    "Sheng Chen",
+    "Junwei Zha"
+   ],
+   "abstract": "ABSTRACT The growing demand in the fields of new energy and electronic power has promoted the development of polymeric dielectrics that can work under extreme conditions. Polyimide (PI) with outstanding thermal stability is a promising candidate for next‐generation high‐temperature capacitor films. Although the molecular structure design based on the suppression of leakage current has been widely reported, the influence of the aggregated structure formed by the designed molecular structure on the capacitance performance has been overlooked. Here, flexible spacer groups are introduced into the PI main chain to inhibit charge transfer and to construct semi‐crystalline PI. The formed crystalline regions not only enhance the thermal and mechanical properties but also inhibit carrier transport. The synergistic effect of the flexible spacers and crystalline regions can significantly improve the high‐temperature energy storage performance. As a result, semi‐crystalline PI delivers an energy density of 4.41 J cm −3 at 200°C and maintains 90% efficiency. This work presents a feasible strategy for the development of the next‐generation high‐temperature capacitor films.",
+   "doi": "10.1002/smll.76631",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-15"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -68,12 +96,38 @@
    "doi": "10.3390/polym18222845",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) solution coating film",
+   "query": "polyimide varnish viscosity coating",
    "tags": [
     "저투과도·차광"
    ],
    "score": 6,
    "first_seen": "2026-11-14"
+  },
+  {
+   "type": "preprint",
+   "origin": "OpenAlex",
+   "title": "Lightweight MXene–B₄C–Polyimide Nanocomposite for Simultaneous Cosmic Radiation and Electromagnetic Interference Shielding in Aerospace Avionics",
+   "url": "https://doi.org/10.21203/rs.3.rs-10946351/v1",
+   "source": "Research Square",
+   "date": "2026-11-12",
+   "authors": [
+    "Elhan Ayath",
+    "Arshad Adam Salema",
+    "Saidur Rahman",
+    "Md Abu Zaed",
+    "Mohammad Zahangir Alam"
+   ],
+   "abstract": "Abstract At cruise altitudes, atmospheric proton radiation and electromagnetic interference (EMI) jointly threaten the reliability of flight-critical avionics. Conventional protection strategies typically address these hazards separately through aluminum- or lead-based radiation barriers and conductive copper-mesh EMI shields, increasing enclosure mass, volume, and integration complexity. To address this limitation, we present a lightweight dual-function MXene (Ti₃C₂Tₓ)–B₄C–polyimide nanocomposite that combines proton attenuation and EMI shielding within a single conformal material system. The framework integrates SRIM/TRIM-guided compositional design, controlled nanocomposite fabrication, proton-beam testing, broadband EMI characterization, and aerospace-relevant environmental validation. SRIM/TRIM simulations show that a boron-rich composition of 31 at% achieves complete stopping of 50 MeV protons at approximately 36 mm bulk thickness, with electronic stopping dominating energy loss and negligible backscattering. Surface-functionalized B₄C nanoparticles (~ 45 nm) and exfoliated MXene nanosheets are incorporated through solution casting and vacuum-assisted filtration. At 20 wt% B…",
+   "doi": "10.21203/rs.3.rs-10946351/v1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "코팅·박막/후막",
+    "접착·신뢰성"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-15"
   },
   {
    "type": "news",
@@ -776,6 +830,29 @@
    ],
    "score": 6,
    "first_seen": "2026-10-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Interface-Engineered Fluorinated Poly(amic acid) Dielectrics Enable High-Mobility, Mechanically Robust Flexible Phototransistor Arrays for Multispectral Imaging and Low-Voltage LED Array Driving",
+   "url": "https://doi.org/10.1016/j.wees.2026.09.004",
+   "source": "Wearable electronics.",
+   "date": "2026-11-01",
+   "authors": [
+    "Huchao Li",
+    "Deyang Ji",
+    "Wenping Hu"
+   ],
+   "abstract": "ABSTRACT Flexible organic phototransistors are indispensable building blocks for next-generation wearable optoelectronics, owing to their solution-processable scalability, lightweight nature, and intrinsic mechanical compliance. Nevertheless, conventional gate dielectrics suffer severe drawbacks such as abundant interfacial trap states, poor moisture resistance, and inferior semiconductor crystallization modulation capability, which drastically limit carrier mobility, long-term mechanical fatigue tolerance, and device operating voltage. Herein, we report a fluorinated poly (amic acid) (ODA-6FDA PAA) dielectric that synergistically integrates the merits of fluorinated segments and polar poly (amic acid) skeletons to address the above critical bottlenecks. Large-area 10 × 24 flexible organic phototransistor arrays are fabricated using ODA-6FDA PAA as the gate insulator and di(phenylvinyl)anthracene (DPV-Ant) as the organic semiconductor. Benefiting from the ultra-smooth dielectric surface and drastically suppressed interfacial trap density, the resulting device arrays deliver a maximum carrier mobility of 8.7 cm 2 V -1 s -1 with an average mobility of 6.5 cm 2 V -1 s -1 , far exceed…",
+   "doi": "10.1016/j.wees.2026.09.004",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) dielectric",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-15"
   },
   {
    "type": "paper",
