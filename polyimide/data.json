@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-15T01:15:46+00:00",
+ "generated_at": "2026-11-16T01:05:32+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 29,
+  "news": 30,
   "paper": 79,
   "preprint": 5
  },
@@ -102,6 +102,24 @@
    ],
    "score": 6,
    "first_seen": "2026-11-14"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 2026년 3분기 분기보고서 제출...PI필름·바니쉬 매출 비중 99.9%",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5na0Z3REJUU2JHdXNLNzBPNzd5Mmhma0U2QW93bDdpem1JMk9hTFBvQjd3SHdQNXgxU2pPZXNaT0xWWENoWlZseUZQZzVkVktlZXRFZWdKMGtwRkctNkdmUTVxMFFWSHRkZ01sREhuekMtb1k?oc=5",
+   "source": "Investing.com 한국어",
+   "date": "2026-11-13",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-16"
   },
   {
    "type": "preprint",
