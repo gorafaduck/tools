@@ -1,12 +1,12 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-16
-- 최근 7일 신규 수집: 24건 / 전체 보관: 114건
+- 생성일: 2026-11-17
+- 최근 7일 신규 수집: 24건 / 전체 보관: 115건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
 **주제 분포:** 시장·기업 9, 코팅·박막/후막 6, 접착·신뢰성 4, 고내열성 3, 저CTE·휨 2, 저투과도·차광 1, PSPI·리소그래피 1, 저온경화 1
 
-## 📰 뉴스 (6)
+## 📰 뉴스 (7)
 
 - [Polyimide Films Market to Reach USD 2.32 Billion by 2031 as Demand for Flexible Electronics, EV Insulation, and Advanced Semiconductor Packaging Increases](https://news.google.com/rss/articles/CBMitAJBVV95cUxOZ3FLMXRNU0dvUmxUR3VXRThYYk82UWx0c1hIQk9ZekE0cWFWcGNxOG1OZEI5ZkJlalZpOXlRVDU3a0FqUVphQW1CUEpZNVU3WlJHYkZCUFRlMlFKOVRHZlhwLWpsZUdWNGdaN1lKSGVJZndiUDZHMFNDT1dVaWhVdGkyS1loN18xQWNiR2tWbElWSzBYSU5UM09PNEZUMjBpa2lBclpiaFhZdVlqN3FjTzU5c3NQVDdBdGw0aXdLNG9EY2Q0b2dBSjhaUnRDTU5IZnpocFB4T0xGMEMxSTFTdS0wR0ptajY4ak04ZTl3clBZMGxXeHFoeUFfcUtxMTdDRDZCc3Zzazk1M1JyNUNheUJ0MzloSTFvTWFfQUluMzUtUkpyUFhlZmtPTGp3aGdseEVjTg?oc=5) — 2026-11-09 · StreetInsider `시장·기업`
 - [PI첨단소재, 2026년 3분기 분기보고서 제출...PI필름·바니쉬 매출 비중 99.9%](https://news.google.com/rss/articles/CBMic0FVX3lxTE5na0Z3REJUU2JHdXNLNzBPNzd5Mmhma0U2QW93bDdpem1JMk9hTFBvQjd3SHdQNXgxU2pPZXNaT0xWWENoWlZseUZQZzVkVktlZXRFZWdKMGtwRkctNkdmUTVxMFFWSHRkZ01sREhuekMtb1k?oc=5) — 2026-11-13 · Investing.com 한국어 `시장·기업`
@@ -14,8 +14,9 @@
 - [PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠](https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5) — 2026-11-12 · 이데일리 `시장·기업`
 - [[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFbEh3SWRuRUhmVnEzdF9VaDZqaXdjWW5vVWZmbldxdm0wRHdoT0ZkaTFTZ1k3MkpJZ0VsMXpHS2IzLXFBc2pRTjdHRGlXbGJOMFpPQzJQNTRPN3JX?oc=5) — 2026-11-09 · 뉴스핌 `시장·기업`
 - [iM증권, PI첨단소재 목표주가 42% 하향](https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5) — 2026-11-09 · 비건뉴스 `시장·기업`
+- [PI첨단소재 투자분석 2026. 10. 23](https://news.google.com/rss/articles/CBMic0FVX3lxTE5ISjdydlI3ektkMHhXanY5Z2YwM1pxUmtzWkZNazNXVVBhN2dZOGdvUWdHX2p2LXlWLTJCd29CUjlLLTE0XzY1aUktLTFTYkZkVGZlMGhCNklTdmVpaTI5UFduOVhMTTMtaUVUYTd2bzNkcDg?oc=5) — 2026-10-23 · 주달 `시장·기업`
 
-## 📄 논문 (16)
+## 📄 논문 (15)
 
 - [Unveiling the Thermomechanical Behavior of Free-Standing Polymer Thin Films on an Ionic Liquid Surface at Sub-Ambient Temperatures Down to –10 °C](https://doi.org/10.1021/acs.macromol.6c02282) — 2026-11-13 · Macromolecules `저CTE·휨` `코팅·박막/후막` `접착·신뢰성` `시장·기업`
 - [Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites](https://doi.org/10.1021/acs.langmuir.6c03037) — 2026-11-10 · Langmuir `접착·신뢰성`
@@ -31,7 +32,6 @@
 - [Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide](https://doi.org/10.1002/advs.78699) — 2026-11-09 · Advanced Science
 - [Effects of Cleaning Processes and Thin-Film Parameters on the Long-Term Stability of an Acid-Corrosion-Resistant Flexible Three-in-One Microsensor](https://doi.org/10.3390/pr14213603) — 2026-11-06 · Processes `코팅·박막/후막`
 - [Double-sided printed terahertz collimating metalens mounted on a resonant tunneling diode](https://doi.org/10.1007/s00339-026-09930-3) — 2026-11-09 · Applied Physics A
-- [Flexible Dual–Channel MOF–MXene Platform for Wireless Thermohygrometric Monitoring](https://doi.org/10.1016/j.apmate.2026.100484) — 2026-11-01 · Advanced Powder Materials `시장·기업`
 - [The Development and Evolution of Substrate Materials for Brain–Computer Interfaces](https://doi.org/10.3390/polym18202569) — 2026-10-19 · Polymers
 
 ## 🧪 프리프린트 (2)

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-16T01:05:32+00:00",
+ "generated_at": "2026-11-17T03:55:59+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 30,
+  "news": 31,
   "paper": 79,
   "preprint": 5
  },
@@ -232,7 +232,7 @@
    "doi": "10.1021/acs.langmuir.6c03037",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "photosensitive polyimide",
    "tags": [
     "접착·신뢰성"
    ],
@@ -272,7 +272,7 @@
    "doi": "10.48676/unibo/amsdottorato/13323",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -425,7 +425,7 @@
    "doi": "10.1007/s00339-026-09930-3",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [],
    "score": 3,
    "first_seen": "2026-11-11"
@@ -1347,6 +1347,24 @@
   {
    "type": "news",
    "origin": "Google News",
+   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
+   "source": "Fortune Business Insights",
+   "date": "2026-10-26",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 박막",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
    "title": "Polyimide And Imide Polymers Market in China: Size, Trends and Forecast to 2035",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXRBTk9hZWhoMjZ3SzA4RkxyOUlzV05vc3VlcldIbEZEX2ZVaXZjRkZNQUhIemNDVGplUlNpTFdxTE85SWhzakhZWlR0YU1zV2RYM0ZvTFlwV0U2Q3B5djRjTWFGbHdJcUxqYlp2U0ZiUy1UZlFiR0EtR2FJZXZIeTl1MFdqelJ6YjY1eTJWS3R3U0xxSjNVU3RLelljYWZMXzZBQTRsNlBycFN3SzVHVWNpLTEwQQ?oc=5",
    "source": "IndexBox",
@@ -1427,6 +1445,24 @@
    ],
    "score": 4,
    "first_seen": "2026-10-23"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 10. 23",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ISjdydlI3ektkMHhXanY5Z2YwM1pxUmtzWkZNazNXVVBhN2dZOGdvUWdHX2p2LXlWLTJCd29CUjlLLTE0XzY1aUktLTFTYkZkVGZlMGhCNklTdmVpaTI5UFduOVhMTTMtaUVUYTd2bzNkcDg?oc=5",
+   "source": "주달",
+   "date": "2026-10-23",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17"
   },
   {
    "type": "paper",
@@ -1560,24 +1596,6 @@
    ],
    "score": 6,
    "first_seen": "2026-10-20"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
-   "source": "Fortune Business Insights",
-   "date": "2026-10-19",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "폴리이미드 박막",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
-   "first_seen": "2026-10-13"
   },
   {
    "type": "paper",
