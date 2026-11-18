@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17T03:55:59+00:00",
+ "generated_at": "2026-11-18T02:56:12+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 31,
-  "paper": 79,
-  "preprint": 5
+  "paper": 80,
+  "preprint": 6
  },
  "tags": [
   "PSPI·리소그래피",
@@ -22,6 +22,84 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Giant surface potential exceeding −2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer",
+   "url": "https://doi.org/10.35848/1347-4065/aeb26f",
+   "source": "Japanese Journal of Applied Physics",
+   "date": "2026-11-17",
+   "authors": [
+    "Eiji Itoh",
+    "Weining Ying"
+   ],
+   "abstract": "We have demonstrated a very high giant surface potential on the order of a thousand volts just by triboelectrification between water droplets and the micro-meter thick multilayered dielectric films. The surface potential is efficiently enhanced by the multilayered structure consisting of micrometer thick polyimide, thin adhesion layer, nanometer thick electron-trapping layer (WO 3 ), and the sub-micrometer thick fluoropolymer (CYTOP) on the surface. The surface potential increases proportionally to the polyimide thickness. The surface charge density was estimated as −1.0 mC m −2 for 40 nm-thick CYTOP and it increased to −7.3 mC m −2 for the 800 nm-thick CYTOP layer, respectively. These values are 10–70 times higher than the charge densities previously reported for contact electrification, as well as those for polyimide or CYTOP films alone. It is expected that the enhancement of the power output of energy harvesting devices utilizing electrostatic induction, such as water droplet-based electricity generator and vibration-based energy harvesting devices.",
+   "doi": "10.35848/1347-4065/aeb26f",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) solution coating film",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 3,
+   "first_seen": "2026-10-14"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Achieving Low Loss and High Breakdown in Polyimide Films via a Rigid‐Flexible Synergistic Molecular Design",
+   "url": "https://doi.org/10.1002/app.71817",
+   "source": "Journal of Applied Polymer Science",
+   "date": "2026-11-16",
+   "authors": [
+    "Zi‐Yan Zhen",
+    "Ting‐Ting Zhou",
+    "Yu‐Yan Bu",
+    "Tian‐Yu Wang",
+    "Peng‐Liang Zhang",
+    "Xiang‐Xiang Jia",
+    "Gang Yu",
+    "Long‐Fei Pang"
+   ],
+   "abstract": "ABSTRACT The development of polymer dielectrics with high energy density, low loss, and high‐temperature reliability remains challenging for advanced film capacitors. Conventional polyimide (PI) dielectrics suffer from high dielectric loss and limited breakdown strength, restricting their energy storage capability at elevated temperatures. This study proposes a “rigidity–flexibility integration” strategy by chemically incorporating flexible Poly(dimethylsiloxane) bis(3‐aminopropyl) terminated (PDMS) segments into rigid PI backbones. Systematic investigation demonstrates that PDMS effectively modulates dielectric response and breakdown characteristics. The optimized PI‐PDMS copolymer composite films exhibit a 44% reduction in dielectric loss (from 0.008 to 0.0045) and a 27% enhancement in breakdown strength (from 365 to 467.9 MV/m), while maintaining a dielectric constant of ~3.3. Consequently, the copolymer composite films achieve a discharged energy density of 4.0 J/cm 3 at room temperature and retain 2.6 J/cm 3 with over 80% efficiency at 150°C, alongside excellent cycling stability over 100,000 cycles. These improvements originate from deep‐level traps and tailored free volume…",
+   "doi": "10.1002/app.71817",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저유전(Dk/Df)",
+    "접착·신뢰성"
+   ],
+   "score": 11,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "type": "preprint",
+   "origin": "OpenAlex",
+   "title": "Preparation and properties of high-dielectric-constant, heat-resistant boroxine-containing segmented copolyimides",
+   "url": "https://doi.org/10.21203/rs.3.rs-11102148/v1",
+   "source": "Research Square",
+   "date": "2026-11-16",
+   "authors": [
+    "Shengjie Ge",
+    "Xiang Zhang",
+    "任凤梅",
+    "马海红",
+    "周正发",
+    "Xu Weibing"
+   ],
+   "abstract": "Abstract Polyimide (PI) is widely used as dielectric materials in electronic devices and power systems because of its excellent heat resistance and mechanical stability. However, the intrinsically low dielectric constant of conventional PI limits its practical application in high-energy-density dielectric capacitors. In this study, triaminocycloboroxane (TABO) was first synthesized via dehydration condensation of 3-aminophenylboronic acid (3-ABBA). TABO was then reacted with 3,3',4,4'-biphenyltetracarboxylic dianhydride (BPDA) via an amine-anhydride ring-opening addition reaction to prepare a boron-containing hard-segment polyamic acid prepolymer, which designated as PAA-a. Separately, a soft-segment polyamic acid prepolymer, designated as PAA-b, was synthesized by reacting 4,4'-diaminodiphenyl ether (ODA) with 4,4'-oxydiphthalic dianhydride (ODPA) through the same method. PAA-a and PAA-b were coupled through ring-opening polyaddition to form a soft-hard segmented polyamic acid (PAA). The resulting PAA was cast into films, dried, and thermally imidized to obtain boroxine-containing PI films. The effects of the reactant ratio on soft-hard segmented structure, dielectric, thermal, w…",
+   "doi": "10.21203/rs.3.rs-11102148/v1",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "high heat resistance polyimide film",
+   "tags": [
+    "저유전(Dk/Df)",
+    "고내열성"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-18"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -204,7 +282,7 @@
    "doi": "10.21203/rs.3.rs-11420924/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [
     "PSPI·리소그래피"
    ],
@@ -309,6 +387,33 @@
    ],
    "score": 9,
    "first_seen": "2026-11-10"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Development of functional polyimides: Synthesis and properties toward green fabrications, heat resistance, transparency, and dielectric insulation in high-frequency communications and semiconductor packaging",
+   "url": "https://doi.org/10.1016/j.reactfunctpolym.2026.107006",
+   "source": "Reactive and Functional Polymers",
+   "date": "2026-11-09",
+   "authors": [
+    "Jian-Ding Lee",
+    "Yi-An Tsai",
+    "Chieh‐Yuan Chang",
+    "Meng-Hsuan Wu",
+    "Chang-Liang Liu",
+    "Yi‐Je Juang",
+    "Yan-Cheng Lin"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.reactfunctpolym.2026.107006",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide redistribution layer",
+   "tags": [
+    "고내열성"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-11"
   },
   {
    "type": "news",
@@ -433,6 +538,30 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
+   "title": "Contrasting moisture effects on the tensile behavior of polyimide films: in-situ vs. ex-situ investigations",
+   "url": "https://doi.org/10.1016/j.polymertesting.2026.109413",
+   "source": "Polymer Testing",
+   "date": "2026-11-06",
+   "authors": [
+    "Seungbin Kim",
+    "Doohyeong Kim",
+    "Hyeongeun Kim",
+    "Yong-Seok Lee"
+   ],
+   "abstract": "Polyimide (PI) films are widely used in semiconductor packaging, but their measured mechanical response can vary depending on the moisture conditions maintained during testing. In this study, the tensile behavior of moisture-conditioned PI films was compared using conventional ex-situ and a proposed in-situ tensile testing method. Water absorption tests, tensile tests, cross-sectional observations, and finite element analysis were conducted to evaluate the influence of the testing environment. The PI film exhibited near-Fickian moisture absorption behavior, reaching an equilibrium water uptake of approximately 2.7 wt% after 24 hours of immersion. The ex-situ specimens maintained ultimate tensile strengths of approximately 250–265 MPa, comparable to the room-condition value of 251 MPa, while their fracture strains decreased to 0.22–0.30. In contrast, the in-situ specimens exhibited lower ultimate tensile strengths of 222–235 MPa and generally higher fracture strains of 0.31–0.42. Secant modulus was also lower under the in-situ condition than under the ex-situ condition. Cross-sectional observations revealed more pronounced internal openings and layered separation in the ex-situ spe…",
+   "doi": "10.1016/j.polymertesting.2026.109413",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide semiconductor packaging",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-08"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Synthesis and Properties of Semi-Alicyclic Polyimides Based on an Asymmetric Diamine from Renewable Menthofuran",
    "url": "https://doi.org/10.3390/polym18212771",
    "source": "Polymers",
@@ -481,6 +610,31 @@
    ],
    "score": 5,
    "first_seen": "2026-11-10"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Flexible dual–channel MOF–MXene platform for wireless thermohygrometric monitoring",
+   "url": "https://doi.org/10.1016/j.apmate.2026.100484",
+   "source": "Advanced Powder Materials",
+   "date": "2026-11-06",
+   "authors": [
+    "Hamid Nawaz",
+    "Nadeem Tariq Beigh",
+    "Ravi Prakash Pandey",
+    "Shadi Wajih Hasan",
+    "Nouha Alcheikh"
+   ],
+   "abstract": "Variations in exhaled-breath temperature and humidity provide complementary physiological information for noninvasive monitoring. Here, we present a flexible, bifunctional thermohygrometric platform that integrates separate humidity- and temperature-sensing elements on a single polyimide substrate. The humidity sensor employs polydopamine-functionalized MIL-100(Fe), whereas the temperature sensor uses a dimethyl sulfoxide-processed Ti 3 C 2 T x MXene network for thermoresistive transduction. Printing and drop-casting enables the integration of both sensors into a face mask equipped with Wi-Fi-enabled electronics for continuous wireless data acquisition. Over 5%–95% RH, the humidity sensor exhibites a sensitivity of 47%/%RH, excellent linearity ( ), a full-scale hysteresis error of ±2.83%, and an apparent response and recovery times of 9.9 and 12.3 s, respectively, under the applied humidity-transition conditions. It also exhibites limited interference from 10,000 ppm CO 2 and a maximum temperature-induced response deviation below 3.3% under the investigated conditions. The temperature sensor demonstrates a temperature coefficient of resistance of −0.73% °C -1 over 25–100 °C, high…",
+   "doi": "10.1016/j.apmate.2026.100484",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low temperature cure",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-09"
   },
   {
    "type": "paper",
@@ -717,33 +871,6 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
-   "title": "Development of functional polyimides: Synthesis and properties toward green fabrications, heat resistance, transparency, and dielectric insulation in high-frequency communications and semiconductor packaging",
-   "url": "https://doi.org/10.1016/j.reactfunctpolym.2026.107006",
-   "source": "Reactive and Functional Polymers",
-   "date": "2026-11-01",
-   "authors": [
-    "Jian-Ding Lee",
-    "Yi-An Tsai",
-    "Chieh‐Yuan Chang",
-    "Meng-Hsuan Wu",
-    "Chang-Liang Liu",
-    "Yi‐Je Juang",
-    "Yan-Cheng Lin"
-   ],
-   "abstract": "",
-   "doi": "10.1016/j.reactfunctpolym.2026.107006",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "polyimide semiconductor packaging",
-   "tags": [
-    "고내열성"
-   ],
-   "score": 9,
-   "first_seen": "2026-11-11"
-  },
-  {
-   "type": "paper",
-   "origin": "OpenAlex",
    "title": "Decoupled Thermal and Electrical Insulation in Crosslinked Semi-Aromatic Polyimide for High-Temperature Capacitors",
    "url": "https://doi.org/10.1016/j.aiepr.2026.100291",
    "source": "Advanced Industrial and Engineering Polymer Research",
@@ -800,30 +927,6 @@
   },
   {
    "type": "paper",
-   "origin": "OpenAlex",
-   "title": "Contrasting Moisture Effects on the Tensile Behavior of Polyimide Films: In-Situ vs. Ex-Situ Investigations",
-   "url": "https://doi.org/10.1016/j.polymertesting.2026.109413",
-   "source": "Polymer Testing",
-   "date": "2026-11-01",
-   "authors": [
-    "Seungbin Kim",
-    "Doohyeong Kim",
-    "Hyeongeun Kim",
-    "Yong-Seok Lee"
-   ],
-   "abstract": "Polyimide (PI) films are widely used in semiconductor packaging, but their measured mechanical response can vary depending on the moisture conditions maintained during testing. In this study, the tensile behavior of moisture-conditioned PI films was compared using conventional ex-situ and a proposed in-situ tensile testing method. Water absorption tests, tensile tests, cross-sectional observations, and finite element analysis were conducted to evaluate the influence of the testing environment. The PI film exhibited near-Fickian moisture absorption behavior, reaching an equilibrium water uptake of approximately 2.7 wt% after 24 hours of immersion. The ex-situ specimens maintained ultimate tensile strengths of approximately 250–265 MPa, comparable to the room-condition value of 251 MPa, while their fracture strains decreased to 0.22–0.30. In contrast, the in-situ specimens exhibited lower ultimate tensile strengths of 222–235 MPa and generally higher fracture strains of 0.31–0.42. Secant modulus was also lower under the in-situ condition than under the ex-situ condition. Cross-sectional observations revealed more pronounced internal openings and layered separation in the ex-situ spe…",
-   "doi": "10.1016/j.polymertesting.2026.109413",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "polyimide semiconductor packaging",
-   "tags": [
-    "접착·신뢰성"
-   ],
-   "score": 7,
-   "first_seen": "2026-11-08"
-  },
-  {
-   "type": "paper",
    "origin": "Crossref",
    "title": "Colorless shape memory polyimide films for flexible optoelectronics",
    "url": "https://doi.org/10.1088/1361-665x/aeb2c5",
@@ -871,31 +974,6 @@
    ],
    "score": 6,
    "first_seen": "2026-11-15"
-  },
-  {
-   "type": "paper",
-   "origin": "OpenAlex",
-   "title": "Flexible Dual–Channel MOF–MXene Platform for Wireless Thermohygrometric Monitoring",
-   "url": "https://doi.org/10.1016/j.apmate.2026.100484",
-   "source": "Advanced Powder Materials",
-   "date": "2026-11-01",
-   "authors": [
-    "Hamid Nawaz",
-    "Nadeem Tariq Beigh",
-    "Ravi Prakash Pandey",
-    "Shadi Wajih Hasan",
-    "Nouha Alcheikh"
-   ],
-   "abstract": "Variations in exhaled-breath temperature and humidity provide complementary physiological information for noninvasive monitoring. Here, we present a flexible, bifunctional thermohygrometric platform that integrates separate humidity- and temperature-sensing elements on a single polyimide substrate. The humidity sensor employs polydopamine-functionalized MIL-100(Fe), whereas the temperature sensor uses a dimethyl sulfoxide-processed Ti 3 C 2 T x MXene network for thermoresistive transduction. Printing and drop-casting enables the integration of both sensors into a face mask equipped with Wi-Fi-enabled electronics for continuous wireless data acquisition. Over 5%–95% RH, the humidity sensor exhibites a sensitivity of 47%/%RH, excellent linearity ( ), a full-scale hysteresis error of ±2.83%, and an apparent response and recovery times of 9.9 and 12.3 s, respectively, under the applied humidity-transition conditions. It also exhibites limited interference from 10,000 ppm CO 2 and a maximum temperature-induced response deviation below 3.3% under the investigated conditions. The temperature sensor demonstrates a temperature coefficient of resistance of −0.73% °C -1 over 25–100 °C, high…",
-   "doi": "10.1016/j.apmate.2026.100484",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "polyimide low temperature cure",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 3,
-   "first_seen": "2026-11-09"
   },
   {
    "type": "paper",
@@ -1877,28 +1955,6 @@
    ],
    "score": 4,
    "first_seen": "2026-10-13"
-  },
-  {
-   "type": "paper",
-   "origin": "OpenAlex",
-   "title": "Giant surface potential exceeding -2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer",
-   "url": "https://doi.org/10.35848/1347-4065/aeb26f",
-   "source": "Japanese Journal of Applied Physics",
-   "date": "2026-10-09",
-   "authors": [
-    "Itoh Eiji",
-    "Weining Ying"
-   ],
-   "abstract": "Abstract We have demonstrated very high giant surface potential on the order of thousand volts just by triboelectrification between water droplets and the micro-meter thick multilayered dielectric films. The surface potential is efficiently enhanced by the multilayered structure consisting of micrometer thick polyimide, thin adhesion layer, nanometer thick electron-trapping layer (WO3), and the sub-micrometer thick fluoropolymer (CYTOP) on the surface. The surface potential increases proportionally to the polyimide thickness. The surface charge density was estimated as -1.0 mC/m² for 40 nm-thick CYTOP and it increased to -7.3 mC/m² for 800 nm-thick CYTOP layer, respectively. These values are 10 to 70 times higher than the charge densities previously reported for contact electrification, as well as those for polyimide or CYTOP films alone. It is expected that enhancement of the power output of energy harvesting devices utilizing electrostatic induction such as water droplet-based electricity generator and vibration-based energy harvesting devices.",
-   "doi": "10.35848/1347-4065/aeb26f",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "polyimide thick film",
-   "tags": [
-    "접착·신뢰성"
-   ],
-   "score": 3,
-   "first_seen": "2026-10-14"
   },
   {
    "type": "paper",
