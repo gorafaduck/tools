@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-18T02:56:12+00:00",
+ "generated_at": "2026-11-19T02:37:23+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 31,
-  "paper": 80,
+  "paper": 81,
   "preprint": 6
  },
  "tags": [
@@ -25,6 +25,35 @@
   {
    "type": "paper",
    "origin": "Crossref",
+   "title": "Comparison of Thioether‐ and Oxyether‐Containing Polyimide Films as Integrated Insulating‐Adhesive Layers for High‐Frequency Two‐Layer Flexible Copper Clad Laminates",
+   "url": "https://doi.org/10.1002/app.71809",
+   "source": "Journal of Applied Polymer Science",
+   "date": "2026-11-17",
+   "authors": [
+    "Miao Ye",
+    "Meng Xiao",
+    "Wenqiu Chen",
+    "Xiang Niu",
+    "Yang Yu",
+    "Wei Chen",
+    "Heping Fan"
+   ],
+   "abstract": "ABSTRACT To develop integrated insulating and adhesive films for two‐layer flexible copper‐clad laminates (2L‐FCCLs), two series of polyimide (PI) films containing thioether (PI‐S) or oxyether (PI‐O) linkages are prepared via a conventional two‐step method and subsequently laminated with copper foils to fabricate double‐sided 2L‐FCCLs. Their chemical and physical structures, heat resistance, thermal stability, dimensional stability, dielectric properties, peel strength, and solder float resistance are systematically compared. Both PI series films exhibit satisfactory overall performance, meeting the basic requirements of typical thermoplastic polyimide (TPI) films. Compared with the PI‐O series, the PI‐S series films show slightly lower heat resistance, thermal stability, dimensional stability, mechanical strength and toughness, and optical transparency, but higher char yield, elastic modulus, and peel strength, along with lower relative permittivity ( D k ) and dissipation factor ( D f ). Notably, PI‐S6 exhibites a D k of 2.75 and a D f of 0.0077 at 10 GHz, and the corresponding 2L‐FCCL shows the highest 90° peel strength ( 90PS ) of 1.32 N mm −1 while passing the solder float te…",
+   "doi": "10.1002/app.71809",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "저유전(Dk/Df)",
+    "저CTE·휨",
+    "고내열성"
+   ],
+   "score": 15,
+   "first_seen": "2026-11-19"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
    "title": "Giant surface potential exceeding −2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer",
    "url": "https://doi.org/10.35848/1347-4065/aeb26f",
    "source": "Japanese Journal of Applied Physics",
@@ -37,7 +66,7 @@
    "doi": "10.35848/1347-4065/aeb26f",
    "cited_by": 0,
    "lang": "en",
-   "query": "poly(amic acid) solution coating film",
+   "query": "polyimide thick film",
    "tags": [
     "접착·신뢰성"
    ],
@@ -92,7 +121,7 @@
    "doi": "10.21203/rs.3.rs-11102148/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "high heat resistance polyimide film",
+   "query": "black polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "고내열성"
@@ -121,7 +150,7 @@
    "doi": "10.1002/smll.76631",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "고내열성"
    ],
@@ -174,7 +203,7 @@
    "doi": "10.3390/polym18222845",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저투과도·차광"
    ],
@@ -408,7 +437,7 @@
    "doi": "10.1016/j.reactfunctpolym.2026.107006",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide redistribution layer",
+   "query": "polyimide semiconductor packaging",
    "tags": [
     "고내열성"
    ],
@@ -530,7 +559,7 @@
    "doi": "10.1007/s00339-026-09930-3",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "low transmittance polyimide",
    "tags": [],
    "score": 3,
    "first_seen": "2026-11-11"
@@ -579,7 +608,7 @@
    "doi": "10.3390/polym18212771",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "poly(amic acid) solution coating film",
    "tags": [],
    "score": 6,
    "first_seen": "2026-11-11"
