@@ -1,16 +1,16 @@
 # 반도체 패키징용 폴리이미드 동향 다이제스트
 
-- 생성일: 2026-11-19
-- 최근 7일 신규 수집: 17건 / 전체 보관: 118건
+- 생성일: 2026-11-20
+- 최근 7일 신규 수집: 17건 / 전체 보관: 120건
 - 웹 뷰어: https://gorafaduck.github.io/tools/polyimide/
 
-**주제 분포:** 코팅·박막/후막 5, 시장·기업 5, 접착·신뢰성 4, 저유전(Dk/Df) 3, 고내열성 3, 저CTE·휨 2, 저투과도·차광 1, PSPI·리소그래피 1
+**주제 분포:** 시장·기업 6, 코팅·박막/후막 5, 접착·신뢰성 4, 저유전(Dk/Df) 3, 고내열성 3, 저CTE·휨 2, 저투과도·차광 1, PSPI·리소그래피 1
 
 ## 📰 뉴스 (4)
 
+- [폴리이미드 매트릭스 프리프레그 시장 2035년 전망: 극초음속·재사용 발사체 수요가 성장 견인](https://news.google.com/rss/articles/CBMizgFBVV95cUxObmVYby1GYVpCZ2w0Q01xUGJha2tzMDF3akMzb2QzU1JfOENSeHN1MkFtalViRFVfUGdsT2UzbW4tYTNvbVllWFp6cFRMSF9fdmQ1WjZoTXhKaVVQNi1QZjlOYkkydDZoeW5kTzZCbGdiTlhKdUpwaHJldXhOemlTajI2Qmdob1pDYW9JYVlvUVBMMjM0SFI5TVNxSDZpNE40LUg4V0R1TkdyUUNndzVmc1poSng0YjNnU2p5S0hwbURJbmxfTjd4cFg0bVR2dw?oc=5) — 2026-11-19 · IndexBox `시장·기업`
 - [PI첨단소재, 2026년 3분기 분기보고서 제출...PI필름·바니쉬 매출 비중 99.9%](https://news.google.com/rss/articles/CBMic0FVX3lxTE5na0Z3REJUU2JHdXNLNzBPNzd5Mmhma0U2QW93bDdpem1JMk9hTFBvQjd3SHdQNXgxU2pPZXNaT0xWWENoWlZseUZQZzVkVktlZXRFZWdKMGtwRkctNkdmUTVxMFFWSHRkZ01sREhuekMtb1k?oc=5) — 2026-11-13 · Investing.com 한국어 `시장·기업`
-- [[미리보는 소부장 테크페어]〈5〉PI첨단소재, 'PI 필름' 기술 진화와 응용처 다각화](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qNXN2V01zOGotSVJuR2VMUl82VElRNzdDVWlpUlpoSlI2UWtENnN5a292dFAyZDh5dm9temtzNnphb25DWkR2SWhGbUNHUQ?oc=5) — 2026-11-12 · 전자신문 `시장·기업`
-- [PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠](https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5) — 2026-11-12 · 이데일리 `시장·기업`
+- [PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠](https://news.google.com/rss/articles/CBMic0FVX3lxTE5BcWRqT2lqRTB2MnppN2pwMFNENGdvQ3NCc1FhaGJjNTRiVjNYOG5jenpPTW54YVFJMUNCTTQ4QmNxRnpGZ0RWdVJMcjVYUWF5MnZwdF9JU2puYmhRNXlLcThMa21TWnlhQ18zaVZ6UjJyOUk?oc=5) — 2026-11-12 · 마켓인 `시장·기업`
 - [PI첨단소재 투자분석 2026. 10. 23](https://news.google.com/rss/articles/CBMic0FVX3lxTE5ISjdydlI3ektkMHhXanY5Z2YwM1pxUmtzWkZNazNXVVBhN2dZOGdvUWdHX2p2LXlWLTJCd29CUjlLLTE0XzY1aUktLTFTYkZkVGZlMGhCNklTdmVpaTI5UFduOVhMTTMtaUVUYTd2bzNkcDg?oc=5) — 2026-10-23 · 주달 `시장·기업`
 
 ## 📄 논문 (10)
@@ -24,7 +24,7 @@
 - [Thin film materials for advanced photonic and detection applications](https://doi.org/10.48676/unibo/amsdottorato/13323) — 2026-11-10 · AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna) `코팅·박막/후막`
 - [Review for "Powder Aerosol Deposition Beyond Ceramics: Room-Temperature Fabrication of Pristine Polyimide Thick Films"](https://doi.org/10.1039/d6ma01590e/v1/review1) — 2026-11-09 · Publons reviews and discussion `코팅·박막/후막`
 - [Interface-Engineered Fluorinated Poly(amic acid) Dielectrics Enable High-Mobility, Mechanically Robust Flexible Phototransistor Arrays for Multispectral Imaging and Low-Voltage LED Array Driving](https://doi.org/10.1016/j.wees.2026.09.004) — 2026-11-01 · Wearable electronics. `접착·신뢰성`
-- [The Development and Evolution of Substrate Materials for Brain–Computer Interfaces](https://doi.org/10.3390/polym18202569) — 2026-10-19 · Polymers
+- [Ultrastrong bonded metallization on non-weldable thermoset via additive manufacturing](https://doi.org/10.1088/2631-7990/aebb75) — 2026-11-18 · International Journal of Extreme Manufacturing `시장·기업`
 
 ## 🧪 프리프린트 (3)
 

@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-19T02:37:23+00:00",
+ "generated_at": "2026-11-20T02:20:58+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 31,
-  "paper": 81,
+  "news": 32,
+  "paper": 82,
   "preprint": 6
  },
  "tags": [
@@ -22,6 +22,52 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 매트릭스 프리프레그 시장 2035년 전망: 극초음속·재사용 발사체 수요가 성장 견인",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObmVYby1GYVpCZ2w0Q01xUGJha2tzMDF3akMzb2QzU1JfOENSeHN1MkFtalViRFVfUGdsT2UzbW4tYTNvbVllWFp6cFRMSF9fdmQ1WjZoTXhKaVVQNi1QZjlOYkkydDZoeW5kTzZCbGdiTlhKdUpwaHJldXhOemlTajI2Qmdob1pDYW9JYVlvUVBMMjM0SFI5TVNxSDZpNE40LUg4V0R1TkdyUUNndzVmc1poSng0YjNnU2p5S0hwbURJbmxfTjd4cFg0bVR2dw?oc=5",
+   "source": "IndexBox",
+   "date": "2026-11-19",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 코팅",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-20"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Ultrastrong bonded metallization on non-weldable thermoset via additive manufacturing",
+   "url": "https://doi.org/10.1088/2631-7990/aebb75",
+   "source": "International Journal of Extreme Manufacturing",
+   "date": "2026-11-18",
+   "authors": [
+    "licheng sun",
+    "Huihong Liu",
+    "Jiaxun Li",
+    "Yidi Wu",
+    "Zexi Wu",
+    "Hui Huang",
+    "Chun Cheng",
+    "Xiangming Wu"
+   ],
+   "abstract": "Abstract The continuously increasing flight speed is the relentless pursuit of the high-speed aircraft (HSA). However, the weak bonding between metals and thermosets in HSA antennas, which are susceptible to peeling and detachment, strongly limits their capacity to bear high-speed thermal-vibrational loads. Accordingly, we pose the question that whether a multiscale interfacial interconnection strategy can provide a high-strength manufacturing solution for this hard-to-weld material combination characterized by vast physicochemical disparities. Herein, using a novel solid-state additive manufacturing (AM) strategy termed screw extrusion–plasticizing friction stir deposition (SEFSD) that allows direct metallization on thermosets substrates, we successfully achieved a multiscale-interconnected metallized thermoset comprising macroscale interlocking, microscale anchoring and nanoscale chemical bonding at the Zn/polyimide (PI) interface. We elucidated the friction-stir-driven in-situ formation mechanisms for connections at each scale and demonstrated that the composite load-bearing effect yields a lap-shear strength of (26.73 ± 2.14) MPa, remarkably surpassing the existing methods. Fu…",
+   "doi": "10.1088/2631-7990/aebb75",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-20"
+  },
   {
    "type": "paper",
    "origin": "Crossref",
@@ -150,7 +196,7 @@
    "doi": "10.1002/smll.76631",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "고내열성"
    ],
@@ -203,7 +249,7 @@
    "doi": "10.3390/polym18222845",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "저투과도·차광"
    ],
@@ -246,7 +292,7 @@
    "doi": "10.21203/rs.3.rs-10946351/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [
     "코팅·박막/후막",
     "접착·신뢰성"
@@ -276,8 +322,8 @@
    "type": "news",
    "origin": "Google News",
    "title": "PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5",
-   "source": "이데일리",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BcWRqT2lqRTB2MnppN2pwMFNENGdvQ3NCc1FhaGJjNTRiVjNYOG5jenpPTW54YVFJMUNCTTQ4QmNxRnpGZ0RWdVJMcjVYUWF5MnZwdF9JU2puYmhRNXlLcThMa21TWnlhQ18zaVZ6UjJyOUk?oc=5",
+   "source": "마켓인",
    "date": "2026-11-12",
    "authors": [],
    "abstract": "",
@@ -379,12 +425,30 @@
    "doi": "10.48676/unibo/amsdottorato/13323",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "spin-coated polyimide film thickness",
    "tags": [
     "코팅·박막/후막"
    ],
    "score": 6,
    "first_seen": "2026-11-14"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "iM증권, PI첨단소재 목표주가 42% 하향",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5",
+   "source": "비건뉴스",
+   "date": "2026-11-10",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-10"
   },
   {
    "type": "paper",
@@ -437,7 +501,7 @@
    "doi": "10.1016/j.reactfunctpolym.2026.107006",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide semiconductor packaging",
+   "query": "polyimide redistribution layer",
    "tags": [
     "고내열성"
    ],
@@ -512,24 +576,6 @@
    "title": "[리포트 브리핑]PI첨단소재, '칩플레이션으로 인한 수요 둔화 영향권' 목표가 22,000원 - iM증권",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFbEh3SWRuRUhmVnEzdF9VaDZqaXdjWW5vVWZmbldxdm0wRHdoT0ZkaTFTZ1k3MkpJZ0VsMXpHS2IzLXFBc2pRTjdHRGlXbGJOMFpPQzJQNTRPN3JX?oc=5",
    "source": "뉴스핌",
-   "date": "2026-11-09",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "PI첨단소재",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
-   "first_seen": "2026-11-10"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "iM증권, PI첨단소재 목표주가 42% 하향",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1YUNoeUVsMTB1UHlZLTBHeTVQXzlQMHQxZEF3eVJwOW9BSGhLdkJtZ2NuTUV6U2t6eUxOc2VKRXZQZ0NZMWJlSEZVcmpNNFV4c0xTX2FxN2lIaHY3Qm9IVW1scjVYdw?oc=5",
-   "source": "비건뉴스",
    "date": "2026-11-09",
    "authors": [],
    "abstract": "",
