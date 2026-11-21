@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T02:20:58+00:00",
+ "generated_at": "2026-11-21T02:16:10+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 32,
-  "paper": 82,
-  "preprint": 6
+  "news": 35,
+  "paper": 86,
+  "preprint": 7
  },
  "tags": [
   "PSPI·리소그래피",
@@ -22,6 +22,53 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Insulating Coatings Market to Accelerate on Semiconductor and EV Demand, Forecast Points Higher Toward 2035",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNX1F6QVlnTVZ2OFlGdnJOSHlBUzVXV2dYUGlfXzItaTlrVE9LMTA5YlJrSEtzemxVZHd4dlE3TXRnOXh1TkczRkJRd3k1aTFCTW9uaTFvUzhtNjlaelQ1OE02RW9GUTBQZlppVS1oMi1PLURmd0RmY29Tby1ERHN3aTV6ZmhsM2QzbS1Yd01QVWRUWVFzeXRtNTF5Q2ZZeG5Cb1k1MExUMGpkVzBPcXVTZV9kOUdRTjlZeUN4SkNpdnhkNTRfQW9JVHkyOEdra3hQMkJNOUtaWUJoWXFZRXE4?oc=5",
+   "source": "IndexBox",
+   "date": "2026-11-20",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "polyimide coating semiconductor",
+   "tags": [
+    "코팅·박막/후막",
+    "시장·기업"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-21"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Design of the NewAthena X-IFU thermal filter demonstration models for the technology readiness assessment: polyimide thickness investigation by transmission spectroscopy",
+   "url": "https://doi.org/10.1117/1.jatis.12.4.046003",
+   "source": "Journal of Astronomical Telescopes, Instruments, and Systems",
+   "date": "2026-11-20",
+   "authors": [
+    "Luisa Sciortino",
+    "Michela Todaro",
+    "Caterina Tortorici",
+    "Ugo Lo Cicero",
+    "Fabio D’Anca",
+    "Salvatore Varisco",
+    "Claudio Saitta",
+    "Alberto Gulizzi"
+   ],
+   "abstract": "The baseline design of the thermal filters of the X-Ray Integral Field Unit instrument on board NewAthena consists of ultra-thin films of polyimide and aluminum. These filters shield the detector from out-of-band radiation while maintaining high detector efficiency in the soft X-ray regime. In this paper, we present the measured transmission curves of different polyimide/aluminum filters with differing polyimide thicknesses across the X-ray to far-infrared spectral regions. We also compare the derived X-ray transmission of different combinations of polyimide thicknesses that may compose the stack. Our data show that: (i) the out-of-band rejection of a single filter is independent of polyimide thickness; (ii) the out-of-band rejection, nominally achieved with 30 nm of aluminum per filter, shows some variability that is likely due to aluminum coating defects; and (iii) under the hypothesis of a nominal 30 nm Al thickness per filter, a total polyimide thickness below 300 nm for the full stack complies with the in-band response requirements. Finally, the transmission spectroscopy test campaigns performed and the measurement procedures developed here pave the way for the future calibra…",
+   "doi": "10.1117/1.jatis.12.4.046003",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-21"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -43,6 +90,63 @@
   {
    "type": "paper",
    "origin": "OpenAlex",
+   "title": "Preparation and Characterization of Poly(Amic Acid) Films Derived From Functional Diamines and DAP – DABA Interactions",
+   "url": "https://doi.org/10.1002/pola.70396",
+   "source": "Journal of Polymer Science",
+   "date": "2026-11-18",
+   "authors": [
+    "Jaeyeong Choi",
+    "Jin‐Hyeok Park",
+    "Min Kim",
+    "Jiyoung Chae",
+    "Sungmi Yoo",
+    "Yun Ho Kim",
+    "Young‐Wun Kim",
+    "Nam-Kyun Kim"
+   ],
+   "abstract": "Poly(amic acid) (PAA) is widely recognized as the precursor of polyimide (PI), although its structure–property relationships before imidization remain insufficiently understood. In particular, the influence of functional diamine structures and intermolecular interactions on the properties of PAA systems has rarely been systematically investigated. PAA films were prepared from five functional diamine systems, including m ‐phenylenediamine (MPDA), 2,6‐diaminopyridine (DAP), 3,5‐diaminobenzoic acid (DABA), a DAP/DABA copolymer (Cop), and a physical blend of DAP PAA and DABA PAA (Blend). Proton nuclear magnetic resonance ( 1 H NMR) and Fourier transform infrared (FT‐IR) analyses indicated acid–base interactions between DAP and DABA before polymerization and confirmed the characteristic chemical structures of the PAA samples after polymerization. Gel permeation chromatography (GPC) analysis revealed differences in molecular weight among the PAA samples. X‐ray diffraction (XRD) and differential scanning calorimetry (DSC) analyses demonstrated the structural transition from crystalline diamine monomers to amorphous PAA films and revealed differences in thermal behavior. The dielectric co…",
+   "doi": "10.1002/pola.70396",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "poly(amic acid) solution coating film",
+   "tags": [
+    "저온경화"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-21"
+  },
+  {
+   "type": "preprint",
+   "origin": "OpenAlex",
+   "title": "ALI MEA60: A porous thin-film microelectrode array for air-liquid interface electrophysiology of 3D excitable tissues",
+   "url": "https://doi.org/10.64898/2026.11.16.766976",
+   "source": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "date": "2026-11-18",
+   "authors": [
+    "Fabien Friscourt",
+    "Luc Stoppini",
+    "S. Sivakumar",
+    "Marc Olivier Heuschkel",
+    "Laetitia Nikles",
+    "Théo Ribierre",
+    "Thi-Thom Nguyen",
+    "Michel Puceat"
+   ],
+   "abstract": "Objective: Conventional microelectrode arrays (MEAs) are suboptimal for long-term electrophysiology of three-dimensional (3D) excitable tissues, as limited oxygenation, nutrient diffusion, and tissue-electrode coupling compromise recording stability. Air-liquid interface (ALI) culture mitigates these constraints, but existing ALI MEA platforms are limited in channel count, flexibility, and compatibility with commercial multichannel acquisition systems. We developed and comprehensively characterized a next-generation ALI MEA for standardized, long-term recordings across multiple 3D excitable tissue models. Approach: The novel ALI MEA60 is composed of a porous polyimide membrane that integrates an array of 60 thin film microelectrodes (59 recording, one reference) and a basal perfusion chamber with Luer-lock connectors for controlled medium exchange and pharmacological wash-in/wash-out. It is compatible with the MEA2100-Mini data acquisition system (Multi Channel Systems). We characterized electrode impedance and noise across 41 ALI MEA60 devices, assessed 60-day stability with human iPSC-derived neural spheroids (N = 7 MEAs, 121 recordings) using a standardized longitudinal framewo…",
+   "doi": "10.64898/2026.11.16.766976",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "코팅·박막/후막",
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-21"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
    "title": "Ultrastrong bonded metallization on non-weldable thermoset via additive manufacturing",
    "url": "https://doi.org/10.1088/2631-7990/aebb75",
    "source": "International Journal of Extreme Manufacturing",
@@ -57,7 +161,7 @@
     "Chun Cheng",
     "Xiangming Wu"
    ],
-   "abstract": "Abstract The continuously increasing flight speed is the relentless pursuit of the high-speed aircraft (HSA). However, the weak bonding between metals and thermosets in HSA antennas, which are susceptible to peeling and detachment, strongly limits their capacity to bear high-speed thermal-vibrational loads. Accordingly, we pose the question that whether a multiscale interfacial interconnection strategy can provide a high-strength manufacturing solution for this hard-to-weld material combination characterized by vast physicochemical disparities. Herein, using a novel solid-state additive manufacturing (AM) strategy termed screw extrusion–plasticizing friction stir deposition (SEFSD) that allows direct metallization on thermosets substrates, we successfully achieved a multiscale-interconnected metallized thermoset comprising macroscale interlocking, microscale anchoring and nanoscale chemical bonding at the Zn/polyimide (PI) interface. We elucidated the friction-stir-driven in-situ formation mechanisms for connections at each scale and demonstrated that the composite load-bearing effect yields a lap-shear strength of (26.73 ± 2.14) MPa, remarkably surpassing the existing methods. Fu…",
+   "abstract": "The continuously increasing flight speed is the relentless pursuit of the high-speed aircraft (HSA). However, the weak bonding between metals and thermosets in HSA antennas, which are susceptible to peeling and detachment, strongly limits their capacity to bear high-speed thermal-vibrational loads. Accordingly, we pose the question that whether a multiscale interfacial interconnection strategy can provide a high-strength manufacturing solution for this hard-to-weld material combination characterized by vast physicochemical disparities. Herein, using a novel solid-state additive manufacturing (AM) strategy termed screw extrusion–plasticizing friction stir deposition (SEFSD) that allows direct metallization on thermosets substrates, we successfully achieved a multiscale-interconnected metallized thermoset comprising macroscale interlocking, microscale anchoring and nanoscale chemical bonding at the Zn/polyimide (PI) interface. We elucidated the friction-stir-driven in-situ formation mechanisms for connections at each scale and demonstrated that the composite load-bearing effect yields a lap-shear strength of (26.73 ± 2.14) MPa, remarkably surpassing the existing methods. Furthermore…",
    "doi": "10.1088/2631-7990/aebb75",
    "cited_by": 0,
    "lang": "en",
@@ -99,13 +203,13 @@
   },
   {
    "type": "paper",
-   "origin": "Crossref",
+   "origin": "OpenAlex",
    "title": "Giant surface potential exceeding −2kV by triboelectric charging between water droplets and the micro-meter-thick polymer based multi-layer film with electron trapping layer",
    "url": "https://doi.org/10.35848/1347-4065/aeb26f",
    "source": "Japanese Journal of Applied Physics",
    "date": "2026-11-17",
    "authors": [
-    "Eiji Itoh",
+    "Itoh Eiji",
     "Weining Ying"
    ],
    "abstract": "We have demonstrated a very high giant surface potential on the order of a thousand volts just by triboelectrification between water droplets and the micro-meter thick multilayered dielectric films. The surface potential is efficiently enhanced by the multilayered structure consisting of micrometer thick polyimide, thin adhesion layer, nanometer thick electron-trapping layer (WO 3 ), and the sub-micrometer thick fluoropolymer (CYTOP) on the surface. The surface potential increases proportionally to the polyimide thickness. The surface charge density was estimated as −1.0 mC m −2 for 40 nm-thick CYTOP and it increased to −7.3 mC m −2 for the 800 nm-thick CYTOP layer, respectively. These values are 10–70 times higher than the charge densities previously reported for contact electrification, as well as those for polyimide or CYTOP films alone. It is expected that the enhancement of the power output of energy harvesting devices utilizing electrostatic induction, such as water droplet-based electricity generator and vibration-based energy harvesting devices.",
@@ -118,6 +222,22 @@
    ],
    "score": 3,
    "first_seen": "2026-10-14"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Aerospace Flexible Heaters: Comparing Acrylic, FEP and All-Polyimide",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcW1BeEo0Sl93c01Jc29ZLUJJeTc5aUNPU0JHZFFucjYxbTdRNjJHNDRfR3RHYjVoS0lKS2puNUpWU3dqaDhGWnE1cnlyLUZaWmdEeUdCdW9XZVVMc2dxMUg1dlZiMDN6bmo4NzhaOGt5eFFEbm5pRlZEMFRaeV95S0FtY2txbnVta1VaYmdVcWVYWFJmcXdpWWxrcEEtcnA2MEJfNnE2dUpKb3llT1hMaWMzMEIzNEgzak93?oc=5",
+   "source": "Aerospace Manufacturing and Design",
+   "date": "2026-11-17",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "high heat resistant polyimide",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-11-21"
   },
   {
    "type": "paper",
@@ -136,11 +256,11 @@
     "Gang Yu",
     "Long‐Fei Pang"
    ],
-   "abstract": "ABSTRACT The development of polymer dielectrics with high energy density, low loss, and high‐temperature reliability remains challenging for advanced film capacitors. Conventional polyimide (PI) dielectrics suffer from high dielectric loss and limited breakdown strength, restricting their energy storage capability at elevated temperatures. This study proposes a “rigidity–flexibility integration” strategy by chemically incorporating flexible Poly(dimethylsiloxane) bis(3‐aminopropyl) terminated (PDMS) segments into rigid PI backbones. Systematic investigation demonstrates that PDMS effectively modulates dielectric response and breakdown characteristics. The optimized PI‐PDMS copolymer composite films exhibit a 44% reduction in dielectric loss (from 0.008 to 0.0045) and a 27% enhancement in breakdown strength (from 365 to 467.9 MV/m), while maintaining a dielectric constant of ~3.3. Consequently, the copolymer composite films achieve a discharged energy density of 4.0 J/cm 3 at room temperature and retain 2.6 J/cm 3 with over 80% efficiency at 150°C, alongside excellent cycling stability over 100,000 cycles. These improvements originate from deep‐level traps and tailored free volume…",
+   "abstract": "The development of polymer dielectrics with high energy density, low loss, and high‐temperature reliability remains challenging for advanced film capacitors. Conventional polyimide (PI) dielectrics suffer from high dielectric loss and limited breakdown strength, restricting their energy storage capability at elevated temperatures. This study proposes a “rigidity–flexibility integration” strategy by chemically incorporating flexible Poly(dimethylsiloxane) bis(3‐aminopropyl) terminated (PDMS) segments into rigid PI backbones. Systematic investigation demonstrates that PDMS effectively modulates dielectric response and breakdown characteristics. The optimized PI‐PDMS copolymer composite films exhibit a 44% reduction in dielectric loss (from 0.008 to 0.0045) and a 27% enhancement in breakdown strength (from 365 to 467.9 MV/m), while maintaining a dielectric constant of ~3.3. Consequently, the copolymer composite films achieve a discharged energy density of 4.0 J/cm 3 at room temperature and retain 2.6 J/cm 3 with over 80% efficiency at 150°C, alongside excellent cycling stability over 100,000 cycles. These improvements originate from deep‐level traps and tailored free volume introduce…",
    "doi": "10.1002/app.71817",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
@@ -163,7 +283,7 @@
     "周正发",
     "Xu Weibing"
    ],
-   "abstract": "Abstract Polyimide (PI) is widely used as dielectric materials in electronic devices and power systems because of its excellent heat resistance and mechanical stability. However, the intrinsically low dielectric constant of conventional PI limits its practical application in high-energy-density dielectric capacitors. In this study, triaminocycloboroxane (TABO) was first synthesized via dehydration condensation of 3-aminophenylboronic acid (3-ABBA). TABO was then reacted with 3,3',4,4'-biphenyltetracarboxylic dianhydride (BPDA) via an amine-anhydride ring-opening addition reaction to prepare a boron-containing hard-segment polyamic acid prepolymer, which designated as PAA-a. Separately, a soft-segment polyamic acid prepolymer, designated as PAA-b, was synthesized by reacting 4,4'-diaminodiphenyl ether (ODA) with 4,4'-oxydiphthalic dianhydride (ODPA) through the same method. PAA-a and PAA-b were coupled through ring-opening polyaddition to form a soft-hard segmented polyamic acid (PAA). The resulting PAA was cast into films, dried, and thermally imidized to obtain boroxine-containing PI films. The effects of the reactant ratio on soft-hard segmented structure, dielectric, thermal, w…",
+   "abstract": "Polyimide (PI) is widely used as dielectric materials in electronic devices and power systems because of its excellent heat resistance and mechanical stability. However, the intrinsically low dielectric constant of conventional PI limits its practical application in high-energy-density dielectric capacitors. In this study, triaminocycloboroxane (TABO) was first synthesized via dehydration condensation of 3-aminophenylboronic acid (3-ABBA). TABO was then reacted with 3,3',4,4'-biphenyltetracarboxylic dianhydride (BPDA) via an amine-anhydride ring-opening addition reaction to prepare a boron-containing hard-segment polyamic acid prepolymer, which designated as PAA-a. Separately, a soft-segment polyamic acid prepolymer, designated as PAA-b, was synthesized by reacting 4,4'-diaminodiphenyl ether (ODA) with 4,4'-oxydiphthalic dianhydride (ODPA) through the same method. PAA-a and PAA-b were coupled through ring-opening polyaddition to form a soft-hard segmented polyamic acid (PAA). The resulting PAA was cast into films, dried, and thermally imidized to obtain boroxine-containing PI films. The effects of the reactant ratio on soft-hard segmented structure, dielectric, thermal, wetting an…",
    "doi": "10.21203/rs.3.rs-11102148/v1",
    "cited_by": 0,
    "lang": "en",
@@ -288,11 +408,11 @@
     "Md Abu Zaed",
     "Mohammad Zahangir Alam"
    ],
-   "abstract": "Abstract At cruise altitudes, atmospheric proton radiation and electromagnetic interference (EMI) jointly threaten the reliability of flight-critical avionics. Conventional protection strategies typically address these hazards separately through aluminum- or lead-based radiation barriers and conductive copper-mesh EMI shields, increasing enclosure mass, volume, and integration complexity. To address this limitation, we present a lightweight dual-function MXene (Ti₃C₂Tₓ)–B₄C–polyimide nanocomposite that combines proton attenuation and EMI shielding within a single conformal material system. The framework integrates SRIM/TRIM-guided compositional design, controlled nanocomposite fabrication, proton-beam testing, broadband EMI characterization, and aerospace-relevant environmental validation. SRIM/TRIM simulations show that a boron-rich composition of 31 at% achieves complete stopping of 50 MeV protons at approximately 36 mm bulk thickness, with electronic stopping dominating energy loss and negligible backscattering. Surface-functionalized B₄C nanoparticles (~ 45 nm) and exfoliated MXene nanosheets are incorporated through solution casting and vacuum-assisted filtration. At 20 wt% B…",
+   "abstract": "At cruise altitudes, atmospheric proton radiation and electromagnetic interference (EMI) jointly threaten the reliability of flight-critical avionics. Conventional protection strategies typically address these hazards separately through aluminum- or lead-based radiation barriers and conductive copper-mesh EMI shields, increasing enclosure mass, volume, and integration complexity. To address this limitation, we present a lightweight dual-function MXene (Ti₃C₂Tₓ)–B₄C–polyimide nanocomposite that combines proton attenuation and EMI shielding within a single conformal material system. The framework integrates SRIM/TRIM-guided compositional design, controlled nanocomposite fabrication, proton-beam testing, broadband EMI characterization, and aerospace-relevant environmental validation. SRIM/TRIM simulations show that a boron-rich composition of 31 at% achieves complete stopping of 50 MeV protons at approximately 36 mm bulk thickness, with electronic stopping dominating energy loss and negligible backscattering. Surface-functionalized B₄C nanoparticles (~ 45 nm) and exfoliated MXene nanosheets are incorporated through solution casting and vacuum-assisted filtration. At 20 wt% B₄C and 15…",
    "doi": "10.21203/rs.3.rs-10946351/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "spin-coated polyimide film thickness",
    "tags": [
     "코팅·박막/후막",
     "접착·신뢰성"
@@ -353,16 +473,38 @@
     "Zhe Peng",
     "Xiaoyi Wang"
    ],
-   "abstract": "Abstract Handheld Fourier-transform near-infrared (FTNIR) microspectrometers demand MEMS micromirrors capable of generating large piston displacement (LPD) for high spectral resolution, alongside the strict mechanical robustness required for field deployment. However, conventional electrothermal actuators rely on rigid and brittle inorganic dielectrics (e.g., Al-SiO2), which severely suffer from impact-induced fracture and inherently restrict the maximum actuation stroke. Here, we demonstrate a highly robust LPD electrothermal micromirror driven by an aluminum-photosensitive polyimide (Al-PSPI) bimorph actuator. The device features a 1 mm × 1 mm square mirror within a compact 1.85 mm × 1.85 mm footprint. Leveraging the superior mechanical compliance and resilience of PSPI, the actuators can survive drop heights up to 1.9 m, a 25-fold improvement over conventional Al-SiO2 bimorph counterparts. The micromirror achieves a maximum piston displacement exceeding 450 μm at an ultra-low driving voltage of 7.5 V, exhibiting a fundamental resonance frequency of ~588 Hz and a rapid response time of ~30 ms. To validate its practical utility, the micromirror was integrated into a compact, 350-…",
+   "abstract": "Handheld Fourier-transform near-infrared (FTNIR) microspectrometers demand MEMS micromirrors capable of generating large piston displacement (LPD) for high spectral resolution, alongside the strict mechanical robustness required for field deployment. However, conventional electrothermal actuators rely on rigid and brittle inorganic dielectrics (e.g., Al-SiO2), which severely suffer from impact-induced fracture and inherently restrict the maximum actuation stroke. Here, we demonstrate a highly robust LPD electrothermal micromirror driven by an aluminum-photosensitive polyimide (Al-PSPI) bimorph actuator. The device features a 1 mm × 1 mm square mirror within a compact 1.85 mm × 1.85 mm footprint. Leveraging the superior mechanical compliance and resilience of PSPI, the actuators can survive drop heights up to 1.9 m, a 25-fold improvement over conventional Al-SiO2 bimorph counterparts. The micromirror achieves a maximum piston displacement exceeding 450 μm at an ultra-low driving voltage of 7.5 V, exhibiting a fundamental resonance frequency of ~588 Hz and a rapid response time of ~30 ms. To validate its practical utility, the micromirror was integrated into a compact, 350-gram hand…",
    "doi": "10.21203/rs.3.rs-11420924/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "low transmittance polyimide",
    "tags": [
     "PSPI·리소그래피"
    ],
    "score": 4,
    "first_seen": "2026-11-13"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects",
+   "url": "https://doi.org/10.1088/2058-8585/aeba99",
+   "source": "Flexible and Printed Electronics",
+   "date": "2026-11-11",
+   "authors": [
+    "Dhiya Belkadi",
+    "Nicholas J. Glassmaker",
+    "Yu-Xuan Robert Yang",
+    "Muhammad M. Hussain"
+   ],
+   "abstract": "The manufacturability of printed electronics is often limited by process variability that affects electrical performance, manufacturing yield, and process consistency. Although electrical characteristics such as resistivity and sheet resistance are commonly reported, a standardized electrical framework for quantifying variability and manufacturing robustness remains lacking. This work presents a test-pattern-based framework for evaluating the electrical performance, variability, and yield of printed electronic interconnects. The framework combines geometry-dependent resistance and capacitance characterization with normalized scaling analysis, coefficient-of-variation measurements, open-circuit failure assessment, and functional yield evaluation. Using screen-printed silver conductors on polyimide substrates, the influence of conductor length, width, effective overlap length, print orientation, and impression number on electrical behavior is investigated. Resistance measurements demonstrate that conductor length follows expected geometric scaling more closely than conductor width. Variability and yield analyses identify conductor width as the dominant geometry-dependent limitation,…",
+   "doi": "10.1088/2058-8585/aeba99",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low temperature cure",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-10-31"
   },
   {
    "type": "paper",
@@ -601,7 +743,7 @@
     "Kazuisao Tsuruda",
     "Takehito Suzuki"
    ],
-   "abstract": "Abstract Integrating optically thin metasurfaces with continuous-wave (CW) terahertz sources offers an alternative to conventional bulky optical elements for manipulating terahertz waves. However, planar optical elements composed of metasurfaces have yet to be actively adopted in CW terahertz sources due to limited fabrication methods suitable for micrometer-scale meta-atoms. Here, we fabricate two types of printed terahertz collimating metalenses on cyclo-olefin polymer and polyimide films using super inkjet printing. The fabricated metalenses are composed of double-sided printed metal patches on dielectric films, enabling simultaneous control of the electric and magnetic fields while maintaining an optically thin structure. The printed terahertz collimating metalenses fabricated on cyclo-olefin polymer and polyimide films enhance the directivity of a resonant tunneling diode oscillating at 0.312 THz to 2.29 and 1.46 times, respectively. Our results demonstrate advanced wavefront control of CW terahertz sources using inkjet-printed planar optical elements. The fabrication method for terahertz planar optical elements proposed in this paper will be a welcome contribution to teraher…",
+   "abstract": "Integrating optically thin metasurfaces with continuous-wave (CW) terahertz sources offers an alternative to conventional bulky optical elements for manipulating terahertz waves. However, planar optical elements composed of metasurfaces have yet to be actively adopted in CW terahertz sources due to limited fabrication methods suitable for micrometer-scale meta-atoms. Here, we fabricate two types of printed terahertz collimating metalenses on cyclo-olefin polymer and polyimide films using super inkjet printing. The fabricated metalenses are composed of double-sided printed metal patches on dielectric films, enabling simultaneous control of the electric and magnetic fields while maintaining an optically thin structure. The printed terahertz collimating metalenses fabricated on cyclo-olefin polymer and polyimide films enhance the directivity of a resonant tunneling diode oscillating at 0.312 THz to 2.29 and 1.46 times, respectively. Our results demonstrate advanced wavefront control of CW terahertz sources using inkjet-printed planar optical elements. The fabrication method for terahertz planar optical elements proposed in this paper will be a welcome contribution to terahertz flat o…",
    "doi": "10.1007/s00339-026-09930-3",
    "cited_by": 0,
    "lang": "en",
@@ -918,6 +1060,38 @@
   },
   {
    "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Synthesis and Properties of a New Kind of Polyimide With Angular Molecule Based on Xanthone",
+   "url": "https://doi.org/10.1002/slct.75237",
+   "source": "ChemistrySelect",
+   "date": "2026-11-01",
+   "authors": [
+    "Yijun Yu",
+    "Chao Teng",
+    "Haibiao Chen",
+    "Linling Li",
+    "Sifeng Li",
+    "Dongyang Zhang",
+    "Xiaoqing Liu",
+    "Jie He"
+   ],
+   "abstract": "A new class of halogen‐free polyimides was synthesized by designing xanthone‐based diamines with angular structures. The chemical structures of the synthesized diamines and polyimides were characterized via spectroscopic techniques. The obtained polyimides were further fabricated into thin films for the investigation of their optical and electrical properties. The results demonstrated that such polyimides exhibited excellent thermal stability, with a glass transition temperature ( T g ) reaching 430°C and a 5% weight loss temperature exceeding 450°C. The electron‐withdrawing capability of the xanthone core counterbalanced the electron‐withdrawing effect of the dianhydride moiety, leading to a more uniform charge distribution throughout the polyimide matrix. Consequently, the polyimides achieved an ultra‐low dielectric constant as low as 2.16, which is superior to the value of 2.8 for commercial counterparts. Additionally, the angular molecular structure and the balanced electron‐withdrawing effect contributed to enhanced film transparency and reduced coefficient of thermal expansion (CTE). These materials show great potential for applications in the electronic field.",
+   "doi": "10.1002/slct.75237",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide low CTE film",
+   "tags": [
+    "저유전(Dk/Df)",
+    "저CTE·휨",
+    "코팅·박막/후막",
+    "시장·기업",
+    "고내열성"
+   ],
+   "score": 19,
+   "first_seen": "2026-11-21"
+  },
+  {
+   "type": "paper",
    "origin": "Crossref",
    "title": "Positive-type photosensitive polyimides for advanced microelectronic packaging: from molecular design to patterning and device reliability",
    "url": "https://doi.org/10.1016/j.cej.2026.180690",
@@ -1016,7 +1190,7 @@
     "Jinsong Leng",
     "Yanju Liu"
    ],
-   "abstract": "Abstract Transparent polymer substrates for flexible perovskite solar cells and foldable displays must offer high transparency, thermal stability, and active deformability. With the rapid development of intelligent and adaptive flexible electronics, shape memory functionality has emerged as a key requirement for next-generation devices to enable smart behaviors such as self-deployment or morphing. However, although conventional colorless transparent polyimides (CPIs) exhibit outstanding transparency and thermal resistance, they tend to lack shape memory functionality, making it difficult to meet the demands of next-generation intelligent flexible devices such as self-deployable structures. We designed a molecular system using two dianhydrides, one containing a hexafluoroisopropylidene group and one containing ether linkages, and three fluorinated diamines with different rigidities. The hexafluoroisopropylidene and ether units suppress charge-transfer complex formation to enhance optical transparency, while the ether linkages also improve chain flexibility. The varying diamine rigidity enables tuning of thermal properties. Based on this design, colorless shape memory polyimide (co-…",
+   "abstract": "Transparent polymer substrates for flexible perovskite solar cells and foldable displays must offer high transparency, thermal stability, and active deformability. With the rapid development of intelligent and adaptive flexible electronics, shape memory functionality has emerged as a key requirement for next-generation devices to enable smart behaviors such as self-deployment or morphing. However, although conventional colorless transparent polyimides exhibit outstanding transparency and thermal resistance, they tend to lack shape memory functionality, making it difficult to meet the demands of next-generation intelligent flexible devices such as self-deployable structures. We designed a molecular system using two dianhydrides, one containing a hexafluoroisopropylidene group and one containing ether linkages, and three fluorinated diamines with different rigidities. The hexafluoroisopropylidene and ether units suppress charge-transfer complex formation to enhance optical transparency, while the ether linkages also improve chain flexibility. The varying diamine rigidity enables tuning of thermal properties. Based on this design, colorless shape memory polyimide (co-CSMPI) films wer…",
    "doi": "10.1088/1361-665x/aeb2c5",
    "cited_by": 0,
    "lang": "en",
@@ -1049,6 +1223,34 @@
    ],
    "score": 6,
    "first_seen": "2026-11-15"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Aqueous synthesis of chemically diverse photo-patternable polyimide dielectrics for IGZO thin-film transistor arrays and functional logic gates",
+   "url": "https://doi.org/10.1016/j.cej.2026.184451",
+   "source": "Chemical Engineering Journal",
+   "date": "2026-11-01",
+   "authors": [
+    "Subin Yoon",
+    "Yonghyun Albert Kwon",
+    "Min A. Kwak",
+    "Minki Choi",
+    "Yu Jin Jeong",
+    "Min Sub Kim",
+    "Sang Woo Park",
+    "Yunho Kim"
+   ],
+   "abstract": "",
+   "doi": "10.1016/j.cej.2026.184451",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-21"
   },
   {
    "type": "paper",
@@ -1343,26 +1545,22 @@
    "first_seen": "2026-10-28"
   },
   {
-   "type": "paper",
-   "origin": "OpenAlex",
-   "title": "An electrical characterization framework for variability and manufacturability assessment in screen-printed interconnects",
-   "url": "https://doi.org/10.1088/2058-8585/aeba99",
-   "source": "Flexible and Printed Electronics",
+   "type": "news",
+   "origin": "Google News",
+   "title": "[리포트 브리핑]PI첨단소재, '칩플레이션 부담 우려가 만든 저평가 상황' 목표가 24,000원 - 삼성증권",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ddkc5SThGeGkwU2VSazctM3BneDZwTjRDMWQ0SzFpNnJhMFEyWWRjaGY3REQxanQ0TXZnVU4wNzB4aEpmaHotWXNCS2ZLczNYNUJTUmZYZkVfLXVm?oc=5",
+   "source": "뉴스핌",
    "date": "2026-10-28",
-   "authors": [
-    "Dhiya Belkadi",
-    "Nicholas J. Glassmaker",
-    "Yu-Xuan Robert Yang",
-    "Muhammad M. Hussain"
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
    ],
-   "abstract": "Abstract The manufacturability of printed electronics is often limited by process variability that affects electrical performance, manufacturing yield, and process consistency. Although electrical characteristics such as resistivity and sheet resistance are commonly reported, a standardized electrical framework for quantifying variability and manufacturing robustness remains lacking. This work presents a test-pattern-based framework for evaluating the electrical performance, variability, and yield of printed electronic interconnects. The framework combines geometry-dependent resistance and capacitance characterization with normalized scaling analysis, coefficient-of-variation measurements, open-circuit failure assessment, and functional yield evaluation. Using screen-printed silver conductors on polyimide substrates, the influence of conductor length, width, effective overlap length, print orientation, and impression number on electrical behavior is investigated. Resistance measurements demonstrate that conductor length follows expected geometric scaling more closely than conductor width. Variability and yield analyses identify conductor width as the dominant geometry-dependent li…",
-   "doi": "10.1088/2058-8585/aeba99",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "polyimide semiconductor packaging",
-   "tags": [],
-   "score": 3,
-   "first_seen": "2026-10-31"
+   "score": 4,
+   "first_seen": "2026-11-21"
   },
   {
    "type": "paper",
