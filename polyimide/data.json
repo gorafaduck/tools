@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-21T02:16:10+00:00",
+ "generated_at": "2026-11-22T01:20:23+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 35,
+  "news": 36,
   "paper": 86,
   "preprint": 7
  },
@@ -22,6 +22,25 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[소부장 테크페어] PI첨단소재, AI·HBM 겨냥 폴리이미드 기술 고도화",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GWHBzN1lmeTd2X2ljeGRUcU9Hb2RPQ3RlMWVvdm5sOU1tdEstLWZtTVE5ZjJkVnRtQ0xOVzRpekdRWGlWUldnUUxidjhXdw?oc=5",
+   "source": "전자신문",
+   "date": "2026-11-21",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 소재",
+   "tags": [
+    "HBM·칩렛",
+    "시장·기업"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-22"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -260,7 +279,7 @@
    "doi": "10.1002/app.71817",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "저유전(Dk/Df)",
     "접착·신뢰성"
@@ -643,7 +662,7 @@
    "doi": "10.1016/j.reactfunctpolym.2026.107006",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide redistribution layer",
+   "query": "polyimide semiconductor packaging",
    "tags": [
     "고내열성"
    ],
