@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-22T01:20:23+00:00",
+ "generated_at": "2026-11-23T01:45:50+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 36,
-  "paper": 86,
+  "news": 37,
+  "paper": 87,
   "preprint": 7
  },
  "tags": [
@@ -22,6 +22,24 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재 투자분석 2026. 11. 20",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CWG5EclNmLWNiczBFMjBodTNpVVZ6cmhJeUpoVjk4SGJwSGNTQXgzS1FzTWR3UFFOQmhUNWhUYk8yZmtzYkZIZmJxWDd3eVk5Tm5nVDBWNnNMUy03aTYyZFkyU3ZZZFZTUUxiYXZtdUhDRzA?oc=5",
+   "source": "주달",
+   "date": "2026-11-22",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-23"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -135,23 +153,49 @@
    "first_seen": "2026-11-21"
   },
   {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Multifunctional polyimide-siloxane hybrid coatings with enhanced atomic oxygen resistance, intrinsic self-healing and improved mechanical strength for next-generation space materials",
+   "url": "https://doi.org/10.1016/j.compscitech.2026.111938",
+   "source": "Composites Science and Technology",
+   "date": "2026-11-18",
+   "authors": [
+    "Priyanka Prakash",
+    "Mahdiar Taheri",
+    "Janith Weerasinghe",
+    "Igor Levchenko",
+    "Karthika Prasad",
+    "Katia Alexander"
+   ],
+   "abstract": "Astronauts performing extravehicular activities (EVAs) in low Earth orbit (LEO), including near the International Space Station (ISS), are exposed to highly reactive atomic oxygen (AO) that progressively degrades spacesuits and spacecraft materials. Conventional polyimides lose structural integrity under prolonged AO exposure, ultimately limiting long-term durability. In this work, we describe a new hybrid polyimide resin (PI-Sx) coating that combines siloxane-modified polyimide chemistry for AO-induced surface passivation and dynamic disulfide bonds for intrinsic self-healing. Under simulated AO exposure equivalent to 251 hours of operation at 400 km altitude, the hybrid PI-Sx polymer showed improved resistance compared to commercially available polyimide tape (K-tape). AFM analysis of the polymer surface showed that after AO exposure the root mean square (RMS) Roughness (Rq) increased from 0.90 nm to 1.82 nm for PI-Sx, while for K-tape the increase was from 3.75 nm to 9.40 nm. When dip coated onto woven fiberglass fabric, the PI-Sx coating showed substrate-mediated self-healing arising from its dynamic covalent network and mobile siloxane moieties, which enable chain mobility an…",
+   "doi": "10.1016/j.compscitech.2026.111938",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thin film processing",
+   "tags": [
+    "코팅·박막/후막"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-23"
+  },
+  {
    "type": "preprint",
    "origin": "OpenAlex",
-   "title": "ALI MEA60: A porous thin-film microelectrode array for air-liquid interface electrophysiology of 3D excitable tissues",
+   "title": "ALI MEA60: A porous thin-film microelectrode array for air–liquid interface electrophysiology of 3D excitable tissues",
    "url": "https://doi.org/10.64898/2026.11.16.766976",
    "source": "bioRxiv (Cold Spring Harbor Laboratory)",
    "date": "2026-11-18",
    "authors": [
     "Fabien Friscourt",
     "Luc Stoppini",
-    "S. Sivakumar",
+    "Shaginth Sivakumar",
     "Marc Olivier Heuschkel",
     "Laetitia Nikles",
     "Théo Ribierre",
     "Thi-Thom Nguyen",
     "Michel Puceat"
    ],
-   "abstract": "Objective: Conventional microelectrode arrays (MEAs) are suboptimal for long-term electrophysiology of three-dimensional (3D) excitable tissues, as limited oxygenation, nutrient diffusion, and tissue-electrode coupling compromise recording stability. Air-liquid interface (ALI) culture mitigates these constraints, but existing ALI MEA platforms are limited in channel count, flexibility, and compatibility with commercial multichannel acquisition systems. We developed and comprehensively characterized a next-generation ALI MEA for standardized, long-term recordings across multiple 3D excitable tissue models. Approach: The novel ALI MEA60 is composed of a porous polyimide membrane that integrates an array of 60 thin film microelectrodes (59 recording, one reference) and a basal perfusion chamber with Luer-lock connectors for controlled medium exchange and pharmacological wash-in/wash-out. It is compatible with the MEA2100-Mini data acquisition system (Multi Channel Systems). We characterized electrode impedance and noise across 41 ALI MEA60 devices, assessed 60-day stability with human iPSC-derived neural spheroids (N = 7 MEAs, 121 recordings) using a standardized longitudinal framewo…",
+   "abstract": "Objective Conventional microelectrode arrays (MEAs) are suboptimal for long-term electrophysiology of three-dimensional (3D) excitable tissues, as limited oxygenation, nutrient diffusion, and tissue-electrode coupling compromise recording stability. Air-liquid interface (ALI) culture mitigates these constraints, but existing ALI MEA platforms are limited in channel count, flexibility, and compatibility with commercial multichannel acquisition systems. We developed and comprehensively characterized a next-generation ALI MEA for standardized, long-term recordings across multiple 3D excitable tissue models. Approach The novel ALI MEA60 is composed of a porous polyimide membrane that integrates an array of 60 thin film microelectrodes (59 recording, one reference) and a basal perfusion chamber with Luer-lock connectors for controlled medium exchange and pharmacological wash-in/wash-out. It is compatible with the MEA2100-Mini data acquisition system (Multi Channel Systems). We characterized electrode impedance and noise across 41 ALI MEA60 devices, assessed 60-day stability with human iPSC-derived neural spheroids (N = 7 MEAs, 121 recordings) using a standardized longitudinal framework…",
    "doi": "10.64898/2026.11.16.766976",
    "cited_by": 0,
    "lang": "en",
@@ -211,7 +255,7 @@
    "doi": "10.1002/app.71809",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "저유전(Dk/Df)",
     "저CTE·휨",
@@ -520,7 +564,7 @@
    "doi": "10.1088/2058-8585/aeba99",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide low temperature cure",
+   "query": "polyimide semiconductor packaging",
    "tags": [],
    "score": 3,
    "first_seen": "2026-10-31"
@@ -1232,7 +1276,7 @@
     "Deyang Ji",
     "Wenping Hu"
    ],
-   "abstract": "ABSTRACT Flexible organic phototransistors are indispensable building blocks for next-generation wearable optoelectronics, owing to their solution-processable scalability, lightweight nature, and intrinsic mechanical compliance. Nevertheless, conventional gate dielectrics suffer severe drawbacks such as abundant interfacial trap states, poor moisture resistance, and inferior semiconductor crystallization modulation capability, which drastically limit carrier mobility, long-term mechanical fatigue tolerance, and device operating voltage. Herein, we report a fluorinated poly (amic acid) (ODA-6FDA PAA) dielectric that synergistically integrates the merits of fluorinated segments and polar poly (amic acid) skeletons to address the above critical bottlenecks. Large-area 10 × 24 flexible organic phototransistor arrays are fabricated using ODA-6FDA PAA as the gate insulator and di(phenylvinyl)anthracene (DPV-Ant) as the organic semiconductor. Benefiting from the ultra-smooth dielectric surface and drastically suppressed interfacial trap density, the resulting device arrays deliver a maximum carrier mobility of 8.7 cm 2 V -1 s -1 with an average mobility of 6.5 cm 2 V -1 s -1 , far exceed…",
+   "abstract": "Flexible organic phototransistors are indispensable building blocks for next-generation wearable optoelectronics, owing to their solution-processable scalability, lightweight nature, and intrinsic mechanical compliance. Nevertheless, conventional gate dielectrics suffer severe drawbacks such as abundant interfacial trap states, poor moisture resistance, and inferior semiconductor crystallization modulation capability, which drastically limit carrier mobility, long-term mechanical fatigue tolerance, and device operating voltage. Herein, we report a fluorinated poly (amic acid) (ODA-6FDA PAA) dielectric that synergistically integrates the merits of fluorinated segments and polar poly (amic acid) skeletons to address the above critical bottlenecks. Large-area 10 × 24 flexible organic phototransistor arrays are fabricated using ODA-6FDA PAA as the gate insulator and di(phenylvinyl)anthracene (DPV-Ant) as the organic semiconductor. Benefiting from the ultra-smooth dielectric surface and drastically suppressed interfacial trap density, the resulting device arrays deliver a maximum carrier mobility of 8.7 cm 2 V -1 s -1 with an average mobility of 6.5 cm 2 V -1 s -1 , far exceeding SiO 2…",
    "doi": "10.1016/j.wees.2026.09.004",
    "cited_by": 0,
    "lang": "en",
