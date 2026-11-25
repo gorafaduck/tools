@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-24T05:21:13+00:00",
+ "generated_at": "2026-11-25T04:12:47+00:00",
  "lookback_days": 30,
  "counts": {
   "news": 39,
-  "paper": 88,
+  "paper": 90,
   "preprint": 9
  },
  "tags": [
@@ -22,6 +22,57 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "A Molecular Design Strategy for Biobased, Fluorine-Free, Aqueous-Developable, and Positive-Type Photosensitive Polyimides with Low Dielectric Loss at High Frequencies of 10–40 GHz",
+   "url": "https://doi.org/10.1021/acsapm.6c03685",
+   "source": "ACS Applied Polymer Materials",
+   "date": "2026-11-24",
+   "authors": [
+    "Yu Liu",
+    "Bing-Han Wu",
+    "Po-Yi Lu",
+    "Yan-Cheng Lin",
+    "Wen-Chang Chen"
+   ],
+   "abstract": "Abstract Photosensitive polyimides (PSPIs) are widely used as dielectric and passivation materials in semiconductor packaging because of their excellent thermal stability, mechanical strength, chemical resistance, and photopatternability. However, fluorinated building blocks are still widely employed in conventional PSPIs to achieve desirable material performance, raising increasing concerns regarding their sustainability and environmental impact. In this study, a series of fluorine-free, partially biobased polyimides (PIs) is synthesized from structurally diverse aromatic diamines containing bulky pendant groups and ester linkages in combination with three dianhydride systems, including an isosorbide-derived dianhydride and two aromatic dianhydrides. The resulting PIs exhibit tunable dielectric and thermomechanical properties and incorporate a renewable biomass-derived component; among them, IB-NB, with a benzonorbornane moiety, shows the most balanced performance and is selected as the polymer matrix for developing an aqueous-developable, positive-type PSPI. The type and content of the sulfonated diazonaphthoquinone as a dissolution inhibitor, the diamine-to-dianhydride ratio, a…",
+   "doi": "10.1021/acsapm.6c03685",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "low transmittance polyimide",
+   "tags": [
+    "PSPI·리소그래피",
+    "저유전(Dk/Df)",
+    "고내열성"
+   ],
+   "score": 24,
+   "first_seen": "2026-11-25"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Correction to “Multi-Amino Polydiacetylene-Mediated Interfacial Engineering of Boron Nitride Nanosheet/Polyimide Composites for Low-Dielectric Thermal Management”",
+   "url": "https://doi.org/10.1021/acsami.6c23337",
+   "source": "ACS Applied Materials & Interfaces",
+   "date": "2026-11-24",
+   "authors": [
+    "Ruixue Wang",
+    "Baoyue Zhang",
+    "Baijie Cheng",
+    "Fan Wan",
+    "Shanyi Guang",
+    "Hongyao Xu"
+   ],
+   "abstract": "",
+   "doi": "10.1021/acsami.6c23337",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide varnish viscosity coating",
+   "tags": [],
+   "score": 6,
+   "first_seen": "2026-11-25"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -114,7 +165,7 @@
    "doi": "10.3390/molecules31234232",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "PSPI·리소그래피",
     "접착·신뢰성"
@@ -202,7 +253,7 @@
    "doi": "10.1117/1.jatis.12.4.046003",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -561,6 +612,24 @@
    "first_seen": "2026-11-16"
   },
   {
+   "type": "news",
+   "origin": "Google News",
+   "title": "PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5",
+   "source": "edaily.co.kr",
+   "date": "2026-11-13",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-13"
+  },
+  {
    "type": "preprint",
    "origin": "OpenAlex",
    "title": "Lightweight MXene–B₄C–Polyimide Nanocomposite for Simultaneous Cosmic Radiation and Electromagnetic Interference Shielding in Aerospace Avionics",
@@ -603,24 +672,6 @@
    ],
    "score": 4,
    "first_seen": "2026-11-12"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BcWRqT2lqRTB2MnppN2pwMFNENGdvQ3NCc1FhaGJjNTRiVjNYOG5jenpPTW54YVFJMUNCTTQ4QmNxRnpGZ0RWdVJMcjVYUWF5MnZwdF9JU2puYmhRNXlLcThMa21TWnlhQ18zaVZ6UjJyOUk?oc=5",
-   "source": "마켓인",
-   "date": "2026-11-12",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "PI첨단소재",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
-   "first_seen": "2026-11-13"
   },
   {
    "type": "preprint",
@@ -671,34 +722,6 @@
    "tags": [],
    "score": 3,
    "first_seen": "2026-10-31"
-  },
-  {
-   "type": "paper",
-   "origin": "Crossref",
-   "title": "Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites",
-   "url": "https://doi.org/10.1021/acs.langmuir.6c03037",
-   "source": "Langmuir",
-   "date": "2026-11-10",
-   "authors": [
-    "Tong Zhang",
-    "Jia-wei Yang",
-    "Sheng-ru Long",
-    "Sui-lin Liu",
-    "Jia-cao Yang",
-    "Zhi-mei Wei",
-    "Jie Yang",
-    "Xiao-jun Wang"
-   ],
-   "abstract": "Abstract The interfacial adhesion between carbon fibers and polymer matrices critically determines the mechanical performance of fiber-reinforced composites, yet achieving strong bonding remains a persistent challenge. A molecular engineering strategy is developed to tailor the fiber-matrix interphase in carbon fiber-reinforced poly(arylene sulfide sulfone) (PASS) composites by designing three sizing agents: poly(amic acid) (PAA) and its thermally imidized polyimide derivatives bearing either ether or sulfone groups. Through a combined experimental and computational approach, the influence of the chemical structure of the sizing agents─specifically, the nature of the groups (ether vs sulfone), and the postimidization state-on interfacial adhesion and failure behavior is systematically investigated. The results demonstrate that the sulfone-containing polyimide sizing agent exhibits superior interfacial reinforcement, which is attributed to its strong intermolecular interactions with the PASS matrix, including hydrogen bonding as well as π-π stacking enabled by its rigid, conjugated chain architecture. This leads to a marked enhancement in mechanical performance: tensile strength, i…",
-   "doi": "10.1021/acs.langmuir.6c03037",
-   "cited_by": 0,
-   "lang": "en",
-   "query": "photosensitive polyimide",
-   "tags": [
-    "접착·신뢰성"
-   ],
-   "score": 9,
-   "first_seen": "2026-11-11"
   },
   {
    "type": "paper",
@@ -757,6 +780,34 @@
    ],
    "score": 4,
    "first_seen": "2026-11-10"
+  },
+  {
+   "type": "paper",
+   "origin": "Crossref",
+   "title": "Molecular Engineering of Polyimide Sizing Agents with Ether and Sulfone Groups for Tailored Interfacial Performance in CF/PASS Composites",
+   "url": "https://doi.org/10.1021/acs.langmuir.6c03037",
+   "source": "Langmuir",
+   "date": "2026-11-09",
+   "authors": [
+    "Tong Zhang",
+    "Jia-wei Yang",
+    "Sheng-ru Long",
+    "Sui-lin Liu",
+    "Jia-cao Yang",
+    "Zhi-mei Wei",
+    "Jie Yang",
+    "Xiao-jun Wang"
+   ],
+   "abstract": "Abstract The interfacial adhesion between carbon fibers and polymer matrices critically determines the mechanical performance of fiber-reinforced composites, yet achieving strong bonding remains a persistent challenge. A molecular engineering strategy is developed to tailor the fiber-matrix interphase in carbon fiber-reinforced poly(arylene sulfide sulfone) (PASS) composites by designing three sizing agents: poly(amic acid) (PAA) and its thermally imidized polyimide derivatives bearing either ether or sulfone groups. Through a combined experimental and computational approach, the influence of the chemical structure of the sizing agents─specifically, the nature of the groups (ether vs sulfone), and the postimidization state-on interfacial adhesion and failure behavior is systematically investigated. The results demonstrate that the sulfone-containing polyimide sizing agent exhibits superior interfacial reinforcement, which is attributed to its strong intermolecular interactions with the PASS matrix, including hydrogen bonding as well as π-π stacking enabled by its rigid, conjugated chain architecture. This leads to a marked enhancement in mechanical performance: tensile strength, i…",
+   "doi": "10.1021/acs.langmuir.6c03037",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "photosensitive polyimide",
+   "tags": [
+    "접착·신뢰성"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-11"
   },
   {
    "type": "paper",
