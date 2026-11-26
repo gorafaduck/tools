@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-25T04:12:47+00:00",
+ "generated_at": "2026-11-26T03:35:49+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 39,
-  "paper": 90,
+  "news": 40,
+  "paper": 91,
   "preprint": 9
  },
  "tags": [
@@ -23,6 +23,22 @@
  ],
  "items": [
   {
+   "type": "news",
+   "origin": "Google News",
+   "title": "LUMENFUTURE Shares Workshop Photo Guides for Polyimide Film Cutting Projects",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZFdBV3RvTUZzVm5KR0ZfTDZKaDNqaXd2dmg5dWI4WWpzbEZvTm5xNHlhRm51WWd2aldCVjZvYzBxSE15RjZfTW1hTnhqN0p2c2hQcVpVUDFxbnNpelJNOG1SbHJCT24yNGkzX2VULTIwYW91cHphZmJvdHk2Wnp5cDdQRkdYTGZ5MWdRamx0VE9fdGtZMXUySlJTWQ?oc=5",
+   "source": "openPR.com",
+   "date": "2026-11-25",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "black polyimide",
+   "tags": [],
+   "score": 3,
+   "first_seen": "2026-11-26"
+  },
+  {
    "type": "paper",
    "origin": "Crossref",
    "title": "A Molecular Design Strategy for Biobased, Fluorine-Free, Aqueous-Developable, and Positive-Type Photosensitive Polyimides with Low Dielectric Loss at High Frequencies of 10–40 GHz",
@@ -40,7 +56,7 @@
    "doi": "10.1021/acsapm.6c03685",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "photosensitive polyimide",
    "tags": [
     "PSPI·리소그래피",
     "저유전(Dk/Df)",
@@ -108,6 +124,32 @@
    ],
    "score": 4,
    "first_seen": "2026-11-24"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Gold‐Core/Silica‐Shell Nanoparticle‐Based Strain Gauges for High‐Sensitivity, Low‐Power Sensing in High‐Temperature Environments",
+   "url": "https://doi.org/10.1002/adfm.79813",
+   "source": "Advanced Functional Materials",
+   "date": "2026-11-23",
+   "authors": [
+    "Louise Coussen",
+    "Priyanka Tyagi",
+    "J. Grisolia",
+    "Giuseppe Boniello",
+    "Ada Herrero‐Ruiz",
+    "François Guérin",
+    "Luis M. Liz‐Marzán",
+    "Laurence Ressier"
+   ],
+   "abstract": "Nanoparticle‐based strain gauges offer outstanding sensitivity through electron tunneling but suffer from severe limitations in high‐temperature operations. Here, we introduce a strain‐gauge architecture based on colloidal gold‐core/silica‐shell nanoparticles, in which ultrathin silica shells (<1 nm) provide inorganic tunneling spacers mediate thermally driven microstructural evolution. Using template‐free Stop‐Go‐return Convective Self‐Assembly, parallel micrometer‐wide nanoparticle wires are assembled on polyimide substrates, yielding high‐sensitivity strain sensors suitable for low‐power operation. Remarkably, thermal annealing enhances rather than degrades their strain response. Correlative microscopy and electromechanical simulations reveal that thermal exposure drives a transition from an interconnected nanoparticle network to a coalesced percolative assembly, which amplifies strain‐induced modulation of the electrical conduction pathways. The unencapsulated gauges retain their strain sensing response up to 160°C and withstand thermal annealing at temperatures up to 300°C, corresponding to the operational limit of the polyimide substrate. These results demonstrate that therm…",
+   "doi": "10.1002/adfm.79813",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "polyimide thick film",
+   "tags": [],
+   "score": 2,
+   "first_seen": "2026-11-26"
   },
   {
    "type": "preprint",
@@ -253,7 +295,7 @@
    "doi": "10.1117/1.jatis.12.4.046003",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -295,7 +337,7 @@
     "Young‐Wun Kim",
     "Nam-Kyun Kim"
    ],
-   "abstract": "Poly(amic acid) (PAA) is widely recognized as the precursor of polyimide (PI), although its structure–property relationships before imidization remain insufficiently understood. In particular, the influence of functional diamine structures and intermolecular interactions on the properties of PAA systems has rarely been systematically investigated. PAA films were prepared from five functional diamine systems, including m ‐phenylenediamine (MPDA), 2,6‐diaminopyridine (DAP), 3,5‐diaminobenzoic acid (DABA), a DAP/DABA copolymer (Cop), and a physical blend of DAP PAA and DABA PAA (Blend). Proton nuclear magnetic resonance ( 1 H NMR) and Fourier transform infrared (FT‐IR) analyses indicated acid–base interactions between DAP and DABA before polymerization and confirmed the characteristic chemical structures of the PAA samples after polymerization. Gel permeation chromatography (GPC) analysis revealed differences in molecular weight among the PAA samples. X‐ray diffraction (XRD) and differential scanning calorimetry (DSC) analyses demonstrated the structural transition from crystalline diamine monomers to amorphous PAA films and revealed differences in thermal behavior. The dielectric co…",
+   "abstract": "Poly(amic acid) (PAA) is widely recognized as the precursor of polyimide (PI), although its structure–property relationships before imidization remain insufficiently understood. In particular, the influence of functional diamine structures and intermolecular interactions on the properties of PAA systems has rarely been systematically investigated. PAA films were prepared from five functional diamine systems, including m ‐phenylenediamine (MPDA), 2,6‐diaminopyridine (DAP), 3,5‐diaminobenzoic acid (DABA), a DAP/DABA copolymer (Cop), and a physical blend of DAP PAA and DABA PAA (Blend). Proton nuclear magnetic resonance (1 H NMR) and Fourier transform infrared (FT‐IR) analyses indicated acid–base interactions between DAP and DABA before polymerization and confirmed the characteristic chemical structures of the PAA samples after polymerization. Gel permeation chromatography (GPC) analysis revealed differences in molecular weight among the PAA samples. X‐ray diffraction (XRD) and differential scanning calorimetry (DSC) analyses demonstrated the structural transition from crystalline diamine monomers to amorphous PAA films and revealed differences in thermal behavior. The dielectric con…",
    "doi": "10.1002/pola.70396",
    "cited_by": 0,
    "lang": "en",
@@ -325,7 +367,7 @@
    "doi": "10.1016/j.compscitech.2026.111938",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -353,7 +395,7 @@
    "doi": "10.64898/2026.11.16.766976",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "black polyimide",
    "tags": [
     "코팅·박막/후막",
     "시장·기업"
@@ -382,7 +424,7 @@
    "doi": "10.1088/2631-7990/aebb75",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thin film processing",
+   "query": "polyimide thick film",
    "tags": [
     "시장·기업"
    ],
@@ -504,7 +546,7 @@
    "doi": "10.21203/rs.3.rs-11102148/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "black polyimide",
+   "query": "polyimide low CTE film",
    "tags": [
     "저유전(Dk/Df)",
     "고내열성"
@@ -615,8 +657,8 @@
    "type": "news",
    "origin": "Google News",
    "title": "PI첨단소재, 스마트폰 수요 둔화에 목표가 2.5만원으로 하향-메리츠",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWoySHhFRTV4NGhJbU8tc3Jtck8xZW8xaEMzRS1rdUxVSk5raG9YemRIME1mYXlub0dkRTZLY21pYWh3cWpWNUthNWt4X3hadWpJb1d6WjBib3l3VGlPSDVQNnprSnU0VHJvc2xNN2xLSXVBWjE0WjFKYVRrMGt4UA?oc=5",
-   "source": "edaily.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BcWRqT2lqRTB2MnppN2pwMFNENGdvQ3NCc1FhaGJjNTRiVjNYOG5jenpPTW54YVFJMUNCTTQ4QmNxRnpGZ0RWdVJMcjVYUWF5MnZwdF9JU2puYmhRNXlLcThMa21TWnlhQ18zaVZ6UjJyOUk?oc=5",
+   "source": "마켓인",
    "date": "2026-11-13",
    "authors": [],
    "abstract": "",
@@ -756,7 +798,7 @@
    "doi": "10.48676/unibo/amsdottorato/13323",
    "cited_by": 0,
    "lang": "en",
-   "query": "spin-coated polyimide film thickness",
+   "query": "opaque polyimide film",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -1009,11 +1051,11 @@
     "Haixia Qi",
     "Feng Liu"
    ],
-   "abstract": "Conventional aromatic polyimides suffer from poor solubility, high water absorption and low visible-light transmittance due to strong interchain charge transfer complex (CTC) interactions, limiting their microelectronic and optoelectronic applications. Here, a novel asymmetric bio-based diamine ENDAP bearing a 3,4,5,6,7,8-hexahydro-2H-2,4a-epoxynaphthalene-3,4-diyl (HEN) alicyclic skeleton was synthesized from menthofuran via a four-step route. ENDAP was polymerized with five commercial dianhydrides to give polyimide films. GPC gave Mn of 3.17–4.68 × 104 and Mw of 4.51–7.94 × 104 Da. These amorphous polyimides, with d-spacings of 4.70–5.49 Å, were mostly soluble in polar aprotic solvents. Water contact angles were 83.3–98.6°, with a minimum water absorption of 0.36% after 48 h. Tg ranged from 164 to 211 °C, the maximum T10 was 451 °C under N2, cutoff wavelengths were 353–388 nm, and maximum T450 of 83.6% and maximum T500 of 86.1%. The HEN skeleton contributes to improved solubility, reduced water absorption and enhanced transparency, likely by weakening CTC interactions and loosening chain packing, as reflected by the enlarged interchain d-spacing, although the extent depends on t…",
+   "abstract": "Conventional aromatic polyimides suffer from poor solubility, high water absorption and low visible-light transmittance due to strong interchain charge transfer complex (CTC) interactions, limiting their microelectronic and optoelectronic applications. Here, a novel asymmetric bio-based diamine ENDAP bearing a 3,4,5,6,7,8-hexahydro-2H-2,4a-epoxynaphthalene-3,4-diyl (HEN) alicyclic skeleton was synthesized from menthofuran via a four-step route. ENDAP was polymerized with five commercial dianhydrides to give polyimide films. GPC gave Mn of 3.17-4.68 × 104 and Mw of 4.51-7.94 × 104 Da. These amorphous polyimides, with d-spacings of 4.70-5.49 Å, were mostly soluble in polar aprotic solvents. Water contact angles were 83.3-98.6°, with a minimum water absorption of 0.36% after 48 h. Tg ranged from 164 to 211 °C, the maximum T10 was 451 °C under N2, cutoff wavelengths were 353-388 nm, and maximum T450 of 83.6% and maximum T500 of 86.1%. The HEN skeleton contributes to improved solubility, reduced water absorption and enhanced transparency, likely by weakening CTC interactions and loosening chain packing, as reflected by the enlarged interchain d-spacing, although the extent depends on t…",
    "doi": "10.3390/polym18212771",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "poly(amic acid) dielectric",
    "tags": [],
    "score": 6,
    "first_seen": "2026-11-11"
