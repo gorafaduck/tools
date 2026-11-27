@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-26T03:35:49+00:00",
+ "generated_at": "2026-11-27T03:39:57+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 40,
-  "paper": 91,
+  "news": 41,
+  "paper": 92,
   "preprint": 9
  },
  "tags": [
@@ -22,6 +22,24 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "Polyimide Tape Market to Reach US$ 4.45 Billion by 2035 at 8.9%",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVlKaUFiRDZOdjBaZGd2NGY5Q0wtWjFHYVFDOVBFTHNKc1hiU0tfclZyc1VNQXJPb0FEUGxmVDZfdlhQaUM3U3FIdlNTNWdxbnV3ZmVKTFdPa0I5b0h1S3NvM3lVTkJuR0dnelFoeHp5VXU1U0t5Vlk1MVpfQUl2a3FMZ0NYUFZFcVlMRGpvNFhnTF9LaUlHeVNGNklKdw?oc=5",
+   "source": "openPR.com",
+   "date": "2026-11-26",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "en",
+   "query": "polyimide coating semiconductor",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-27"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -106,6 +124,32 @@
    ],
    "score": 4,
    "first_seen": "2026-11-24"
+  },
+  {
+   "type": "paper",
+   "origin": "OpenAlex",
+   "title": "Data‐Driven Conformational Mismatch Design Enables Extreme‐Temperature Energy Storage in Copolyimides",
+   "url": "https://doi.org/10.1002/adma.75857",
+   "source": "Advanced Materials",
+   "date": "2026-11-24",
+   "authors": [
+    "Deng Hu",
+    "Hang Luo",
+    "Xinheng Li",
+    "Guanghu He",
+    "Fan Wang",
+    "Yuting Wan",
+    "Ru Guo",
+    "Dou Zhang"
+   ],
+   "abstract": "High‐temperature capacitive energy storage requires polymer dielectrics to combine a wide optical bandgap (E g) with a high glass‐transition temperature (T g), properties that are often difficult to optimize simultaneously through conventional backbone design. Here, we introduce conformational mismatch into semi‐alicyclic polyimide copolymers and identify promising monomer combinations through a multistage workflow integrating machine‐learning prediction of T g, density‐functional‐theory calculations of electronic structure, and molecular‐dynamics analysis of chain conformations. Incorporating a methyl‐substituted diamine yields Co‐PI‐tC, in which local conformational mismatch modifies molecular fluctuations and chain packing while suppressing thermally activated charge transport. Conformational entropy estimates derived from atomic fluctuations quantitatively capture these changes and complement conventional structural and electronic descriptors. The resulting Co‐PI‐tC film combines a T g of 271.52°C with E g of 4.28 eV, delivers a discharged energy density of 8.6 J cm −3 at 200°C with 90% efficiency and retains 6.7 J cm −3 at 250°C, setting a high‐temperature energy‐storage reco…",
+   "doi": "10.1002/adma.75857",
+   "cited_by": 0,
+   "lang": "en",
+   "query": "high glass transition temperature polyimide",
+   "tags": [],
+   "score": 4,
+   "first_seen": "2026-11-27"
   },
   {
    "type": "news",
@@ -367,7 +411,7 @@
    "doi": "10.1016/j.compscitech.2026.111938",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "black polyimide",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -682,7 +726,7 @@
     "Elhan Ayath",
     "Arshad Adam Salema",
     "Saidur Rahman",
-    "Md Abu Zaed",
+    "MA Zaed",
     "Mohammad Zahangir Alam"
    ],
    "abstract": "At cruise altitudes, atmospheric proton radiation and electromagnetic interference (EMI) jointly threaten the reliability of flight-critical avionics. Conventional protection strategies typically address these hazards separately through aluminum- or lead-based radiation barriers and conductive copper-mesh EMI shields, increasing enclosure mass, volume, and integration complexity. To address this limitation, we present a lightweight dual-function MXene (Ti₃C₂Tₓ)–B₄C–polyimide nanocomposite that combines proton attenuation and EMI shielding within a single conformal material system. The framework integrates SRIM/TRIM-guided compositional design, controlled nanocomposite fabrication, proton-beam testing, broadband EMI characterization, and aerospace-relevant environmental validation. SRIM/TRIM simulations show that a boron-rich composition of 31 at% achieves complete stopping of 50 MeV protons at approximately 36 mm bulk thickness, with electronic stopping dominating energy loss and negligible backscattering. Surface-functionalized B₄C nanoparticles (~ 45 nm) and exfoliated MXene nanosheets are incorporated through solution casting and vacuum-assisted filtration. At 20 wt% B₄C and 15…",
@@ -1024,7 +1068,7 @@
     "Hyeongeun Kim",
     "Yong-Seok Lee"
    ],
-   "abstract": "Polyimide (PI) films are widely used in semiconductor packaging, but their measured mechanical response can vary depending on the moisture conditions maintained during testing. In this study, the tensile behavior of moisture-conditioned PI films was compared using conventional ex-situ and a proposed in-situ tensile testing method. Water absorption tests, tensile tests, cross-sectional observations, and finite element analysis were conducted to evaluate the influence of the testing environment. The PI film exhibited near-Fickian moisture absorption behavior, reaching an equilibrium water uptake of approximately 2.7 wt% after 24 hours of immersion. The ex-situ specimens maintained ultimate tensile strengths of approximately 250–265 MPa, comparable to the room-condition value of 251 MPa, while their fracture strains decreased to 0.22–0.30. In contrast, the in-situ specimens exhibited lower ultimate tensile strengths of 222–235 MPa and generally higher fracture strains of 0.31–0.42. Secant modulus was also lower under the in-situ condition than under the ex-situ condition. Cross-sectional observations revealed more pronounced internal openings and layered separation in the ex-situ spe…",
+   "abstract": "Polyimide (PI) films are widely used in semiconductor packaging, but their measured mechanical response can vary depending on the moisture conditions maintained during testing. In this study, the tensile behavior of moisture-conditioned PI films was compared using conventional ex-situ and a proposed in-situ tensile testing method. Water absorption tests, tensile tests, cross-sectional observations, and finite element analysis were conducted to evaluate the influence of the testing environment. The PI film exhibited near-Fickian moisture absorption behavior, reaching an equilibrium water uptake of approximately 2.7 wt% after 24 h of immersion. The ex-situ specimens maintained ultimate tensile strengths of approximately 250–265 MPa, comparable to the room-condition value of 251 MPa, while their fracture strains decreased to 0.22–0.30. In contrast, the in-situ specimens exhibited lower ultimate tensile strengths of 222–235 MPa and generally higher fracture strains of 0.31–0.42. Secant modulus was also lower under the in-situ condition than under the ex-situ condition. Cross-sectional observations revealed more pronounced internal openings and layered separation in the ex-situ specime…",
    "doi": "10.1016/j.polymertesting.2026.109413",
    "cited_by": 0,
    "lang": "en",
