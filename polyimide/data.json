@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-27T03:39:57+00:00",
+ "generated_at": "2026-11-28T03:20:43+00:00",
  "lookback_days": 30,
  "counts": {
-  "news": 41,
+  "news": 42,
   "paper": 92,
   "preprint": 9
  },
@@ -22,6 +22,24 @@
   "고내열성"
  ],
  "items": [
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "[장중수급포착] PI첨단소재, 외국인/기관 동시 순매수… 주가 +6.41%",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZSkxDeTZJcXFaUXVWRl9MM21UcTY0YVZSUTdDLXJveWR4ekxZaFFqMDNwSEhsalJmOXA4QzhHSUhaZDRIZW0yb2l2VVFYMFBlTU4wel9CZXUxYXVm?oc=5",
+   "source": "뉴스핌",
+   "date": "2026-11-27",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "PI첨단소재",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-28"
+  },
   {
    "type": "news",
    "origin": "Google News",
@@ -102,7 +120,7 @@
    "doi": "10.1021/acsami.6c23337",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide varnish viscosity coating",
+   "query": "polyimide temporary bonding debonding",
    "tags": [],
    "score": 6,
    "first_seen": "2026-11-25"
@@ -251,7 +269,7 @@
    "doi": "10.3390/molecules31234232",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide temporary bonding debonding",
+   "query": "photosensitive polyimide",
    "tags": [
     "PSPI·리소그래피",
     "접착·신뢰성"
@@ -292,7 +310,7 @@
    "doi": "10.58445/469egc55",
    "cited_by": 0,
    "lang": "en",
-   "query": "low transmittance polyimide",
+   "query": "polyimide thick film",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -411,7 +429,7 @@
    "doi": "10.1016/j.compscitech.2026.111938",
    "cited_by": 0,
    "lang": "en",
-   "query": "black polyimide",
+   "query": "polyimide low temperature cure",
    "tags": [
     "코팅·박막/후막"
    ],
@@ -468,7 +486,7 @@
    "doi": "10.1088/2631-7990/aebb75",
    "cited_by": 0,
    "lang": "en",
-   "query": "polyimide thick film",
+   "query": "spin-coated polyimide film thickness",
    "tags": [
     "시장·기업"
    ],
@@ -733,7 +751,7 @@
    "doi": "10.21203/rs.3.rs-10946351/v1",
    "cited_by": 0,
    "lang": "en",
-   "query": "spin-coated polyimide film thickness",
+   "query": "polyimide semiconductor packaging",
    "tags": [
     "코팅·박막/후막",
     "접착·신뢰성"
@@ -1032,6 +1050,24 @@
    ],
    "score": 4,
    "first_seen": "2026-11-10"
+  },
+  {
+   "type": "news",
+   "origin": "Google News",
+   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
+   "source": "Fortune Business Insights",
+   "date": "2026-11-09",
+   "authors": [],
+   "abstract": "",
+   "doi": "",
+   "lang": "ko",
+   "query": "폴리이미드 박막",
+   "tags": [
+    "시장·기업"
+   ],
+   "score": 4,
+   "first_seen": "2026-10-13"
   },
   {
    "type": "paper",
@@ -1997,24 +2033,6 @@
    ],
    "score": 10,
    "first_seen": "2026-11-08"
-  },
-  {
-   "type": "news",
-   "origin": "Google News",
-   "title": "폴리이미드 필름 시장 규모, 점유율, 성장 보고서(2034년)",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY2hCVlFZQktpSDFROGpGNHVmVlRFc1ZwRHpZcHE5XzZwQzV6YmtYU1NWSjd0WHB3NGk1dENCeVdZZnZDVnpnLWVhN1VVNkFjSDhMUEZ0SFcwdkdhaTNVZ19CaS1nUVpXRDZwTWxacU96WjhqbGhBNjJlWHE?oc=5",
-   "source": "Fortune Business Insights",
-   "date": "2026-10-26",
-   "authors": [],
-   "abstract": "",
-   "doi": "",
-   "lang": "ko",
-   "query": "폴리이미드 박막",
-   "tags": [
-    "시장·기업"
-   ],
-   "score": 4,
-   "first_seen": "2026-10-13"
   },
   {
    "type": "news",
